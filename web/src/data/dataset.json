@@ -9,7 +9,7 @@
     "withSignal": 30,
     "withNamedExecutive": 41,
     "newsArticles": 237,
-    "inTaxCreditProgram": 23,
+    "inTaxCreditProgram": 22,
     "everTaxCredit": 30,
     "form990Pdfs": 738,
     "cdcs": 61,
@@ -809,15 +809,15 @@
         }
       ],
       "taxCredit": {
-        "matchedName": "Asociaci\u03ccn Puertorrique\u00f1os En Marcha, Inc",
+        "matchedName": "Asociaci\u00f3n Puertorrique\u00f1os En Marcha Inc",
         "startYear": 2015,
         "annualAmount": 100000,
         "reportYears": [
-          2015,
-          2019,
-          2020
+          2016,
+          2017,
+          2018
         ],
-        "active": true
+        "active": false
       },
       "history": [
         {
@@ -1845,6 +1845,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -2646,6 +2649,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -3423,6 +3429,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -4997,6 +5006,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -6486,6 +6498,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -7092,6 +7107,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -7861,6 +7879,9 @@
         "annualAmount": 100000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -8003,6 +8024,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -8039,7 +8063,10 @@
         "startYear": 2009,
         "annualAmount": 100000,
         "reportYears": [
-          2015
+          2015,
+          2016,
+          2017,
+          2018
         ],
         "active": false
       },
@@ -8231,6 +8258,9 @@
         "annualAmount": 100000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -9016,7 +9046,8 @@
         "startYear": 2013,
         "annualAmount": 85000,
         "reportYears": [
-          2015
+          2015,
+          2016
         ],
         "active": false
       },
@@ -9092,7 +9123,10 @@
         "startYear": 2009,
         "annualAmount": 100000,
         "reportYears": [
-          2015
+          2015,
+          2016,
+          2017,
+          2018
         ],
         "active": false
       },
@@ -9316,6 +9350,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -9662,6 +9699,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -10881,6 +10921,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -11183,6 +11226,9 @@
         "annualAmount": 85000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019,
           2020
         ],
@@ -11497,7 +11543,10 @@
         "startYear": 2009,
         "annualAmount": 100000,
         "reportYears": [
-          2015
+          2015,
+          2016,
+          2017,
+          2018
         ],
         "active": false
       },
@@ -12358,7 +12407,10 @@
         "startYear": 2009,
         "annualAmount": 100000,
         "reportYears": [
-          2015
+          2015,
+          2016,
+          2017,
+          2018
         ],
         "active": false
       },
@@ -12642,6 +12694,9 @@
         "annualAmount": 100000,
         "reportYears": [
           2015,
+          2016,
+          2017,
+          2018,
           2019
         ],
         "active": false

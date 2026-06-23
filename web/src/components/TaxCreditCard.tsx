@@ -1,16 +1,12 @@
 import type { Org } from "@/lib/data";
 import { formatMoneyFull } from "@/lib/data";
 
-const SOURCES: Record<string, string> = {
-  "2015": "https://www.phila.gov/media/20161122001156/2015-CDC-Tax-Credit-Report.pdf",
-  "2019": "https://www.phila.gov/media/20210526094337/Community-Development-Corporation-CDC-Tax-Credit-report-2019.pdf",
-  "2020": "https://www.phila.gov/media/20220121122004/Community-Development-Corporation-Tax-Credit-report-2020.pdf",
-};
+const reportPdf = (year: number | string) => `/taxcredit/cdc-tax-credit-${year}.pdf`;
 
 export function TaxCreditCard({ org }: { org: Org }) {
   const tc = org.taxCredit;
   if (!tc) return null;
-  const latest = String(tc.reportYears[tc.reportYears.length - 1] ?? "2020");
+  const latest = tc.reportYears[tc.reportYears.length - 1] ?? 2020;
 
   return (
     <div className="card card-pad" style={{ marginTop: 16 }}>
@@ -42,14 +38,14 @@ export function TaxCreditCard({ org }: { org: Org }) {
         tax. Recorded in the{" "}
         {tc.reportYears.map((y, i) => (
           <span key={y}>
-            <a href={SOURCES[String(y)] ?? "#"} target="_blank" rel="noreferrer" style={{ color: "var(--accent)" }}>
+            <a href={reportPdf(y)} target="_blank" rel="noreferrer" style={{ color: "var(--accent)" }}>
               {y}
             </a>
             {i < tc.reportYears.length - 1 ? ", " : ""}
           </span>
         ))}{" "}
         annual report{tc.reportYears.length > 1 ? "s" : ""}.{" "}
-        <a href={SOURCES[latest] ?? "#"} target="_blank" rel="noreferrer" style={{ color: "var(--muted)" }}>
+        <a href={reportPdf(latest)} target="_blank" rel="noreferrer" style={{ color: "var(--muted)" }}>
           Source PDF →
         </a>
       </p>

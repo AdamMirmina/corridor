@@ -31,12 +31,8 @@ WEB_PUBLIC = os.path.join(HERE, "web", "public")
 
 COMP_RE = re.compile(r"[^0-9]")
 
-# Tax-credit report PDFs (filename in taxcredit/ -> public source URL)
-TAXCREDIT_SOURCES = {
-    "2015": "https://www.phila.gov/media/20161122001156/2015-CDC-Tax-Credit-Report.pdf",
-    "2019": "https://www.phila.gov/media/20210526094337/Community-Development-Corporation-CDC-Tax-Credit-report-2019.pdf",
-    "2020": "https://www.phila.gov/media/20220121122004/Community-Development-Corporation-Tax-Credit-report-2020.pdf",
-}
+# Tax-credit report years whose source PDFs are hosted for download.
+TAXCREDIT_YEARS = ("2015", "2016", "2017", "2018", "2019", "2020")
 
 
 def norm_name(s):
@@ -326,7 +322,7 @@ def copy_downloads():
             shutil.copy(src, os.path.join(WEB_PUBLIC, "data", f))
     # Tax-credit source PDFs, for offline reference.
     os.makedirs(os.path.join(WEB_PUBLIC, "taxcredit"), exist_ok=True)
-    for yr in TAXCREDIT_SOURCES:
+    for yr in TAXCREDIT_YEARS:
         src = os.path.join(HERE, "taxcredit", f"{yr}.pdf")
         if os.path.exists(src):
             shutil.copy(src, os.path.join(WEB_PUBLIC, "taxcredit", f"cdc-tax-credit-{yr}.pdf"))

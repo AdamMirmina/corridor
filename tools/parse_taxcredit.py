@@ -16,6 +16,10 @@ import pdfplumber
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PDFS = os.path.join(HERE, "taxcredit")
 OUT = os.path.join(HERE, "output")
+DATA = os.path.join(HERE, "data")
+# Scanned (image-only) report years that have no text layer; their tables were
+# transcribed into data/taxcredit_scanned.csv.
+SCANNED = os.path.join(DATA, "taxcredit_scanned.csv")
 
 ROW_RE = re.compile(r"(.+?)\s+(20\d\d|19\d\d)\*{0,2}\s+\$\s*([\d,]+)")
 SKIP_RE = re.compile(r"total|calendar year|tax year 2002|annual report", re.IGNORECASE)
@@ -62,6 +66,16 @@ def main():
         print(f"{fn}: {len(rows)} participants")
         for r in rows:
             all_rows.append({"report_year": year, **r})
+
+    # Merge the transcribed scanned-year reports.
+    if os.path.exists(SCANNED):
+        with open(SCANNED, newline="", encoding="utf-8") as f:
+            scanned = list(csv.DictReader(f))
+        for r in scanned:
+            all_rows.append({"report_year": r["report_year"], "org_name": r["org_name"],
+                             "start_year": r["start_year"], "amount": int(r["amount"])})
+        years = sorted(set(r["report_year"] for r in scanned))
+        print(f"taxcredit_scanned.csv: {len(scanned)} rows ({', '.join(years)})")
 
     all_rows.sort(key=lambda r: (r["report_year"], r["org_name"].lower()))
     with open(os.path.join(OUT, "taxcredit.csv"), "w", newline="", encoding="utf-8") as f:
