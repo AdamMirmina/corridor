@@ -1,6 +1,6 @@
 # Corridor
 
-**Live dashboard: https://corridor.vercel.app**
+**Live dashboard: https://corridor-phl.vercel.app**
 
 A scraper plus a web dashboard that build and present a research dataset on
 leadership turnover in Philadelphia's community economic development
