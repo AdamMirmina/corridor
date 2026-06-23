@@ -1,0 +1,188 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { detailOrgs, getOrg, formatMoneyFull } from "@/lib/data";
+import { MetricChart } from "@/components/Charts";
+import { TypeBadge, StatusBadge, LifespanTimeline } from "@/components/Bits";
+
+export function generateStaticParams() {
+  return detailOrgs().map((o) => ({ ein: o.ein }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ ein: string }> }) {
+  const { ein } = await params;
+  const org = getOrg(ein);
+  return { title: org ? `${org.name} · Philadelphia CDC & BID Tracker` : "Organization" };
+}
+
+export default async function OrgDetail({ params }: { params: Promise<{ ein: string }> }) {
+  const { ein } = await params;
+  const org = getOrg(ein);
+  if (!org || org.history.length === 0) notFound();
+
+  const years = org.history.map((h) => h.year as number);
+  const einFmt = ein.length === 9 ? `${ein.slice(0, 2)}-${ein.slice(2)}` : ein;
+  const tenureNote = describeSignals(org.compJumpYears, org.filingGaps);
+
+  return (
+    <section className="section">
+      <div className="container" style={{ maxWidth: 920 }}>
+        <Link href="/organizations" className="back">← All organizations</Link>
+
+        <div className="detail-head">
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
+              <TypeBadge type={org.type} />
+              <StatusBadge org={org} />
+            </div>
+            <h1 className="serif">{org.name}</h1>
+            {org.irsName && org.irsName.toLowerCase() !== org.name.toLowerCase() && (
+              <div style={{ color: "var(--muted)", fontSize: 14, marginTop: 6 }}>
+                Filed as {org.irsName}
+              </div>
+            )}
+            <div className="detail-meta">
+              <span className="badge badge-muted">EIN {einFmt}</span>
+              {org.irsCity && <span className="badge badge-muted">{org.irsCity}, PA</span>}
+            </div>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            <a className="outlink" href={`https://projects.propublica.org/nonprofits/organizations/${ein}`} target="_blank" rel="noreferrer">
+              IRS filings on ProPublica →
+            </a>
+            {org.website && (
+              <a className="outlink" href={`https://${org.website.replace(/^https?:\/\//, "")}`} target="_blank" rel="noreferrer">
+                {org.website.replace(/^https?:\/\//, "")} →
+              </a>
+            )}
+          </div>
+        </div>
+
+        <div className="kv-row">
+          <div className="kv"><div className="k">First on record</div><div className="v tnum">{org.firstYear}</div></div>
+          <div className="kv"><div className="k">Latest filing</div><div className="v tnum">{org.lastYear}</div></div>
+          <div className="kv"><div className="k">Years filed</div><div className="v tnum">{org.yearsFiled}</div></div>
+          <div className="kv"><div className="k">Latest revenue</div><div className="v tnum">{formatMoneyFull(org.latestRevenue)}</div></div>
+          <div className="kv"><div className="k">Latest staff</div><div className="v tnum">{org.latestEmployees ?? "—"}</div></div>
+        </div>
+
+        {/* Lifespan */}
+        <div className="card card-pad" style={{ marginTop: 26 }}>
+          <div className="card-head">
+            <h3>Operational lifespan</h3>
+            <span className="meta">Each block is one year</span>
+          </div>
+          <LifespanTimeline org={org} />
+          {org.closedCandidate && (
+            <div className="callout" style={{ marginTop: 16 }}>
+              <b>Closure candidate.</b> No Form 990 on record after {org.lastYear}. This may
+              signal dissolution, a merger, or a drop below the filing threshold. Confirm
+              against the PA Department of State registry.
+            </div>
+          )}
+        </div>
+
+        {/* Financial size */}
+        <div className="card card-pad" style={{ marginTop: 16 }}>
+          <div className="card-head">
+            <h3>Revenue and expenses</h3>
+            <span className="meta">Structural size over time</span>
+          </div>
+          <MetricChart
+            years={years}
+            markers={org.compJumpYears}
+            series={[
+              { key: "rev", label: "Revenue", color: "var(--accent)", values: org.history.map((h) => h.revenue), fill: true },
+              { key: "exp", label: "Expenses", color: "var(--ink-soft)", values: org.history.map((h) => h.expenses) },
+            ]}
+          />
+        </div>
+
+        {/* Leadership signal */}
+        <div className="card card-pad" style={{ marginTop: 16 }}>
+          <div className="card-head">
+            <h3>Officer compensation</h3>
+            <span className="meta">Leadership-transition signal</span>
+          </div>
+          <MetricChart
+            years={years}
+            markers={org.compJumpYears}
+            series={[
+              { key: "comp", label: "Total officer pay", color: "var(--signal)", values: org.history.map((h) => h.officerComp), fill: true },
+            ]}
+          />
+          <p style={{ fontSize: 13.5, color: "var(--ink-soft)", marginTop: 14, marginBottom: 0 }}>
+            {tenureNote}
+          </p>
+        </div>
+
+        {/* Yearly table */}
+        <div className="card card-pad" style={{ marginTop: 16 }}>
+          <div className="card-head">
+            <h3>Year by year</h3>
+            <span className="meta">From IRS Form 990</span>
+          </div>
+          <div className="table-wrap" style={{ boxShadow: "none" }}>
+            <table className="data">
+              <thead>
+                <tr>
+                  <th className="num">Year</th>
+                  <th className="num">Revenue</th>
+                  <th className="num">Expenses</th>
+                  <th className="num">Assets</th>
+                  <th className="num">Officer pay</th>
+                  <th className="num hide-sm">Staff</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[...org.history].reverse().map((h) => {
+                  const jump = h.year && org.compJumpYears.includes(h.year);
+                  return (
+                    <tr key={h.year}>
+                      <td className="num tnum" style={{ fontWeight: 600 }}>
+                        {h.year}
+                        {jump && <span title="Possible transition" style={{ color: "var(--signal)", marginLeft: 6 }}>●</span>}
+                      </td>
+                      <td className="num tnum">{money(h.revenue)}</td>
+                      <td className="num tnum">{money(h.expenses)}</td>
+                      <td className="num tnum">{money(h.assets)}</td>
+                      <td className="num tnum">{money(h.officerComp)}</td>
+                      <td className="num tnum hide-sm">{h.employees ?? "—"}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function money(n: number | null) {
+  if (n === null || n === undefined) return "—";
+  return n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+}
+
+function describeSignals(jumps: number[], gaps: { from: number; to: number }[]): string {
+  const parts: string[] = [];
+  if (jumps.length) {
+    parts.push(
+      `Officer compensation shifted sharply in ${listYears(jumps)}, each a candidate year for an executive-director change worth confirming against the 990 itself.`
+    );
+  } else {
+    parts.push("Officer compensation stayed steady year to year, suggesting leadership continuity.");
+  }
+  if (gaps.length) {
+    parts.push(
+      `Filing gaps (${gaps.map((g) => `${g.from}–${g.to}`).join(", ")}) interrupt the record and may coincide with instability.`
+    );
+  }
+  return parts.join(" ");
+}
+
+function listYears(ys: number[]): string {
+  if (ys.length === 1) return String(ys[0]);
+  if (ys.length === 2) return `${ys[0]} and ${ys[1]}`;
+  return `${ys.slice(0, -1).join(", ")}, and ${ys[ys.length - 1]}`;
+}

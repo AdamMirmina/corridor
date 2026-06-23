@@ -1,7 +1,9 @@
 # philly-cdc-tracker
 
-A scraper that builds the foundational dataset for a STAR Scholars research
-project at Drexel:
+**Live dashboard: https://philly-cdc-tracker.vercel.app**
+
+A scraper plus a web dashboard that build and present the foundational dataset
+for a STAR Scholars research project at Drexel:
 
 > **What factors determine leadership transitions in community economic
 > development organizations in Philadelphia?**
@@ -70,11 +72,33 @@ These show up in the run summary and as unshaded blank rows.
 
 ```
 pip install -r requirements.txt
-python philly_cdc_tracker.py
+python philly_cdc_tracker.py        # scrape -> output/*.csv + xlsx
+python tools/export_web_data.py     # -> web/src/data/dataset.json
 ```
 
 Takes a couple of minutes (it rate-limits itself to be polite to ProPublica).
 Re-run any time to refresh against the latest IRS data.
+
+## The web dashboard (`web/`)
+
+A Next.js site that presents the dataset: an overview with headline numbers and
+the most volatile organizations, a searchable and sortable roster, a per-org
+detail page with revenue/expenses and officer-compensation charts and an
+operational-lifespan timeline, and a signals view ranking organizations by how
+much their record suggests leadership instability. Plain hand-written CSS, SVG
+charts, no chart library. It is fully static (every org page is prerendered).
+
+```
+cd web
+npm install
+npm run dev        # local at http://localhost:3000
+npm run build      # production build
+```
+
+Deployed to Vercel (project `philly-cdc-tracker`, scope adammirminas-projects).
+To refresh the live site after re-running the scraper: re-run the exporter, then
+`cd web && vercel --prod` (the CLI deploy; the data JSON is bundled at build
+time). The data snapshot date shown in the footer comes from the export run.
 
 ## Roster maintenance
 

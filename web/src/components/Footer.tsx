@@ -1,0 +1,37 @@
+import { getDataset } from "@/lib/data";
+
+export function Footer() {
+  const { generatedAt } = getDataset();
+  return (
+    <footer className="footer">
+      <div className="container footer-grid">
+        <div style={{ maxWidth: "46ch" }}>
+          <div style={{ fontWeight: 600, color: "var(--ink)", marginBottom: 6 }}>
+            Philadelphia CDC &amp; BID Tracker
+          </div>
+          A research dataset for the STAR Scholars study of leadership turnover in
+          Philadelphia&apos;s community economic development organizations.
+          Data snapshot {generatedAt}.
+        </div>
+        <div>
+          <div style={{ fontWeight: 600, color: "var(--ink)", marginBottom: 6 }}>
+            Sources
+          </div>
+          <div>
+            <a href="https://projects.propublica.org/nonprofits/" target="_blank" rel="noreferrer">
+              ProPublica Nonprofit Explorer
+            </a>{" "}
+            &middot;{" "}
+            <a href="https://pacdc.org/members/member-list/" target="_blank" rel="noreferrer">
+              PACDC
+            </a>{" "}
+            &middot;{" "}
+            <a href="https://opendataphilly.org/datasets/business-improvement-districts/" target="_blank" rel="noreferrer">
+              OpenDataPhilly
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
