@@ -64,7 +64,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -0.015em; line-hei
   color: var(--muted);
 }
 
-.serif { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.01em; }
+.serif { font-family: var(--font-display); font-weight: 500; letter-spacing: -0.012em; }
 
 /* ---------- top nav ---------- */
 .nav {
@@ -107,9 +107,9 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -0.015em; line-hei
 .hero { padding: 56px 0 36px; border-bottom: 1px solid var(--hairline); }
 .hero h1 {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 500;
   font-size: clamp(34px, 5vw, 56px);
-  line-height: 1.04;
+  line-height: 1.05;
   letter-spacing: -0.02em;
   max-width: 17ch;
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Instrument_Serif } from "next/font/google";
+import { Inter, Newsreader } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
@@ -10,8 +10,9 @@ const inter = Inter({
   display: "swap",
 });
 
-const displaySerif = Instrument_Serif({
-  weight: "400",
+const displaySerif = Newsreader({
+  weight: ["400", "500", "600"],
+  style: ["normal"],
   subsets: ["latin"],
   variable: "--font-display-serif",
   display: "swap",
