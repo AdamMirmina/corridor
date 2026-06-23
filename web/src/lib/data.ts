@@ -13,6 +13,20 @@ export type HistoryPoint = {
 
 export type Gap = { from: number; to: number };
 
+export type Officer = {
+  name: string;
+  title: string;
+  comp: number | null;
+  isExecutive: boolean;
+};
+
+export type NewsItem = {
+  title: string;
+  source: string;
+  url: string;
+  date: string;
+};
+
 export type Org = {
   name: string;
   type: string; // "CDC" | "BID"
@@ -20,7 +34,6 @@ export type Org = {
   irsName: string;
   irsCity: string;
   confidence: string; // "high" | "medium" | "low" | "none" | ""
-  matchScore: number | null;
   firstYear: number | null;
   lastYear: number | null;
   yearsFiled: number;
@@ -33,6 +46,10 @@ export type Org = {
   source: string;
   closedCandidate: boolean;
   instability: number;
+  executive: Officer | null;
+  officers: Officer[];
+  leadershipAsOf: number | null;
+  news: NewsItem[];
   history: HistoryPoint[];
 };
 
@@ -43,6 +60,8 @@ export type Summary = {
   highConfidence: number;
   needsLookup: number;
   withSignal: number;
+  withNamedExecutive: number;
+  newsArticles: number;
   cdcs: number;
   bids: number;
   closureCandidates: number;

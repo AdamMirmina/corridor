@@ -34,49 +34,52 @@ Python, or anything else.
 
 | Source | What it gives |
 |---|---|
-| [ProPublica Nonprofit Explorer API](https://projects.propublica.org/nonprofits/api/) | EIN, every digitized Form 990 year, revenue, assets, employees, officer compensation |
+| [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/) | EIN, every digitized Form 990 year (revenue, assets, employees, officer pay), and the current officer/board roster from Part VII |
 | [PACDC member list](https://pacdc.org/members/member-list/) | The CDC roster |
 | [OpenDataPhilly Business Improvement Districts](https://opendataphilly.org/datasets/business-improvement-districts/) | The BID roster, plus website and a contact email per BID |
+| [Google News](https://news.google.com/) | Recent articles per organization, including leadership coverage |
 
 ## What it does well, and what it doesn't
 
 **Strong, automated, reliable:**
 
+- **Current leadership.** The executive director and the full officer/board
+  roster for each organization, parsed from the latest Form 990 Part VII. Titles
+  carrying a "(To MM/YYYY)" note flag a recorded departure.
+- **News and primary sources.** Per-org website, ProPublica filings, and recent
+  Google News coverage, where reported executive changes usually surface first.
 - **Structural size and operational lifespan.** The Form 990 financial history
   goes back ~20 years for most organizations. When filings stop, that is a
   strong signal of dormancy or dissolution.
 - **Turnover leads.** A year-over-year jump of 30%+ in total officer
   compensation is often the fingerprint of an executive-director change. The
-  tool flags those years so the manual lookup starts where transitions most
-  likely happened. It is a lead, not a conclusion.
+  tool flags those years. It is a lead, not a conclusion.
 
-**The known gap — executive-director names per year.** Director names live in
-Part VII of each annual 990. As of 2026 there is no free, lightweight way to
-pull them at scale: the AWS 990 data mirror was decommissioned at the end of
-2021, the IRS per-file XML URLs now redirect to a 404, and ProPublica blocks
-scripted PDF downloads. The only remaining free route is the IRS bulk XML ZIP
-archive, which is a heavier second stage (multi-GB yearly downloads). So this
-v1 does **not** auto-fill names. Instead it builds the Leadership sheet as a
-targeted fill-in template, keyed to the comp-jump years, so the manual work is
-fast. Fill names from each org's website, its archived staff pages on
-[web.archive.org](https://web.archive.org), and the 990 PDFs on ProPublica.
+**The known gap — a full year-by-year name history.** Leadership names are
+*current*, not per historical year. Director names for each past year live in
+Part VII of that year's 990, and as of 2026 there is no free, lightweight way to
+pull them at scale (the AWS 990 mirror was decommissioned at the end of 2021,
+the IRS per-file XML URLs now 404, and ProPublica blocks scripted PDF downloads).
+So for historical changes the tool pairs the current executive with the pay-shift
+years and the news links.
 
 **The review pile.** Organizations the tool could not confidently match to an
 EIN (acronym-named orgs like SEAMAAC and HACE, fiscally sponsored districts, and
 a few others) are left with a blank EIN rather than a wrong one. A wrong EIN
 silently poisons the dataset; a blank one is an honest "look this up by hand."
-These show up in the run summary and as unshaded blank rows.
 
 ## Run it
 
 ```
 pip install -r requirements.txt
-python corridor.py                  # scrape -> output/*.csv + xlsx
-python tools/export_web_data.py     # -> web/src/data/dataset.json
+python corridor.py                  # base scrape -> output/roster.csv, financial_history.csv
+python tools/enrich.py              # leadership + news -> output/leadership.csv, news.csv
+python tools/build_outputs.py       # -> dataset.json + corridor_dataset.xlsx + web/public downloads
 ```
 
-Takes a couple of minutes (it rate-limits itself to be polite to ProPublica).
-Re-run any time to refresh against the latest IRS data.
+`build_outputs.py` is the single source that produces both the web app's data
+and the spreadsheet, so the two never drift. Takes a few minutes (rate-limited
+to be polite). Re-run any time to refresh against the latest data.
 
 ## The web dashboard (`web/`)
 

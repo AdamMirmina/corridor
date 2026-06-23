@@ -271,6 +271,41 @@ table.data tbody tr.clickable:hover { background: var(--surface-2); cursor: poin
 }
 .callout b { color: var(--ink); font-weight: 600; }
 
+/* ---------- leadership ---------- */
+.lead-exec {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+  padding: 14px 16px; background: var(--accent-soft); border: 1px solid #dde3fb;
+  border-radius: var(--radius-sm);
+}
+.lead-name { font-size: 23px; line-height: 1.1; margin-top: 4px; }
+.lead-title { font-size: 14px; color: var(--ink-soft); margin-top: 3px; }
+table.data tr.row-exec td { background: #eef1fe; }
+
+/* ---------- news ---------- */
+.news-list { display: flex; flex-direction: column; }
+.news-item { display: block; padding: 12px 0; border-bottom: 1px solid var(--hairline); }
+.news-item:last-child { border-bottom: none; }
+.news-item:hover .news-title { color: var(--accent); }
+.news-meta { font-size: 12px; color: var(--faint); margin-bottom: 3px; }
+.news-title { font-size: 14.5px; color: var(--ink); line-height: 1.4; letter-spacing: -0.01em; }
+
+/* ---------- download bar ---------- */
+.dl-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+  background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius);
+  padding: 16px 18px; box-shadow: var(--shadow);
+}
+.dl-bar .dl-text { flex: 1; min-width: 220px; }
+.dl-bar .dl-text b { font-size: 14.5px; }
+.dl-bar .dl-text span { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.dl-btn {
+  display: inline-flex; align-items: center; gap: 7px; padding: 9px 15px;
+  background: var(--ink); color: #fff; border-radius: 999px; font-size: 13.5px; font-weight: 500;
+}
+.dl-btn:hover { background: var(--accent-deep); }
+.dl-link { font-size: 13px; color: var(--ink-soft); border-bottom: 1px solid var(--hairline-strong); }
+.dl-link:hover { color: var(--accent); }
+
 /* ---------- footer ---------- */
 .footer { border-top: 1px solid var(--hairline); margin-top: 48px; padding: 28px 0 44px; color: var(--muted); font-size: 12.5px; }
 .footer a { color: var(--ink-soft); text-decoration: underline; text-underline-offset: 2px; }

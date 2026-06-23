@@ -27,7 +27,13 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
   const rows = useMemo(() => {
     let r = orgs;
     const needle = q.trim().toLowerCase();
-    if (needle) r = r.filter((o) => o.name.toLowerCase().includes(needle) || o.irsName.toLowerCase().includes(needle));
+    if (needle)
+      r = r.filter(
+        (o) =>
+          o.name.toLowerCase().includes(needle) ||
+          o.irsName.toLowerCase().includes(needle) ||
+          (o.executive?.name.toLowerCase().includes(needle) ?? false)
+      );
     if (filter === "cdc") r = r.filter((o) => o.type === "CDC");
     if (filter === "bid") r = r.filter((o) => o.type === "BID");
     if (filter === "signal") r = r.filter((o) => o.filingGaps.length || o.compJumpYears.length);
@@ -88,6 +94,7 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
           <thead>
             <tr>
               <th className="sortable" onClick={() => toggleSort("name")}>Organization {arrow("name")}</th>
+              <th className="hide-sm">Executive director</th>
               <th>Status</th>
               <th className="sortable num" onClick={() => toggleSort("lastYear")}>Active {arrow("lastYear")}</th>
               <th className="sortable num" onClick={() => toggleSort("yearsFiled")}>Years {arrow("yearsFiled")}</th>
@@ -114,6 +121,13 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
                         )}
                       </div>
                     </div>
+                  </td>
+                  <td className="hide-sm">
+                    {o.executive ? (
+                      <span style={{ fontSize: 13.5 }}>{o.executive.name}</span>
+                    ) : (
+                      <span style={{ color: "var(--faint)" }}>—</span>
+                    )}
                   </td>
                   <td><StatusBadge org={o} /></td>
                   <td className="num tnum">

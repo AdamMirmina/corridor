@@ -35,10 +35,22 @@ export default function AboutPage() {
 
           <h3>What it does well</h3>
           <p>
+            <b>Current leadership.</b> For {summary.withNamedExecutive} organizations the
+            tracker names the executive director and lists the full officer and board roster
+            from the latest Form 990 Part VII. Titles carrying a &ldquo;(To MM/YYYY)&rdquo;
+            note are officers the filing recorded on their way out, a documented transition.
+          </p>
+          <p>
             <b>Structural size and operational lifespan.</b> The Form 990 history reaches
             back roughly two decades for most organizations, with revenue, expenses,
             assets, and staff counts each year. When filings stop, that is a strong signal
             of dormancy or dissolution.
+          </p>
+          <p>
+            <b>News and primary sources.</b> Each organization links to its own website, its
+            ProPublica filings, and recent Google News coverage, with {summary.newsArticles}
+            {" "}articles gathered across the roster. Reported executive changes usually show
+            up here first.
           </p>
           <p>
             <b>Transition leads.</b> A year-over-year jump of 30 percent or more in total
@@ -50,13 +62,20 @@ export default function AboutPage() {
 
           <h3>The honest limitation</h3>
           <p>
-            Director <em>names</em> per year live in Part VII of each annual 990. As of 2026
+            Leadership names are <em>current</em>, not a full year-by-year history. Director
+            names for each past year live in Part VII of that year&apos;s 990, and as of 2026
             there is no free, lightweight way to pull them at scale: the AWS 990 mirror was
             retired at the end of 2021, the IRS per-file XML URLs now 404, and ProPublica
-            blocks scripted PDF downloads. So this site shows the financial and
-            transition-signal story, which is solid, and leaves the names for a targeted
-            manual pass guided by the flagged years. Pull them from each organization&apos;s
-            site, its archived staff pages on the Wayback Machine, and the 990 PDFs.
+            blocks scripted PDF downloads. So for historical changes the tracker pairs the
+            current executive with the pay-shift years (when a change most likely happened)
+            and the news links (where the named change is reported).
+          </p>
+
+          <h3>The spreadsheet</h3>
+          <p>
+            Everything here is also a formatted spreadsheet, downloadable from the home page,
+            with sheets for the roster, leadership, financial history, news, and signals. It
+            is built from the same data as this site in one step, so the two never drift.
           </p>
 
           <h3>The review pile</h3>

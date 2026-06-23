@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { detailOrgs, getOrg, formatMoneyFull } from "@/lib/data";
 import { MetricChart } from "@/components/Charts";
 import { TypeBadge, StatusBadge, LifespanTimeline } from "@/components/Bits";
+import { Leadership } from "@/components/Leadership";
+import { NewsList } from "@/components/NewsList";
 
 export function generateStaticParams() {
   return detailOrgs().map((o) => ({ ein: o.ein }));
@@ -54,6 +56,9 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
                 {org.website.replace(/^https?:\/\//, "")} →
               </a>
             )}
+            <a className="outlink" href={`https://news.google.com/search?q=${encodeURIComponent(`"${org.name}" Philadelphia`)}`} target="_blank" rel="noreferrer">
+              News coverage →
+            </a>
           </div>
         </div>
 
@@ -64,6 +69,9 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
           <div className="kv"><div className="k">Latest revenue</div><div className="v tnum">{formatMoneyFull(org.latestRevenue)}</div></div>
           <div className="kv"><div className="k">Latest staff</div><div className="v tnum">{org.latestEmployees ?? "—"}</div></div>
         </div>
+
+        {/* Current leadership */}
+        <Leadership org={org} />
 
         {/* Lifespan */}
         <div className="card card-pad" style={{ marginTop: 26 }}>
@@ -114,6 +122,9 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
             {tenureNote}
           </p>
         </div>
+
+        {/* In the news */}
+        <NewsList org={org} />
 
         {/* Yearly table */}
         <div className="card card-pad" style={{ marginTop: 16 }}>

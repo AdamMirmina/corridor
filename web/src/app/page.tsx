@@ -6,6 +6,7 @@ import {
 } from "@/lib/data";
 import { Sparkline } from "@/components/Charts";
 import { TypeBadge, StatusBadge } from "@/components/Bits";
+import { DownloadBar } from "@/components/DownloadBar";
 
 export default function Overview() {
   const { summary } = getDataset();
@@ -24,8 +25,8 @@ export default function Overview() {
           <p className="lede">
             A tracked history of the Community Development Corporations and Business
             Improvement Districts that hold up Philadelphia&apos;s commercial corridors and
-            affordable housing. Structural size, operational lifespan, and the moments
-            leadership likely changed hands.
+            affordable housing. Who runs them, how big they are, how long they last, and the
+            moments leadership changed hands.
           </p>
           <div className="q">
             <b>Research question.</b> What factors determine leadership transitions in
@@ -45,11 +46,9 @@ export default function Overview() {
               </div>
             </div>
             <div className="stat">
-              <div className="v tnum">{summary.withFinancialData}</div>
-              <div className="k">With filing history</div>
-              <div className="sub">
-                {summary.earliestYear}&ndash;{summary.latestYear} from IRS Form 990
-              </div>
+              <div className="v tnum">{summary.withNamedExecutive}</div>
+              <div className="k">Named executives</div>
+              <div className="sub">Plus full board rosters</div>
             </div>
             <div className="stat">
               <div className="v tnum">{summary.withSignal}</div>
@@ -57,10 +56,14 @@ export default function Overview() {
               <div className="sub">Pay shift or filing gap</div>
             </div>
             <div className="stat">
-              <div className="v tnum">{summary.closureCandidates}</div>
-              <div className="k">Closure candidates</div>
-              <div className="sub">Filings stopped before 2022</div>
+              <div className="v tnum">{summary.newsArticles}</div>
+              <div className="k">News articles</div>
+              <div className="sub">Recent coverage, per org</div>
             </div>
+          </div>
+
+          <div style={{ marginTop: 16 }}>
+            <DownloadBar />
           </div>
         </div>
       </section>
