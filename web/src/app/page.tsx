@@ -17,7 +17,7 @@ export default function Overview() {
     <>
       <section className="hero">
         <div className="container">
-          <div className="eyebrow">Drexel STAR Scholars &middot; Summer 2026</div>
+          <div className="eyebrow">Philadelphia &middot; Civic data</div>
           <h1 className="serif" style={{ marginTop: 14 }}>
             Leadership and longevity in Philadelphia&apos;s neighborhoods
           </h1>

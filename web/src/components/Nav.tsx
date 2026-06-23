@@ -19,10 +19,10 @@ export function Nav() {
     <header className="nav">
       <div className="nav-inner">
         <Link href="/" className="brand">
-          <span className="brand-mark">P</span>
+          <span className="brand-mark">C</span>
           <span className="brand-text">
-            <b>Philadelphia CDC &amp; BID Tracker</b>
-            <span>Leadership &amp; longevity</span>
+            <b>Corridor</b>
+            <span>Philadelphia community development</span>
           </span>
         </Link>
         <nav className="nav-links">

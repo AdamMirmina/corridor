@@ -18,9 +18,9 @@ const displaySerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Philadelphia CDC & BID Tracker",
+  title: "Corridor — Philadelphia community development, tracked",
   description:
-    "Leadership tenure, structural size, and operational lifespan of Philadelphia's community economic development organizations.",
+    "Corridor tracks the leadership tenure, structural size, and operational lifespan of Philadelphia's community economic development organizations.",
 };
 
 export default function RootLayout({

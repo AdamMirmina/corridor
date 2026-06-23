@@ -1,6 +1,6 @@
 """
 Convert the scraper output (output/*.csv) into a single clean JSON file that
-the web app consumes. Run after philly_cdc_tracker.py.
+the web app consumes. Run after corridor.py.
 
 Out: web/src/data/dataset.json
 """

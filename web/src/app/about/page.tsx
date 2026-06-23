@@ -1,6 +1,6 @@
 import { getDataset } from "@/lib/data";
 
-export const metadata = { title: "About · Philadelphia CDC & BID Tracker" };
+export const metadata = { title: "About · Corridor" };
 
 export default function AboutPage() {
   const { summary, generatedAt } = getDataset();
@@ -14,11 +14,10 @@ export default function AboutPage() {
 
         <Prose>
           <p>
-            This is the foundational dataset for a Drexel STAR Scholars summer research
-            project asking what drives executive-director turnover in Philadelphia&apos;s
-            community economic development organizations. It tracks {summary.total}
-            {" "}organizations: {summary.cdcs} Community Development Corporations and{" "}
-            {summary.bids} Business Improvement Districts.
+            Corridor is a research dataset on what drives executive-director turnover in
+            Philadelphia&apos;s community economic development organizations. It tracks{" "}
+            {summary.total} organizations: {summary.cdcs} Community Development Corporations
+            and {summary.bids} Business Improvement Districts, from public records.
           </p>
 
           <h3>Where the data comes from</h3>

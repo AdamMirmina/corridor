@@ -3,7 +3,7 @@ import { rankedByInstability } from "@/lib/data";
 import { Sparkline } from "@/components/Charts";
 import { TypeBadge } from "@/components/Bits";
 
-export const metadata = { title: "Signals · Philadelphia CDC & BID Tracker" };
+export const metadata = { title: "Signals · Corridor" };
 
 export default function SignalsPage() {
   const ranked = rankedByInstability().filter((o) => o.instability > 0);

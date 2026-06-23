@@ -7,11 +7,10 @@ export function Footer() {
       <div className="container footer-grid">
         <div style={{ maxWidth: "46ch" }}>
           <div style={{ fontWeight: 600, color: "var(--ink)", marginBottom: 6 }}>
-            Philadelphia CDC &amp; BID Tracker
+            Corridor
           </div>
-          A research dataset for the STAR Scholars study of leadership turnover in
-          Philadelphia&apos;s community economic development organizations.
-          Data snapshot {generatedAt}.
+          A research dataset on leadership turnover in Philadelphia&apos;s community
+          economic development organizations. Data snapshot {generatedAt}.
         </div>
         <div>
           <div style={{ fontWeight: 600, color: "var(--ink)", marginBottom: 6 }}>

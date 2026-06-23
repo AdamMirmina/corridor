@@ -1,23 +1,22 @@
-# philly-cdc-tracker
+# Corridor
 
-**Live dashboard: https://philly-cdc-tracker.vercel.app**
+**Live dashboard: https://corridor.vercel.app**
 
-A scraper plus a web dashboard that build and present the foundational dataset
-for a STAR Scholars research project at Drexel:
+A scraper plus a web dashboard that build and present a research dataset on
+leadership turnover in Philadelphia's community economic development
+organizations:
 
 > **What factors determine leadership transitions in community economic
 > development organizations in Philadelphia?**
-> Benjamin Elliott, Political Science, mentored by Dr. Richardson Dilworth.
 
-The Week 1–2 deliverable for that project is "a comprehensive roster and initial
-history spreadsheet" for the ~65 Community Development Corporations (CDCs) and
-Business Improvement Districts (BIDs) in Philadelphia. This tool produces that
-spreadsheet automatically from public records, and flags exactly which
+Corridor builds a comprehensive roster and history for the ~65 Community
+Development Corporations (CDCs) and Business Improvement Districts (BIDs) in
+Philadelphia automatically from public records, and flags exactly which
 organizations need a human to finish the job.
 
 ## What it produces
 
-`output/philly_cdc_dataset.xlsx` with four sheets:
+`output/corridor_dataset.xlsx` with four sheets:
 
 1. **Roster** — one row per organization: IRS EIN, registered name, first/last
    filing year, years filed (operational lifespan), filing gaps, officer-comp
@@ -72,7 +71,7 @@ These show up in the run summary and as unshaded blank rows.
 
 ```
 pip install -r requirements.txt
-python philly_cdc_tracker.py        # scrape -> output/*.csv + xlsx
+python corridor.py                  # scrape -> output/*.csv + xlsx
 python tools/export_web_data.py     # -> web/src/data/dataset.json
 ```
 
@@ -95,10 +94,11 @@ npm run dev        # local at http://localhost:3000
 npm run build      # production build
 ```
 
-Deployed to Vercel (project `philly-cdc-tracker`, scope adammirminas-projects).
-To refresh the live site after re-running the scraper: re-run the exporter, then
-`cd web && vercel --prod` (the CLI deploy; the data JSON is bundled at build
-time). The data snapshot date shown in the footer comes from the export run.
+Deployed to Vercel (project `corridor`). The GitHub repo is connected, so every
+push to `main` auto-deploys to production (root directory `web`). To refresh the
+live data: re-run `corridor.py` and `tools/export_web_data.py`, commit the
+updated `web/src/data/dataset.json`, and push. The snapshot date in the footer
+comes from the export run.
 
 ## Roster maintenance
 

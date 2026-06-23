@@ -1,7 +1,7 @@
 import { getOrgs, getDataset } from "@/lib/data";
 import { RosterTable } from "@/components/RosterTable";
 
-export const metadata = { title: "Organizations · Philadelphia CDC & BID Tracker" };
+export const metadata = { title: "Organizations · Corridor" };
 
 export default function OrganizationsPage() {
   const orgs = getOrgs();

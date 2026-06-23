@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ ein: string }> }) {
   const { ein } = await params;
   const org = getOrg(ein);
-  return { title: org ? `${org.name} · Philadelphia CDC & BID Tracker` : "Organization" };
+  return { title: org ? `${org.name} · Corridor` : "Organization" };
 }
 
 export default async function OrgDetail({ params }: { params: Promise<{ ein: string }> }) {
