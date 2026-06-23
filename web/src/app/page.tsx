@@ -48,14 +48,14 @@ export default function Overview() {
               <div className="sub">Plus full board rosters</div>
             </div>
             <div className="stat">
-              <div className="v tnum">{summary.withSignal}</div>
-              <div className="k">Flagged for a transition</div>
-              <div className="sub">Pay shift or filing gap</div>
+              <div className="v tnum">{summary.everTaxCredit}</div>
+              <div className="k">In the tax credit program</div>
+              <div className="sub">City of Philadelphia</div>
             </div>
             <div className="stat">
-              <div className="v tnum">{summary.newsArticles}</div>
-              <div className="k">News articles</div>
-              <div className="sub">Recent coverage, per org</div>
+              <div className="v tnum">{summary.form990Pdfs}</div>
+              <div className="k">Form 990 PDFs linked</div>
+              <div className="sub">The actual filings</div>
             </div>
           </div>
 

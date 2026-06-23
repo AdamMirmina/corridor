@@ -72,8 +72,10 @@ silently poisons the dataset; a blank one is an honest "look this up by hand."
 
 ```
 pip install -r requirements.txt
-python corridor.py                  # base scrape -> output/roster.csv, financial_history.csv
-python tools/enrich.py              # leadership + news -> output/leadership.csv, news.csv
+python corridor.py                  # base scrape -> roster.csv, financial_history.csv
+python tools/enrich.py              # leadership + news -> leadership.csv, news.csv
+python tools/fetch_filings.py       # actual Form 990 PDF links -> filings.csv
+python tools/parse_taxcredit.py     # City CDC Tax Credit reports (taxcredit/*.pdf) -> taxcredit.csv
 python tools/build_outputs.py       # -> dataset.json + corridor_dataset.xlsx + web/public downloads
 ```
 

@@ -5,6 +5,8 @@ import { MetricChart } from "@/components/Charts";
 import { TypeBadge, StatusBadge, LifespanTimeline } from "@/components/Bits";
 import { Leadership } from "@/components/Leadership";
 import { NewsList } from "@/components/NewsList";
+import { TaxCreditCard } from "@/components/TaxCreditCard";
+import { Filings } from "@/components/Filings";
 
 export function generateStaticParams() {
   return detailOrgs().map((o) => ({ ein: o.ein }));
@@ -22,6 +24,7 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
   if (!org || org.history.length === 0) notFound();
 
   const years = org.history.map((h) => h.year as number);
+  const pdfByYear = new Map(org.filings.map((f) => [f.year, f.pdfUrl]));
   const einFmt = ein.length === 9 ? `${ein.slice(0, 2)}-${ein.slice(2)}` : ein;
   const tenureNote = describeSignals(org.compJumpYears, org.filingGaps);
 
@@ -72,6 +75,9 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
 
         {/* Current leadership */}
         <Leadership org={org} />
+
+        {/* CDC Tax Credit participation */}
+        <TaxCreditCard org={org} />
 
         {/* Lifespan */}
         <div className="card card-pad" style={{ marginTop: 26 }}>
@@ -142,11 +148,13 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
                   <th className="num">Assets</th>
                   <th className="num">Officer pay</th>
                   <th className="num hide-sm">Staff</th>
+                  <th className="num">990</th>
                 </tr>
               </thead>
               <tbody>
                 {[...org.history].reverse().map((h) => {
                   const jump = h.year && org.compJumpYears.includes(h.year);
+                  const pdf = h.year ? pdfByYear.get(h.year) : undefined;
                   return (
                     <tr key={h.year}>
                       <td className="num tnum" style={{ fontWeight: 600 }}>
@@ -158,6 +166,15 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
                       <td className="num tnum">{money(h.assets)}</td>
                       <td className="num tnum">{money(h.officerComp)}</td>
                       <td className="num tnum hide-sm">{h.employees ?? "—"}</td>
+                      <td className="num">
+                        {pdf ? (
+                          <a href={pdf} target="_blank" rel="noreferrer" style={{ color: "var(--accent)", fontWeight: 500 }}>
+                            PDF
+                          </a>
+                        ) : (
+                          <span style={{ color: "var(--faint)" }}>—</span>
+                        )}
+                      </td>
                     </tr>
                   );
                 })}
@@ -165,6 +182,9 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
             </table>
           </div>
         </div>
+
+        {/* All Form 990 documents */}
+        <Filings org={org} />
       </div>
     </section>
   );

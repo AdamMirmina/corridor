@@ -38,6 +38,19 @@ export default function AboutPage() {
             note are officers the filing recorded on their way out, a documented transition.
           </p>
           <p>
+            <b>Tax credit participation.</b> {summary.everTaxCredit} CDCs are matched to the
+            City of Philadelphia&apos;s{" "}
+            <a href="https://www.phila.gov/services/payments-assistance-taxes/taxes/tax-credits/business-tax-credits/community-development-corporation-cdc-tax-credit/" target="_blank" rel="noreferrer">CDC Tax Credit program</a>,
+            with the year each entered and its annual contribution, parsed from the City&apos;s
+            annual reports (2015, 2019, 2020). This is a funding-and-activity record
+            independent of the 990s, and it reaches organizations that do not file their own.
+          </p>
+          <p>
+            <b>The actual Form 990 documents.</b> Every organization links to each year&apos;s
+            original Form 990 PDF, {summary.form990Pdfs} in all, so the source is one click
+            away rather than a citation.
+          </p>
+          <p>
             <b>Structural size and operational lifespan.</b> The Form 990 history reaches
             back roughly two decades for most organizations, with revenue, expenses,
             assets, and staff counts each year. When filings stop, that is a strong signal

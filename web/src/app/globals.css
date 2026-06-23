@@ -281,6 +281,24 @@ table.data tbody tr.clickable:hover { background: var(--surface-2); cursor: poin
 .lead-title { font-size: 14px; color: var(--ink-soft); margin-top: 3px; }
 table.data tr.row-exec td { background: #eef1fe; }
 
+/* ---------- tax credit ---------- */
+.tc-banner {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+  padding: 14px 16px; background: var(--stable-soft); border: 1px solid #cfe7d4;
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- form 990 filings ---------- */
+.filing-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.filing-chip {
+  display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px;
+  border: 1px solid var(--hairline-strong); border-radius: 999px; background: var(--surface);
+  font-size: 13px; font-weight: 500; color: var(--ink-soft); transition: all 0.14s;
+}
+.filing-chip:hover { border-color: var(--accent); color: var(--accent); }
+.filing-ext { font-size: 10.5px; letter-spacing: 0.06em; color: var(--faint); }
+.filing-chip:hover .filing-ext { color: var(--accent); }
+
 /* ---------- news ---------- */
 .news-list { display: flex; flex-direction: column; }
 .news-item { display: block; padding: 12px 0; border-bottom: 1px solid var(--hairline); }

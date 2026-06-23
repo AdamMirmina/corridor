@@ -27,6 +27,19 @@ export type NewsItem = {
   date: string;
 };
 
+export type Filing = {
+  year: number | null;
+  pdfUrl: string;
+};
+
+export type TaxCredit = {
+  matchedName: string;
+  startYear: number | null;
+  annualAmount: number | null;
+  reportYears: number[];
+  active: boolean;
+};
+
 export type Org = {
   name: string;
   type: string; // "CDC" | "BID"
@@ -50,6 +63,8 @@ export type Org = {
   officers: Officer[];
   leadershipAsOf: number | null;
   news: NewsItem[];
+  filings: Filing[];
+  taxCredit: TaxCredit | null;
   history: HistoryPoint[];
 };
 
@@ -62,6 +77,9 @@ export type Summary = {
   withSignal: number;
   withNamedExecutive: number;
   newsArticles: number;
+  inTaxCreditProgram: number;
+  everTaxCredit: number;
+  form990Pdfs: number;
   cdcs: number;
   bids: number;
   closureCandidates: number;
