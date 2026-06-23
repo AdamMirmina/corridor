@@ -106,14 +106,22 @@ def query_variants(org_name: str) -> list[str]:
     """ProPublica search does literal token matching, so 'Nicetown CDC' finds
     nothing while 'Nicetown Community Development Corporation' finds it. Build a
     few progressively looser queries and try each until one returns results."""
+    import unicodedata
+
     variants = []
-    base = org_name
+    # Strip accents and parenthetical acronyms (e.g. "(APM)", "(LA21)"), and
+    # split CamelCase the roster sometimes uses ("ProjectHOME", "NewCourtland").
+    base = unicodedata.normalize("NFKD", org_name).encode("ascii", "ignore").decode()
+    base = re.sub(r"\([^)]*\)", " ", base)
+    base = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", base)
+    base = re.sub(r"\s+", " ", base).strip()
 
     def add(v):
         v = re.sub(r"\s+", " ", v).strip()
         if v and v.lower() not in [x.lower() for x in variants]:
             variants.append(v)
 
+    add(org_name)  # the literal name first
     add(base)
     # Expand known abbreviations (CDC -> Community Development Corporation).
     expanded = base

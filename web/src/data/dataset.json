@@ -1,251 +1,21 @@
 {
   "generatedAt": "2026-06-23",
   "summary": {
-    "total": 73,
-    "matched": 62,
-    "withFinancialData": 54,
-    "highConfidence": 53,
-    "needsLookup": 11,
-    "withSignal": 32,
-    "withNamedExecutive": 47,
-    "newsArticles": 295,
-    "cdcs": 58,
+    "total": 76,
+    "matched": 64,
+    "withFinancialData": 58,
+    "highConfidence": 58,
+    "needsLookup": 12,
+    "withSignal": 34,
+    "withNamedExecutive": 50,
+    "newsArticles": 304,
+    "cdcs": 61,
     "bids": 15,
     "closureCandidates": 5,
-    "earliestYear": 2010,
+    "earliestYear": 2009,
     "latestYear": 2024
   },
   "orgs": [
-    {
-      "name": "ACHIEVEAbility",
-      "type": "CDC",
-      "ein": "232215980",
-      "irsName": "Achieveability",
-      "irsCity": "Philadelphia",
-      "confidence": "high",
-      "firstYear": 2011,
-      "lastYear": 2022,
-      "yearsFiled": 12,
-      "filingGaps": [],
-      "compJumpYears": [
-        2013,
-        2014,
-        2015,
-        2016
-      ],
-      "latestRevenue": 842709,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 4,
-      "executive": {
-        "name": "Jamila Harris Morrison",
-        "title": "Executive Director",
-        "comp": 129171,
-        "isExecutive": true
-      },
-      "officers": [
-        {
-          "name": "Jamila Harris Morrison",
-          "title": "Executive Director",
-          "comp": 129171,
-          "isExecutive": true
-        },
-        {
-          "name": "Mary B Walker",
-          "title": "Chair",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Sue Mcmonigle",
-          "title": "Vice Chair",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Daniel Berger",
-          "title": "Secretary",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Joel S Lawson Iii",
-          "title": "Treasurer",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Schnearia Ashley",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Malik Brown",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Lauren Dickstein",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Shannon Farmer",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Donna M Higgins",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        }
-      ],
-      "leadershipAsOf": 2022,
-      "news": [
-        {
-          "title": "Hundreds of Volunteers take part in ACHIEVEability's Impact Day in West Philadelphia - 6abc Philadelphia",
-          "source": "6abc Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWEpWeVRGNnR4bXlzRUNkeHBxaUs4Z0k4Q216SWpucTNaZG94MjhXekdIUTZ4N2pLVXk0NkhUTHVNdmViaVpoa3lwSGxTMlBVYTd1VWdkWjMxdUZuXzM4T25URU5lVG5DWG1LZ2hVQ1Q3SlEzc2JJWlptLUNMMml4NjZldkFxMzlSR1VRMzlhS0ZkaU5hUk5kVXF6a3hkdDVxUjBpSE51a3ZwQdIBrwFBVV95cUxOY3ZoTWtFX1prWnpKMFBpTXA0ZVpqT0dQa3k2UFIxaGtiSy1jTmpQYUMzWllEVXhYbXNDTDRReUJYUzBiYldCMXBZdUp4ZjU1a0JhTkNrNnRoemREaGExYkNPV09COUxvdFVCRTZpRUtVSzYxbFRtSE5ZSnRJNi1yR1VuVkxYSmlkbkVIdVV5SExJUmJ4cl9FMzR0U25vUzVFQUZpVUhwRlI0NzRvRllj?oc=5",
-          "date": "2026-04-24"
-        },
-        {
-          "title": "ACHIEVEability Impact Day - FOX 29 Philadelphia",
-          "source": "FOX 29 Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hLVlkM0c4bnlVbW5aU0ROcTJvb090Uk1Edl9PVkw3SHdGUzBqNXNYY21ITVBYaks1THlzWnNuRTNRM05IaGR1eFlxWVlaNWo1S1JndHZCUjNMazRW0gFiQVVfeXFMTzFTTW1QRTNHQ3RhYU5uTjRLelgzckM4OHcwdnpvQkhMdFEtREVwS3oyWHJqbE9JSHg5RkUzdF9tVlFYYjNPRENCbWFsNGtDNHRlRnhOX195LXpIU1R1QUJJRVE?oc=5",
-          "date": "2026-04-24"
-        },
-        {
-          "title": "Uber program that gives free rides to seniors expands to Northeast Philly - PhillyVoice",
-          "source": "PhillyVoice",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92dmVfOXltTWd1aThraWc0U253MThmUERQcU5KcUVQdERjVFFoRE1mVmlyeGN6cEt3TlFpZUxzckFMRjZRUDNsNG9ULUNlZjJyX2tqZEJULXBPVzF2VXFobUFYcWQ4X2gybEIyREhBekxRZl9EZDNibA?oc=5",
-          "date": "2026-03-30"
-        },
-        {
-          "title": "Uber offering free rides to Philly seniors amid SEPTA cuts - WHYY",
-          "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUU08yRlhhOWFDZEN0V2tFclFVUHFnYXFkRG1UR0NqdDFKTmdqZEZpc2toT1RLZHU3SU9DLXEzTmdjbkR5OElEak44Q29xMzJJUFBQWXhZYnB3ei1HOV9nOUZfWQ?oc=5",
-          "date": "2025-08-29"
-        },
-        {
-          "title": "West Philadelphia fabric shop owner gets boost for legacy business with new storefront - 6abc Philadelphia",
-          "source": "6abc Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdzJmUjFqeV9wMVc2OW1iWkNhYVJQVXFjTHNzTXc5Y0lBLXM1eWs0WXZmbVI0YjA5ZG1xU1BtV2lncjBmejBzWVRWNzJWZ19ia25xLWR4dE1lTnAwU0FBV25DWF9lNXJFbHJhLVd2YjNqSXZsTHhfOTdQSXFqY2NNT0FINEM3clI0UzI4UERBUXZPVFRPNnZxR3lHV2pibHBnRTJNeTVhMlJPeFNZRGYtemVvN1BERF9WczVmcE0zcnB4bHR3WmhQLVhGUlNhLVR6WHVR?oc=5",
-          "date": "2025-08-14"
-        },
-        {
-          "title": "Good Day Uncut: ACHIEVEability - FOX 29 Philadelphia",
-          "source": "FOX 29 Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBjSjlSSWxZeEc0ZVpaYjdkdDkycG5UM0xrdmVRRDVKQ2lsbnNBTmtFQnQyMDNSSjB0MXAyQmVHdW51b2FpcFJiOFR0Y9IBUEFVX3lxTE0tQzVhWkVHVXRJcEdkbllYWWtzYVhPbm5JdkFlYllMSmRRb0lLNXA2ZDIwQjZ5amcxQy11TnhBaHRBVXY5dW5ReTg2V29UMVJ0?oc=5",
-          "date": "2025-04-25"
-        }
-      ],
-      "history": [
-        {
-          "year": 2011,
-          "revenue": 1828635,
-          "expenses": 2164051,
-          "assets": 3682937,
-          "employees": null,
-          "officerComp": 456079
-        },
-        {
-          "year": 2012,
-          "revenue": 2324551,
-          "expenses": 2041721,
-          "assets": 4083363,
-          "employees": null,
-          "officerComp": 414871
-        },
-        {
-          "year": 2013,
-          "revenue": 1217697,
-          "expenses": 2182740,
-          "assets": 3425955,
-          "employees": null,
-          "officerComp": 131611
-        },
-        {
-          "year": 2014,
-          "revenue": 1535005,
-          "expenses": 1915519,
-          "assets": 3048057,
-          "employees": null,
-          "officerComp": 204942
-        },
-        {
-          "year": 2015,
-          "revenue": 1523023,
-          "expenses": 1695881,
-          "assets": 4811198,
-          "employees": null,
-          "officerComp": 110002
-        },
-        {
-          "year": 2016,
-          "revenue": 1261821,
-          "expenses": 2327615,
-          "assets": 3545900,
-          "employees": null,
-          "officerComp": 168803
-        },
-        {
-          "year": 2017,
-          "revenue": 1740798,
-          "expenses": 1890013,
-          "assets": 3601378,
-          "employees": null,
-          "officerComp": 189295
-        },
-        {
-          "year": 2018,
-          "revenue": 1766597,
-          "expenses": 1655529,
-          "assets": 3480757,
-          "employees": null,
-          "officerComp": 146850
-        },
-        {
-          "year": 2019,
-          "revenue": 1723793,
-          "expenses": 1469029,
-          "assets": 2719999,
-          "employees": null,
-          "officerComp": 145598
-        },
-        {
-          "year": 2020,
-          "revenue": 1849492,
-          "expenses": 1260879,
-          "assets": 3674852,
-          "employees": null,
-          "officerComp": 142518
-        },
-        {
-          "year": 2021,
-          "revenue": 2564403,
-          "expenses": 2111487,
-          "assets": 3969838,
-          "employees": null,
-          "officerComp": 141860
-        },
-        {
-          "year": 2022,
-          "revenue": 842709,
-          "expenses": 2398112,
-          "assets": 2199076,
-          "employees": null,
-          "officerComp": 141859
-        }
-      ]
-    },
     {
       "name": "African Cultural Alliance of North America",
       "type": "CDC",
@@ -269,7 +39,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 6,
       "executive": {
@@ -481,32 +251,7 @@
       ]
     },
     {
-      "name": "All in the Family CDC",
-      "type": "CDC",
-      "ein": "232802873",
-      "irsName": "All In The Family Group Associates Inc",
-      "irsCity": "Philadelphia",
-      "confidence": "medium",
-      "firstYear": null,
-      "lastYear": null,
-      "yearsFiled": 0,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": null,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 0,
-      "executive": null,
-      "officers": [],
-      "leadershipAsOf": null,
-      "news": [],
-      "history": []
-    },
-    {
-      "name": "Arab American CDC",
+      "name": "Arab-American CDC",
       "type": "CDC",
       "ein": "311620684",
       "irsName": "Arab American Development Corp",
@@ -521,7 +266,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -698,7 +443,7 @@
       "history": []
     },
     {
-      "name": "Asociacion Puertorriquenos en Marcha",
+      "name": "Asociaci\u00f3n Puertorrique\u00f1os en Marcha (APM)",
       "type": "CDC",
       "ein": "231930630",
       "irsName": "Asociacion Puertorriquenos En Marcha Inc",
@@ -715,7 +460,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 1,
       "executive": {
@@ -795,34 +540,34 @@
           "date": "2026-06-12"
         },
         {
+          "title": "Jennifer Rodr\u00edguez: Latino leadership and economic development in Philadelphia - Impacto Media",
+          "source": "Impacto Media",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaXN0OVlSSmZkV1ZfUUM1V0piN0hlaWhoaVZSM1V5dEdhbU9mb3VWU0xBNEYzeVZvaHpCNlY0a0dsd2dRV0xsQXBzUDBnZk9UaGprb3lYSFV2eTFkTFpxS3JhX1lEd1ZkTkpZUnRsNjhLRWd0MVhBenhQM3QtYjd0VF9hbnRKWklyOS1GSTFsNklIakVjanlaeVJpZmVNdVlRTXIxaW9Sb3F2cVp0QkhlLUJWOHrSAbQBQVVfeXFMTmlzdDlZUkpmZFdWX1FDNVdKYjdIZWloaGlWUjNVeXRHYW1PZm91VlNMQTRGM3lWb2h6QjZWNGtHbHdnUVdMbEFwc1AwZ2ZPVGhqa295WEhVdnkxZExacUtyYV9ZRHdWZE5KWVJ0bDY4S0VndDFYQXp4UDN0LWI3dFRfYW50SlpJcjktRkkxbDZJSGpFY2p5WnlSaWZlTXVZUU1yMWlvUm9xdnFadEJIZS1CVjh6?oc=5",
+          "date": "2026-03-14"
+        },
+        {
           "title": "Presente on the Parkway: Photos from Philadelphia\u2019s 2025 Puerto Rican Day Parade - Billy Penn at WHYY",
           "source": "Billy Penn at WHYY",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVJmRVA5aS1rckZEYlRzTzVpbTNod3JiN1Z4M09tM1NqNmZ1a2RFQWJTaEY0YTB0ZGFtd3RENmYwRzNaY2tNNDBjTkxZR2FOLUhtbElvYjJRUzc1Z0lNVlZoUkFkdG9uNTl1YXkwbnhrdjNDN0NKeXF1Ui1OQzM2X2lxOUE5SzdoczR4WHR3WlRodGdNRmFSb051NGYxU2xUSWdtMDFqQjJaSEZIdnU0V19R?oc=5",
           "date": "2025-09-29"
         },
         {
-          "title": "Social Worker Has Passion for Protecting Young People, \u2018Making a Difference\u2019 in Their Lives - CatholicPhilly",
-          "source": "CatholicPhilly",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNjR2bGRrdlRqbkthVm81QTZuLUxkODBNaXloSlo0TExZTEFWZk5fWnpmOVlxMjRtLXV4RGVjRzFDVXlGTWxkYVlXc1lFQkxiOFRSSm9qYmQ2X2ZFUUxhQ1RVeTQ2UndPOUE1OWk2ejN0ckh2ZE9Ec0lCNkxhRXk5U0JZRTkwOUVpNXZxZ19XMldEdFlyWmR0UTFGNG5kaEZmZW80cWVoRHJOcG5ya21mVzBqVGpad2dlaVJudjhIWE1MOVJrb1hOOG1PQWFoVGl2YUtN?oc=5",
-          "date": "2024-10-30"
+          "title": "\u201cWe have the poner. We just need to exercise it, together.\u201d Nilda Ruiz - Impacto Media",
+          "source": "Impacto Media",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM3NXXzhGaWNKMFdjNlE5UnI2TmVVVjdEQ0hnd1h0dlExNEJONEFKczZRUVFvdHFaTFVPOUFObVo0TjRSRFJQYXEzdVYxSWhtcWdrMHplUHRIdE96TGhob3BuOEtnZkZIYjV4LXNiMHprWTA0UW80bFFPSW4tTWVnekRiLXk2UTFzTTRnR20zYlpJUHlXVU93VE8wZ0tPRER5S2xnU9IBpAFBVV95cUxOM3NXXzhGaWNKMFdjNlE5UnI2TmVVVjdEQ0hnd1h0dlExNEJONEFKczZRUVFvdHFaTFVPOUFObVo0TjRSRFJQYXEzdVYxSWhtcWdrMHplUHRIdE96TGhob3BuOEtnZkZIYjV4LXNiMHprWTA0UW80bFFPSW4tTWVnekRiLXk2UTFzTTRnR20zYlpJUHlXVU93VE8wZ0tPRER5S2xnUw?oc=5",
+          "date": "2025-09-12"
         },
         {
-          "title": "North Philly\u2019s Sugar Cane Festival marked 20 years of celebrating Puerto Rican workers - Inquirer.com",
-          "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbzFGVERBQ3RPTzgxUmUwSl91TnByWXpMckNFM3hRdXFCM2tfMlU3MG1jYVNMaFJCWjFSeXQzV0cxVGJWRlVEU2xTQVNXS1NpUnE1NzhCZmNYRWNNeEpwMnNyMzdGQnpJQWhDRVZVMS02VENrRlFQZ2dGaE9OUXZud2dmVUsxam1YNGRVcmlBNzdmcHp2V0FiRFRHMkJxeFE?oc=5",
-          "date": "2024-06-03"
+          "title": "Plans to develop \u201cPaseo Boricua\u201d and restore the historic Teatro Puerto Rico unveiled by APM - Impacto Media",
+          "source": "Impacto Media",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yb2p0OGV3TlJCV2czLWtyOUpfMVo0c2JnQl9uTHFkTHNFQkZmd3VXZlQ3anh2d1hqMW1WVzl3NlN3S1A3d2ItdlRHM1d4Yy1RVnhwRjdGU0JobktFV3NlOUUxbUtfazhLbU1JX0phWTNONUhpWXFLX2VXb9IBe0FVX3lxTE8yb2p0OGV3TlJCV2czLWtyOUpfMVo0c2JnQl9uTHFkTHNFQkZmd3VXZlQ3anh2d1hqMW1WVzl3NlN3S1A3d2ItdlRHM1d4Yy1RVnhwRjdGU0JobktFV3NlOUUxbUtfazhLbU1JX0phWTNONUhpWXFLX2VXbw?oc=5",
+          "date": "2025-09-06"
         },
         {
-          "title": "Puerto Rican Day Parade 2023: Event marches on despite rain from Ophelia in Philadelphia - 6abc Philadelphia",
-          "source": "6abc Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZWV5RWkyYXhoWXZhdDFkd3JUMDI1NXZmUWNSa2xZa0V5VV85WV9KbGk4ZmVnLTlRdkRhLW1ueWtSaVU4RUthYUpTbDVNLVFMWkY4Vi13d3VNQlhtTUxEUG1BY281a0ZXZ0ZlUXU2NDFQRjZSeGdRakpRYlA1TEUxdFh2NXQ2T1k0VkVYaFhYb25TazNoeFUtRWhaZE05bWkw0gGmAUFVX3lxTE1uM3FOR2xwbEpqRjNSS0ZuMEZXWWlSajV1UTRtSHVCUXZxMy12TUVIbUZUbGtTcUJ5Z1pRcHV5QzJjX3MxaEJKZmVtaXlCekdjdGF1QVVibXA5TnlDel95ckRTZElLWXV4dnFEUjdTZ1hRVWUxUkQ0SkxqanhISl9wZkNqU2pEeDZEUV9TUzdPRVlZczgxVGI2SXRwaUR2bFJ6SzNMOGc?oc=5",
-          "date": "2023-09-24"
-        },
-        {
-          "title": "How one Philly neighborhood is fighting gentrification - Al D\u00eda News",
-          "source": "Al D\u00eda News",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9fbDRzU1J2WFZOTWlJZmthMEZ2b3R6UnVOQ2pQRVJyazRLWlJmZDNsLXZ4WEhjMVpLWk9EenpJWGRwaXZUTmd5OE02SjE4TUY4WDRKRUFYLXdCT1BFdmxqbEFBbHAxZFhJM0FRNWVxR2stUlB5NVZGQnVjSQ?oc=5",
-          "date": "2022-07-02"
+          "title": "Pennrose Announces Maria Rodriguez as Vice President & Legal Counsel - Yield PRO",
+          "source": "Yield PRO",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03c3JCMTgtZzM4NzBnTFJLN0dvSExuODYtQ1oxSVlfN1hXcERRanF5aDVRYW1Mc254X1d0MER3QVUydzJ3d19NVDVOUnB1dnJIclFtMG80UXk?oc=5",
+          "date": "2025-09-05"
         }
       ],
       "history": [
@@ -933,70 +678,79 @@
       ]
     },
     {
-      "name": "Beech Companies",
+      "name": "Beech Interplex",
       "type": "CDC",
-      "ein": "204968928",
-      "irsName": "Beech Community Services",
+      "ein": "521693162",
+      "irsName": "Beech Interplex Inc",
       "irsCity": "Philadelphia",
-      "confidence": "medium",
-      "firstYear": 2010,
-      "lastYear": 2022,
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
       "yearsFiled": 13,
       "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": 436068,
+      "compJumpYears": [
+        2014,
+        2015,
+        2016
+      ],
+      "latestRevenue": 4055112,
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
-      "instability": 0,
-      "executive": null,
+      "instability": 3,
+      "executive": {
+        "name": "Kenneth Scott",
+        "title": "President Ce",
+        "comp": 120000,
+        "isExecutive": true
+      },
       "officers": [
         {
-          "name": "Christine Brown",
-          "title": "Pres Treas E",
+          "name": "Kenneth Scott",
+          "title": "President Ce",
+          "comp": 120000,
+          "isExecutive": true
+        },
+        {
+          "name": "Bernard Savage",
+          "title": "Secretary",
+          "comp": 85000,
+          "isExecutive": false
+        },
+        {
+          "name": "Richard Bazelon Esq",
+          "title": "Chairman",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Mary Galloway",
+          "name": "Shirley Gregory",
           "title": "Director",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Eva Lighty",
-          "title": "Director",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Ruth Lowden",
-          "title": "Director",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Gwendolyn Murray",
+          "name": "Rev William B Moore",
           "title": "Director",
           "comp": 0,
           "isExecutive": false
         }
       ],
-      "leadershipAsOf": 2022,
+      "leadershipAsOf": 2023,
       "news": [
-        {
-          "title": "Temple President John Fry appointed to board of directors of North Broad Renaissance - Temple Now",
-          "source": "Temple Now",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLW5jWG5TUUMxUzFvRHR5M3E0Q3Y2UXVfcG1NUTgtWUVsUUVrandCLVJPTUxWa3lvMWoteVFpNktrNTFaeFNNaTZocTlOMGQ1cXFXeTFfOEhSd2p1SEhaZG5xWmI0NXlYVi1FdkRVUHVLNU9Edm9Kcng3blNwcUJaQ01aMlZ2WWV0WEVHMk9pa1NCT2otcXIwU2d1Mm5ReTl1R2tqRG5VZ2xmNEtEMDVEdG5hMlI?oc=5",
-          "date": "2025-03-19"
-        },
         {
           "title": "18 Philly nonprofits get boost through efforts from Beech Companies, Inc. - phillytrib.com",
           "source": "phillytrib.com",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOamFYaW0zWXJfMDllZjN6OFZtVUZoUXU0SksxT0tTRk1Qcmd3czIwWUhpTmZ2SHNMQ2NBa19sblRHaEJJR09XMmpuQzd0YmRiWUduVWJjR1lIUG1JRDVwTElPbmxrZERTQnVXUEhyUEJwS2tydk5tbzdtRW1DZWV5UzV1WVRyZ0RxT0VVZjZSOE1mNGticVZ2WU5ESHRDcG9RYTQxam1lVDlScnQ3cTc4UWJHTWJpdTMtNW92Njhzb04tQUNEUzJIaW5zM3ktMGhfOUJHLTJrREtmNUl5czRkVVFHcVJvOUI2d0p4T3dyVWpTY1g3aUow?oc=5",
           "date": "2025-02-11"
+        },
+        {
+          "title": "Investors move to seize student housing near Temple from community developer Beech Co. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMTR1V0J1SXg1R1lUOE1RaFk2cWpvbVFZOHhkQmtKbTRRcl9FSms3V0ZNc0ZjT200Q0huWEM1aGdrMHVyN19UMmRVQ0Fpb0lWdUowZlBMaWkwOS1zN3FUYkVaSnNuQ3lwWERwbks2d256M25EbGF1YkszbFBLbVplMjdzVl9QbFozazRKdE1RQzV3azNSZWt5RDNrQ3VKdHVOR3BXY3RVZzFMWDBVNGUtYTRSYXVqdU1wM1E?oc=5",
+          "date": "2024-11-06"
         },
         {
           "title": "Temple welcomes two new members to its Board of Trustees - Temple Now",
@@ -1011,272 +765,127 @@
           "date": "2022-06-21"
         },
         {
-          "title": "A man of science - The Philadelphia Sunday Sun",
-          "source": "The Philadelphia Sunday Sun",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15S21PQl9na3dtS3h6SWNRVTd0NE9ETUd2MFdZOEswWnVjNlBQRmZKV0ZKVl9wb2tDV0QxSVYxRUVqclFfREVJOEJLMVBMeHdTcGh3TjR3bw?oc=5",
-          "date": "2021-11-19"
-        },
-        {
           "title": "Beech Companies in North Central Philadelphia serves small business owners and non-profits - The Philadelphia Sunday Sun",
           "source": "The Philadelphia Sunday Sun",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOVhsSVFRbFBGdlJCemVtemZ5NkJTZEdiQlBsR2tuRG1ha21Hc0pmY1pSM0FGMXJ0VUtYSVZER09LOWxQUEI3c0ptUXF5UUNtWVQ3VGZ2OEtpMkRlUjJpMGNCcUs5di1MczFyUjZMSWc4aVY3M3k4ZVBEalNoOW5HZDZKLWh0Z05aUVB0MVl2MHhSUTMtamZQbWRIcndlRWlycmVvbWpxdXZNSFdBU091THgyVmZDQ1MzaFE?oc=5",
           "date": "2020-06-25"
+        },
+        {
+          "title": "Rebuild project: Cecil B. Moore Recreation Center - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT2d3NzI0MEZzYWlydTIxZWIzaENRZklVdUtZNGRhWGswMjlsbWpsU0ZzT1h1TnBFRkx2SXRKMWNTaVJULU92Y2RVMExKQ3daeEZTa0FENHROVWVINm9HZ2tuNzNTMkhVODZuMEpvTmFGSHZSVU5hT0hUcE1rZUo5TnN2aTRiRlp5?oc=5",
+          "date": "2019-04-09"
         }
       ],
       "history": [
         {
-          "year": 2010,
-          "revenue": 14682,
-          "expenses": 14682,
-          "assets": 19224,
-          "employees": null,
-          "officerComp": null
-        },
-        {
           "year": 2011,
-          "revenue": 22031,
-          "expenses": 17207,
-          "assets": 14996,
+          "revenue": 4841733,
+          "expenses": 4166130,
+          "assets": 42419878,
           "employees": null,
-          "officerComp": null
+          "officerComp": 374105
         },
         {
           "year": 2012,
-          "revenue": 22827,
-          "expenses": 26887,
-          "assets": 8436,
+          "revenue": 7441293,
+          "expenses": 6609278,
+          "assets": 41944312,
           "employees": null,
-          "officerComp": null
+          "officerComp": 393360
         },
         {
           "year": 2013,
-          "revenue": 21803,
-          "expenses": 21720,
-          "assets": 8519,
+          "revenue": 6091514,
+          "expenses": 6177554,
+          "assets": 40925309,
           "employees": null,
-          "officerComp": null
+          "officerComp": 364181
         },
         {
           "year": 2014,
-          "revenue": 99379,
-          "expenses": 96052,
-          "assets": 11846,
+          "revenue": 5633794,
+          "expenses": 6313744,
+          "assets": 39448036,
           "employees": null,
-          "officerComp": null
+          "officerComp": 248830
         },
         {
           "year": 2015,
-          "revenue": 98384,
-          "expenses": 98912,
-          "assets": 11318,
+          "revenue": 5789886,
+          "expenses": 5997398,
+          "assets": 38067486,
           "employees": null,
-          "officerComp": null
+          "officerComp": 357059
         },
         {
           "year": 2016,
-          "revenue": 110931,
-          "expenses": 84195,
-          "assets": 38054,
+          "revenue": 5529470,
+          "expenses": 7028146,
+          "assets": 42334470,
           "employees": null,
-          "officerComp": null
+          "officerComp": 513232
         },
         {
           "year": 2017,
-          "revenue": 153773,
-          "expenses": 106920,
-          "assets": 84907,
+          "revenue": 6072317,
+          "expenses": 6361760,
+          "assets": 40998821,
           "employees": null,
-          "officerComp": null
+          "officerComp": 571296
         },
         {
           "year": 2018,
-          "revenue": 138111,
-          "expenses": 162021,
-          "assets": 60997,
+          "revenue": 4950275,
+          "expenses": 5284651,
+          "assets": 39269628,
           "employees": null,
-          "officerComp": null
+          "officerComp": 601935
         },
         {
           "year": 2019,
-          "revenue": 146998,
-          "expenses": 182586,
-          "assets": 31649,
+          "revenue": 5712878,
+          "expenses": 6434141,
+          "assets": 37855492,
           "employees": null,
-          "officerComp": null
+          "officerComp": 505989
         },
         {
           "year": 2020,
-          "revenue": 195782,
-          "expenses": 69401,
-          "assets": 250398,
+          "revenue": 6301222,
+          "expenses": 7111467,
+          "assets": 36524346,
           "employees": null,
-          "officerComp": null
+          "officerComp": 551262
         },
         {
           "year": 2021,
-          "revenue": 952792,
-          "expenses": 240603,
-          "assets": 1038643,
+          "revenue": 5583039,
+          "expenses": 6404960,
+          "assets": 34852112,
           "employees": null,
-          "officerComp": 0
+          "officerComp": 500007
         },
         {
           "year": 2022,
-          "revenue": 436068,
-          "expenses": 369381,
-          "assets": 1090946,
+          "revenue": 2516500,
+          "expenses": 3072480,
+          "assets": 33685887,
           "employees": null,
-          "officerComp": 0
+          "officerComp": 504551
+        },
+        {
+          "year": 2023,
+          "revenue": 4055112,
+          "expenses": 7044529,
+          "assets": 28844422,
+          "employees": null,
+          "officerComp": 377933
         }
       ]
     },
     {
-      "name": "Brewerytown-Sharswood NAC/CDC",
-      "type": "CDC",
-      "ein": "20685211",
-      "irsName": "Brewerytown Sharswood Community Civic Association",
-      "irsCity": "Philadelphia",
-      "confidence": "high",
-      "firstYear": 2010,
-      "lastYear": 2021,
-      "yearsFiled": 10,
-      "filingGaps": [
-        {
-          "from": 2017,
-          "to": 2019
-        },
-        {
-          "from": 2019,
-          "to": 2021
-        }
-      ],
-      "compJumpYears": [],
-      "latestRevenue": 91500,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": true,
-      "instability": 7,
-      "executive": {
-        "name": "James Mcfadden",
-        "title": "President",
-        "comp": 0,
-        "isExecutive": true
-      },
-      "officers": [
-        {
-          "name": "James Mcfadden",
-          "title": "President",
-          "comp": 0,
-          "isExecutive": true
-        },
-        {
-          "name": "Talmadge Belo",
-          "title": "Vice President",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Stephanie Belo",
-          "title": "Secretary",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Sheila Belo",
-          "title": "Treasury",
-          "comp": 0,
-          "isExecutive": false
-        }
-      ],
-      "leadershipAsOf": 2021,
-      "news": [],
-      "history": [
-        {
-          "year": 2010,
-          "revenue": 81,
-          "expenses": 4824,
-          "assets": 48840,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2011,
-          "revenue": 270,
-          "expenses": 4124,
-          "assets": 44986,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2012,
-          "revenue": 453,
-          "expenses": 6350,
-          "assets": 39089,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2013,
-          "revenue": 307,
-          "expenses": 6070,
-          "assets": 33326,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2014,
-          "revenue": 856,
-          "expenses": 5735,
-          "assets": 28447,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2015,
-          "revenue": 750,
-          "expenses": 16191,
-          "assets": 13006,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2016,
-          "revenue": 70128,
-          "expenses": 63153,
-          "assets": 6975,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2017,
-          "revenue": 109265,
-          "expenses": 62219,
-          "assets": 59802,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2019,
-          "revenue": 141080,
-          "expenses": 90476,
-          "assets": 145346,
-          "employees": null,
-          "officerComp": null
-        },
-        {
-          "year": 2021,
-          "revenue": 91500,
-          "expenses": 82106,
-          "assets": 9394,
-          "employees": null,
-          "officerComp": null
-        }
-      ]
-    },
-    {
-      "name": "Called to Serve CDC",
+      "name": "Called To Serve CDC",
       "type": "CDC",
       "ein": "464404323",
       "irsName": "Called To Serve Cdc Inc",
@@ -1291,7 +900,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -1476,7 +1085,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -1538,7 +1147,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -2162,7 +1771,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -2353,7 +1962,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": true,
       "instability": 3,
       "executive": {
@@ -2487,7 +2096,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": {
@@ -2734,7 +2343,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 5,
       "executive": {
@@ -3201,6 +2810,89 @@
       ]
     },
     {
+      "name": "Empowered CDC",
+      "type": "CDC",
+      "ein": "845037676",
+      "irsName": "Empowered Cdc Inc",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "yearsFiled": 1,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 142834,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": {
+        "name": "Xeyah T Martin",
+        "title": "Executive Director",
+        "comp": 0,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Xeyah T Martin",
+          "title": "Executive Director",
+          "comp": 0,
+          "isExecutive": true
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Former Gov. Ed Rendell endorses State Sen. Sharif Street to succeed Rep. Dwight Evans in Congress - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjdUTXhuZ2tORDNGOUM0RGN1eDM1bXpUcTZBWTZjM1dfNWhXRGR3UTVkNTV1R0N3dFJkU2xSaHcyYWNxQlMxLUxZb0V6ZmxYRHZpZnFISk8zWVB5NW1TOFZ2eWdBWUE4UjFCYVBkLVNKS3JyS1cyell4VVh2SkFIZUx4TjNoRVdxM0NWbTlLLVhRQmdLN000X2lIMi1NZGZiUktRWXlMWUJ0UQ?oc=5",
+          "date": "2025-12-10"
+        },
+        {
+          "title": "Southwest Philadelphia Slated for Three Nonprofit-Run Trash Disposal Sites - PHILADELPHIA.Today",
+          "source": "PHILADELPHIA.Today",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3h0TW5oUVhtM1ZmOWhDTzRadlJEcEFzZzhyYmNZVV9ZYzFFTm1QVUJGZnhvUmpsaWFlMzJoaWVPU29DQzlqVy1VaDZWeVZiTENIaHNLWW9MY2xsZ1dlWkdta2pzQU9JZzZ2U3h1QjZxSjdpMTJBODBYdTN0VWRhcTVSdUlnUQ?oc=5",
+          "date": "2025-12-05"
+        },
+        {
+          "title": "Community trash disposal sites are coming to Southwest Philadelphia - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeVJ0M3dVLVpqOUlJSGl0X0hvMmVNZ3M2OXMzOUxMVXVJamZLV01LaTFKREROWGVWU0l1bl95UWlUUDJONXE3d0dhcFJxUWRsUDVjVzFYdnlZNzlrTGQwUU9vajl3MkhOcWxBYkxvOGxOOXhZa212eld6bUZsZGl5SHRSQXZQQW8?oc=5",
+          "date": "2025-12-01"
+        },
+        {
+          "title": "Meet the Newest Candidate for Pennsylvania\u2019s 3rd Congressional District Race - PHILADELPHIA.Today",
+          "source": "PHILADELPHIA.Today",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORWVsN0FWM2dYVV8zMkp3QzZsQUVpXzVXc1JMcEZJRHJWUDRLY0xpVnZCOTYwaXE0RUxzLVByQUJGMUxYTHRZSHM1bHFsUWtfUWdYaUVHNi00bHlkeVpLUngyUjFXNUFFbndpalgyLThDWHRZZjBYcVpLZ2Y0Ql9WS1FfdDZUeVU?oc=5",
+          "date": "2025-11-20"
+        },
+        {
+          "title": "11th candidate enters jam-packed 3rd Congressional District race - Billy Penn at WHYY",
+          "source": "Billy Penn at WHYY",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNjlLSmI3dXFER3otTWo2XzdFMU1helhGbWhrUHFqbVAwMlZKclJwQW5XaEZycTk4OWtaMl9fY2NURTRfWHo3ZzUtUllpV1l4WHpLVVhQenUteGw0YW0yVDR2WkZOaW5QVVkwY1dIYW5oZ21odlhRa25WaElrVXF0ZDVoUl84WWRoelQ3R3JHVnI?oc=5",
+          "date": "2025-11-11"
+        },
+        {
+          "title": "Foundation puts $5 million into anti-illegal dumping innovation - Billy Penn at WHYY",
+          "source": "Billy Penn at WHYY",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWFlWTF9kQUhSelBoMEgxVXpfc093U0YyeGtsQXVJRHZzSVlwNFZpWHFSZm1ULXNSZmR1ci1LWVZyRU1DQlFILXE3cXNlSUliNG5VeXR6Z0tkTmxaLWUzRzN5UjM5dnNKc245SEJoaGhBbTJ0X0M5QUZzUzk3RXlGNnRqY3AyUWc?oc=5",
+          "date": "2025-06-30"
+        }
+      ],
+      "history": [
+        {
+          "year": 2023,
+          "revenue": 142834,
+          "expenses": 99479,
+          "assets": 0,
+          "employees": null,
+          "officerComp": 0
+        }
+      ]
+    },
+    {
       "name": "Esperanza",
       "type": "CDC",
       "ein": "232552707",
@@ -3219,7 +2911,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": {
@@ -3437,244 +3129,6 @@
       ]
     },
     {
-      "name": "Fairmount CDC",
-      "type": "CDC",
-      "ein": "233094818",
-      "irsName": "Fairmount Community Development Corporation",
-      "irsCity": "Philadelphia",
-      "confidence": "high",
-      "firstYear": 2011,
-      "lastYear": 2023,
-      "yearsFiled": 13,
-      "filingGaps": [],
-      "compJumpYears": [
-        2012,
-        2021,
-        2022,
-        2023
-      ],
-      "latestRevenue": 623034,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 4,
-      "executive": {
-        "name": "Patrick Sherlock",
-        "title": "Exec Directo",
-        "comp": 71250,
-        "isExecutive": true
-      },
-      "officers": [
-        {
-          "name": "Patrick Sherlock",
-          "title": "Exec Directo",
-          "comp": 71250,
-          "isExecutive": true
-        },
-        {
-          "name": "Nyron Crawford",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Mino Cruz",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Dennis Czerw",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Jeanine Dankoff",
-          "title": "Legal Counse",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Shawn Duff",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Dena Epstein",
-          "title": "Treasurer",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Patrick Griffin",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Christopher Danny Hosein",
-          "title": "Secretary",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Aaron Kelley",
-          "title": "Board Member",
-          "comp": 0,
-          "isExecutive": false
-        }
-      ],
-      "leadershipAsOf": 2023,
-      "news": [
-        {
-          "title": "Foundation puts $5 million into anti-illegal dumping innovation - Billy Penn at WHYY",
-          "source": "Billy Penn at WHYY",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWFlWTF9kQUhSelBoMEgxVXpfc093U0YyeGtsQXVJRHZzSVlwNFZpWHFSZm1ULXNSZmR1ci1LWVZyRU1DQlFILXE3cXNlSUliNG5VeXR6Z0tkTmxaLWUzRzN5UjM5dnNKc245SEJoaGhBbTJ0X0M5QUZzUzk3RXlGNnRqY3AyUWc?oc=5",
-          "date": "2025-06-30"
-        },
-        {
-          "title": "A Guide to Philadelphia\u2019s Retail Corridors: Where To Go and Who To Contact - Visit Philadelphia",
-          "source": "Visit Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFRVaGpfeXI0M2NpWmdESWtEWGszMDlXM1JlTFhfVHFCeUx6MmRRQmFEd2puM180TDIzeV9GaXJfY1pOQU1yN1FTLV9ZT1lQaTRLVER5cWdnb1VSZ09GZEppQW1zeDA0VFktMEFwTzlFaVBUVzRqYk52d2lkYkRtVUNBMHhja2F0T0RJQzROei01OENhRVhJSC1ELWhBX244TzVvMGRCZG9pcTEwYWRyWk1xclgybnZyYWtUendyS2VlQVZBek5seA?oc=5",
-          "date": "2023-12-13"
-        },
-        {
-          "title": "Check out 36 new restaurants | Let\u2019s Eat - Inquirer.com",
-          "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUElWWGhqRXBta1lobFNGaDJzM1kzRVhfZGsyX1dOc0EzeUR6Y2pWUXRrMS1ON3U4QzZ5YWZEZUNTdXNjeEtmNkFSWU8xRlNEM2piS3BSSGpwdjdsclVXQXJITzY5cHo1V3hRU1BvSHFmcjY1eXhsTjc4dEF1Q21lcE5kRXpyNWMzcHBseQ?oc=5",
-          "date": "2023-11-08"
-        },
-        {
-          "title": "Brewerytown businesses look past Girard Ave construction and ahead to Spring 2023 - 6abc Philadelphia",
-          "source": "6abc Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ285VnRJUklNeFBaYlhmdVRJc3l5ZnhYSWZBdVNYbVl0SDBfVV9vLWxTdWM1dEQ5TTJscUZId01tTjVuQlc5a1FEakV4SHJQUWt0WEE3U0poUkJTdVI3TWJLSkozMGtBVXA5NXFRQUxIdnJZQl80WngwanltbEdDNmh3M2tPQW5tazRlNEpxWTFHT3BCQzI3MWVGdi1iZ9IBowFBVV95cUxQa2xVX0VSX05iYzRFNGxuMnhaQW5ORGZTSnY1bzR0d25OT0FQbmZ2ajlqNHYxcnBPdzA2d3ZGMVV0Y29RaE1JQUxmRXZGMnVtTlpBTlNKMlp3MGJFUEtBMjFKaUl1a1h5Wkt1VFc1eERxT3RpbXVNZzhKa1A0cFo2T0ZQUVJ3bDI4bzV2QVlmYW0zRi05WnpmV25RQ1QtT1M0RC1Z?oc=5",
-          "date": "2022-12-10"
-        },
-        {
-          "title": "Suitor closing in on former London Grill property in Fairmount, despite push for historic designation - The Business Journals",
-          "source": "The Business Journals",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkdUcXR5aVFzRXBrNkZmVWpGZ2UzODU1Zlg5Si1hNTYzQUtyRU1yZjJZU0lGcDd1bzl6LTU1YWtkZTJ5Rkg1ZG1pbjU2OUFBdEVnYmZkYzdVbXg2RjVTSXI3UUo1eWgwamVrUHVsaURPQ1ZZUEtYdjZRTHZNR3g3b201NGRWX2RoSGhuSGd5ZVJkaDc3M1hWaWVhand0alA5Z1ZmM2RRRQ?oc=5",
-          "date": "2022-08-31"
-        },
-        {
-          "title": "Fairmount Ave filling in, growing up, searches for identity - WHYY",
-          "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaUxjUEw5VS1CcXZuWHh2UkdXVG1faG5XdmpVbFE2dXc1RmFCYmxicHFmaGFLUGtTXzYwR1lCeUdIVXJsSnBMbl85MmxxMWk5Y0NqMkMtOTZzY1JPM2dqYUZfYVdyLWFfOGpVbnhfdW52M1BVNWRUV0VJOFpKNVFWVk9wMm9jVGI3UEFEdw?oc=5",
-          "date": "2016-07-11"
-        }
-      ],
-      "history": [
-        {
-          "year": 2011,
-          "revenue": 711751,
-          "expenses": 270694,
-          "assets": 701737,
-          "employees": null,
-          "officerComp": 66405
-        },
-        {
-          "year": 2012,
-          "revenue": 248738,
-          "expenses": 460495,
-          "assets": 262611,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2013,
-          "revenue": 221077,
-          "expenses": 322038,
-          "assets": 172273,
-          "employees": null,
-          "officerComp": 75654
-        },
-        {
-          "year": 2014,
-          "revenue": 235527,
-          "expenses": 250854,
-          "assets": 138714,
-          "employees": null,
-          "officerComp": 78966
-        },
-        {
-          "year": 2015,
-          "revenue": 151133,
-          "expenses": 169833,
-          "assets": 121321,
-          "employees": null,
-          "officerComp": 60656
-        },
-        {
-          "year": 2016,
-          "revenue": 182997,
-          "expenses": 148552,
-          "assets": 152406,
-          "employees": null,
-          "officerComp": 67494
-        },
-        {
-          "year": 2017,
-          "revenue": 182579,
-          "expenses": 179336,
-          "assets": 158313,
-          "employees": null,
-          "officerComp": 76689
-        },
-        {
-          "year": 2018,
-          "revenue": 185775,
-          "expenses": 185167,
-          "assets": 166065,
-          "employees": null,
-          "officerComp": 73950
-        },
-        {
-          "year": 2019,
-          "revenue": 226755,
-          "expenses": 183198,
-          "assets": 216882,
-          "employees": null,
-          "officerComp": 71941
-        },
-        {
-          "year": 2020,
-          "revenue": 156875,
-          "expenses": 195627,
-          "assets": 200696,
-          "employees": null,
-          "officerComp": 61075
-        },
-        {
-          "year": 2021,
-          "revenue": 212779,
-          "expenses": 209864,
-          "assets": 305927,
-          "employees": null,
-          "officerComp": 20020
-        },
-        {
-          "year": 2022,
-          "revenue": 324266,
-          "expenses": 215167,
-          "assets": 394032,
-          "employees": null,
-          "officerComp": 26250
-        },
-        {
-          "year": 2023,
-          "revenue": 623034,
-          "expenses": 249100,
-          "assets": 951088,
-          "employees": null,
-          "officerComp": 65000
-        }
-      ]
-    },
-    {
       "name": "Fishtown Kensington Area Business Improvement District",
       "type": "BID",
       "ein": "844037072",
@@ -3862,7 +3316,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 7,
       "executive": {
@@ -4080,6 +3534,31 @@
       ]
     },
     {
+      "name": "Germantown Restoration CDC",
+      "type": "CDC",
+      "ein": "",
+      "irsName": "",
+      "irsCity": "",
+      "confidence": "none",
+      "firstYear": null,
+      "lastYear": null,
+      "yearsFiled": 0,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": null,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [],
+      "leadershipAsOf": null,
+      "news": [],
+      "history": []
+    },
+    {
       "name": "Germantown United CDC",
       "type": "CDC",
       "ein": "453739378",
@@ -4098,7 +3577,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": {
@@ -4299,7 +3778,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -4532,7 +4011,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -4542,7 +4021,7 @@
       "history": []
     },
     {
-      "name": "HELP Development Corp",
+      "name": "HELP Development Corporation",
       "type": "CDC",
       "ein": "",
       "irsName": "",
@@ -4557,7 +4036,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -4567,7 +4046,7 @@
       "history": []
     },
     {
-      "name": "Heritage Community Development Corporation",
+      "name": "Heritage CDC",
       "type": "CDC",
       "ein": "232698107",
       "irsName": "Heritage Community Development Corporation",
@@ -4582,7 +4061,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -4590,46 +4069,304 @@
       "leadershipAsOf": null,
       "news": [
         {
-          "title": "Charleston County funding projects to preserve Lowcountry settlement communities - Live 5 News",
-          "source": "Live 5 News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ25lZTN6RlpkTEx2aE5lWTJNc25oUTJ0aE4zQk9ISkMwN1RNRDFHTXhCUnRLU3hNX0ptelpvUnRIelRONy1Ra1FGcDg3d1N4SEZSUTJBbXU1Z2FLMUNGUHZkUjFaUDJYVU9BZTNYQVgyd05oZWNPaVZ1UDIzWTc2aUY2cEVrQ2pmeUt1b3lOQXFZczNaMFJ6NUtOMWxxbDhrekdkejVGQ2FlNDZrTzljMEQtcHlhZ9IBygFBVV95cUxQNnRnUDZzajd3RWZQLXhKY1A1eFZBaWV2T05uNXY2b0UtQzltcWdvZlBDUVptanJkNm5XcWNueDVFMFZiMUxmTEJMNmFCbzh5OEVuYm9HWnQtVGxqUFpIUlNzbGRzTFNld3NWdFZHQnFuZm1yb2ZEQkVwRDVKV3kxekxTa1pTMTFXUW9pUlZlbDZZbmhXMUZyZTlZQUpvczJRb1FzX0h5dnFhSHV3Ni03YmZTZ2hrRHJFYTlXREdsZkdFdGpPeEdSVF9n?oc=5",
-          "date": "2025-11-20"
-        },
-        {
-          "title": "Amos Playground provides a safe haven, despite headwinds - The Temple News",
-          "source": "The Temple News",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaWk0eHZ1Q2JrSUI1Z0J2ZXRpNjJiZlFGR3VXeGREc0luR0tCbzgzMmlGV0wyekpYZ0xfUGdQbVFXXzIzSkktUEtkenhWYjFzQm13NjBNcGR4LWViQXdSbjdLb25EQWVDa0h3Yk5YS2NUd2g4UXhubkt6RkRXd3dxLWtzUEowUzA?oc=5",
-          "date": "2024-10-08"
-        },
-        {
-          "title": "The Zoning Board helps clear another hurdle for a controversial new police station in North Philly - Inquirer.com",
-          "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNEZDaHJDUk9ad3diRUtjdkYybkRjR0g5cmU0RkhoZ3l2eE43SDZKT2FTSmExbE5iZjg0ZjRld2FOWkZpQ3FlOThnem1QcGV6a2pKdTRvS2pTQUlyS3JJaVBMdlN2VXhtWThlRzMwQkdScFRrbk00Wnl2Yk9qN0RBc2dVRDRjSVViY3duV29DejEwekQ5Mm5lODJKYWxXaGJfSnc?oc=5",
-          "date": "2024-01-23"
-        },
-        {
-          "title": "First families move into newly rehabbed homes in North Philly - phillytrib.com",
-          "source": "phillytrib.com",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbVVIUDlCQ2l6M2RFZXhEczZ5TzUtVlRSNzdMZWRvMnlhbzRVR21OSVRodDQ5M1IxMDBjZXRwUDNSbUdQVmpTcEg0RVRaNnhBTHJ0THlya1d0S2xYMlJJcVpSUVZTOFk0cjZRWHUtU3pFVDJyc2VUeUFWX3ZkMmVtYjVfYkhETmFOMGVSdmR2TmtxcmVkdDZqeEx1ck04UFpEMmk3OW1EZlRHb2FPcjNtWklkMmllRHROdmlPSzhLTWFCam1hWmpoZXFiUTEwQzJhcWM5dm5MMUl1LUpXY09YSU9BbVNyRmc0MHc?oc=5",
-          "date": "2021-12-22"
-        },
-        {
-          "title": "PHA cuts ribbon on seven rehabbed homes in North Philly - WHYY",
+          "title": "Philly offering 850 free trees for residents to plant at home - WHYY",
           "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObm90MXlDNVk2X1R3Q0lrOC1PQy1qTXRaMVV3cTF1cnR2YVdYRFV5Tlk3M2wzYUh6M0NLTVFPUFlKbW5lZ1loWkJESExzSVhoaTMwekpfUVZKelVPc2t5MDVuSkZaY2ZucVFjTWhzZUVjWDFhc3BXZy1lMTBjWTk1TV9FRE9FTTRUR1NtOFpsZTQxZw?oc=5",
-          "date": "2021-12-21"
-        },
-        {
-          "title": "Philadelphia Housing Authority Moves 7 Families From Homeless Encampment Into Rehabilitated Homes - CBS News",
-          "source": "CBS News",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTHhTcW5RNDJWNlBienl0bktVOGpuMERtaGNFd3JZd09lRnhNZXM1TWpPQ2FmZGxFdFdBWDhCTlptU29UU1FXZm1taEZnYVBrbzlWUlYtNnd3UTd2ZEozdGEwLVUwSFR1SGcwRWZRb1hNUWFBNlJMbDdVa2M0REVYT2R3dzQ5R2plYnU0WW1hVkZQMXVWaUJ2Q1BXY0c0M3I3Vm5PSG55RUg5NUt4elZLY2RYWE9hMGQ1UVNFVXNnaDFodUdtVld4Mk1GSFJHWWVkbVVLT3phSQ?oc=5",
-          "date": "2021-12-21"
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IclByenlsTkIzb2hlT2F3RHRXcWtjY2p3RDlXMm96OHlBU2Q4emY2cDNNS19ycWZKemJ1YlA2OGgwbjVoQVBITjJPeXZlRFpPRHhaQXhtcUNHTFVNMDJLY3VoVHR1MzVaQ0FsNlhjVmZFTjBkQzJVLUJfVnFyUQ?oc=5",
+          "date": "2022-03-26"
         }
       ],
       "history": []
     },
     {
-      "name": "Hope PHL",
+      "name": "HMC Squared Community Association",
+      "type": "CDC",
+      "ein": "473084174",
+      "irsName": "Hmc Squared Community Association Inc",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2014,
+      "lastYear": 2014,
+      "yearsFiled": 1,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 0,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": true,
+      "instability": 3,
+      "executive": null,
+      "officers": [],
+      "leadershipAsOf": 2014,
+      "news": [
+        {
+          "title": "AKAs honor one founder in ceremonies in Philly - phillytrib.com",
+          "source": "phillytrib.com",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWHhmZUgxWWE0SFpFRXdSR0FsZ0tzTTJhYjMwZ1Y0YkpzLTFTWVpVQkFqempJbkNSVm1QeTlyR1ZVOXBKUTVWdGRJVks0NWdKNDdJNHFRYlJPcS14UUM2dnA3WEsyenJ5VTVxUEJzN1NHVl9RYnNHX2FtVnpIQThOWEV2b2tDQTJfNFJXS05Vb0w3RzNPVVNna1NBZ1lGc3B5cThNQnNqSUZ2dkV4aDU5akloZlZlcnc2QVpxdjNIOTRaMXRmQnZjNUJEbWVoNVc1N2Q3Vy13?oc=5",
+          "date": "2023-03-09"
+        },
+        {
+          "title": "Cobbs Creek Golf Course zoning exemption gets commission approval despite opposition - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzNyUUtyNzFRNkxsMjRCZVFIS3laOHNrTUw2UHhkY0VfUDVjMU8zTXJUOUJRN24tTGl3X2ZwUW03d2IwUWNzTlMtZHZnTHFkMHRxV0RMdjB6VEVWOXB6MUM2OVBsaUItYVZkYXlNM3Vydk1vRWkxUml2Sl9ZajE2cFpJd2t6RmIxanpCU1pRY3A?oc=5",
+          "date": "2023-01-20"
+        }
+      ],
+      "history": [
+        {
+          "year": 2014,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        }
+      ]
+    },
+    {
+      "name": "HopePHL",
+      "type": "CDC",
+      "ein": "232017882",
+      "irsName": "Hopephl",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2018,
+        2023
+      ],
+      "latestRevenue": 8006243,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 7,
+      "executive": {
+        "name": "Kathleen Desmond",
+        "title": "President",
+        "comp": 176062,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Kathleen Desmond",
+          "title": "President",
+          "comp": 176062,
+          "isExecutive": true
+        },
+        {
+          "name": "Gwendolyn Bailey",
+          "title": "Vp Of Operations",
+          "comp": 123484,
+          "isExecutive": false
+        },
+        {
+          "name": "Scott Cannon",
+          "title": "Vp Asset And Property Mana",
+          "comp": 109404,
+          "isExecutive": false
+        },
+        {
+          "name": "Damien Ghee",
+          "title": "Board Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Trina Smith",
+          "title": "Vice Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Pamela Hansen",
+          "title": "Vice Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Christine Jacobs",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Tracey Thomasey",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Blair Boroch",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Felecia Coffee",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Men\u2019s Wellness Day - West Philly Local",
+          "source": "West Philly Local",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EZkFWU2paNS1zZXRmOFFCZ2c0SldkcVhFcDdqV3ppLWs3ai1QeHFDU2ZzaVYydFJ0REN5MTJlck5odEYtWUFKeDFqUWRKZ3RmcV94T2dWb3RVdVRoM0RSQTNsZWJMa1hE?oc=5",
+          "date": "2026-06-13"
+        },
+        {
+          "title": "West Philly apartment building will bring 40 affordable units to gentrifying section - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcDMxZ0JQbFhic1dpZENxWkRRalJTd3o2SThiWXh1NXo0QTd2ZjRpT0RfUExadWdUT0JacDJldF81YnFOZi11OTRRT2V3VU5oR3NwRjY2VWFuQ2FIYnNfdTVPTGExam1kdkxPZVoxeG54UmppY2xyRWpBSjRiRV9TLWln?oc=5",
+          "date": "2026-02-12"
+        },
+        {
+          "title": "11 vacant properties along North 40th Street transformed into 40 new affordable housing units (updated) - West Philly Local",
+          "source": "West Philly Local",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObW92Q0FFem5KWTRoczdTN0VJazM1WmNLUXJyQW50czZRRm1qdXpOX2VhQ3FIMk5ZZkQwVzMzU2U4RExMMjJGQ0k1c1NydWd2U1Nib1NmdW43ckc0WEVINEU1NzRaYTRfQ0xoa2RqVkxYYnJZOURvaGtuVDBLTnYxdUk5MFlvVlNmZWt1eG5JRm9nN1dPNkRiV3VhYmtyU1YwaXFTV05ad0pSTTk3TzZBNGdHdTRQNERwd3JTTHpidVNaRUF1Y3p5VWN3UVRzYm5lZ0J3?oc=5",
+          "date": "2026-02-11"
+        },
+        {
+          "title": "Check out West Philly holiday markets, fests and community celebrations (updated) - West Philly Local",
+          "source": "West Philly Local",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeGFRbkNBOEhMd28tSnJkSTVtR29pZTc1VFVsUllkY2Exb1Z3R1hIWG5lc2Nmel8yeGFTMVF6RnlDT2JpdHZLTUhQSmN6WmIzM3BVeXp6STM1N2FWeTd3ZFIwN2hoNGFQNndEYnNLek5JWjVESndjSl9tZXFHNk0zaGdOMld0VndkcW56RkdodHFvUVFKZW1OYUl1N0JqbEY2cGpud193QUh1OFRyZWJUWXpJaFBONW5pSURN?oc=5",
+          "date": "2025-12-10"
+        },
+        {
+          "title": "Philly Braces for Massive Housing Losses Under New Federal Rules - Governing",
+          "source": "Governing",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX3Z0aVRDTnI1TUZIVm1hcXlLaDg0R0hwTDVGdmhsMllRYkxNNWpRSk9CMnRENngxMjVWXzhSU3dtOUtfc2ZQeWdrdG84aFVOYmdHZ3pDTDk2ZXdEeHg4NS1MMTZRTHVzVmV3OUE3THFrWlpCTmZDeUcyQkpjVndfZy1zaThnSTUxNmpPYjVTYjdsbEFsSThTV01lQWQ?oc=5",
+          "date": "2025-11-25"
+        },
+        {
+          "title": "Lancaster Avenue Jazz Festival promises seven hours of live music in West Philly - PhillyVoice",
+          "source": "PhillyVoice",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIVUVUQ0hxQUp5TUlSVnVQRWxWUDgtd2JKOXlHMm52RVQtOXlQSzFiSkFORXRRY1JCVW5vQUdWdEtrMlB6NVBhZmtJNzBJSm1na0d2UTFoeVZMVmppUHdGWUdxaGFSZEVqUmk5eVMzdW9TQQ?oc=5",
+          "date": "2025-07-03"
+        }
+      ],
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 7511281,
+          "expenses": 6909262,
+          "assets": 6144552,
+          "employees": null,
+          "officerComp": 302017
+        },
+        {
+          "year": 2012,
+          "revenue": 7858596,
+          "expenses": 7867348,
+          "assets": 4973971,
+          "employees": null,
+          "officerComp": 170654
+        },
+        {
+          "year": 2013,
+          "revenue": 7206171,
+          "expenses": 7857348,
+          "assets": 5017906,
+          "employees": null,
+          "officerComp": 301824
+        },
+        {
+          "year": 2014,
+          "revenue": 6255475,
+          "expenses": 6881899,
+          "assets": 4318482,
+          "employees": null,
+          "officerComp": 432351
+        },
+        {
+          "year": 2015,
+          "revenue": 5905644,
+          "expenses": 6345423,
+          "assets": 4571623,
+          "employees": null,
+          "officerComp": 144438
+        },
+        {
+          "year": 2016,
+          "revenue": 6269698,
+          "expenses": 6278382,
+          "assets": 7528344,
+          "employees": null,
+          "officerComp": 335573
+        },
+        {
+          "year": 2017,
+          "revenue": 5734038,
+          "expenses": 5679960,
+          "assets": 9136574,
+          "employees": null,
+          "officerComp": 240530
+        },
+        {
+          "year": 2018,
+          "revenue": 4925925,
+          "expenses": 5352376,
+          "assets": 10667262,
+          "employees": null,
+          "officerComp": 371959
+        },
+        {
+          "year": 2019,
+          "revenue": 5152937,
+          "expenses": 5698868,
+          "assets": 12506823,
+          "employees": null,
+          "officerComp": 350953
+        },
+        {
+          "year": 2020,
+          "revenue": 5638344,
+          "expenses": 5777311,
+          "assets": 14096581,
+          "employees": null,
+          "officerComp": 368194
+        },
+        {
+          "year": 2021,
+          "revenue": 6602781,
+          "expenses": 6682859,
+          "assets": 15414180,
+          "employees": null,
+          "officerComp": 341149
+        },
+        {
+          "year": 2022,
+          "revenue": 6960539,
+          "expenses": 6715940,
+          "assets": 15564186,
+          "employees": null,
+          "officerComp": 327388
+        },
+        {
+          "year": 2023,
+          "revenue": 8006243,
+          "expenses": 9622649,
+          "assets": 16992535,
+          "employees": null,
+          "officerComp": 186523
+        }
+      ]
+    },
+    {
+      "name": "Housing Enrichment Renaissance Board CDC",
       "type": "CDC",
       "ein": "",
       "irsName": "",
@@ -4644,7 +4381,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -4674,7 +4411,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": null,
@@ -4802,31 +4539,6 @@
       ]
     },
     {
-      "name": "Hunting Park NAC/CDC",
-      "type": "CDC",
-      "ein": "474861390",
-      "irsName": "Hunting Park Foundation Inc",
-      "irsCity": "Philadelphia",
-      "confidence": "high",
-      "firstYear": null,
-      "lastYear": null,
-      "yearsFiled": 0,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": null,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 0,
-      "executive": null,
-      "officers": [],
-      "leadershipAsOf": null,
-      "news": [],
-      "history": []
-    },
-    {
       "name": "ICPIC New Africa Center CDC",
       "type": "CDC",
       "ein": "",
@@ -4842,7 +4554,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -4874,7 +4586,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 6,
       "executive": null,
@@ -5026,37 +4738,26 @@
       ]
     },
     {
-      "name": "Inglis",
+      "name": "Inglis Housing Corporation",
       "type": "CDC",
-      "ein": "231352284",
-      "irsName": "Inglis House",
+      "ein": "232326550",
+      "irsName": "Inglis Housing Corporation",
       "irsCity": "Philadelphia",
-      "confidence": "medium",
+      "confidence": "high",
       "firstYear": 2011,
       "lastYear": 2023,
       "yearsFiled": 13,
       "filingGaps": [],
       "compJumpYears": [
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
         2023
       ],
-      "latestRevenue": 36544478,
+      "latestRevenue": 695036,
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
-      "instability": 12,
+      "instability": 1,
       "executive": {
         "name": "Dyann Roth",
         "title": "President & Ceo",
@@ -5065,49 +4766,43 @@
       },
       "officers": [
         {
-          "name": "Aqueen Nicholas",
-          "title": "Rn Supervisor",
-          "comp": 284568,
+          "name": "Annie Grant",
+          "title": "Operations Manager Ihc",
+          "comp": 100973,
           "isExecutive": false
         },
         {
-          "name": "Julia Cao",
-          "title": "Director Of Nursing",
-          "comp": 250055,
-          "isExecutive": false
-        },
-        {
-          "name": "Sandra Allen",
-          "title": "Neighbor Clinical Leader",
-          "comp": 241596,
-          "isExecutive": false
-        },
-        {
-          "name": "Annette Cahoon",
-          "title": "Neighbor Clinical Leader",
-          "comp": 229074,
-          "isExecutive": false
-        },
-        {
-          "name": "Marc Forte",
-          "title": "Director Of Engineering",
-          "comp": 225797,
-          "isExecutive": false
-        },
-        {
-          "name": "Alan Rosenberg",
+          "name": "Ellen Pulver Flatt",
           "title": "Chair",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Karen Thomas",
+          "name": "Denise Marbach",
           "title": "Director",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "John Melvin",
+          "name": "Kel Smith",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Ted Rosen",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Tony Payton",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Ian Smith",
           "title": "Director",
           "comp": 0,
           "isExecutive": false
@@ -5123,254 +4818,127 @@
           "title": "Cfo",
           "comp": 0,
           "isExecutive": false
+        },
+        {
+          "name": "Cheryl Whitfield",
+          "title": "Chief People & Culture Officer",
+          "comp": 0,
+          "isExecutive": false
         }
       ],
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "American 'experiment' up for exploration in Philly amid 250th celebration - cnhinews.com",
-          "source": "cnhinews.com",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNczBtbHpOMHZiYTU0dFRHVF9Sa3dQYkFRVDN4T29iOGVUcTYtVmVoVV9hazF4SkItWVd1OVJWVmFtMWRTWlhuZDNqS09xNjhjeWZkZmo3YXBRS2x6elFaTzNwRldnRGNLOGN4X2JBeUxKdG9maWo1YXBkSmt5WjVRSnZoZUFFdw?oc=5",
-          "date": "2026-06-17"
-        },
-        {
-          "title": "Richard W. Inglis Obituary Apr 2, 2026 - Grieco Funeral Home & Crematory, Inc.",
-          "source": "Grieco Funeral Home & Crematory, Inc.",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yZk1pQm42NTJNc2Z1WWRuWlBtNVI2by1Yb0txYkdqZFVwMDdGdEVjT1czZGh1dzRLdV8yNG1LVUwyYkRkb0VmM3pPMlNYMUR1UXZkU2w0ZmhicUtabzJKeGtZbUp5MXc?oc=5",
-          "date": "2026-04-02"
-        },
-        {
-          "title": "\u200bWhen he\u2019s not touring with rock band Kansas, Dan McGowan is teaching music to disabled adults in Philly - Audacy",
-          "source": "Audacy",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaHFZM1gtc3VObDh0NWM1ek9XZ0UxSUt6MUtPb3BVbThtdHJXRDZxdDJzYjNiQ1k2elFKY0VwNjlVRUR2V3ZxSWh2eU56VVJFbXBlbVJGbVF2elhxNVpGX0ZoZ081eGdZa3NZTVllbkR4eDJ0UW8wUnlTeWhPS2xVcmRRc1NSS2RHUXYwX29IX0s5RkxQY1BLQU5Pa1lBNUU?oc=5",
-          "date": "2026-03-27"
-        },
-        {
-          "title": "A car accident derailed his education 25 years ago. Now he\u2019s returning to college alongside others with physical disabilities. - Inquirer.com",
-          "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzdfN3VWcU41Y1JZVnB5MVdsLXRZQUVJZldMdFVPYm1Ub2t2bmVweFVnUEotOHhuZ2RaUUJyTWR2UFpZOS1wNURQM1ZJRDkwT3Q2elRXRFFYLTVSRW5pdEliN2s5cmxfTDRYY0NFQ3JIenRNRGF2SXZuS0w1djRBajRoU0Zvc0dHVzlRYXZlbDAxODBVdWJBTG1fSFJzOGVPVEQzb1hRWkVrVzZWbGk1V1g4X2g?oc=5",
-          "date": "2026-01-16"
-        },
-        {
-          "title": "TDN Q and A with Inglis Digital USA's New CEO Kyle Wilson - Thoroughbred Daily News",
-          "source": "Thoroughbred Daily News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcnVjVE9aaXRwT2hGejJvN2pudTMwUVRDdnliSnl1Ym5fYlNKQmpDQXE1ODBDUnpQVUp6WFJNYmVWUTRJWVVoVUdva1FUanNuX29mdG1pZExoR1ZVU21pNTQyZmNhM19vd2N1RHZzRU5iUWZOVXJYVTJablR3S1VTUFdpY2RSZzU2T3czbXpXaVZOWDZyQm1DbzlmTQ?oc=5",
-          "date": "2026-01-15"
-        },
-        {
-          "title": "Students with physical disabilities get special send-off before attending Community College of Philadelphia - CBS News",
-          "source": "CBS News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMkctd3JXdUZLWUhORG5JWV9HX3RsYTAtSll1UFBEa0dhcHVRTDhEOVVCcjFodnhaMFRFcEx4UURjdnVyWWdibGstX1NNajNOazBNaGx0QnUyd1plR3JNbGNYQTNoeEM4X3NUb00ybHJJQWV0b0VGcHdCWDkwbXpLamNaWnhsZ1lhNGJydG1rWjhKRlJydlNqQTRDRDQwNG_SAaQBQVVfeXFMTmdqSE5OdGpPZGlFWDF0d2FZV3RQSmprcG1KWElGd2thMnNGY1phNVJ3ODBHSkxaTTdNQ0JGbGFsRlg4bHJNZkFMendlU2RVTjdnUnZQZE04bm1ENzUxSUpqNWo3d1NaSm5wVTF3M3dSUTJWS0pBemdyOGZlVnR5NldFRGJjZXZZQk1WaXlMOEU2aU1wdEtSRkdIdkRhYS1TOHdQeHM?oc=5",
-          "date": "2026-01-09"
+          "title": "Intergenerational Senior Housing to Rise in East Falls - Philadelphia Magazine",
+          "source": "Philadelphia Magazine",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeFIxai0yU0gxa2pMaFZkWVh2ZG5Pa1ZxTzFLMUxOMV91VVVxOHJUUlNLYmZvbEY2ZU1fZExteE90MGJuanFTNndCcXYyYmxSZnIxNFpCTWc2VDZ5NGxOVmdDTGg4ZHNmS2ZQZ2NxMnVEbmZCLW9TY2p1cG4tMG00Sl9USk9JZ3o3dmpUMG4wOWs4amZn?oc=5",
+          "date": "2022-05-19"
         }
       ],
       "history": [
         {
           "year": 2011,
-          "revenue": 48792463,
-          "expenses": 49386677,
-          "assets": 145043598,
+          "revenue": 320601,
+          "expenses": 887831,
+          "assets": 2567141,
           "employees": null,
-          "officerComp": 174316
+          "officerComp": 0
         },
         {
           "year": 2012,
-          "revenue": 46442079,
-          "expenses": 50733759,
-          "assets": 137688492,
+          "revenue": 386062,
+          "expenses": 840414,
+          "assets": 2423071,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2013,
-          "revenue": 51248375,
-          "expenses": 51744368,
-          "assets": 145590756,
+          "revenue": 378683,
+          "expenses": 860320,
+          "assets": 2415411,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2014,
-          "revenue": 56029890,
-          "expenses": 53635825,
-          "assets": 159290334,
+          "revenue": 632684,
+          "expenses": 897066,
+          "assets": 2437225,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2015,
-          "revenue": 57046882,
-          "expenses": 54257338,
-          "assets": 153029186,
+          "revenue": 1223957,
+          "expenses": 971965,
+          "assets": 7230799,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2016,
-          "revenue": 47417931,
-          "expenses": 53157257,
-          "assets": 131486393,
+          "revenue": 532227,
+          "expenses": 1015972,
+          "assets": 9863259,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2017,
-          "revenue": 46331247,
-          "expenses": 50305160,
-          "assets": 107462790,
+          "revenue": 516171,
+          "expenses": 1022137,
+          "assets": 9609938,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2018,
-          "revenue": 40700284,
-          "expenses": 51345255,
-          "assets": 90802884,
+          "revenue": 630107,
+          "expenses": 1230811,
+          "assets": 6358838,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2019,
-          "revenue": 43563431,
-          "expenses": 54503100,
-          "assets": 80035997,
+          "revenue": 604590,
+          "expenses": 1642218,
+          "assets": 6783740,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2020,
-          "revenue": 43396095,
-          "expenses": 54097340,
-          "assets": 67456945,
+          "revenue": 586024,
+          "expenses": 1586198,
+          "assets": 7285735,
           "employees": null,
           "officerComp": 0
         },
         {
           "year": 2021,
-          "revenue": 38126142,
-          "expenses": 53764621,
-          "assets": 75791882,
+          "revenue": 898327,
+          "expenses": 1703654,
+          "assets": 7836344,
           "employees": null,
-          "officerComp": 0
+          "officerComp": 238063
         },
         {
           "year": 2022,
-          "revenue": 34233480,
-          "expenses": 57884758,
-          "assets": 64391301,
+          "revenue": 1237273,
+          "expenses": 1864929,
+          "assets": 8351341,
           "employees": null,
-          "officerComp": 0
+          "officerComp": 253883
         },
         {
           "year": 2023,
-          "revenue": 36544478,
-          "expenses": 50095049,
-          "assets": 67343533,
+          "revenue": 695036,
+          "expenses": 2654747,
+          "assets": 10207009,
           "employees": null,
-          "officerComp": 0
-        }
-      ]
-    },
-    {
-      "name": "Innovative Treatment Alternatives",
-      "type": "CDC",
-      "ein": "232735390",
-      "irsName": "Innovative Treatment Alternatives Inc",
-      "irsCity": "Philadelphia",
-      "confidence": "high",
-      "firstYear": null,
-      "lastYear": null,
-      "yearsFiled": 0,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": null,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 0,
-      "executive": null,
-      "officers": [],
-      "leadershipAsOf": null,
-      "news": [
-        {
-          "title": "Ohara: Making headways in pediatric cancer care - The Worldfolio",
-          "source": "The Worldfolio",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PcVA3OWRKVTVDTzJHX1lFVlJCZFB1YkZzSUJjY2RpdUhrRExLQkJqclBQT0ZXeWpmeHBqb1dUNndXNVRSNU5zSWFWSVVrZFhOdnN3T2RER2lOaDNhTDAwcXl4NGpoN3JqMGc1YnU2bHIyZTFBUGc?oc=5",
-          "date": "2020-12-24"
-        }
-      ],
-      "history": []
-    },
-    {
-      "name": "Jumpstart Tioga",
-      "type": "CDC",
-      "ein": "833840366",
-      "irsName": "Jumpstart Tioga",
-      "irsCity": "Philadelphia",
-      "confidence": "high",
-      "firstYear": 2019,
-      "lastYear": 2019,
-      "yearsFiled": 1,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": 5346,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": true,
-      "instability": 3,
-      "executive": {
-        "name": "Sheila Howard",
-        "title": "President",
-        "comp": 0,
-        "isExecutive": true
-      },
-      "officers": [
-        {
-          "name": "Sheila Howard",
-          "title": "President",
-          "comp": 0,
-          "isExecutive": true
-        },
-        {
-          "name": "Qiana Shedrick",
-          "title": "Secretary",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Carmella Vassor Johnson",
-          "title": "Treasurer",
-          "comp": 0,
-          "isExecutive": false
-        }
-      ],
-      "leadershipAsOf": 2019,
-      "news": [
-        {
-          "title": "Development \u2026 For Good: Jumpstart Germantown - The Philadelphia Citizen",
-          "source": "The Philadelphia Citizen",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaDhlSGUydEZGN3VxZ2dXbWJqRFNNQ1hmSlcxMHlJRlQ3eHBUSXBVSk1aZGdBSEtRbFBBbEN3S29xNDNYMHhtMnpBaERCWU5HMHpqcGZjVG8xdEJrYUhPU1dHejNmMHdzQmtTY0lQTk0xbDFLNTRUMnNndGlPQzFhSEVOZw?oc=5",
-          "date": "2025-01-29"
-        },
-        {
-          "title": "Jumpstart trains developers to fight gentrification in Philly neighborhoods - The Philadelphia Citizen",
-          "source": "The Philadelphia Citizen",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XZEQySk9DZVk4YldHaVBpamlwVWE1cUVNOVM3a2U5M28wWXNWUDZVQkZlM2dkYzhRaUJWWm4yVl85S3o3Mk5PaGpfMDVfLU5VSFZqOWhtWHVrZGpvTnJmc0haQVZkU0JHOGlmbzJpZFdaWE5iTUsxckNGLU1oTDQ?oc=5",
-          "date": "2020-09-29"
-        }
-      ],
-      "history": [
-        {
-          "year": 2019,
-          "revenue": 5346,
-          "expenses": 3724,
-          "assets": 1622,
-          "employees": null,
-          "officerComp": null
+          "officerComp": 50154
         }
       ]
     },
@@ -5396,7 +4964,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 5,
       "executive": {
@@ -5596,7 +5164,7 @@
       ]
     },
     {
-      "name": "Lancaster Avenue 21st Century Business Association CDC",
+      "name": "Lancaster Avenue 21st Century Business Association CDC (LA21)",
       "type": "CDC",
       "ein": "900502551",
       "irsName": "Lancaster Avenue 21 St Century Business Association",
@@ -5621,7 +5189,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 6,
       "executive": {
@@ -5693,14 +5261,7 @@
         }
       ],
       "leadershipAsOf": 2023,
-      "news": [
-        {
-          "title": "\u2018Ring It On\u2019 initiative gives Philly neighborhoods a stake in the semiquincentennial - City & State Pennsylvania",
-          "source": "City & State Pennsylvania",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWVdneE9IT05DMnVqeUFqbFpNTDdTbWU5V0dxUDNtMGtfc2RNbm1rUDl5MjVsdkJ6Y1hEZm1YUUtWRGJPR2xENTBreGcwcU9saW1pVXFzYWRPZHk2NDdyTWdqSkhUV1piblRFbFJiWEwyTzJyXzJ5V0RrQl9Jc1BwTS1iM0F5czZzZGx3a1Q5djUtYlBYZHVRTzBTUVVUcGhPdXMwZllDWnFzSlBITnZFVUFfUFViWHdwZDB2TVNINzNETGdo?oc=5",
-          "date": "2025-09-03"
-        }
-      ],
+      "news": [],
       "history": [
         {
           "year": 2015,
@@ -5776,7 +5337,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": true,
       "instability": 3,
       "executive": {
@@ -6097,7 +5658,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -6291,7 +5852,69 @@
       ]
     },
     {
-      "name": "Mt Airy CDC",
+      "name": "Mt. Airy Business Improvement District",
+      "type": "BID",
+      "ein": "811780362",
+      "irsName": "Mt Airy Airmen Inc",
+      "irsCity": "Philadelphia",
+      "confidence": "medium",
+      "firstYear": null,
+      "lastYear": null,
+      "yearsFiled": 0,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": null,
+      "latestEmployees": null,
+      "website": "mtairybid.com",
+      "contactEmail": "info@mtairybid.com",
+      "source": "OpenDataPhilly",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [],
+      "leadershipAsOf": null,
+      "news": [
+        {
+          "title": "Bells Across PA: Where to Find Philly's 27 Custom Liberty Bell Replicas This Spring - Visit Philadelphia",
+          "source": "Visit Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sZC0yYi1fT1dodHpWbnJDVTBEMlFqamRsMkxiUTNjXzhJZGk5RGJPaWZIQ2cwSFJTOFdLLWFzY1dsOHlDVzJjX09XSGhlcWdwazR0RmsxU0ppNVpfVUd6WEw4Z1JWOGZzMnBiQUlSN2QyUUMt?oc=5",
+          "date": "2026-05-08"
+        },
+        {
+          "title": "NW Philly\u2019s questions answered - The Chestnut Hill Local",
+          "source": "The Chestnut Hill Local",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc3hjYmladmtiNGlZVl9hcUhDYmRCMnoxS2pVanRwcUsyWFZXT2NMdGloaFhGcjhscXRZd3NFSl9uTWNTTFBMeHRjTmJTVUxqdW40RTlkeVdtVWR5a1BEVFE4eWdaX1JjcEIzNWRXYVAzcFd2LUVzWmsxSkI5dnFHS0xyRQ?oc=5",
+          "date": "2026-05-06"
+        },
+        {
+          "title": "Development and zoning were hot issues \u2013 and a murder sparked debate - The Chestnut Hill Local",
+          "source": "The Chestnut Hill Local",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSFdEU1BiTGl4T2w1VW5lZDhmRzZjZnpROWdkSGp2N29yRDlWNUR4NkNLNXoxUVNNWHRiQ190ODFkY2pzWFctZE41U2lPckYzMGV6ZjdYbW5MRld3dHpvNW95eDVFNXludE8wZzBlbVBTdE0wRDNfLUNzR19jNG9LeFptNVAwVVJhUkpZUW53dWxSUmJ4MWh4VGs2WnZmbk5OQzM4UFJreG5fTTVRcGREdnZ2MWY?oc=5",
+          "date": "2025-12-23"
+        },
+        {
+          "title": "81-unit apartment building coming to Mt. Airy - The Chestnut Hill Local",
+          "source": "The Chestnut Hill Local",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWEJhTVJXOU1uZE02VEd0eC1TSTBfQ2pMSjgwTkp0dWRiZGYtX2dWRk9MRTd6SnhFRVhaM00waGtZUVVpU2FxdUlKVjdFWDZSQ0tXcG0ycS1UU0ltak81bEY1Rkhlbk1kVW9KUmZCZnc2Ulk2WGxHR1BrSEd4VlFzQ2FHdl9DVzFVV1ZQVi1ITEUtVUlNY2gw?oc=5",
+          "date": "2025-10-15"
+        },
+        {
+          "title": "Business owner fatally shot, police search for husband - The Chestnut Hill Local",
+          "source": "The Chestnut Hill Local",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMThlMEFLclFld1YzVVRRbmVFVEs3U2JBanBnLW1UcUUwc3l1dGpiVk5Lc1gwRzFPWFFvQm9paURuMXlxdWpvejctaUt0T3BVdFZ3UXZOcUF4V2xBd3hSQ01Qck11MGVZMVEwZEIxY0ZIcUkyMThKUWlIOUdQNC1MS1JtZkZGaGFqMmoxWHNxMGQyd3JMTzNtcmhTY0FlT1ROQUZr?oc=5",
+          "date": "2025-08-18"
+        },
+        {
+          "title": "Three new murals capture Mt. Airy spirit - The Chestnut Hill Local",
+          "source": "The Chestnut Hill Local",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLXg2MFZoSWwwa2RvNXVCczQ4M2FmVlc2aHgyXy1tYjBuMFdiU2pXRzZhbWZpbHFoRFJaNldGWmdXZXhJMzVXSlJJRVZwZjBNOXI1SzBOb0xLZzQ0c2J3XzNzSVp4bGxEM1FiQ1F3ajNfN2I0X2RnSFk0Q2NEaFZJcGxwZlhwOWZoSjQyWWZUeGs?oc=5",
+          "date": "2025-07-10"
+        }
+      ],
+      "history": []
+    },
+    {
+      "name": "Mt. Airy CDC",
       "type": "CDC",
       "ein": "222526396",
       "irsName": "Mt Airy Usa",
@@ -6311,7 +5934,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 4,
       "executive": {
@@ -6537,61 +6160,57 @@
       ]
     },
     {
-      "name": "Mt Vernon Manor CDC",
+      "name": "Mt. Vernon Manor CDC",
       "type": "CDC",
-      "ein": "232037301",
-      "irsName": "Mount Vernon Manor Inc",
-      "irsCity": "Philadelphia",
+      "ein": "256084074",
+      "irsName": "Mt Vernon Youth Development Group",
+      "irsCity": "Elizabeth",
       "confidence": "high",
-      "firstYear": 2010,
+      "firstYear": 2011,
       "lastYear": 2023,
-      "yearsFiled": 14,
-      "filingGaps": [],
-      "compJumpYears": [
-        2016,
-        2023
+      "yearsFiled": 12,
+      "filingGaps": [
+        {
+          "from": 2013,
+          "to": 2015
+        }
       ],
-      "latestRevenue": 1967321,
+      "compJumpYears": [],
+      "latestRevenue": 285039,
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": {
-        "name": "Michael Thorpe",
-        "title": "Executive Director",
-        "comp": 125000,
+        "name": "Robert Madden",
+        "title": "President",
+        "comp": 0,
         "isExecutive": true
       },
       "officers": [
         {
-          "name": "Michael Thorpe",
-          "title": "Executive Director",
-          "comp": 125000,
+          "name": "Robert Madden",
+          "title": "President",
+          "comp": 0,
           "isExecutive": true
         },
         {
-          "name": "Belinda Mayo",
-          "title": "President/Board Chair",
+          "name": "Christian Thoma",
+          "title": "Vice President",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Karim Purdie",
+          "name": "Leah Hemminger",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Lea Ann Matich",
           "title": "Treasurer",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Faith Dyson Washington",
-          "title": "Member",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Aiisha G Herring",
-          "title": "Member",
           "comp": 0,
           "isExecutive": false
         }
@@ -6637,205 +6256,102 @@
       ],
       "history": [
         {
-          "year": 2010,
-          "revenue": 754048,
-          "expenses": 831989,
-          "assets": 1391026,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
           "year": 2011,
-          "revenue": 684707,
-          "expenses": 980391,
-          "assets": 1230472,
+          "revenue": 65749,
+          "expenses": 61041,
+          "assets": 71600,
           "employees": null,
-          "officerComp": 0
+          "officerComp": null
         },
         {
           "year": 2012,
-          "revenue": 1504794,
-          "expenses": 437486,
-          "assets": 665252,
+          "revenue": 43231,
+          "expenses": 50070,
+          "assets": 64761,
           "employees": null,
-          "officerComp": 0
+          "officerComp": null
         },
         {
           "year": 2013,
-          "revenue": 689451,
-          "expenses": 209076,
-          "assets": 1025383,
+          "revenue": 81358,
+          "expenses": 48978,
+          "assets": 97141,
           "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2014,
-          "revenue": 67667,
-          "expenses": 253581,
-          "assets": 894978,
-          "employees": null,
-          "officerComp": 0
+          "officerComp": null
         },
         {
           "year": 2015,
-          "revenue": 1022515,
-          "expenses": 187869,
-          "assets": 1626009,
+          "revenue": 71249,
+          "expenses": 78818,
+          "assets": 110484,
           "employees": null,
-          "officerComp": 38077
+          "officerComp": null
         },
         {
           "year": 2016,
-          "revenue": 214699,
-          "expenses": 467953,
-          "assets": 1436330,
+          "revenue": 175518,
+          "expenses": 125446,
+          "assets": 126886,
           "employees": null,
-          "officerComp": 60000
+          "officerComp": null
         },
         {
           "year": 2017,
-          "revenue": 1257856,
-          "expenses": 270509,
-          "assets": 2338708,
+          "revenue": 181325,
+          "expenses": 159899,
+          "assets": 148312,
           "employees": null,
-          "officerComp": 61100
+          "officerComp": null
         },
         {
           "year": 2018,
-          "revenue": 621983,
-          "expenses": 289795,
-          "assets": 2734808,
+          "revenue": 145962,
+          "expenses": 176556,
+          "assets": 117718,
           "employees": null,
-          "officerComp": 61200
+          "officerComp": null
         },
         {
           "year": 2019,
-          "revenue": 902663,
-          "expenses": 542812,
-          "assets": 3525178,
+          "revenue": 188499,
+          "expenses": 171503,
+          "assets": 161132,
           "employees": null,
-          "officerComp": 76283
+          "officerComp": null
         },
         {
           "year": 2020,
-          "revenue": 817904,
-          "expenses": 589729,
-          "assets": 5401996,
+          "revenue": 123300,
+          "expenses": 96088,
+          "assets": 181609,
           "employees": null,
-          "officerComp": 70056
+          "officerComp": null
         },
         {
           "year": 2021,
-          "revenue": 1338263,
-          "expenses": 992656,
-          "assets": 6400736,
+          "revenue": 216261,
+          "expenses": 202016,
+          "assets": 176174,
           "employees": null,
-          "officerComp": 69084
+          "officerComp": 0
         },
         {
           "year": 2022,
-          "revenue": 1581079,
-          "expenses": 1228103,
-          "assets": 6692265,
+          "revenue": 376365,
+          "expenses": 254219,
+          "assets": 298320,
           "employees": null,
-          "officerComp": 68252
+          "officerComp": 0
         },
         {
           "year": 2023,
-          "revenue": 1967321,
-          "expenses": 1328773,
-          "assets": 7402020,
+          "revenue": 285039,
+          "expenses": 347433,
+          "assets": 235926,
           "employees": null,
           "officerComp": 0
         }
       ]
-    },
-    {
-      "name": "Mt. Airy Business Improvement District",
-      "type": "BID",
-      "ein": "811780362",
-      "irsName": "Mt Airy Airmen Inc",
-      "irsCity": "Philadelphia",
-      "confidence": "medium",
-      "firstYear": null,
-      "lastYear": null,
-      "yearsFiled": 0,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": null,
-      "latestEmployees": null,
-      "website": "mtairybid.com",
-      "contactEmail": "info@mtairybid.com",
-      "source": "OpenDataPhilly",
-      "closedCandidate": false,
-      "instability": 0,
-      "executive": null,
-      "officers": [],
-      "leadershipAsOf": null,
-      "news": [
-        {
-          "title": "Bells Across PA: Where to Find Philly's 27 Custom Liberty Bell Replicas This Spring - Visit Philadelphia",
-          "source": "Visit Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sZC0yYi1fT1dodHpWbnJDVTBEMlFqamRsMkxiUTNjXzhJZGk5RGJPaWZIQ2cwSFJTOFdLLWFzY1dsOHlDVzJjX09XSGhlcWdwazR0RmsxU0ppNVpfVUd6WEw4Z1JWOGZzMnBiQUlSN2QyUUMt?oc=5",
-          "date": "2026-05-08"
-        },
-        {
-          "title": "NW Philly\u2019s questions answered - The Chestnut Hill Local",
-          "source": "The Chestnut Hill Local",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc3hjYmladmtiNGlZVl9hcUhDYmRCMnoxS2pVanRwcUsyWFZXT2NMdGloaFhGcjhscXRZd3NFSl9uTWNTTFBMeHRjTmJTVUxqdW40RTlkeVdtVWR5a1BEVFE4eWdaX1JjcEIzNWRXYVAzcFd2LUVzWmsxSkI5dnFHS0xyRQ?oc=5",
-          "date": "2026-05-06"
-        },
-        {
-          "title": "Development and zoning were hot issues \u2013 and a murder sparked debate - The Chestnut Hill Local",
-          "source": "The Chestnut Hill Local",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSFdEU1BiTGl4T2w1VW5lZDhmRzZjZnpROWdkSGp2N29yRDlWNUR4NkNLNXoxUVNNWHRiQ190ODFkY2pzWFctZE41U2lPckYzMGV6ZjdYbW5MRld3dHpvNW95eDVFNXludE8wZzBlbVBTdE0wRDNfLUNzR19jNG9LeFptNVAwVVJhUkpZUW53dWxSUmJ4MWh4VGs2WnZmbk5OQzM4UFJreG5fTTVRcGREdnZ2MWY?oc=5",
-          "date": "2025-12-23"
-        },
-        {
-          "title": "81-unit apartment building coming to Mt. Airy - The Chestnut Hill Local",
-          "source": "The Chestnut Hill Local",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWEJhTVJXOU1uZE02VEd0eC1TSTBfQ2pMSjgwTkp0dWRiZGYtX2dWRk9MRTd6SnhFRVhaM00waGtZUVVpU2FxdUlKVjdFWDZSQ0tXcG0ycS1UU0ltak81bEY1Rkhlbk1kVW9KUmZCZnc2Ulk2WGxHR1BrSEd4VlFzQ2FHdl9DVzFVV1ZQVi1ITEUtVUlNY2gw?oc=5",
-          "date": "2025-10-15"
-        },
-        {
-          "title": "Business owner fatally shot, police search for husband - The Chestnut Hill Local",
-          "source": "The Chestnut Hill Local",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMThlMEFLclFld1YzVVRRbmVFVEs3U2JBanBnLW1UcUUwc3l1dGpiVk5Lc1gwRzFPWFFvQm9paURuMXlxdWpvejctaUt0T3BVdFZ3UXZOcUF4V2xBd3hSQ01Qck11MGVZMVEwZEIxY0ZIcUkyMThKUWlIOUdQNC1MS1JtZkZGaGFqMmoxWHNxMGQyd3JMTzNtcmhTY0FlT1ROQUZr?oc=5",
-          "date": "2025-08-18"
-        },
-        {
-          "title": "Three new murals capture Mt. Airy spirit - The Chestnut Hill Local",
-          "source": "The Chestnut Hill Local",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLXg2MFZoSWwwa2RvNXVCczQ4M2FmVlc2aHgyXy1tYjBuMFdiU2pXRzZhbWZpbHFoRFJaNldGWmdXZXhJMzVXSlJJRVZwZjBNOXI1SzBOb0xLZzQ0c2J3XzNzSVp4bGxEM1FiQ1F3ajNfN2I0X2RnSFk0Q2NEaFZJcGxwZlhwOWZoSjQyWWZUeGs?oc=5",
-          "date": "2025-07-10"
-        }
-      ],
-      "history": []
-    },
-    {
-      "name": "New Courtland",
-      "type": "CDC",
-      "ein": "",
-      "irsName": "",
-      "irsCity": "",
-      "confidence": "none",
-      "firstYear": null,
-      "lastYear": null,
-      "yearsFiled": 0,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": null,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 0,
-      "executive": null,
-      "officers": [],
-      "leadershipAsOf": null,
-      "news": [],
-      "history": []
     },
     {
       "name": "New Kensington CDC",
@@ -6856,7 +6372,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": {
@@ -7094,7 +6610,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": {
@@ -7196,6 +6712,244 @@
       ]
     },
     {
+      "name": "NewCourtland",
+      "type": "CDC",
+      "ein": "264194368",
+      "irsName": "Newcourtland Properties",
+      "irsCity": "Philadelphia",
+      "confidence": "medium",
+      "firstYear": 2009,
+      "lastYear": 2023,
+      "yearsFiled": 15,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 334557,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [
+        {
+          "name": "Tim Mc Grath",
+          "title": "Chairman",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Joseph Duffey",
+          "title": "Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Mary Naylor",
+          "title": "Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Steve Mullin",
+          "title": "Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Neil Pitts",
+          "title": "Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Max Kent",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Michael De Marco",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Paul Funaro",
+          "title": "Assistant Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "John Ungar",
+          "title": "Assistant Secretary",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "After 2 centuries, this historic Northwest Philly home has a murky future - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeDRDdG9aRDBXVHJvdzcyeHdvUEpjc1p2T2dtWUdrUEdNMXRUOXU1OFdNRjNEbG5WSGtRR1ZOZWIwb1lTMUZuV0IwR0hKQnJSUmxtUmVTbktjM2lNbG51d3VwVGFvN0tpcU5fUTltazZJMUFTZDdRdGphX2JhNXBYVDFtUQ?oc=5",
+          "date": "2026-06-17"
+        },
+        {
+          "title": "Best Real Estate Deals of 2025: Environmental, social and governance winners - The Business Journals",
+          "source": "The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM3R3QzVLaVVuRl8wbWhENmFPRkJqUmhVZ0F3VjNxRG96a1dKZl9BUkZYamZGTG9oOE5taGhUbVJEdXpvdGxDZERjMy0xQ0kxVVU4YS10UVNhRFpSQUNhMGN0WGZ2NEV5ZVUxTWpvd2pEY1dQaE1rUzFoSlMtUnUxem5fVVVmSjQyd2pLLVZpMzRpNXNXSlE3Y051VmotWkJ3ekdZMUNoYTNkaGlTZktJ?oc=5",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "Pilot Program Seeks To Turn Working-Class Homebuyers Into Senior Housing Landlords - Bisnow",
+          "source": "Bisnow",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbDE1RkZtNkpzWGtnMW5JWHNiRHBNSUU1QnJNVEZmMlFldHRRTDlmTmRKNG9JRHZvMGNpTmN1alFyaTh3YlduZ1czSVVZV0dIRFdoWm1qN1VZLWZqcVBJLVI0cWszX2ZsT1NQcDJHOHR5N2loY1FpZC1wSVlRckU0bkNTanBSUHhNOVctWWhBWkIzZ1dwdUJ1RTZwNUFaUWI3eU5KZ2ZYOXBNbENKeXc?oc=5",
+          "date": "2026-02-26"
+        },
+        {
+          "title": "Gov. Josh Shapiro unveils statewide housing plan in Philadelphia - City & State Pennsylvania",
+          "source": "City & State Pennsylvania",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdEthN0RtOWJJRE1yalNhN2VKWThNT2o5QzNKRkl6RXFJdGxick5nTFhfeHpXZE5BVDlEbVBWdE1JaHU2VU96WVpBLTIyVW5DTDdnTzNpZTA1aThLOGlNbElrNGpoUU9RajVFMy1lOUd0UDhsMkE5SzBINVBObElPWTBrb3BfV1lDY082aUFWOV9fYkJlQko3TXN0QkctczZ0Vnd5UTRUQlRvS2laMGZCZl83SkdXbUk?oc=5",
+          "date": "2026-02-12"
+        },
+        {
+          "title": "Gov. Shapiro announces $1 billion housing plan, new executive role - phillytrib.com",
+          "source": "phillytrib.com",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZGZpVjRaWGhyWVpTYzI4ZFNiOVNBa0drWEdWYTdFcVhWUkV5V0p4ZjI5a2FiQkp1LWhvRUwxWERRbi0wZUxHWVdhUlp2SEQxSnhtdko4ZDZReG9vRGhlVThvY3F5MXJyOEViVnB1SUJnYk9zUGdxWnh4cmVJQ0lhX2RHdG1LRkhXeDd6N1Nza2tvRmRROWF5ZEZsZDhnYkhDdVVUbnlqdVhCUjRWTk00OXVkXzRhYXhXTEc1V051T2ptZzlzNnkyQlFjWnlVUURTd09OMVRjZEFuRGdCWnF3X190TkpGS2RGRnpYRg?oc=5",
+          "date": "2026-02-12"
+        },
+        {
+          "title": "Best Real Estate Deals of 2024: Affordable housing winners - The Business Journals",
+          "source": "The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVNoLWI2UV9RMGNGamFyY0VHR0lUU1JpcVBiQ20xZlUybk1FQ1Y1VXJJRGh2aEdfUjJoQnhIT3FsNW9QRFRadjVqazd0V1VxRVk4Snd0RmJoS3l4a0VNSk54LUdJM191RXpqajM3V1Bya1lZdlhiZkZfTUllZlpWQ1VqOUExZDBadG91VlkyLTlCUDRfcm40T0Z2Mk5HVDE5ZUNYTEhQQ1FiMUNi?oc=5",
+          "date": "2025-03-27"
+        }
+      ],
+      "history": [
+        {
+          "year": 2009,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 10,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2010,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 10,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2011,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 0,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2012,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 10,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2013,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 10,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2014,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 10,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2015,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2016,
+          "revenue": 59544,
+          "expenses": 97016,
+          "assets": 3018037,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2017,
+          "revenue": 142530,
+          "expenses": 179659,
+          "assets": 6794822,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2018,
+          "revenue": 115609,
+          "expenses": 246227,
+          "assets": 9771490,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2019,
+          "revenue": 132625,
+          "expenses": 609598,
+          "assets": 10400628,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2020,
+          "revenue": 235440,
+          "expenses": 599109,
+          "assets": 10770077,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2021,
+          "revenue": 339008,
+          "expenses": 712087,
+          "assets": 11106272,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2022,
+          "revenue": 371364,
+          "expenses": 657399,
+          "assets": 13245988,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2023,
+          "revenue": 334557,
+          "expenses": 861884,
+          "assets": 15515852,
+          "employees": null,
+          "officerComp": 0
+        }
+      ]
+    },
+    {
       "name": "Nicetown CDC",
       "type": "CDC",
       "ein": "233061705",
@@ -7216,7 +6970,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 4,
       "executive": {
@@ -7420,246 +7174,6 @@
           "officerComp": 249359
         }
       ]
-    },
-    {
-      "name": "Norris Square Community Alliance",
-      "type": "CDC",
-      "ein": "261297642",
-      "irsName": "Norris Square Educational Corporation",
-      "irsCity": "Philadelphia",
-      "confidence": "medium",
-      "firstYear": 2011,
-      "lastYear": 2023,
-      "yearsFiled": 13,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": 32962,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 0,
-      "executive": {
-        "name": "Joseph P Howard",
-        "title": "President",
-        "comp": 0,
-        "isExecutive": true
-      },
-      "officers": [
-        {
-          "name": "Joseph P Howard",
-          "title": "President",
-          "comp": 0,
-          "isExecutive": true
-        },
-        {
-          "name": "Wilfredo Rojas",
-          "title": "Treasurer (Thru Dec 2023)",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Sandra Carrion Foy",
-          "title": "Director",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Maria Sourbeer",
-          "title": "Director",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Noemi Rivera",
-          "title": "Director (Eff Dec 2023)",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Michelle Carrera",
-          "title": "Ceo Xiente",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Jesse Hunting",
-          "title": "Vp Of Finance And Real Estate",
-          "comp": 0,
-          "isExecutive": false
-        }
-      ],
-      "leadershipAsOf": 2023,
-      "news": [
-        {
-          "title": "New guaranteed income pilot in Philly underway to alleviate poverty - WHYY",
-          "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsSHZMMXFISGxJc3ZLZmhCaV9LQlNGOXJzTmhQZnFob1lLWEtmSDNTc18yeU9NbHA3VGF4cHduMFZ1Sk1FZHlnazBhU2hKZ2dYTFpwMUlrTXlqMnBKVHlXSjlFZjJyaTRuV0s3WEJ6c2xGTlJ1SzF1Zm1B?oc=5",
-          "date": "2025-03-28"
-        },
-        {
-          "title": "Xiente launches Busesito, region's first preschool on wheels - 6abc Philadelphia",
-          "source": "6abc Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX05PY1lOaEVTS1R4R2ZBNzhiVHBRRUVEVnRmc01NZUlRQU5xTmNyOEkwU3ZTcGlWNXI0UzhTTF8xLTY3SjduSUEzLWVDVGRDMTBSVUpGa0JwVnpPQmREaUJlcjJxRThBUHJGcF8tS0NpU1V6S2NaNTZ4ckNobUFWNTBPZzdxVzdK0gGOAUFVX3lxTE4zUU5zWnN3QWNsNHBLWkdMMlJRY3BfdTgxR3loYlZrZFFINVdQeUVWYTU1SWdRckpmRVZUS1ZpaHh3eHJROVdUWTZHNWxMYlB3NFFLVUxuV3p5YjVJbWY2UDhwZjZpd0p6MFkyRGdLUVExN2ZjanotRFhyYmd3MXBlM2JEZEtlbjA2OHpvNEE?oc=5",
-          "date": "2024-09-30"
-        },
-        {
-          "title": "Improving Economic Health, Generation to Generation - The Philadelphia Citizen",
-          "source": "The Philadelphia Citizen",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS0YyME10VFdkVi1PcUhCdF9NbkxPSHMteU0tNDlWSV9Mbl9LTEgzSGtxRmpmbVJCWVd2NnFtamk0N0lNMzU4UE43STdoNTRfWVNBY1VaT01XckJFanVfMTFsR2tLVEdTbm1YazlTa3dUbEVrVktfamtqTFFwZUgtODA2di1uaEc4VmlhcnI5VQ?oc=5",
-          "date": "2024-08-21"
-        },
-        {
-          "title": "With a new name and new services, Xiente hopes to grow prosperity in Philadelphia - WHYY",
-          "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdW5Ic2p4WnRodlhua1pwSHdob1VQTGNxRDRNazhKT0x5RWpWWThNcC1wcHFJc0RmM1BhRkhxeG9BSDF2QmE2SFdaMXFZcXc5MEk3UEI2NVRBcm9FOHI2enV4d3Zja0VJbHprdTFqQUpQa2U3c0ZPVXBlOHI5a3hXcjg5dDY?oc=5",
-          "date": "2023-09-18"
-        },
-        {
-          "title": "\u2018El Busesito,\u2019 the city\u2019s first-ever mobile preschool, will be rolling into West Philly soon - Inquirer.com",
-          "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV0MxaEM3YXlqRk1hbnFDNUlmLXlzak5mdElpdUFpbHM0U1VWQW01Skl2SjM4b1d6TzBIdExoR3A3RG5fX3kxdHBlQjNWY0RtMmxZOGgzSnRLNVVXWUViM1BnZzIzNHNNdmNueGRQV2hEUnZ3aWhOVHBFOUZmdEdVUW14Mkw1ZUx4ZWtoajJlbExKNElxdWY4YnlsREQzXzV1?oc=5",
-          "date": "2023-09-18"
-        },
-        {
-          "title": "Dr Michelle Carrera Morales Creates Opportunity, Equity In Philly - Patch",
-          "source": "Patch",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWjVkNFZJYlV0RW85cmtLVXFWWHppeGs5X2d0a2ZlWndOeWZiWUtRRmlOeGJhUkpGQjc3V1AtUDV1OHhURGYwNTZQajV2YnZVWmZZVEx1NUdKemNSVk03MU5nT0pLVVBpeEFCbGR2emUyS29GZVR1eEhNNFlvZ01PR3J2SkxlOUVGY2ZQdHJIU2pybGVTSTBDOW5EQjh0bDlNa0pTV1BMbkM?oc=5",
-          "date": "2023-09-18"
-        }
-      ],
-      "history": [
-        {
-          "year": 2011,
-          "revenue": 104603,
-          "expenses": 6593,
-          "assets": 1031755,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2012,
-          "revenue": 98877,
-          "expenses": 14297,
-          "assets": 1533716,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2013,
-          "revenue": 1343901,
-          "expenses": 193616,
-          "assets": 3315661,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2014,
-          "revenue": 1343901,
-          "expenses": 193616,
-          "assets": 3315661,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2015,
-          "revenue": 311823,
-          "expenses": 327390,
-          "assets": 2968594,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2016,
-          "revenue": 390419,
-          "expenses": 344315,
-          "assets": 2974966,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2017,
-          "revenue": 84022,
-          "expenses": 234946,
-          "assets": 2722833,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2018,
-          "revenue": 80353,
-          "expenses": 118756,
-          "assets": 2657852,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2019,
-          "revenue": 26259,
-          "expenses": 155217,
-          "assets": 2567379,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2020,
-          "revenue": 17891,
-          "expenses": 419509,
-          "assets": 2499500,
-          "employees": null,
-          "officerComp": 0
-        },
-        {
-          "year": 2021,
-          "revenue": 9559,
-          "expenses": 244887,
-          "assets": 2459315,
-          "employees": null,
-          "officerComp": 39990
-        },
-        {
-          "year": 2022,
-          "revenue": 13643,
-          "expenses": 182284,
-          "assets": 2456010,
-          "employees": null,
-          "officerComp": 39858
-        },
-        {
-          "year": 2023,
-          "revenue": 32962,
-          "expenses": 230629,
-          "assets": 2423906,
-          "employees": null,
-          "officerComp": 43740
-        }
-      ]
-    },
-    {
-      "name": "North 5th Street Revitalization Project",
-      "type": "CDC",
-      "ein": "",
-      "irsName": "",
-      "irsCity": "",
-      "confidence": "none",
-      "firstYear": null,
-      "lastYear": null,
-      "yearsFiled": 0,
-      "filingGaps": [],
-      "compJumpYears": [],
-      "latestRevenue": null,
-      "latestEmployees": null,
-      "website": "",
-      "contactEmail": "",
-      "source": "PACDC",
-      "closedCandidate": false,
-      "instability": 0,
-      "executive": null,
-      "officers": [],
-      "leadershipAsOf": null,
-      "news": [],
-      "history": []
     },
     {
       "name": "North Broad Business Improvement District",
@@ -7917,7 +7431,32 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [],
+      "leadershipAsOf": null,
+      "news": [],
+      "history": []
+    },
+    {
+      "name": "Ogontz Ave Revitalization Corporation",
+      "type": "CDC",
+      "ein": "",
+      "irsName": "",
+      "irsCity": "",
+      "confidence": "none",
+      "firstYear": null,
+      "lastYear": null,
+      "yearsFiled": 0,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": null,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -7942,7 +7481,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -8124,6 +7663,68 @@
       ]
     },
     {
+      "name": "Olney Community Collaborative",
+      "type": "CDC",
+      "ein": "852575923",
+      "irsName": "Olney Community Collaborative",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": null,
+      "lastYear": null,
+      "yearsFiled": 0,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": null,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [],
+      "leadershipAsOf": null,
+      "news": [
+        {
+          "title": "Olney Community Collaborative Website Receives International Web Excellence Award - The National Law Review",
+          "source": "The National Law Review",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOXFRWmFTeVFZZjQzVzY0VkpGQlNGME1IcGxHa1Jtci1NQTNGZjMzU091RVFnUjZjVDdEVU1DejFTeThYdzJoeG5SaHl5b0tzYXZ5eXNWSUxXazk2M3l2NnhhNTFseXlVY2RZVTREd2hhdFJIc0k1YmNvM0t1dk1NV3FRUFNDdUNENWpxVWJZNXNMOXJPdklmazZMSHRHQ0JRMWtjbXc5XzNVZzN5N3ZMQ1Y1Zkd0UQ?oc=5",
+          "date": "2026-06-03"
+        },
+        {
+          "title": "Apply for the Neighborhood Economic Development Grant by March 19 - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVFJKLXYtTUIwMnNRYVZaeFYwRldSckhWV1d1YklfM0hhSzRFUmFRMm1meDBPZXdVWWRGXzZDOVF2R0NRTGsxRFlzVkRvSm1najV5Y0Vld3QwQlpPc1VON24zTDl3SWlrNjMzR3NSZTJRako4Y1hxU19DYnczZmZoTmVnV3dzdnF5Q2lEeUFhN0QxYURkZDRWQ3ZFQkw1a1pz?oc=5",
+          "date": "2026-03-03"
+        },
+        {
+          "title": "Taking Care of Business Program supports small businesses across Philadelphia | Department of Commerce - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQXZ3TVlsektqc1lubldYZXdsdTJlcEdlWU50V1lxR19WSDZraFg5cEliVVYydVA5STEwRUswekZEcjlWTXNuYXhVVFV1UnhMV1ZQazR0WWJXbXNxaWkwMmJfNnZvQnlwQlNPRnk2YVphQ09NM29FNlExUFpJSTBaUjdPSDBNa3FrdVlIWXZjRU1LSVFOblZJUWxtQ0ZwZmJPQU8tYjBMdHpqem5TS1BrMQ?oc=5",
+          "date": "2026-02-27"
+        },
+        {
+          "title": "Announcing the 2025 Philadelphia Class of Next City Vanguards - Next City",
+          "source": "Next City",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcUg5Vk9iUW9oVU1Wb3lfZ2VFVnRCOUtkaG9RNXhPczNJdlhZSnZJaVBSR291N29sMXZEUGY5VG5aelU2aWpFMmtSM2hUWTI2bUU3VnVhRGQ5cUN1Z2xPU2I1WFcxMzB6bERGN1piaE1Dc0EyUjh3VElRWkRPSXVVRV96TTc3Y09NSnBoLVRnbXhhME1FRm5UdkZn?oc=5",
+          "date": "2025-07-16"
+        },
+        {
+          "title": "These Philadelphians Are Making the City Better, One Action at A Time - Next City",
+          "source": "Next City",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSlozalVYTzE5R1FneDNrcnVkN2RqRzVtak1IWmhfM05rS3JJS3N4QzJyWVhJS1JtZjNVOWEwMHNPdTVSN2I5S1hHZU56dy0wUldiUWpzS09EWDhPNmVOc0xtT1A4Wl9HdDhDdm1OeXZ0aUk2dE45TFdfakM2a1hVang0RlhxOWFaMkZ6UklxTHhVU0NjWDVaV1JhN01vMVphbHloWkRR?oc=5",
+          "date": "2025-05-07"
+        },
+        {
+          "title": "Meet Our Vanguard Philadelphia Host Committee - Next City",
+          "source": "Next City",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeXQzNXBNbURybTlOa0FFRHlqOTJBMG1PRmM5eDAyUHBhY0UxcndHOEU3eDBKZjVXMW8wNm9sTUdMWi1BLWZzbVJEb2lwT3pYQzFrU0I4bmZwLWY2NWNRejh6cEF3RU1QdGxKdVFJSXJEZHFSQVNXTTE0TWhQRWMxQVYtcl8?oc=5",
+          "date": "2025-05-01"
+        }
+      ],
+      "history": []
+    },
+    {
       "name": "Overbrook West Neighbors CDC",
       "type": "CDC",
       "ein": "824449937",
@@ -8139,7 +7740,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -8238,7 +7839,7 @@
       ]
     },
     {
-      "name": "Oxford Circle Christian Community Development Association",
+      "name": "Oxford Circle Christian Community Development Association (OCCCDA)",
       "type": "CDC",
       "ein": "204984694",
       "irsName": "Oxford Circle Christian Communitydevelopment Association Inc",
@@ -8260,7 +7861,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 3,
       "executive": null,
@@ -8323,40 +7924,22 @@
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "New $65M Investment Targets Gun Violence Reduction, Afterschool Programs | Commission on Crime and Delinquency - Commonwealth of Pennsylvania (.gov)",
-          "source": "Commonwealth of Pennsylvania (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOckFRVVZkcUxfVGNZM3dqT1hEY2Q4YVNubEZYdFQ0bGlJV1NYQ29mN2lZZFNRSEhUNy1rN01pZXBiSEYxNmRvTWZ5bzNnbE5adFh5VUk4Q3BRRkRoMS1VazZqMy1HbEd6VUwxOVh0aG9sQ1k2WGs4TG94azNXZ25UTHFKZ2ZWdllZWlN2a1RsNkMxNzFoc2JLUElNTDlhWmYtQXVzLVBBbElLQQ?oc=5",
-          "date": "2026-04-15"
-        },
-        {
-          "title": "ODAC Hall of Fame: Leonard Dow \u201986 - Eastern Mennonite University",
-          "source": "Eastern Mennonite University",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGMUptWVFicHhrSnhDdzhRV3NkSUk5Yzk5ZHRLS0p5YUJDckZzU0NqSzBGUUxFdnd1Q3RqOE5zYVJ1ZW5OVDBYQUgzUzgtWjAxVmV5dkk2bVc5ejdDMnlKb1VrMFptWDg1eEhOOTQwQTQ?oc=5",
-          "date": "2026-01-29"
-        },
-        {
-          "title": "More Trash Cans Coming to Northeast Philly Neighborhood in Effort to Clean Streets - NBC10 Philadelphia",
-          "source": "NBC10 Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNmtYUFo0SlktcGl4N3NaU1BaRkFvdFNXX3hneV9QWWxLYmk2MklXNFU0MjBzeGZFcWtRcVpmY0pPaVRnU1ptcm85NF9zQXJaRktUZzZPM3hpak5ieDcwa3YzaFVOdUJIZk1JSE1MckFnX2ZaeU1UOFAtcHBwOVJyR29TdnhfRlRWUkFDdnk0SXJnZEg4YmZsUTY1eGUxV0JGaUk1RGdURVByT05GU2JwYlBBNF9zQTVWcFdIWXI5ONIBxwFBVV95cUxOX25XWlBkOUNDNTV3bDMxWTRyTlhiVnc4YnRQbDRMdHZieG1RZ0hUQ241ckJ5V1kzMkpUc3pndG8zT0ExOTNLTjhlaWNmY3J2VjhZZFZsczhCMkQxczltaFRuWGRQNVFjdWNpLW1ydDNucUFDQi1hTmc1dmNYRXVCT3NEbURtaUlTbm5GTy1pRDBaSHBBN3lPMkFNdUd3UlNXSzd5VXRUZDNrYl9QNl84N2xwYjVzOExkaVU3N1VnZ01MdG84Y0FF?oc=5",
-          "date": "2023-03-02"
-        },
-        {
-          "title": "Workforce development expansion in Castor Gardens - Northeast Times",
-          "source": "Northeast Times",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb2RmQ2Q1RHEtazlCam91czlhRGxEUzFtNTJYNjJkZ2UyNWh5WGtacmNsXzhOWEdsR2JCMWN2b1RDRl9kMUF6NlNEOVJKTmI4U0ZhRHhJR2lES3RCbUJhdzRWek9OcWppeGhCRlBNVEttdDBqeWtTc21xR2c4bEdtTVFualVBSHI1cldTbFI5X3ZQdw?oc=5",
-          "date": "2022-10-30"
-        },
-        {
-          "title": "Philly\u2019s Castor Avenue business owners say the pandemic knocked them down, but they\u2019re climbing back - Inquirer.com",
+          "title": "How to get your taxes done for free in Philly - Inquirer.com",
           "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORGdaRDFCM192RlY1WmlmUXlsUTRGaUlDQjliTWloR1p4LWxpbnpxYWw5YkswZlZhOXBHMHpqVXpIdG1IVU1JelpOaFhiUnVnOGxaSlNIdXByTGZxMzN4OVVud3JEZE5KazAyOTdEYkRCS1pmUHJFdkc2cU1kMS15WE01RjFvckZzenBPcmo2TllqbTNheGZ0VXYtYnpqczJOQWFEUWRGVXFFWmZnYTQ3eDkxMWFmcDZkZGo5UTFiWFdKVHB5VTRVY182aktWOXlwM204eW1halVJdlFRS1d5eQ?oc=5",
-          "date": "2022-05-03"
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SbzZvZE9RTHM5NFdPdWZIOVE5VnZlak1lNVJfWnRPMDZ4TXhoRFh6QXBVaHNLWGEydDFzSk1wX3ZFaHpNeWxEM1Y1TEM1ejI1WTgtdXJpMnlxM3dKQU1hLWhMb0dsZw?oc=5",
+          "date": "2022-02-16"
         },
         {
-          "title": "Tarken gets upgrades - Northeast Times",
-          "source": "Northeast Times",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iQXVwT0tQRHc1N3g0WVZyc3Q5SG5OWVFnZXdzTVJWRDdvTGNXWHZBWENrOWppTjJlMlMyd29aWWNxQWd2SXZtWHpBQlZickVYVnNtN1o3a0ZlM2JuU1B2QURabnNXNU1WT3lJ?oc=5",
-          "date": "2021-12-22"
+          "title": "Meet the New Northeast Philadelphia - Philadelphia Magazine",
+          "source": "Philadelphia Magazine",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3SVRZV1d5SEYzS1JwU2w2V3Z0dm5HV3Z6TkJyLXUzYnJKOGptVXR6YzNydEczTE1ySTFmeExhblpoNXJfUFFDYWFSN09lNnhzY0pNbnloOWZQM0ZONUsyR3JJMk85MGJzMElBdW43MUR0M1BCVGdqbQ?oc=5",
+          "date": "2018-11-03"
+        },
+        {
+          "title": "Meet the New Immigrants Reviving a Philadelphia Neighborhood - Next City",
+          "source": "Next City",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeDduVnlWVlNXQzJBSW15R3owWmlJSlE1YV9KQ2c5bmNkUkRTR1pULWJvNERpMjU2T1Jsb1lubG9tcHNFMTJ4ekFhUlhSUkhlZEozMktKa3h2dndyMEZzMEFfb1ltOC1XWmVsSWpFdnpRcjRESTdONFBVQlE0NE80WnhmTlFDdw?oc=5",
+          "date": "2017-11-10"
         }
       ],
       "history": [
@@ -8459,6 +8042,180 @@
       ]
     },
     {
+      "name": "Park to Broad Arts & Business District",
+      "type": "CDC",
+      "ein": "",
+      "irsName": "",
+      "irsCity": "",
+      "confidence": "none",
+      "firstYear": null,
+      "lastYear": null,
+      "yearsFiled": 0,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": null,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [],
+      "leadershipAsOf": null,
+      "news": [],
+      "history": []
+    },
+    {
+      "name": "Partnership CDC",
+      "type": "CDC",
+      "ein": "232711533",
+      "irsName": "The Partnership Cdc",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2015,
+      "yearsFiled": 5,
+      "filingGaps": [],
+      "compJumpYears": [
+        2013,
+        2014,
+        2015
+      ],
+      "latestRevenue": 381694,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": true,
+      "instability": 6,
+      "executive": {
+        "name": "Steven Williams",
+        "title": "Executive Director",
+        "comp": 79619,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Steven Williams",
+          "title": "Executive Director",
+          "comp": 79619,
+          "isExecutive": true
+        },
+        {
+          "name": "Legora Ragland",
+          "title": "President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "W Lonnie Herndon",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Alice Wright",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Kevin Valentine Esq",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Delcina Wilson",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2015,
+      "news": [
+        {
+          "title": "Koin adds Beth Carpenter to lead enterprise growth and strategic partnership - CDC Gaming",
+          "source": "CDC Gaming",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVU9Bck9sbGFmYnFMdmVpOG9tOUpPcUpvcm85RkZtMk1vRHJPd2FTYWMwUDF1X0hzT2FBM3lhR0RaNFBzamhxc1NRZEFPQWJPRzFUUkg3MlBHa0h6OV9vMFlMWW9oV3BMTnZ0eFhXVWVLSHRUaXB4dVhDb3otS2ViOHNFZUhRWEVxR0c5LXFMOHp0dWhoUjZocG1KdEppeWgz?oc=5",
+          "date": "2026-02-02"
+        },
+        {
+          "title": "Kevin Ford Jr. '11 Will Run For Maryland State Senate Seat To Represent Prince George's County - Morehouse Newsroom",
+          "source": "Morehouse Newsroom",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Zb2hQUUNDVFdXQlJSUk14RUJpb0FBd1B3ZFBYdnNxLUw0MUx2U0NKSG9ienJCaXRVQkwxLVpoM3NYYzRoYmk0UmxGTm51ZDdSWGc4TUoyY9IBZ0FVX3lxTE9hZk5GQ1lJSkFHTjhYLXlFc0haUGFfc0xWSVpWUUxjb1kxV2R3N3FDMmRXdDNLTGpWUmVmQTdiODlvd0pUdmJtOVBaLWFsZm5lMXNqSVJIMkt1MVlyVkprUVJnb1pIVm8?oc=5",
+          "date": "2025-09-18"
+        },
+        {
+          "title": "CDC, NCCA partner for cultural mapping inside Clark Freeport - Philippine Information Agency",
+          "source": "Philippine Information Agency",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdmxRWHRLNFhEUFQtWVlNNlJCY1l0V3p1U0tDd1pYR01yRk93Unc1TFBaNmlXc1lpb2QyenZJRGRqRlhuWXF1SkdPRXdEa3JySTFEc1NjOVdZMVVTelRBRE92Q1hMMnhWNDlPakpvNjVIUXhiSTRZejdKUndYWUdVd2JZUHUwZHNUUGVqWklHVDMwaDhLaWNNdQ?oc=5",
+          "date": "2025-06-11"
+        },
+        {
+          "title": "Kambi Group and Hard Rock Digital sign odds feed partnership - CDC Gaming",
+          "source": "CDC Gaming",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX1l3T2V0QjE4MVU1Wkg1d0dUVk45dnlhUGg4bEtsSHJab1pXWThMWV92amlvNEt5Sl9KMnVlUDFvb3lKUnE4elNOX2hLQkJTajBfVnNkVmFOZUxQc3R6aW9rSm9fb0xua1RLR0xmcE5pY1VROFdiTzNKRXNNcEhNWkItOGlfeUhuSng0?oc=5",
+          "date": "2024-10-15"
+        },
+        {
+          "title": "Bet365 paves the way for more U.S. esports through SIS partnership - CDC Gaming",
+          "source": "CDC Gaming",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV0xTM3lzbjB2eXdHUkpGYTBac1NHYWxISjB6b3BVNmV6czVwQVMtWTI0dmxnaXRaQ093NUVkcFMzbXBHOFFqQVdiaTliOEYtR2lqMFJJazdpcWJucFVLcHVZM0R5UEUtQlpfQlktVjljZDEzTjRlSkpBdHJhMmdsWnU2Slo3aFVXMmNfTFlsckFXUQ?oc=5",
+          "date": "2024-06-13"
+        },
+        {
+          "title": "Imperial Theater in West Philly Faces a Bright Future - Hidden City Philadelphia",
+          "source": "Hidden City Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRGlhNGk4bFNwcUVpeTcwYWxhVXU3eWtkNjRZbnJRazFFVGl6cDY5RUdObWJNZmtnaEpVREROLWlfdng0VUZCZ3lVY0Zobl9fTFZxNk1MT1R3d05STW9vb1VBekxNOHd3VTM3TE5qTmZHcndUX0p4NEpwbUV4bkRnWWxXaEN1VXE5ZUdFN181dVRiWDlB?oc=5",
+          "date": "2021-04-28"
+        }
+      ],
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 521968,
+          "expenses": 814821,
+          "assets": 2190222,
+          "employees": null,
+          "officerComp": 126866
+        },
+        {
+          "year": 2012,
+          "revenue": 626317,
+          "expenses": 746622,
+          "assets": 2123893,
+          "employees": null,
+          "officerComp": 142211
+        },
+        {
+          "year": 2013,
+          "revenue": 111177,
+          "expenses": 656924,
+          "assets": 1853141,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2014,
+          "revenue": 1169320,
+          "expenses": 685916,
+          "assets": 2316467,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2015,
+          "revenue": 381694,
+          "expenses": 550222,
+          "assets": 2033784,
+          "employees": null,
+          "officerComp": 0
+        }
+      ]
+    },
+    {
       "name": "Passyunk Area Revitalization Corporation",
       "type": "CDC",
       "ein": "",
@@ -8474,7 +8231,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -8499,7 +8256,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": {
@@ -8902,7 +8659,7 @@
       ]
     },
     {
-      "name": "Project HOME",
+      "name": "ProjectHOME",
       "type": "CDC",
       "ein": "232555950",
       "irsName": "Project Home",
@@ -8921,7 +8678,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 3,
       "executive": {
@@ -8995,40 +8752,40 @@
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "A $25 million lifeline in Philly for unhoused drug users with major health challenges - Billy Penn at WHYY",
-          "source": "Billy Penn at WHYY",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTkV6azRnRmtJNGc0ZnpHODJ1ajZmQnkzdWhnaDNzMXViZmNLVVdkWnpaN3RRelB5cUFyMlZldS1iMkZYaW9xS0p6NEV5VTZ4bHFuV25peWtEVlBRYUJDb1V6S19uVUJCMWJiN0JvVHFXYXNkVkNaNjhmQjYxc0s1alRsdlQxdjdjMEV0UTdFUjlzSklRNWZqRExzNk5YRUpwMTNoSA?oc=5",
-          "date": "2026-06-11"
+          "title": "David William Stinson Obituary Sep 16, 2025 - Donohue Funeral Home",
+          "source": "Donohue Funeral Home",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13ZHB5cFp6dGtGcy1qYzBJMTVXSmYyTm1qSW9nd1ByN3c4eXJWSE1xTFpwLUlKMUJFZDN6V24wTUg3TC1vTG51WDZyMEt0cEExeC04TE0tcnBDTFE4U0FQSEQzSFkxUVUyQ0FN?oc=5",
+          "date": "2025-09-16"
         },
         {
-          "title": "Philadelphia working to create 1,000 more long-term homeless shelter beds. - Billy Penn at WHYY",
-          "source": "Billy Penn at WHYY",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSTEwSVotSElaMDFYaDdQWG0tUGJCZGo0Sk9JanpBcG1hTTFlRGZXRGozWXRiR24wTjFBaWNlUkJreDBSQWxVTHk2VW10Z1ptZG9yQ042ZzgzajI5cldMN1dTb2JaNkl6cEp3eUJsMmZKeGZDSlJsZjZVUUFKcGdBRHVaWFNRSkswdU1R?oc=5",
-          "date": "2026-03-02"
+          "title": "Joshua Feldman Obituary (2025) - Philadelphia, PA - Goldsteins' Rosenberg's Funeral Directors, Inc. - Philadelphia - Legacy obituary",
+          "source": "Legacy obituary",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWjl3RHNMaEVKV1hRcDVrUGJjU0ExZmNfY0VWd2hqb0dGeWlOdDctOFgyZ0M3TGg3X09GVjZHbUtFXzR0MEUwVVhRV3lvVmhKVGVHLVVkVjFzSUVocFpTZjJFekVBU29TUGk2blBveU80M0ZCQVVyR3l3M05vUjM0eTZJWQ?oc=5",
+          "date": "2025-03-01"
         },
         {
-          "title": "At Project HOME, providing shelter is just one link in a chain that restores dignity and offers hope | Philly Gives - Inquirer.com",
+          "title": "Students, recognize Philadelphia\u2019s unhoused population - The Temple News",
+          "source": "The Temple News",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLTVwLWNpeTRaWVc1aHV4M1FWa3JTbGlHQ2VLdnRhekFqM3pHQUNvMHI3NXZMNnZpMnhkNGFTZ2JMWGdFNEN1aE9PS2NQNTF5aDdwak9FaEotTDJwbmhqd0ZzNlRzdVZRZFRyYm9jWUhid2Vuc0h4VEVqMXNXemFkaHV4SQ?oc=5",
+          "date": "2025-02-04"
+        },
+        {
+          "title": "Here's where you can donate winter clothes in Philly to help people experiencing homelessness - Inquirer.com",
           "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRzd6cTJQeC16cFZHMTRDdXRXbFpKVUlISWxPMWRpck1qVEV6Z3p1MjlJOWFiM1Y5bG9UTFlwR210R1hXQlpIZ1NWUHktYkFJUHVZNDFJeTBUa3ZiOU0wNjJlTU1ORzg3bi1zSzRXN0pLZ0F2eWVyQy11R3p1V1V3VUdZYjJRcjZhRHRkdjA3Q3YwMjEzRWgtblhaYkd3MDBUd2UwS293?oc=5",
-          "date": "2025-11-27"
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcFFfckJNTnJQeUdmSGlpTHFRSEoteUpvcUUxWXF4dlREU05pR2NTZ2MwblVVMURZbnQ1ZWRiWFg1QU4zcWJpS1VtYUFxdjJsM2xtemVoYWZneEh1ZzVKX3BKVFVodWhrWU9zdmh0MVp4WU9fMzB3N2lpOUhTanFqU1JB?oc=5",
+          "date": "2023-12-07"
         },
         {
-          "title": "Philly Braces for Massive Housing Losses Under New Federal Rules - Governing",
-          "source": "Governing",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX3Z0aVRDTnI1TUZIVm1hcXlLaDg0R0hwTDVGdmhsMllRYkxNNWpRSk9CMnRENngxMjVWXzhSU3dtOUtfc2ZQeWdrdG84aFVOYmdHZ3pDTDk2ZXdEeHg4NS1MMTZRTHVzVmV3OUE3THFrWlpCTmZDeUcyQkpjVndfZy1zaThnSTUxNmpPYjVTYjdsbEFsSThTV01lQWQ?oc=5",
-          "date": "2025-11-25"
+          "title": "Obituary information for Vincent Gregory Paglione - Urban Funeral Home",
+          "source": "Urban Funeral Home",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTTJpVlB4MkdTQkhYOUhCbEdZZkNzc0xjcnVzRHEwT0xxbEhCeHQtVjhfOW1IQmktRU9Ba3M3b2dYd2JsMVZkaDFhNW5RX2ZPV2VYU2lwcEZHSFdDaEozdjkwQUJNVDhtWmNvTFEzcV9NZEJMSVA4RVFRckpOUVlGTFVIMEdGVDBmZ1E?oc=5",
+          "date": "2022-08-14"
         },
         {
-          "title": "Project HOME fighting to break the cycle of homelessness in Philadelphia - Impacto Media",
-          "source": "Impacto Media",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNEo1MEx0UXR3MmFYRFB0ZVNpWFNxTHhXTnAyUVJuU3JUc3RuSmNlZnVERkRhdGx3ME9Ba29ONTFsUjNHSWdrdFN4Vy0wQ3F1RjBCZmhCeHN5bW5vZGV3NTE2bEp1aVdJR1ZQOU9yZ0xPbzhuU1FSdEU4YmFPWmZzTTZ0eXZSWWRvT19IbnpSZGgzSXBsOFdKRzV3V2R2QjFRT1dxSlRFLU9VNlhpWVHSAa4BQVVfeXFMTzRKNTBMdFF0dzJhWERQdGVTaVhTcUx4V05wMlFSblNyVHN0bkpjZWZ1REZEYXRsdzBPQWtvTjUxbFIzR0lna3RTeFctMENxdUYwQmZoQnhzeW1ub2RldzUxNmxKdWlXSUdWUDlPcmdMT284blNRUnRFOGJhT1pmc002dHl2Ullkb09fSG56UmRoM0lwbDhXSkc1d1dkdkIxUU9XcUpURS1PVTZYaVlR?oc=5",
-          "date": "2025-11-21"
-        },
-        {
-          "title": "Philly Gives ushers the city into giving season with support for The Attic Youth Center - Philadelphia Gay News",
-          "source": "Philadelphia Gay News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZU5ETHBRa0IybEV6aHdFNHVEVU1hcnR4RXAtbzc3Q3dlSDl5eWk0V2N0TXBGYWxERUpfM05FMlM5VG9JdUxmME9iQW9XSHpLQ3VlUFd6ZkpDaW1sZUR0YnVJLWhXT2hOREtIMjl6SC0xeEJaS0lybFJMYVpjSkpjNXhNcE9OMGNDZ3dWTDZ3c0tud0s3T1hQcFVNMjEzWWlMb1FrY25IMVZiMTU5Y0ZkNnlyZk5FREU?oc=5",
-          "date": "2025-10-29"
+          "title": "John Hepp Obituary (2022) - Philadelphia, PA - The Philadelphia Inquirer - Legacy obituary",
+          "source": "Legacy obituary",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbUVkeHNmQmtTdjRMS2xieVJUbGVVZVhDQkdlNmRXYmRTRGtERFNXaktPSzFUc2p0aG93NkUwTWROS3lXdnB2cjctb2hYbmN4bFNXYjNrelIxNnNOa0QyZkRWc1ZNWHM2Ti1SeDBkQlBoZHV3RU1udm5zdl9BMDQyRlFxeWs5ZHU2?oc=5",
+          "date": "2022-05-19"
         }
       ],
       "history": [
@@ -9388,7 +9145,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -9396,6 +9153,550 @@
       "leadershipAsOf": null,
       "news": [],
       "history": []
+    },
+    {
+      "name": "Sister Clara Muhammad CDC",
+      "type": "CDC",
+      "ein": "900405460",
+      "irsName": "Sister Clara Muhammad Community Development Corporation",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 44388,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": {
+        "name": "Roger Powe",
+        "title": "Executive Director",
+        "comp": 8100,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Roger Powe",
+          "title": "Executive Director",
+          "comp": 8100,
+          "isExecutive": true
+        },
+        {
+          "name": "Hassan Abdellah",
+          "title": "Treasurer",
+          "comp": 4125,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [],
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 18405,
+          "expenses": 18404,
+          "assets": 2,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2012,
+          "revenue": 22,
+          "expenses": 24,
+          "assets": 0,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2013,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2014,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2015,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2016,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2017,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2018,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2019,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2020,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2021,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2022,
+          "revenue": 0,
+          "expenses": 0,
+          "assets": 1,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2023,
+          "revenue": 44388,
+          "expenses": 42318,
+          "assets": 170980,
+          "employees": null,
+          "officerComp": null
+        }
+      ]
+    },
+    {
+      "name": "Smart Futures CDC",
+      "type": "CDC",
+      "ein": "300263715",
+      "irsName": "Smart Futures",
+      "irsCity": "Pittsburgh",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [
+        2014,
+        2020
+      ],
+      "latestRevenue": 1561341,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 2,
+      "executive": {
+        "name": "David J Mosey",
+        "title": "Executive Director",
+        "comp": 215500,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "David J Mosey",
+          "title": "Executive Director",
+          "comp": 215500,
+          "isExecutive": true
+        },
+        {
+          "name": "Dwayne Dagen",
+          "title": "Director Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Eric Heasley",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Bobbie Anne Barnes",
+          "title": "Director President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Bernadette Boerckel",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Jeffrey Emanuel",
+          "title": "Director Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Heather Albright",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Emilia Mattucci",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "John Pulver",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [],
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 648847,
+          "expenses": 694109,
+          "assets": 194572,
+          "employees": null,
+          "officerComp": 137700
+        },
+        {
+          "year": 2012,
+          "revenue": 531606,
+          "expenses": 583827,
+          "assets": 119934,
+          "employees": null,
+          "officerComp": 137700
+        },
+        {
+          "year": 2013,
+          "revenue": 358440,
+          "expenses": 433251,
+          "assets": 36294,
+          "employees": null,
+          "officerComp": 155109
+        },
+        {
+          "year": 2014,
+          "revenue": 302036,
+          "expenses": 267445,
+          "assets": 87426,
+          "employees": null,
+          "officerComp": 98415
+        },
+        {
+          "year": 2015,
+          "revenue": 244834,
+          "expenses": 267231,
+          "assets": 45769,
+          "employees": null,
+          "officerComp": 113447
+        },
+        {
+          "year": 2016,
+          "revenue": 216280,
+          "expenses": 234778,
+          "assets": 36523,
+          "employees": null,
+          "officerComp": 109786
+        },
+        {
+          "year": 2017,
+          "revenue": 242064,
+          "expenses": 246890,
+          "assets": 29578,
+          "employees": null,
+          "officerComp": 119100
+        },
+        {
+          "year": 2018,
+          "revenue": 243689,
+          "expenses": 252205,
+          "assets": 22870,
+          "employees": null,
+          "officerComp": 125842
+        },
+        {
+          "year": 2019,
+          "revenue": 290772,
+          "expenses": 299313,
+          "assets": 63924,
+          "employees": null,
+          "officerComp": 131279
+        },
+        {
+          "year": 2020,
+          "revenue": 512661,
+          "expenses": 467905,
+          "assets": 123173,
+          "employees": null,
+          "officerComp": 182557
+        },
+        {
+          "year": 2021,
+          "revenue": 936252,
+          "expenses": 594495,
+          "assets": 579582,
+          "employees": null,
+          "officerComp": 197862
+        },
+        {
+          "year": 2022,
+          "revenue": 919500,
+          "expenses": 1052013,
+          "assets": 592253,
+          "employees": null,
+          "officerComp": 234728
+        },
+        {
+          "year": 2023,
+          "revenue": 1561341,
+          "expenses": 1486448,
+          "assets": 672402,
+          "employees": null,
+          "officerComp": 242294
+        }
+      ]
+    },
+    {
+      "name": "South Kensington Community Partners",
+      "type": "CDC",
+      "ein": "222446719",
+      "irsName": "South Kensington Community Partners Inc",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 338847,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": {
+        "name": "Eileen Divringi",
+        "title": "President",
+        "comp": 0,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Eileen Divringi",
+          "title": "President",
+          "comp": 0,
+          "isExecutive": true
+        },
+        {
+          "name": "Sarah Gearhart",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Marco Gorini",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Shelby Guercio",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "John Williams",
+          "title": "Vice Preside",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Here\u2019s where Philadelphians can find free Thanksgiving meals - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1BY0ZHcnU5RktUTWZvN0hPRjBpN1V5TmI3Mm9BOENrcVEtYVdDdVd3Q1dlUGx6RnZTNmEzMlJHYXV1VjRZYjRqeGdoNjZiczN3elFsWXE0RnRsVi1WS3NSNXhSNTI0THpveXlRWEZfZW5IRTltcHM5YU81dWU?oc=5",
+          "date": "2025-11-20"
+        },
+        {
+          "title": "Citizen of the Week: Jacqueline \u201cJax\u201d Cusack - The Philadelphia Citizen",
+          "source": "The Philadelphia Citizen",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ0F0MVpUdWFlZER2T0g2dG9HbHFHSlJHRzUxTmJVdVc2Y0lNMDQ5ektJUDNBLVZLcm44ekp3Z29QRWxNYWlSTlFaMkV3VUg1di1McEJGNlJyMl9KVmFKQ21DeF80VXBxbTBBWVM2U01ydW03T0xhaE9Ya3VVUGJGQ1N4NlI3Qm9aOXdBTU50RFZsR0Q1MXpmNHNHTU9EUTlsYlVna3hPM0l3cGxP?oc=5",
+          "date": "2024-06-25"
+        },
+        {
+          "title": "Black Thought, legendary emcee of The Roots, gets honored with mural in Olde Kensington - PhillyVoice",
+          "source": "PhillyVoice",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUlJzVzFzRHNJM3F1Ni1GWkhmVUZLSlhUTnVOVk9SY2tFb2dOR0JkSkNqV3hRbmZPelJGVHg5bHFDUjV6aTZIUVIyUzZTUGNzSDZMeUE2WFAtUzAyUXgzMGlJYkQxU1BGQzRNRm1LUXhySDF0NTFYaWVlYU1fOXR5ZDZscEI2WXlsNmFxLWlJaGFvdEd4aTJwdEpZTy1pNWxxZjBBR0FEMG53ci1OQ1R4bGcwRVFxb3IxSzRRTTRQdw?oc=5",
+          "date": "2022-06-02"
+        },
+        {
+          "title": "Streamline seeks fresh start on toxic Kensington soil: \u2018We\u2019re a different animal\u2019 - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa1Rvbjc4TzRaUUlkaTJIenI4S1poR2dURzdXS2d0SUtWM0JRbnJMV1A0MFRBU3FReHRmVjJEaHI4eFBBck5OelRBXzNSSFBQbXZnd2JOMGtoVllNbkJKdkVJSVBJTkpiekE0cFI3U2w4YVdvajJPYmFIdDB6VDlkT09acWtZVldrMHoyVzVGNk9XWU5ocEptZWZOeVJQRWRJNTFGc09xMA?oc=5",
+          "date": "2020-02-20"
+        },
+        {
+          "title": "Michael Solomonov Might Be Opening an Israeli Restaurant in Kensington - Eater Philadelphia",
+          "source": "Eater Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT3g0b2dQbFNBbGZYSkR3NXRMRk1mcG9xNk80ei1WWGNZRVJFc3pfcDFPQXpQNDB6VG8zZHB6NVlVWmwzQmRCQlZWQUFERlBPay1LVzJ2bGU0WnhBeFRKUy1KazFMV2RweDV5RlB2SGZiSm5fc1NOYzZDMTFEd3hRY2dONlVaZkhnM3RlaFFMODNueWNDVmNlUE9XUmdaak11Wjlva1FzRQ?oc=5",
+          "date": "2018-08-21"
+        },
+        {
+          "title": "Philadelphia's Changing Face: Is Kensington the New Stonewall Heights? - NBC10 Philadelphia",
+          "source": "NBC10 Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMkxZWVVZMGdMa0FzOF9MMmNCV3FnSWNWYU1oSG9hbGdlY25BRWg1djNKdlhRbV8zNFpNZjhpQ3N1d1RVQ1k3YVFKWFJCVVVXUHJQZGxnRTlXN1hsclIwUVhPZE8wMnhWSDM1dnFrVnVUaFk4bl9Qci1WVWhESFVHTTcxckE0OHFMRXlrQXMwbVAwOU4xbkM0VDR5RFVwNkdpZnVqQnZXZlBFdjVwTTEyYmYtSFo3UmvSAb8BQVVfeXFMTkJkNTl1aDlreVNhVlpxLVhtZkkzTVAtNENHRUp2b05IUC1RMEtvekFzVWZacGprcy1KWGtFeFFXWE03NGxDek5DWFBmNGtXWlFDc01DV1U5SWlTVFlOQmh4eDNtR0czclVwSGN0YjczWjEtWlFIdmxaT0ZHakxjeWRlZEh3UmZUNDlmX1QxZHBkWGNMcVhBbnltX2lVdU1aeUEycU02NmN3emNYdkxzOGtiU25ZU2p3WklFcjVEYjg?oc=5",
+          "date": "2017-10-11"
+        }
+      ],
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 106249,
+          "expenses": 117139,
+          "assets": 29026,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2012,
+          "revenue": 82153,
+          "expenses": 90097,
+          "assets": 12796,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2013,
+          "revenue": 121937,
+          "expenses": 95073,
+          "assets": 40382,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2014,
+          "revenue": 81898,
+          "expenses": 109929,
+          "assets": 16920,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2015,
+          "revenue": 162528,
+          "expenses": 145707,
+          "assets": 28338,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2016,
+          "revenue": 161560,
+          "expenses": 170781,
+          "assets": 23700,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2017,
+          "revenue": 180651,
+          "expenses": 156071,
+          "assets": 46445,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2018,
+          "revenue": 92063,
+          "expenses": 85369,
+          "assets": 46520,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2019,
+          "revenue": 81820,
+          "expenses": 84915,
+          "assets": 45228,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2020,
+          "revenue": 161441,
+          "expenses": 143346,
+          "assets": 64863,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2021,
+          "revenue": 236210,
+          "expenses": 232454,
+          "assets": 70273,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2022,
+          "revenue": 261539,
+          "expenses": 236384,
+          "assets": 98449,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2023,
+          "revenue": 338847,
+          "expenses": 310889,
+          "assets": 126183,
+          "employees": null,
+          "officerComp": 0
+        }
+      ]
     },
     {
       "name": "South Street Headhouse District",
@@ -9413,7 +9714,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -9479,7 +9780,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 3,
       "executive": {
@@ -9928,7 +10229,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 1,
       "executive": {
@@ -10154,7 +10455,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 2,
       "executive": {
@@ -10365,7 +10666,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 3,
       "executive": {
@@ -10556,7 +10857,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 3,
       "executive": {
@@ -10965,7 +11266,7 @@
       ]
     },
     {
-      "name": "Women's Community Revitalization Project",
+      "name": "Women's Community Revitalization Project (WCRP)",
       "type": "CDC",
       "ein": "222840188",
       "irsName": "Womens Community Revitalization Project",
@@ -10982,7 +11283,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 1,
       "executive": {
@@ -11056,22 +11357,22 @@
           "date": "2026-02-13"
         },
         {
-          "title": "Affordable housing project to be built on vacant North Philly lots - PhillyVoice",
-          "source": "PhillyVoice",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeFFHeGw4NXBEd2ZnUTV0bU1Xc3FWSWdUMV9nNHRlbFgwM2xfRUtCcTdQX3RrS2ZRNFBIVUFPaDAzOFBKdXJqLWlDX3RtdXJLS1VPU1d4TTU1TkVCUzZ1Nm1OWWE3Smd4QmJoemc0S1Q0TXY0eXBvRFV1ZkpCOW96aEFLMVpKUEcxLWVMTFNB?oc=5",
-          "date": "2025-12-01"
-        },
-        {
           "title": "New affordable housing development to replace empty lot at 55th and Haverford - West Philly Local",
           "source": "West Philly Local",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSmo1MHY2enFlOHdqeXFoV2hYaW9lblBmSmdYR1RzTFNBSWU2dWtOZXhfVDEybXUybi1YbXYta3NjMXpKMWxKdDNwb1NtU2NKN2hidnNYTTBXOV9MNk5aektBakVVbWQzU2hOZzBtcDhRaTBVd3lQcnI5UEN0WU95bkdnMGtzZHZ4UkZ1UllwUGk5ZlMxeEdzb2xra1dMTzF2cGJWS1hUVy1uT293WmhJc0hfdl9LZ0pNM3hjWjhB?oc=5",
           "date": "2025-09-23"
         },
         {
-          "title": "After a controversial first decade, what challenges does the Philly Land Bank face now? Five advocates offer advice. - Inquirer.com",
-          "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT3dLOXVMOVV4STVmRTdvQVNPQ2VUbFJuck5wYWpCai0zQU1STzhySzNFSnNNcFdieVc0a0JBWlRfNWlmVEFIRHE4TEVJSTN2ZE5OcUZ6S1VsVGtXcmZlQ0VSb2Z2RVd5SmVHM2MwaXIzdzBfMGlkbjR4NHlMVzVQRjV4R2JmQjZDbEJRTTNUeUtfWW5CTGthaEVjRFI?oc=5",
-          "date": "2024-03-10"
+          "title": "How Philadelphia is Leveraging Vacant Land to Solve Affordable Housing Shortage - Multifamily & Affordable Housing Business",
+          "source": "Multifamily & Affordable Housing Business",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdkZHS2hxMzI3bzNkVFZPX2VkUFREU3pzTVR0U2NVRExLeG5XS19vWEUwLWlEOG1FWkt0c0tIVnMyQUVHekFJYVhyMnY4R3ZIaGpjUVRlYU03cG1YendkYkE1UWxXUFVmalJ3OXk4S0VVQThYeEd4V3NpTGVZN05PSk9hVmhCczJsYjB6VGliNnBhb19JQzhJWENDRnBqQ2xTMFpKQm14VU9SNExraDAyTU1YUWxZQTJmdnVQTm1B?oc=5",
+          "date": "2024-11-08"
+        },
+        {
+          "title": "\u2018It\u2019s just a blessing\u2019: Philly officials and residents celebrate affordable housing development in Grays Ferry - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbkx2Vi1jN1RZcEl3THh3ajJHM3hMcXRTdHpfcVljYWhFZW1mQU9lODVWTFN1RFYzMEQ5RnVaMzM3aUJBemw0a01MTlRHN1YtV0NKRUF0VzFHQTl6Tm5BanRfM2txOFViYUpOSmZCTU1IVklubkdCdm5HcEx1NjEwMER6TElLVjV1MXVRUFdNb3FqODEwVmNmN0V1ZXNSd0RMMlNzdDBEUm8xQQ?oc=5",
+          "date": "2024-07-11"
         },
         {
           "title": "Women\u2019s Community Revitalization Project breaks ground on rental units in Point Breeze - phillytrib.com",
@@ -11209,7 +11510,7 @@
       "latestEmployees": null,
       "website": "",
       "contactEmail": "",
-      "source": "PACDC",
+      "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
       "executive": null,
@@ -11406,6 +11707,253 @@
           "assets": 209244,
           "employees": null,
           "officerComp": 70000
+        }
+      ]
+    },
+    {
+      "name": "Xiente",
+      "type": "CDC",
+      "ein": "239233412",
+      "irsName": "Xiente",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2010,
+      "lastYear": 2023,
+      "yearsFiled": 14,
+      "filingGaps": [],
+      "compJumpYears": [
+        2012,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "latestRevenue": 9936492,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Ben roster",
+      "closedCandidate": false,
+      "instability": 5,
+      "executive": {
+        "name": "Michelle Carrera",
+        "title": "Ceo",
+        "comp": 178453,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Michelle Carrera",
+          "title": "Ceo",
+          "comp": 178453,
+          "isExecutive": true
+        },
+        {
+          "name": "Jesse Hunting",
+          "title": "Vp Of Finance And Real Estate",
+          "comp": 118297,
+          "isExecutive": false
+        },
+        {
+          "name": "Adamary Sosa",
+          "title": "Vp Of Economic Mobility",
+          "comp": 117000,
+          "isExecutive": false
+        },
+        {
+          "name": "Ariel Rodriguez",
+          "title": "Board President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Marjorie Dugan Phd",
+          "title": "Vice President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Sandra Carrion Foy",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Kisha Vargas",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Maria Sourbeer",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Alex Robles",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Pearl Brown",
+          "title": "Director (Thru 7/24)",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Panel explores the roots of social mobility, guaranteed income and financial coaching - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PcF9HanVFd3JXSE9NbUlWbm1EMDJHMk1DVGJSZHM5YmVYVFpDUDZNZEJkem9LR0ZLZGhKN3VuRXdmV0ZITnpfUzVGd2FqbzU5N3NsVUZPb0FKZ2dpYUgxYlJ2N09ZVzV4VXhwQ29PSDdxZw?oc=5",
+          "date": "2026-06-06"
+        },
+        {
+          "title": "A real estate mogul\u2019s ambitious plans | Real Estate Newsletter - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcXRLU21JUGgzUl9RZERiU1ZlYTgwd2I5RERhcllIYkxKU3dqZHBma3c0cklqdHF1OF9oZlBmOXVabUtNMlFqMWc5UVIyLTQwVHJBM1VpZDdQWk03eDJSbnFkQnJZWGw1MkJEQzlnWGVtUVEyTVNXazZKYlQzVTNBS19TMTFLYU5kdklDY19WenQzQ093NlNpanUxRmY5NlhCZmZEbGJVN2JNUTBURTJZdm1jSQ?oc=5",
+          "date": "2026-04-23"
+        },
+        {
+          "title": "Some North Philly residents are getting new homes to keep them in their \u2018heavily gentrified\u2019 neighborhoods - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdmNGd3pCczBHS0VRSU9UMnFmRU53QnpyQlloT1Z6bkFLNjRLM3ZsWmx0QmFxYkMzSmVRY25kTkxWTDQ2RnE5NUZtRFhxYW1TNUlfOXloSUIyVG1GNnNrT0ttbVJuUkJxVktqbmxFMXRkQUd3ZmZTdEhhbng1dTRWamlRbFY3MnJaSWg1cGJESk5EM3NudndZd0lTMk45c0NsenhNU3E3cDFkdVVvbUdYSnZxR2cxdnBXWXhwSEl1R3p4V2h2?oc=5",
+          "date": "2026-04-22"
+        },
+        {
+          "title": "North Philly Has a New Option To Invest in a Future It Sees For Itself - Next City",
+          "source": "Next City",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVW5Cd1V2eHJ0dmYyaEdOSHNHMVI5cmRjRzdXczBubEhFRkZMYTFhTTU1ZjR1cDFuRzFKNmJwM0Z5dEZ6WTVubmFWc0xrZl9ONXdTS0JNYlRaM25WWkgyUUZuSWhSUU0wdFlkTDZQS1c1WVF5c195emExN25xVzkyR0NDWmpyQmpkenhObHNVQUNpVEJZNmZWcVZmZXE4YkdNaXc?oc=5",
+          "date": "2026-03-31"
+        },
+        {
+          "title": "Affordable housing project to be built on vacant North Philly lots - PhillyVoice",
+          "source": "PhillyVoice",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeFFHeGw4NXBEd2ZnUTV0bU1Xc3FWSWdUMV9nNHRlbFgwM2xfRUtCcTdQX3RrS2ZRNFBIVUFPaDAzOFBKdXJqLWlDX3RtdXJLS1VPU1d4TTU1TkVCUzZ1Nm1OWWE3Smd4QmJoemc0S1Q0TXY0eXBvRFV1ZkpCOW96aEFLMVpKUEcxLWVMTFNB?oc=5",
+          "date": "2025-12-01"
+        },
+        {
+          "title": "Mobile pre-K classroom helps Philly children and families - Billy Penn at WHYY",
+          "source": "Billy Penn at WHYY",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRmxZOGVXZGk4eXZzeFpKUkRQeFI2OWYzQVZDUzV1UHNuc3d4SFNGcFZYc192bWZqQmtUMkc1OExaeFJjd0dwODBFLUhwcHlLd1VfcVczVkVQMm01VnZJdDNIQkFSVUoyR3hiQXFxbjRtanROc0ZBNkx1Y3pfUU1MU2Juei16SXM2RHJZZjFldXBUUUpNbzdreWczblFYdUw4aGRIdzF3?oc=5",
+          "date": "2025-05-08"
+        }
+      ],
+      "history": [
+        {
+          "year": 2010,
+          "revenue": 3220582,
+          "expenses": 3966732,
+          "assets": 11367309,
+          "employees": null,
+          "officerComp": 130000
+        },
+        {
+          "year": 2011,
+          "revenue": 5117736,
+          "expenses": 4223652,
+          "assets": 10038546,
+          "employees": null,
+          "officerComp": 134522
+        },
+        {
+          "year": 2012,
+          "revenue": 6754318,
+          "expenses": 5260644,
+          "assets": 12605574,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2013,
+          "revenue": 14489414,
+          "expenses": 9062240,
+          "assets": 17858182,
+          "employees": null,
+          "officerComp": 97994
+        },
+        {
+          "year": 2014,
+          "revenue": 8484683,
+          "expenses": 10540099,
+          "assets": 16117968,
+          "employees": null,
+          "officerComp": 90434
+        },
+        {
+          "year": 2015,
+          "revenue": 9886767,
+          "expenses": 11274680,
+          "assets": 14772950,
+          "employees": null,
+          "officerComp": 102795
+        },
+        {
+          "year": 2016,
+          "revenue": 13068641,
+          "expenses": 12801165,
+          "assets": 13886957,
+          "employees": null,
+          "officerComp": 104465
+        },
+        {
+          "year": 2017,
+          "revenue": 10048730,
+          "expenses": 12545848,
+          "assets": 10805565,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2018,
+          "revenue": 5016744,
+          "expenses": 7174442,
+          "assets": 9104194,
+          "employees": null,
+          "officerComp": 27374
+        },
+        {
+          "year": 2019,
+          "revenue": 8507934,
+          "expenses": 7183232,
+          "assets": 11936276,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2020,
+          "revenue": 7908998,
+          "expenses": 6942880,
+          "assets": 12685024,
+          "employees": null,
+          "officerComp": 105654
+        },
+        {
+          "year": 2021,
+          "revenue": 8779038,
+          "expenses": 7591756,
+          "assets": 13759138,
+          "employees": null,
+          "officerComp": 119970
+        },
+        {
+          "year": 2022,
+          "revenue": 9172105,
+          "expenses": 7735146,
+          "assets": 14652837,
+          "employees": null,
+          "officerComp": 119573
+        },
+        {
+          "year": 2023,
+          "revenue": 9936492,
+          "expenses": 9026012,
+          "assets": 16428172,
+          "employees": null,
+          "officerComp": 131218
         }
       ]
     }
