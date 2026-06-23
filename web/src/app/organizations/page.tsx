@@ -11,12 +11,11 @@ export default function OrganizationsPage() {
       <div className="container">
         <div className="eyebrow">The roster</div>
         <h1 className="serif" style={{ fontSize: 38, marginTop: 10 }}>
-          {summary.total} organizations
+          {summary.total} CDCs
         </h1>
         <p className="lede" style={{ marginTop: 12, fontSize: 15.5 }}>
-          Every Community Development Corporation and Business Improvement District in the
-          study. Search, filter, and sort. Open any organization for its full financial and
-          leadership history.
+          Every Community Development Corporation in the study. Search, filter, and sort.
+          Open any organization for its full financial and leadership history.
         </p>
         <div style={{ marginTop: 26 }}>
           <RosterTable orgs={orgs} />

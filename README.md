@@ -9,10 +9,9 @@ organizations:
 > **What factors determine leadership transitions in community economic
 > development organizations in Philadelphia?**
 
-Corridor builds a comprehensive roster and history for the ~65 Community
-Development Corporations (CDCs) and Business Improvement Districts (BIDs) in
-Philadelphia automatically from public records, and flags exactly which
-organizations need a human to finish the job.
+Corridor builds a comprehensive roster and history for Philadelphia's Community
+Development Corporations (CDCs) automatically from public records, and flags
+exactly which organizations need a human to finish the job.
 
 ## What it produces
 
@@ -35,9 +34,10 @@ Python, or anything else.
 | Source | What it gives |
 |---|---|
 | [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/) | EIN, every digitized Form 990 year (revenue, assets, employees, officer pay), and the current officer/board roster from Part VII |
-| [PACDC member list](https://pacdc.org/members/member-list/) | The CDC roster |
-| [OpenDataPhilly Business Improvement Districts](https://opendataphilly.org/datasets/business-improvement-districts/) | The BID roster, plus website and a contact email per BID |
 | [Google News](https://news.google.com/) | Recent articles per organization, including leadership coverage |
+
+The CDC roster (`data/cdc_roster.csv`) is the researcher's own authoritative list.
+Scope is CDCs only; `data/bid_roster.csv` is retained for reference but not loaded.
 
 ## What it does well, and what it doesn't
 
@@ -105,14 +105,13 @@ comes from the export run.
 
 ## Roster maintenance
 
-The rosters are bundled as CSVs in `data/` so the run is reproducible:
+The roster is bundled as a CSV in `data/` so the run is reproducible:
 
-- `data/cdc_roster.csv` — 58 CDCs from the PACDC member list
-- `data/bid_roster.csv` — 17 BIDs from OpenDataPhilly, with website + contact
+- `data/cdc_roster.csv` — the researcher's authoritative CDC list (the scope)
+- `data/bid_roster.csv` — the Philadelphia BID list, retained for reference but
+  no longer loaded (scope is CDCs only)
 
-To add or correct an organization, edit those files and re-run. To refresh the
-BID list from the city's live open-data feed, the source query is documented in
-the commit history.
+To add or correct an organization, edit `cdc_roster.csv` and re-run.
 
 ## Next stage (not built yet)
 

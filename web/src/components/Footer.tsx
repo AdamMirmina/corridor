@@ -21,12 +21,8 @@ export function Footer() {
               ProPublica Nonprofit Explorer
             </a>{" "}
             &middot;{" "}
-            <a href="https://pacdc.org/members/member-list/" target="_blank" rel="noreferrer">
-              PACDC
-            </a>{" "}
-            &middot;{" "}
-            <a href="https://opendataphilly.org/datasets/business-improvement-districts/" target="_blank" rel="noreferrer">
-              OpenDataPhilly
+            <a href="https://news.google.com/" target="_blank" rel="noreferrer">
+              Google News
             </a>
           </div>
         </div>

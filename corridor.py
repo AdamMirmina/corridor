@@ -72,18 +72,13 @@ def similarity(a: str, b: str) -> float:
 
 
 def load_roster() -> list[dict]:
+    # Scope is CDCs only (the BID roster in data/bid_roster.csv is retained for
+    # reference but no longer loaded).
     rows = []
     with open(os.path.join(DATA, "cdc_roster.csv"), newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             rows.append({"org_name": r["org_name"], "type": r["type"],
                          "website": "", "contact_email": "", "source": r["source"]})
-    with open(os.path.join(DATA, "bid_roster.csv"), newline="", encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            rows.append({"org_name": r["org_name"], "type": r["type"],
-                         "website": r.get("website", ""),
-                         "contact_email": r.get("contact_email", ""),
-                         "source": r["source"]})
-    # De-dupe orgs that appear on both lists (e.g. Old City District).
     seen, deduped = set(), []
     for r in rows:
         key = norm(r["org_name"])

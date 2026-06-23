@@ -23,10 +23,9 @@ export default function Overview() {
             Leadership and longevity in Philadelphia&apos;s neighborhoods
           </h1>
           <p className="lede">
-            A tracked history of the Community Development Corporations and Business
-            Improvement Districts that hold up Philadelphia&apos;s commercial corridors and
-            affordable housing. Who runs them, how big they are, how long they last, and the
-            moments leadership changed hands.
+            A tracked history of the Community Development Corporations behind
+            Philadelphia&apos;s commercial corridors and affordable housing. Who runs them,
+            how big they are, how long they last, and the moments leadership changed hands.
           </p>
           <div className="q">
             <b>Research question.</b> What factors determine leadership transitions in
@@ -40,10 +39,8 @@ export default function Overview() {
           <div className="stat-grid">
             <div className="stat">
               <div className="v tnum">{summary.total}</div>
-              <div className="k">Organizations tracked</div>
-              <div className="sub">
-                {summary.cdcs} CDCs &middot; {summary.bids} BIDs
-              </div>
+              <div className="k">CDCs tracked</div>
+              <div className="sub">Community Development Corporations</div>
             </div>
             <div className="stat">
               <div className="v tnum">{summary.withNamedExecutive}</div>

@@ -11,8 +11,6 @@ type Filter = "all" | "cdc" | "bid" | "signal" | "lookup";
 
 const filters: { key: Filter; label: string }[] = [
   { key: "all", label: "All" },
-  { key: "cdc", label: "CDCs" },
-  { key: "bid", label: "BIDs" },
   { key: "signal", label: "Has signal" },
   { key: "lookup", label: "Needs lookup" },
 ];

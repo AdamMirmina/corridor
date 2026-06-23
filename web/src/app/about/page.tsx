@@ -15,21 +15,18 @@ export default function AboutPage() {
         <Prose>
           <p>
             Corridor is a research dataset on what drives executive-director turnover in
-            Philadelphia&apos;s community economic development organizations. It tracks{" "}
-            {summary.total} organizations: {summary.cdcs} Community Development Corporations
-            and {summary.bids} Business Improvement Districts, from public records.
+            Philadelphia&apos;s Community Development Corporations. It tracks {summary.total}
+            {" "}CDCs from public records.
           </p>
 
           <h3>Where the data comes from</h3>
           <p>
-            The roster is built from the{" "}
-            <a href="https://pacdc.org/members/member-list/" target="_blank" rel="noreferrer">PACDC member list</a>{" "}
-            for CDCs and the City of Philadelphia&apos;s{" "}
-            <a href="https://opendataphilly.org/datasets/business-improvement-districts/" target="_blank" rel="noreferrer">Business Improvement Districts</a>{" "}
-            open dataset for BIDs. Each organization is matched to its IRS employer
-            identification number, then enriched with every digitized Form 990 on file
-            through the{" "}
-            <a href="https://projects.propublica.org/nonprofits/" target="_blank" rel="noreferrer">ProPublica Nonprofit Explorer API</a>.
+            Each organization is matched to its IRS employer identification number, then
+            enriched with every digitized Form 990 on file through the{" "}
+            <a href="https://projects.propublica.org/nonprofits/" target="_blank" rel="noreferrer">ProPublica Nonprofit Explorer</a>,
+            which also supplies the current officer and board roster from Part VII. Recent
+            news comes from{" "}
+            <a href="https://news.google.com/" target="_blank" rel="noreferrer">Google News</a>.
             Every source is public and free.
           </p>
 
