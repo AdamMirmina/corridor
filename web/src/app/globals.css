@@ -286,11 +286,36 @@ table.data tbody tr.clickable:hover { background: var(--surface-2); cursor: poin
 @media (max-width: 880px) {
   .stat-grid { grid-template-columns: repeat(2, 1fr); }
   .grid-2 { grid-template-columns: 1fr; }
-  .nav-links .label-full { display: none; }
 }
 @media (max-width: 560px) {
   .container, .nav-inner { padding: 0 16px; }
+
+  /* nav stacks: brand on top, links spread across a second row */
+  .nav-inner { height: auto; flex-direction: column; align-items: stretch; gap: 6px; padding-top: 9px; padding-bottom: 9px; }
+  .brand-text span { display: none; }
+  .brand-text b { font-size: 15px; }
+  .nav-links { justify-content: space-between; gap: 2px; }
+  .nav-link { padding: 6px 10px; font-size: 13px; }
+
+  .section { padding: 30px 0; }
+  .section + .section { padding-top: 4px; }
+  .hero { padding: 34px 0 26px; }
+  .hero .lede { font-size: 15.5px; }
+
   .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .stat .v { font-size: 25px; }
+  .stat { padding: 15px 15px 13px; }
+  .stat .v { font-size: 24px; }
   .hide-sm { display: none; }
+
+  .card-pad { padding: 18px 16px; }
+  .card-head { flex-wrap: wrap; gap: 4px 12px; }
+
+  /* detail page: stack the header and make the out-links full-width taps */
+  .detail-head { gap: 14px; }
+  .detail-head > div:last-child { width: 100%; }
+  .outlink { width: 100%; justify-content: center; padding: 11px 14px; }
+  .kv-row { gap: 16px 22px; margin-top: 18px; }
+  .kv .v { font-size: 17px; }
+
+  .footer-grid { gap: 20px; }
 }
