@@ -1,24 +1,358 @@
 {
-  "generatedAt": "2026-06-23",
+  "generatedAt": "2026-06-24",
   "summary": {
-    "total": 61,
-    "matched": 52,
-    "withFinancialData": 47,
-    "highConfidence": 49,
-    "needsLookup": 9,
-    "withSignal": 30,
-    "withNamedExecutive": 41,
-    "newsArticles": 237,
-    "inTaxCreditProgram": 22,
-    "everTaxCredit": 30,
-    "form990Pdfs": 738,
-    "cdcs": 61,
+    "total": 70,
+    "matched": 60,
+    "withFinancialData": 55,
+    "highConfidence": 57,
+    "needsLookup": 10,
+    "withSignal": 35,
+    "withNamedExecutive": 47,
+    "newsArticles": 283,
+    "inTaxCreditProgram": 29,
+    "everTaxCredit": 39,
+    "form990Pdfs": 905,
+    "cdcs": 70,
     "bids": 0,
     "closureCandidates": 4,
     "earliestYear": 2009,
     "latestYear": 2024
   },
   "orgs": [
+    {
+      "name": "ACHIEVEability",
+      "type": "CDC",
+      "ein": "232215980",
+      "irsName": "Achieveability",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2022,
+      "yearsFiled": 12,
+      "filingGaps": [],
+      "compJumpYears": [
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "latestRevenue": 842709,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 4,
+      "executive": {
+        "name": "Jamila Harris Morrison",
+        "title": "Executive Di",
+        "comp": 176423,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Jamila Harris Morrison",
+          "title": "Executive Di",
+          "comp": 176423,
+          "isExecutive": true
+        },
+        {
+          "name": "Christina Barile",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Dan Berger",
+          "title": "Vice Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Shannon Farmer",
+          "title": "Assistant Se",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "James F Morgan Iii",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "James R Johnson",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Keith Jones",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Suzanna Mcmonigle",
+          "title": "Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Monica Platt",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Kristin Sizelove",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2022,
+      "news": [
+        {
+          "title": "Hundreds of Volunteers take part in ACHIEVEability's Impact Day in West Philadelphia - 6abc Philadelphia",
+          "source": "6abc Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWEpWeVRGNnR4bXlzRUNkeHBxaUs4Z0k4Q216SWpucTNaZG94MjhXekdIUTZ4N2pLVXk0NkhUTHVNdmViaVpoa3lwSGxTMlBVYTd1VWdkWjMxdUZuXzM4T25URU5lVG5DWG1LZ2hVQ1Q3SlEzc2JJWlptLUNMMml4NjZldkFxMzlSR1VRMzlhS0ZkaU5hUk5kVXF6a3hkdDVxUjBpSE51a3ZwQdIBrwFBVV95cUxOY3ZoTWtFX1prWnpKMFBpTXA0ZVpqT0dQa3k2UFIxaGtiSy1jTmpQYUMzWllEVXhYbXNDTDRReUJYUzBiYldCMXBZdUp4ZjU1a0JhTkNrNnRoemREaGExYkNPV09COUxvdFVCRTZpRUtVSzYxbFRtSE5ZSnRJNi1yR1VuVkxYSmlkbkVIdVV5SExJUmJ4cl9FMzR0U25vUzVFQUZpVUhwRlI0NzRvRllj?oc=5",
+          "date": "2026-04-24"
+        },
+        {
+          "title": "ACHIEVEability Impact Day - FOX 29 Philadelphia",
+          "source": "FOX 29 Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hLVlkM0c4bnlVbW5aU0ROcTJvb090Uk1Edl9PVkw3SHdGUzBqNXNYY21ITVBYaks1THlzWnNuRTNRM05IaGR1eFlxWVlaNWo1S1JndHZCUjNMazRW0gFiQVVfeXFMTzFTTW1QRTNHQ3RhYU5uTjRLelgzckM4OHcwdnpvQkhMdFEtREVwS3oyWHJqbE9JSHg5RkUzdF9tVlFYYjNPRENCbWFsNGtDNHRlRnhOX195LXpIU1R1QUJJRVE?oc=5",
+          "date": "2026-04-24"
+        },
+        {
+          "title": "Good Day Uncut: ACHIEVEability Impact Day - FOX 29 Philadelphia",
+          "source": "FOX 29 Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VZnR6U2JNeE40aHBFVlNrcGZyR1NVWjNpQ1dxWWhPYnVPTEc1Ung0R0RuMzRJMjFUUUpXdHRxR3NMVUpxcGY0RXU2ckM2WXk0TzN6cVdJNGhWN2hN0gFiQVVfeXFMTl9kWXl3UTNJY01ncGc3ZUJLanBPYTRJWVB1bXUzQkhadkFwLUVBUFJzQVFBUERFb29fQlBJLXM1RHAxUW9DcXZaTG1pODVWWG5YZW83T29oMFRFZVpicWNSLVE?oc=5",
+          "date": "2026-04-24"
+        },
+        {
+          "title": "Uber program that gives free rides to seniors expands to Northeast Philly - PhillyVoice",
+          "source": "PhillyVoice",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92dmVfOXltTWd1aThraWc0U253MThmUERQcU5KcUVQdERjVFFoRE1mVmlyeGN6cEt3TlFpZUxzckFMRjZRUDNsNG9ULUNlZjJyX2tqZEJULXBPVzF2VXFobUFYcWQ4X2gybEIyREhBekxRZl9EZDNibA?oc=5",
+          "date": "2026-03-30"
+        },
+        {
+          "title": "Uber offering free rides to Philly seniors amid SEPTA cuts - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUU08yRlhhOWFDZEN0V2tFclFVUHFnYXFkRG1UR0NqdDFKTmdqZEZpc2toT1RLZHU3SU9DLXEzTmdjbkR5OElEak44Q29xMzJJUFBQWXhZYnB3ei1HOV9nOUZfWQ?oc=5",
+          "date": "2025-08-29"
+        },
+        {
+          "title": "Seniors Will Receive Free Ubers Following SEPTA Cuts - 93.3 WMMR",
+          "source": "93.3 WMMR",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vWHNzWnRFQlhYVm9pbF9WUjBkSGxsU21oZGNnSW9hZk9scVgyZzJzUENpTlhGalVfWDVYYkN1dGJKVGdSTVB2WFVVQlJHNm9XczlNV0FMRWlPS3p2S3dNMURmY3VUMkxyNW5Qc0JZTlhBWWtzcFFJ?oc=5",
+          "date": "2025-08-29"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F232215980_202206_990_2024041522362149.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F232215980_202106_990_2022052520138183.pdf"
+        },
+        {
+          "year": 2020,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_22-23%2F232215980_202006_990_2021051118085080.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=10_2020_prefixes_22-23%2F232215980_201906_990_2020102117397805.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=07_2019_prefixes_20-23%2F232215980_201806_990_2019071116476743.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=09_2018_prefixes_22-23%2F232215980_201706_990_2018090415648823.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F232215980_201606_990_2017093014789189.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_08_EO%2F23-2215980_990_201506.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_06_EO%2F23-2215980_990_201406.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_06_EO%2F23-2215980_990_201306.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_06_EO%2F23-2215980_990_201206.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_06_EO%2F23-2215980_990_201106.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_03_EO%2F23-2215980_990_201006.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_07_EO%2F23-2215980_990_200906.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_06_EO%2F23-2215980_990_200806.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_01_EO%2F23-2215980_990_200706.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_12_EO%2F23-2215980_990_200606.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2005_12_EO%2F23-2215980_990_200506.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2004_11_EO%2F23-2215980_990_200406.pdf"
+        },
+        {
+          "year": 2003,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_10_EO%2F23-2215980_990_200306.pdf"
+        },
+        {
+          "year": 2002,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_01_EO%2F23-2215980_990_200206.pdf"
+        },
+        {
+          "year": 2001,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2002_01_EO%2F23-2215980_990_200106.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "ACHIEVEability",
+        "startYear": 2012,
+        "annualAmount": 85000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "active": true
+      },
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 1828635,
+          "expenses": 2164051,
+          "assets": 3682937,
+          "employees": null,
+          "officerComp": 456079
+        },
+        {
+          "year": 2012,
+          "revenue": 2324551,
+          "expenses": 2041721,
+          "assets": 4083363,
+          "employees": null,
+          "officerComp": 414871
+        },
+        {
+          "year": 2013,
+          "revenue": 1217697,
+          "expenses": 2182740,
+          "assets": 3425955,
+          "employees": null,
+          "officerComp": 131611
+        },
+        {
+          "year": 2014,
+          "revenue": 1535005,
+          "expenses": 1915519,
+          "assets": 3048057,
+          "employees": null,
+          "officerComp": 204942
+        },
+        {
+          "year": 2015,
+          "revenue": 1523023,
+          "expenses": 1695881,
+          "assets": 4811198,
+          "employees": null,
+          "officerComp": 110002
+        },
+        {
+          "year": 2016,
+          "revenue": 1261821,
+          "expenses": 2327615,
+          "assets": 3545900,
+          "employees": null,
+          "officerComp": 168803
+        },
+        {
+          "year": 2017,
+          "revenue": 1740798,
+          "expenses": 1890013,
+          "assets": 3601378,
+          "employees": null,
+          "officerComp": 189295
+        },
+        {
+          "year": 2018,
+          "revenue": 1766597,
+          "expenses": 1655529,
+          "assets": 3480757,
+          "employees": null,
+          "officerComp": 146850
+        },
+        {
+          "year": 2019,
+          "revenue": 1723793,
+          "expenses": 1469029,
+          "assets": 2719999,
+          "employees": null,
+          "officerComp": 145598
+        },
+        {
+          "year": 2020,
+          "revenue": 1849492,
+          "expenses": 1260879,
+          "assets": 3674852,
+          "employees": null,
+          "officerComp": 142518
+        },
+        {
+          "year": 2021,
+          "revenue": 2564403,
+          "expenses": 2111487,
+          "assets": 3969838,
+          "employees": null,
+          "officerComp": 141860
+        },
+        {
+          "year": 2022,
+          "revenue": 842709,
+          "expenses": 2398112,
+          "assets": 2199076,
+          "employees": null,
+          "officerComp": 141859
+        }
+      ]
+    },
     {
       "name": "African Cultural Alliance of North America",
       "type": "CDC",
@@ -333,6 +667,336 @@
       ]
     },
     {
+      "name": "Allegheny West Foundation",
+      "type": "CDC",
+      "ein": "231924667",
+      "irsName": "Allegheny West Foundation",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2022,
+      "yearsFiled": 12,
+      "filingGaps": [],
+      "compJumpYears": [
+        2021
+      ],
+      "latestRevenue": 1355545,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 1,
+      "executive": {
+        "name": "Ronald Hinton",
+        "title": "President/Exec Dir",
+        "comp": 124604,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Ronald Hinton",
+          "title": "President/Exec Dir",
+          "comp": 124604,
+          "isExecutive": true
+        },
+        {
+          "name": "Norma B Carter",
+          "title": "Chair & Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Stacy Sheilds",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Ronald Hinton Jr",
+          "title": "President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Ken Curry",
+          "title": "Vice President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Joyce Smith",
+          "title": "Assistant Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Atif Bostic",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Mark Nicoletti",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "David Smith",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Henry Hunter",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2022,
+      "news": [
+        {
+          "title": "Williamsport city council to fill vacant seat onstage tonight - NorthcentralPA.com",
+          "source": "NorthcentralPA.com",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVnlNdEdGaEdTT3FnbTlNX1pRdzI4QnQ0RDRuellmUlU2ZVZWMTB1S1pDdFd3UFRkUDR1ZTA3d0QzWHhRMmNKbGJpck5LX3ZDNy1NallkZFZ1aVZHMGpoalBlTWFUdHE1WWtaTlgzMFYxTmpJMUFXMThGUmRvRXZTSHptWHFtMjZPU1JvWjVOYktwSXFteG9PMWUyUFAyaU9JZXNPT01GLXkzMllVZXQ5c3NKby1ZOGJaZE1uUEdoM1RFbUNzZWwzeHJLaWdYd19BaDRsellLcVk2c1V5YzNwUA?oc=5",
+          "date": "2026-04-21"
+        },
+        {
+          "title": "Apply for the Neighborhood Economic Development Grant by March 19 - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVFJKLXYtTUIwMnNRYVZaeFYwRldSckhWV1d1YklfM0hhSzRFUmFRMm1meDBPZXdVWWRGXzZDOVF2R0NRTGsxRFlzVkRvSm1najV5Y0Vld3QwQlpPc1VON24zTDl3SWlrNjMzR3NSZTJRako4Y1hxU19DYnczZmZoTmVnV3dzdnF5Q2lEeUFhN0QxYURkZDRWQ3ZFQkw1a1pz?oc=5",
+          "date": "2026-03-03"
+        },
+        {
+          "title": "Pilot Program Seeks To Turn Working-Class Homebuyers Into Senior Housing Landlords - Bisnow",
+          "source": "Bisnow",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbDE1RkZtNkpzWGtnMW5JWHNiRHBNSUU1QnJNVEZmMlFldHRRTDlmTmRKNG9JRHZvMGNpTmN1alFyaTh3YlduZ1czSVVZV0dIRFdoWm1qN1VZLWZqcVBJLVI0cWszX2ZsT1NQcDJHOHR5N2loY1FpZC1wSVlRckU0bkNTanBSUHhNOVctWWhBWkIzZ1dwdUJ1RTZwNUFaUWI3eU5KZ2ZYOXBNbENKeXc?oc=5",
+          "date": "2026-02-26"
+        },
+        {
+          "title": "Here are 10 places where Philadelphia residents can find free food - phillytrib.com",
+          "source": "phillytrib.com",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYWlpaEV0X3BXWjdWUXhTRUFtdFdadXVOV2pSUVVkLTdnd3lpS3dfLTlmSFR4Z29XV2hRY0RweU94RnA0cGNKQ2cyYVhScG1VclZhZHV5bFUwcktCRlVPNzRVQ0oyNVVBaEFhTkdCVmFvd1FGY3JfVkdEY1ZGWjdxWHJuZ2NFakFsRVVTUjFBWXJyWTgxNmY2Ry1tVWhtLXRBQU95UGhuT0xiTHJmcFBsblY4SHducW54a1ZDbWFPVGNBTVZoN29TZGdsdW5wTkdTSlpiZURoWm5pSjBxVUZIMDhWdm9Rb1g4bEpwSGRnVzA?oc=5",
+          "date": "2025-11-28"
+        },
+        {
+          "title": "This North Philly street has more than 50 small businesses, but zero banks in sight - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQkVUV0h6YUFYSkpSYzZKZ1g3bWdGX1ZCWVRoQk1CRWhsVzEwUzdhclM1TXcyWEtzb2RPVE1hVzV4Y21YRG5UcFhTZmRWakNhOWVKazF0TlkxOUhYclZJaW52Q0w5SHNSMDJ5NkZXTW5seHI0bjFHMTdqT3RWbC0xT2J3eTIxWGpQV0NFT3c4NnpsaTBXaTJkelUyQUxGYWRlU1RZNXczSWxxaUR3dlA1Y2VJS2Z1d3BTSUMwYg?oc=5",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "What do Philly\u2019s small business owners want from the city\u2019s 100th mayor? \u2018Fix everything\u2019 - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTFDTmluNzFpaUpwaWNzUTd4NEY5cmgycmduenMwcFJidHoyUFk1akZ3VEtNSi01bVR1N1d2dnF4ZVZUR2JfMWJWSW1GbkltcnZLR013T01PckJhR3c3TFZZSWdIajM0TE5mT21uSHJ1RlRWajFGSXBSS29KQTF2ZS0xQldkbGhiaEZNN2E3LTJFc21qS25DbFNjVkZSVi1x?oc=5",
+          "date": "2023-11-02"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2024,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F231924667_202406_990_2025081423650463.pdf"
+        },
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F231924667_202306_990_2025081423664171.pdf"
+        },
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F231924667_202206_990_2023060721397367.pdf"
+        },
+        {
+          "year": 2020,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_22-23%2F231924667_202006_990_2021051818121762.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2021_prefixes_22-23%2F231924667_201906_990_2021021717716258.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2021_prefixes_22-23%2F231924667_201806_990_2021021717715062.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=09_2018_prefixes_22-23%2F231924667_201706_990_2018091215683910.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F231924667_201606_990_2017092114760311.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_03_EO%2F23-1924667_990_201506.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_03_EO%2F23-1924667_990_201406.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_02_EO%2F23-1924667_990_201306.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_04_EO%2F23-1924667_990_201206.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_05_EO%2F23-1924667_990_201106.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_04_EO%2F23-1924667_990_201006.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_01_EO%2F23-1924667_990_200906.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_03_EO%2F23-1924667_990_200806.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_02_EO%2F23-1924667_990_200706.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2007_04_EO%2F23-1924667_990_200606.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_03_EO%2F23-1924667_990_200506.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2005_01_EO%2F23-1924667_990_200406.pdf"
+        },
+        {
+          "year": 2003,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_12_EO%2F23-1924667_990_200306.pdf"
+        },
+        {
+          "year": 2002,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2002_11_EO%2F23-1924667_990_200206.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "The Allegheny West Foundation",
+        "startYear": 2012,
+        "annualAmount": 100000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2019,
+          2020
+        ],
+        "active": true
+      },
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 1426494,
+          "expenses": 1777458,
+          "assets": 3737987,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2012,
+          "revenue": 2028036,
+          "expenses": 2614056,
+          "assets": 3476561,
+          "employees": null,
+          "officerComp": 97513
+        },
+        {
+          "year": 2013,
+          "revenue": 1836780,
+          "expenses": 1937914,
+          "assets": 2815746,
+          "employees": null,
+          "officerComp": 106077
+        },
+        {
+          "year": 2014,
+          "revenue": 1142195,
+          "expenses": 1205571,
+          "assets": 2537044,
+          "employees": null,
+          "officerComp": 104940
+        },
+        {
+          "year": 2015,
+          "revenue": 1202229,
+          "expenses": 1083337,
+          "assets": 2838244,
+          "employees": null,
+          "officerComp": 105319
+        },
+        {
+          "year": 2016,
+          "revenue": 835064,
+          "expenses": 1170216,
+          "assets": 3006534,
+          "employees": null,
+          "officerComp": 100786
+        },
+        {
+          "year": 2017,
+          "revenue": 888208,
+          "expenses": 906543,
+          "assets": 2966415,
+          "employees": null,
+          "officerComp": 100384
+        },
+        {
+          "year": 2018,
+          "revenue": 722209,
+          "expenses": 982307,
+          "assets": 2775496,
+          "employees": null,
+          "officerComp": 95374
+        },
+        {
+          "year": 2019,
+          "revenue": 1201454,
+          "expenses": 876002,
+          "assets": 3346428,
+          "employees": null,
+          "officerComp": 105032
+        },
+        {
+          "year": 2020,
+          "revenue": 1034999,
+          "expenses": 751069,
+          "assets": 3515189,
+          "employees": null,
+          "officerComp": 95374
+        },
+        {
+          "year": 2021,
+          "revenue": 908725,
+          "expenses": 922838,
+          "assets": 3241661,
+          "employees": null,
+          "officerComp": 124295
+        },
+        {
+          "year": 2022,
+          "revenue": 1355545,
+          "expenses": 981836,
+          "assets": 2926713,
+          "employees": null,
+          "officerComp": 122297
+        }
+      ]
+    },
+    {
       "name": "Arab-American CDC",
       "type": "CDC",
       "ein": "311620684",
@@ -610,44 +1274,44 @@
       "executive": {
         "name": "Nilda I Ruiz",
         "title": "President/Ceo",
-        "comp": 443441,
+        "comp": 350774,
         "isExecutive": true
       },
       "officers": [
         {
           "name": "Nilda I Ruiz",
           "title": "President/Ceo",
-          "comp": 443441,
+          "comp": 350774,
           "isExecutive": true
         },
         {
           "name": "Hector Colon Rivera",
           "title": "Medical Director",
-          "comp": 299029,
+          "comp": 309000,
           "isExecutive": false
         },
         {
           "name": "Manuel Delgado",
           "title": "Chief Operating Officer",
-          "comp": 198084,
+          "comp": 250290,
           "isExecutive": false
         },
         {
           "name": "Chanell Hanns",
           "title": "Chief Financial Officer",
-          "comp": 193014,
+          "comp": 245130,
           "isExecutive": false
         },
         {
           "name": "Rose Gray Hesington",
           "title": "Sr.Vp Of Community Economic De",
-          "comp": 165889,
+          "comp": 167892,
           "isExecutive": false
         },
         {
           "name": "Rasak Azeez",
           "title": "Sr.Vp Of Asset Management",
-          "comp": 165830,
+          "comp": 150864,
           "isExecutive": false
         },
         {
@@ -657,20 +1321,20 @@
           "isExecutive": false
         },
         {
-          "name": "Jonathan J Hood",
-          "title": "1 St Vice Chair",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
           "name": "April G Henry",
-          "title": "2nd Vice Chair",
+          "title": "1 St Chair",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Imani N Green",
+          "name": "Imani N Forde",
           "title": "Board Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Edward P Adams",
+          "title": "2 Nd Vice Chair",
           "comp": 0,
           "isExecutive": false
         }
@@ -1318,12 +1982,6 @@
           "date": "2022-11-18"
         },
         {
-          "title": "Rev. Dr. Leon H. Sullivan Centennial Celebration - phillytrib.com",
-          "source": "phillytrib.com",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWDNlY1hWOEsyS3piV19SY2RJQWhsR2lndlRQVTFpQXFRSHRIZlBFM2pEYVdpd296UjFlN2xXdDUtUU92UXFDNmNzb09XemltdENubnpNbWFIekxHS2lSZ1M1MW9ra2FvN2hnVVIxZXB0VjhRSjAwbVJ5T09nU0RvZHNPaVZGNEtQLU9HM252X2otNEZaSHJmZkxDd2QtTFAyeld5ak1IUWpYU1A2VEMtNUJQclc5TkFfTlBja2VBZ1ppTFpEcF9mUEd3bERBYkdjSjF4bA?oc=5",
-          "date": "2022-10-01"
-        },
-        {
           "title": "Building Together at Broad, Butler, and Germantown - City of Philadelphia (.gov)",
           "source": "City of Philadelphia (.gov)",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdXEwMlRtMmpyU01zTEh5bHhaRGNlS3docXVyUlRrWC1HdDgyTG1IUGJTY3IySUlTZFhNNXd2cEhwV3VLYjFuaHAxSnFJY095WXNMWHpHNkg2LUYzZmpwSzlkXzJzazE3cVY4Sk1fZjdJNWFMWlM0Z2RjdDVuYjNFVTBZUmQ4emx6emc?oc=5",
@@ -1334,6 +1992,12 @@
           "source": "Temple Now",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZHpNZUxjZkxOWTRaX2JtY0t0SUpKUE9Dd1hUZ0dsM3djM003N1NPdDdRVmRqTnJ4ZkNxcURsS2NTaHUtLW1YdVVKOHE1Vmd1YjcyMko2RWFSMzVYb2ZCWXlBbWpoNWZlQlFVaU1HTlp5SFIzSHRTTlJwMi1iTTgyVUU3YlBqZkR1NTZ6N2ZhZXB0ODUyWWl3V3EtY2w5Tlo1NDRHZEdfd2czOV9XYm52RnVFZE9oel9pMXhj?oc=5",
           "date": "2021-04-21"
+        },
+        {
+          "title": "City Distributes Personal Protective Equipment (PPE) Supplies to Help Neighborhood Businesses Reopen with Care - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmVyeWZHbVJ0QjdpZnNocWxBZTNNRklCTUh2ZkxfbmdKdlVTcWJsMEY5RU02RGFlZUl6VC1Gb3lXTTZVdDhJQkszRzlvQ29KdW02RDJfd2xzV05Kb0dscElELUIxeWJLc2ZIYnpOZXFyak9FVnotRWFmSGVVMlhpcEVRTUx3Tl9RNDFrbmFZR1FxWFJIUTFSQlAxa3diRFFCaHNoQnZObzZ4bTFoZHpmUjgxanRCYmstQmtIMWFfcGZ4NjZidmRqb0xWQlFKZktDa1FYWGZiTGdiQQ?oc=5",
+          "date": "2020-08-01"
         }
       ],
       "filings": [
@@ -2899,55 +3563,55 @@
         },
         {
           "name": "Reverend Danny Cortes",
-          "title": "Exec. Vp/Chief Of Staff",
-          "comp": 256777,
+          "title": "Executive Vice President",
+          "comp": 275432,
+          "isExecutive": false
+        },
+        {
+          "name": "Matthew M Lentz",
+          "title": "Chief Financial Officer",
+          "comp": 233354,
           "isExecutive": false
         },
         {
           "name": "Walter Toliver",
-          "title": "Sr. Vp/General Council",
-          "comp": 194625,
+          "title": "Executive Vp & General Counsel",
+          "comp": 201320,
           "isExecutive": false
         },
         {
-          "name": "William Rhodes",
-          "title": "Sr. Vp, Esperanza Arts Center",
-          "comp": 136826,
-          "isExecutive": false
-        },
-        {
-          "name": "Martha A Fisher",
-          "title": "Legal Counsel",
-          "comp": 131139,
+          "name": "William Rhoads",
+          "title": "Sr. Vp Of Arts Center",
+          "comp": 144255,
           "isExecutive": false
         },
         {
           "name": "Christine Nieves",
-          "title": "Senior Vice President Of Devel",
-          "comp": 129980,
+          "title": "Sr. Vp Of Development",
+          "comp": 138749,
           "isExecutive": false
         },
         {
           "name": "Marli D Nascimiento",
-          "title": "Facilities Director",
-          "comp": 117127,
+          "title": "Sr. Vp Of Facilities",
+          "comp": 121123,
           "isExecutive": false
         },
         {
-          "name": "Judith Torres Lynch",
-          "title": "Chair",
+          "name": "William Smith",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Rev Bonnie Camarda",
-          "title": "Vice Chair",
+          "name": "Tiffany Taveraz",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Juan Lopez",
-          "title": "Treasurer",
+          "name": "Ronald Gilg",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         }
@@ -3200,6 +3864,627 @@
           "assets": 44544879,
           "employees": null,
           "officerComp": 739206
+        }
+      ]
+    },
+    {
+      "name": "Fairmount CDC",
+      "type": "CDC",
+      "ein": "233094818",
+      "irsName": "Fairmount Community Development Corporation",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [
+        2012,
+        2021,
+        2022,
+        2023
+      ],
+      "latestRevenue": 623034,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 4,
+      "executive": {
+        "name": "Patrick Sherlock",
+        "title": "Exec Directo",
+        "comp": 74938,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Patrick Sherlock",
+          "title": "Exec Directo",
+          "comp": 74938,
+          "isExecutive": true
+        },
+        {
+          "name": "Mino Cruz",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Dennis Czerw",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Dustin Dove",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Shawn Duff",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Dena Epstein",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Danny Hosein",
+          "title": "Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Katie Burns Kays",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Eric Moore",
+          "title": "Vice Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Erin Roark",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Foundation puts $5 million into anti-illegal dumping innovation - Billy Penn at WHYY",
+          "source": "Billy Penn at WHYY",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWFlWTF9kQUhSelBoMEgxVXpfc093U0YyeGtsQXVJRHZzSVlwNFZpWHFSZm1ULXNSZmR1ci1LWVZyRU1DQlFILXE3cXNlSUliNG5VeXR6Z0tkTmxaLWUzRzN5UjM5dnNKc245SEJoaGhBbTJ0X0M5QUZzUzk3RXlGNnRqY3AyUWc?oc=5",
+          "date": "2025-06-30"
+        },
+        {
+          "title": "A Guide to Philadelphia\u2019s Retail Corridors: Where To Go and Who To Contact - Visit Philadelphia",
+          "source": "Visit Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFRVaGpfeXI0M2NpWmdESWtEWGszMDlXM1JlTFhfVHFCeUx6MmRRQmFEd2puM180TDIzeV9GaXJfY1pOQU1yN1FTLV9ZT1lQaTRLVER5cWdnb1VSZ09GZEppQW1zeDA0VFktMEFwTzlFaVBUVzRqYk52d2lkYkRtVUNBMHhja2F0T0RJQzROei01OENhRVhJSC1ELWhBX244TzVvMGRCZG9pcTEwYWRyWk1xclgybnZyYWtUendyS2VlQVZBek5seA?oc=5",
+          "date": "2023-12-13"
+        },
+        {
+          "title": "Check out 36 new restaurants | Let\u2019s Eat - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUElWWGhqRXBta1lobFNGaDJzM1kzRVhfZGsyX1dOc0EzeUR6Y2pWUXRrMS1ON3U4QzZ5YWZEZUNTdXNjeEtmNkFSWU8xRlNEM2piS3BSSGpwdjdsclVXQXJITzY5cHo1V3hRU1BvSHFmcjY1eXhsTjc4dEF1Q21lcE5kRXpyNWMzcHBseQ?oc=5",
+          "date": "2023-11-08"
+        },
+        {
+          "title": "Brewerytown businesses look past Girard Ave construction and ahead to Spring 2023 - 6abc Philadelphia",
+          "source": "6abc Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ285VnRJUklNeFBaYlhmdVRJc3l5ZnhYSWZBdVNYbVl0SDBfVV9vLWxTdWM1dEQ5TTJscUZId01tTjVuQlc5a1FEakV4SHJQUWt0WEE3U0poUkJTdVI3TWJLSkozMGtBVXA5NXFRQUxIdnJZQl80WngwanltbEdDNmh3M2tPQW5tazRlNEpxWTFHT3BCQzI3MWVGdi1iZ9IBowFBVV95cUxQa2xVX0VSX05iYzRFNGxuMnhaQW5ORGZTSnY1bzR0d25OT0FQbmZ2ajlqNHYxcnBPdzA2d3ZGMVV0Y29RaE1JQUxmRXZGMnVtTlpBTlNKMlp3MGJFUEtBMjFKaUl1a1h5Wkt1VFc1eERxT3RpbXVNZzhKa1A0cFo2T0ZQUVJ3bDI4bzV2QVlmYW0zRi05WnpmV25RQ1QtT1M0RC1Z?oc=5",
+          "date": "2022-12-10"
+        },
+        {
+          "title": "Suitor closing in on former London Grill property in Fairmount, despite push for historic designation - The Business Journals",
+          "source": "The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkdUcXR5aVFzRXBrNkZmVWpGZ2UzODU1Zlg5Si1hNTYzQUtyRU1yZjJZU0lGcDd1bzl6LTU1YWtkZTJ5Rkg1ZG1pbjU2OUFBdEVnYmZkYzdVbXg2RjVTSXI3UUo1eWgwamVrUHVsaURPQ1ZZUEtYdjZRTHZNR3g3b201NGRWX2RoSGhuSGd5ZVJkaDc3M1hWaWVhand0alA5Z1ZmM2RRRQ?oc=5",
+          "date": "2022-08-31"
+        },
+        {
+          "title": "Fairmount Ave filling in, growing up, searches for identity - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaUxjUEw5VS1CcXZuWHh2UkdXVG1faG5XdmpVbFE2dXc1RmFCYmxicHFmaGFLUGtTXzYwR1lCeUdIVXJsSnBMbl85MmxxMWk5Y0NqMkMtOTZzY1JPM2dqYUZfYVdyLWFfOGpVbnhfdW52M1BVNWRUV0VJOFpKNVFWVk9wMm9jVGI3UEFEdw?oc=5",
+          "date": "2016-07-11"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_06_2023_prefixes_22-25%2F233094818_202206_990_2023060721396230.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F233094818_202106_990_2022030919709377.pdf"
+        },
+        {
+          "year": 2020,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=04_2021_prefixes_23-23_1%2F233094818_202006_990_2021042117977544.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=08_2020_prefixes_20-23%2F233094818_201906_990_2020082117250038.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F233094818_201806_990_2019050216262157.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2018_prefixes_21-23%2F233094818_201706_990_2018020515164391.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_12_EO%2F23-3094818_990_201606.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_12_EO%2F23-3094818_990_201506.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_03_EO%2F23-3094818_990_201406.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_02_EO%2F23-3094818_990_201306.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_06_EO%2F23-3094818_990_201206.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_04_EO%2F23-3094818_990_201106.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_03_EO%2F23-3094818_990_201006.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_02_EO%2F23-3094818_990_200906.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_02_EO%2F23-3094818_990_200806.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_01_EO%2F23-3094818_990_200706.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_11_EO%2F23-3094818_990_200606.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2005_12_EO%2F23-3094818_990_200506.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2004_10_EO%2F23-3094818_990_200406.pdf"
+        },
+        {
+          "year": 2003,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_09_EO%2F23-3094818_990EZ_200306.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "Fairmount Community Development Corporation",
+        "startYear": 2014,
+        "annualAmount": 85000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "active": true
+      },
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 711751,
+          "expenses": 270694,
+          "assets": 701737,
+          "employees": null,
+          "officerComp": 66405
+        },
+        {
+          "year": 2012,
+          "revenue": 248738,
+          "expenses": 460495,
+          "assets": 262611,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2013,
+          "revenue": 221077,
+          "expenses": 322038,
+          "assets": 172273,
+          "employees": null,
+          "officerComp": 75654
+        },
+        {
+          "year": 2014,
+          "revenue": 235527,
+          "expenses": 250854,
+          "assets": 138714,
+          "employees": null,
+          "officerComp": 78966
+        },
+        {
+          "year": 2015,
+          "revenue": 151133,
+          "expenses": 169833,
+          "assets": 121321,
+          "employees": null,
+          "officerComp": 60656
+        },
+        {
+          "year": 2016,
+          "revenue": 182997,
+          "expenses": 148552,
+          "assets": 152406,
+          "employees": null,
+          "officerComp": 67494
+        },
+        {
+          "year": 2017,
+          "revenue": 182579,
+          "expenses": 179336,
+          "assets": 158313,
+          "employees": null,
+          "officerComp": 76689
+        },
+        {
+          "year": 2018,
+          "revenue": 185775,
+          "expenses": 185167,
+          "assets": 166065,
+          "employees": null,
+          "officerComp": 73950
+        },
+        {
+          "year": 2019,
+          "revenue": 226755,
+          "expenses": 183198,
+          "assets": 216882,
+          "employees": null,
+          "officerComp": 71941
+        },
+        {
+          "year": 2020,
+          "revenue": 156875,
+          "expenses": 195627,
+          "assets": 200696,
+          "employees": null,
+          "officerComp": 61075
+        },
+        {
+          "year": 2021,
+          "revenue": 212779,
+          "expenses": 209864,
+          "assets": 305927,
+          "employees": null,
+          "officerComp": 20020
+        },
+        {
+          "year": 2022,
+          "revenue": 324266,
+          "expenses": 215167,
+          "assets": 394032,
+          "employees": null,
+          "officerComp": 26250
+        },
+        {
+          "year": 2023,
+          "revenue": 623034,
+          "expenses": 249100,
+          "assets": 951088,
+          "employees": null,
+          "officerComp": 65000
+        }
+      ]
+    },
+    {
+      "name": "Francisville Neighborhood Development Corporation",
+      "type": "CDC",
+      "ein": "571164331",
+      "irsName": "Francisville Neighborhood Development Corporation",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [
+        2012,
+        2018,
+        2023
+      ],
+      "latestRevenue": 708650,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 3,
+      "executive": {
+        "name": "Penelope Giles",
+        "title": "President",
+        "comp": 0,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Mark Jones",
+          "title": "Chairman",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "John Williams",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Zainab Ali",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Crystal Brown",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Mathen Pullukattu",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Bonnie Valentine",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Penelope Giles",
+          "title": "President",
+          "comp": 0,
+          "isExecutive": true
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "From Grape Cultivation to Gentrification: Three Centuries of Change in Francisville - Hidden City Philadelphia",
+          "source": "Hidden City Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcS05d2xPYnRJN1loSjZwUE51NGJ0NGJydTFrUEs2LTVUbENqTG1nSUxUdU1PZ0VzV2pCNWp5NmVKeWFrMFdYYzZacmx1dFFjcE9XWXd5OEZqNU5oX2IzdmFfUFBDZ3hibkg4T0hyejRIb1h4ZjVseWpPWXlhSmhwT1l3dFZsdm5qUk5OblEwOGdZeVh5djRWZ2Zob2VWaE9od2lRNlFaTGNFbUc3QU9YVmhXNHJWLU9Wb29r?oc=5",
+          "date": "2026-05-21"
+        },
+        {
+          "title": "Healthy Town Tioga Project aims to transform a struggling section of North Philadelphia - The Philadelphia Citizen",
+          "source": "The Philadelphia Citizen",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwYWF3VlZ3a3VRc0dsSkVJWjUxZVBhbkZBd0MzeTRta1o2bXRWbTBmNXd3UXZGb1d0ZW5qV0ZjeG5KWTl6UXNKc01jamVoX2NUek9KVUJQN0lKQ1IwdDFuRGZfMUFic0dWZkhQNTdhSQ?oc=5",
+          "date": "2020-09-28"
+        },
+        {
+          "title": "Philly sold thousands of properties for $1 each. Buyers flipped them for $54 million. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdUF3WXNXRy1sYkZTblJiVldkQ2JobG5UZVpsd2tGTGZoQktOR0ltZlowdC1ITzd5cUw2RUV0RHAteVVYSjRiQkF4cG5jTWxoOFp0UXg5NjQ4NklOUzBDOTg0cTNiakNPZDZES1R4T1FtZjByYXN4YTQxNjdTMVNqNlV6ejRITWZQUGxXZnE3aEF6X1d3NjRxaU1udWhyX1Z3cy1ON2tVRzA?oc=5",
+          "date": "2020-02-19"
+        },
+        {
+          "title": "Uber Fired This Philly Man Over a Crime He Committed in the 1980s - Philadelphia Magazine",
+          "source": "Philadelphia Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWpWalktNExLU3loNXpXQm9xS21TZ2pHeUJXNFFyVlE4MVNKVHMyMmhMTWF0Y3ZhN1VLMmRGX29qcXhxTjZyb05MeWpTZWF3NHNaUHM2TzhlTVprR1FxZng0bWFpRVcwbWFYekstaVBlS3d2XzM4S29qb0o0aG9pZzdPbWFDWGRt?oc=5",
+          "date": "2018-10-16"
+        },
+        {
+          "title": "Francisville is booming. The community is feuding. - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMFdaSmU2WTRKdjlJN2s0NW5rc2R4a1Fvc3IwSGFvRGJqQW9BdjhGUnNqNTFkbGFnWmQ3aGRvd1FEQVJWTWt0SXRoSXRkeEFDbDFMV2NEVDl2c1ZGY1FJX0hIaXRUMHZVdU5mTXc4ckRyaUNWWHJkcEVXZ3doWGVrUQ?oc=5",
+          "date": "2018-04-18"
+        },
+        {
+          "title": "Services Set For Archbishop Wood Grad Killed In Philly Carjacking - Patch",
+          "source": "Patch",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3kwVVNmZk5hOXN0U2NZT1NQVVZPVndDX2FpSGZFZ2RucU93cjZjMXRqWW9wdHZWV0I2ckI3UXk1TWY5ZkxzTDd0UnQ3anpRaFc3TnUySS1ON2JUSWdlSFFfSGMwbTZYWGJERVktZmsyN0l0SHdZU1ZpS2pqSUFBVmRGclFXMDFrWC1EQVJlZ1dRQXdYOVQwRDF6b1ctM2VaMGc?oc=5",
+          "date": "2017-09-11"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F571164331_202312_990_2025041023347250.pdf"
+        },
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F571164331_202212_990_2024121122947260.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F571164331_202112_990_2023060121341682.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=07_2019_prefixes_56-59%2F571164331_201712_990_2019070516464280.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=12_2019_prefixes_54-58%2F571164331_201612_990_2019120916936972.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=07_2018_prefixes_52-58%2F571164331_201512_990_2018072515534136.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_01_EO%2F13-110318_19130_571164331.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_EO%2F57-1164331_990_201312.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_01_EO%2F57-1164331_990_201212.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_12_EO%2F57-1164331_990_201112.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_10_EO%2F57-1164331_990_201012.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_08_EO%2F57-1164331_990EZ_200912.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_09_EO%2F57-1164331_990EZ_200812.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "Francisville Neighborhood Development Corporation",
+        "startYear": 2015,
+        "annualAmount": 100000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "active": true
+      },
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 204200,
+          "expenses": 233862,
+          "assets": 74077,
+          "employees": null,
+          "officerComp": 46090
+        },
+        {
+          "year": 2012,
+          "revenue": 338721,
+          "expenses": 328842,
+          "assets": 85368,
+          "employees": null,
+          "officerComp": 63594
+        },
+        {
+          "year": 2013,
+          "revenue": 263056,
+          "expenses": 313097,
+          "assets": 33915,
+          "employees": null,
+          "officerComp": 48000
+        },
+        {
+          "year": 2014,
+          "revenue": 284710,
+          "expenses": 311090,
+          "assets": 7535,
+          "employees": null,
+          "officerComp": 54000
+        },
+        {
+          "year": 2015,
+          "revenue": 472820,
+          "expenses": 366853,
+          "assets": 124268,
+          "employees": null,
+          "officerComp": 54000
+        },
+        {
+          "year": 2016,
+          "revenue": 340897,
+          "expenses": 367006,
+          "assets": 86244,
+          "employees": null,
+          "officerComp": 58000
+        },
+        {
+          "year": 2017,
+          "revenue": 281772,
+          "expenses": 296942,
+          "assets": 73029,
+          "employees": null,
+          "officerComp": 60000
+        },
+        {
+          "year": 2018,
+          "revenue": 235541,
+          "expenses": 241976,
+          "assets": 69577,
+          "employees": null,
+          "officerComp": 24500
+        },
+        {
+          "year": 2019,
+          "revenue": 334804,
+          "expenses": 280743,
+          "assets": 122744,
+          "employees": null,
+          "officerComp": 30500
+        },
+        {
+          "year": 2020,
+          "revenue": 247734,
+          "expenses": 305547,
+          "assets": 64418,
+          "employees": null,
+          "officerComp": 39000
+        },
+        {
+          "year": 2021,
+          "revenue": 482370,
+          "expenses": 365833,
+          "assets": 218204,
+          "employees": null,
+          "officerComp": 39000
+        },
+        {
+          "year": 2022,
+          "revenue": 773095,
+          "expenses": 453466,
+          "assets": 628205,
+          "employees": null,
+          "officerComp": 45450
+        },
+        {
+          "year": 2023,
+          "revenue": 708650,
+          "expenses": 459681,
+          "assets": 882624,
+          "employees": null,
+          "officerComp": 75250
         }
       ]
     },
@@ -3845,51 +5130,45 @@
       "instability": 0,
       "executive": {
         "name": "Corinne O'connell",
-        "title": "Ceo",
-        "comp": 187367,
+        "title": "Chief Executive Officer",
+        "comp": 226043,
         "isExecutive": true
       },
       "officers": [
         {
           "name": "Corinne O'connell",
-          "title": "Ceo",
-          "comp": 187367,
+          "title": "Chief Executive Officer",
+          "comp": 226043,
           "isExecutive": true
         },
         {
           "name": "Kathryn Fernandez",
           "title": "Chief Development Officer",
-          "comp": 148238,
-          "isExecutive": false
-        },
-        {
-          "name": "Carrie Rathman",
-          "title": "Vp Of Strategic Partnership",
-          "comp": 105583,
+          "comp": 158373,
           "isExecutive": false
         },
         {
           "name": "Ivy Cobia Miller",
-          "title": "Cfo",
-          "comp": 103768,
+          "title": "Chief Financial Officer",
+          "comp": 146742,
           "isExecutive": false
         },
         {
-          "name": "Kathleen J White",
+          "name": "Carrie Rathmann",
+          "title": "Vp Of Strategic Partnerships",
+          "comp": 119505,
+          "isExecutive": false
+        },
+        {
+          "name": "Kathy White",
           "title": "Vp Of Human Resources",
-          "comp": 101344,
+          "comp": 110698,
           "isExecutive": false
         },
         {
-          "name": "Tamika Artis",
+          "name": "Deidra Duncan",
           "title": "Director",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Ellen Farber",
-          "title": "Director",
-          "comp": 0,
+          "comp": 104413,
           "isExecutive": false
         },
         {
@@ -3899,7 +5178,7 @@
           "isExecutive": false
         },
         {
-          "name": "Michael Bowman",
+          "name": "Katherine Bosma",
           "title": "Director",
           "comp": 0,
           "isExecutive": false
@@ -3909,45 +5188,51 @@
           "title": "Director",
           "comp": 0,
           "isExecutive": false
+        },
+        {
+          "name": "Jonathan Ellensworth",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
         }
       ],
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "Police Athletic League of Philadelphia Honors Firstrust Bank CEO Tim Abell at Annual Awards Gala - VISTA.Today",
+          "title": "VISTA Careers \u2013 Firstrust Bank - VISTA.Today",
           "source": "VISTA.Today",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnUtc0FJSjlkaURNQ1EyOXQtS2stWC1wM3ZDU3JUdlExTFA0UUlDZHE4bjNITWxXcVUyWUFhSmlmVUJ2alVtdUtFNFRUMnh4dlptOGppRlhiOWVWdEl5TjNYX3JudHlhbmNDaFJ5ZmFYZDV5UTRiNWx5dTdkUkVzODcwUQ?oc=5",
-          "date": "2025-05-07"
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CeXFoMDB5dUwxOTdIU01NN2ttZmZUdEF1SEJNUDA4aGgyeHA2TV9pNy16TlgtRlVBYjZ3Uy1xV04zRU5JYnpqU2k5NUFBYU1pU2JwNTlUQkx4ZzJfZV9DTVJ1QjQ?oc=5",
+          "date": "2026-06-08"
         },
         {
-          "title": "Tacony salvage shop needs to move by Monday. It\u2019s giving away sinks, lumber, and more. - Inquirer.com",
+          "title": "Habitat for Humanity hosts demolition day - Yahoo",
+          "source": "Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORWgxQUI1TXVHTmIzSEpOd25iR2xIdWVDc3lYcWZweGxvMnBSaDg2RmlIemN6UGVremJOUzRLSnRnbHdFTjU3UlZNLXBIV0xlYmlNNTVsSy1EY3ZFcEFuYjdJRHZkeGJIbzJkc1AxblJ3VmNSX1RzYlMwbmhwV1pNTlYyUDZMUGxZUjI3cDIyMUdtbG5XWmc?oc=5",
+          "date": "2026-05-28"
+        },
+        {
+          "title": "Villanova Students Help Launch Pope Leo Village in North Philadelphia - CatholicPhilly",
+          "source": "CatholicPhilly",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejNHTThqcUdzRDJ2SkE3T1JCaEphcjJtRGZOX2lLdXlPMFFXMWdnN0FmVE1XV2Z1Y042NC0wbTNNM0VMZjRud29xX1NfMERDa2h6cXBFNkQtVHhFY3o3RG1vNUxYajd4TlJwUlNaRG9MWlNadEJ1U3ljSTBtM0E1eXZwcW5YbXhQWjJSWlh0LUtqRkc1aExBMEFzVnQ4bEJEX2lMaEpWMkxqTWxnWUVKaFFZUzZPZm1QclZWNGtvOHdwa0cwV1lF?oc=5",
+          "date": "2026-04-29"
+        },
+        {
+          "title": "Community Health Profile: Influence of the Home Preservation Initiative on Health of Mantua Residents - Drexel",
+          "source": "Drexel",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTT285Yk1VN1E5emI3bVM5ZUl5MUlOWEhPQ1FsaUNsQUY1MUhkQ2pXU0wzZmRZQW9FcnBHUFc0MWJLWFNHM0RZc1Q4QzBlRDg3NjhiR2R2aldVUUwxdTZ5TjFRM2JyZWYzUG9GMF9NTEVaZw?oc=5",
+          "date": "2026-04-29"
+        },
+        {
+          "title": "Villanova University, Habitat for Humanity volunteers launch Pope Leo Village housing initiative in North Philadelphia - Inquirer.com",
           "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZVl0S2ZQckJrV0pGaW9jb1F5SUJtZzYyb2dIWlhwU01ib243S1NleEpfWXAxbjB6MVl2NW56Mi1ZZVQxN1V4bnQtSGYxaHpYdnd6Y25GQnBmbDc0NjlySnc2QUVBZWM1aWFHRU02bjJ3OEFzUlhhY0xfTmtmM1JrWDNCbGFqTXZRQWxXbGpSUE9xZW1NN2FwdlpNY3RaLW82R040ZDFsal9PWVZXdVRIZEFHRXV1dw?oc=5",
-          "date": "2022-08-11"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZFBZS0VrZzIwNUFDR1JMblFZckhjTzF4cHUzMk5iMVhvcGljTmJSQmV4LWhXSFljYzQ4b2h0b3FOLWpCTlJnZW9Tc3NEd2FSSktCeFlJWnFoVW9FbTBWcHRvaFhQcmtHdDBTT3IxSkJzbkhlWkNwajU4SjI4em44ZS02dWhoMWRPUEQwRy1iZ3ZBbDE3aHFfM1NQTjh4c281cl95eGxlQmZqbnczSHFXY1RvSkFRa3ByTG03bmFUTVhKUQ?oc=5",
+          "date": "2026-04-18"
         },
         {
-          "title": "Tya Winn takes the helm of Community Design Collaborative with racial equity a priority - WHYY",
+          "title": "Pope Leo XIV inspires Habitat for Humanity initiative bringing 26 homes to North Philadelphia - WHYY",
           "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYy1xeVE5U2g0VldJRGxuSHlSLXBRb3hlQ2ZodnUtY1hFeEhMbV9OQ1VndjkxamZRaWc0ZFIxam9ybEFISEoydWp1TEZVdjJzZmgzRmNkWkVCWUswVFVJYWpFNHg1a2UzNzNxUDNZanYyVk9MejExV1RkX2VrU1dkUi05WnEtelJLV1ZBaHllUTJjZnNNUEFuVGhxZmdXQ1gycl94bTFhRDRiYWRxMjdZRXEtTEw?oc=5",
-          "date": "2020-11-11"
-        },
-        {
-          "title": "Corinne O\u2019Connell, Habitat for Humanity Philadelphia - The Business Journals",
-          "source": "The Business Journals",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTnNlZXJrUkJiTmdxTXgwMFJENXlPQU42cGVQZlUzcFkwYzlKSy1rZC1xOGFobnhsR3M1aGFHQXdWQ2ktc3FXcG90UmhmRVdvRHE4S1czaVhNdlRCZDdVajA3dVVCVFVGcnJITWJZdzdyYmlBaG1mck9MNDRYMzhBdGl1Mk9MQnVUOVNEa3pGWDVaY1E1YW1UbEx3SWQ3R21fa3FBRVUwZFJBaUxHZnYybHJEa1liRDVKdF9sX1RuOVpwYm0zaGgwd3JVUm9JSHFLZWZIZk51bGhzaTJqbEpaZzRpZ054V0k?oc=5",
-          "date": "2019-12-06"
-        },
-        {
-          "title": "Nonprofit to open home goods store in Point Breeze - The Business Journals",
-          "source": "The Business Journals",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU0RBcjczS1ZpS21WZXZqTEw0OWJXZktMYXlwclF1RnhpMHNPOFpTQ3RpMkYyTzVWcmowZDl1VFhhTV91aG01V1R3WjdOQWFqQVBRRy1rd3JBNzlKRENRbC1jUFNieW9YTHQ2aXFBcUc2dWMxWERWd2UyRm01X0dBTTFUaGdkbEI3LVMxT09icTBDMXBObWktTjBSdVVVUnlCLXRFSkZwSXJUNjQwU0E?oc=5",
-          "date": "2015-06-25"
-        },
-        {
-          "title": "Habitat for Humanity breaks ground on four houses in Southwest Germantown - WHYY",
-          "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcnc0eEQ2YWNRVGEwVy1YWk1FTU9aYU9jdlczdmVlalFvUUJRRjhnR3I3cmV2TnhrdWZTaXBaVkp2XzNiZGZQMXhYd3hmUEkySlZyQkZWZDU4dUxjQ1NobW5UbURLclZWTjloRDI0MVREYTQ2WEtDS0dyR3duY2VmNHI5RTVHSWdmRnJwYU1sY0lKS1h0OHUxVWNIYmxSLTladVE?oc=5",
-          "date": "2013-08-08"
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTElMX01pWE5VekFaRDNCMG85UEQ0M3VBUVFfd1paTlVFMW1ZanN2TVZvR2RRTFpPOXo4cnEwV3ZHNHFCQ1VXTV93UEQ0b2dzTWxuVElyQWRvV3h4ZGlqbWNGTlN2c1RzbGMzUnhuZl90bTVNTzhQbk5UM3o1Q1VnOU9wc3c4WDNaR3BmWUhDalNaZw?oc=5",
+          "date": "2026-04-17"
         }
       ],
       "filings": [
@@ -4320,61 +5605,61 @@
       "executive": {
         "name": "Kathleen Desmond",
         "title": "President",
-        "comp": 176062,
+        "comp": 176533,
         "isExecutive": true
       },
       "officers": [
         {
           "name": "Kathleen Desmond",
           "title": "President",
-          "comp": 176062,
+          "comp": 176533,
           "isExecutive": true
+        },
+        {
+          "name": "Jamil Rivers",
+          "title": "Vp, Finance",
+          "comp": 160822,
+          "isExecutive": false
+        },
+        {
+          "name": "Jacqueline Flynn",
+          "title": "Vp Asset & Property Management",
+          "comp": 136275,
+          "isExecutive": false
         },
         {
           "name": "Gwendolyn Bailey",
           "title": "Vp Of Operations",
-          "comp": 123484,
+          "comp": 123338,
           "isExecutive": false
         },
         {
           "name": "Scott Cannon",
           "title": "Vp Asset And Property Mana",
-          "comp": 109404,
-          "isExecutive": false
-        },
-        {
-          "name": "Damien Ghee",
-          "title": "Board Chair",
-          "comp": 0,
+          "comp": 108887,
           "isExecutive": false
         },
         {
           "name": "Trina Smith",
-          "title": "Vice Chair",
+          "title": "Chair",
           "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Pamela Hansen",
-          "title": "Vice Chair",
+          "title": "Treasurer",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Christine Jacobs",
-          "title": "Treasurer",
+          "name": "Christine Jereb",
+          "title": "Director",
           "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Tracey Thomasey",
           "title": "Secretary",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Blair Boroch",
-          "title": "Director",
           "comp": 0,
           "isExecutive": false
         },
@@ -4642,7 +5927,7 @@
       "type": "CDC",
       "ein": "232828862",
       "irsName": "Humangood East",
-      "irsCity": "Lafayette Hl",
+      "irsCity": "Lafayette Hills",
       "confidence": "high",
       "firstYear": 2016,
       "lastYear": 2023,
@@ -4885,8 +6170,74 @@
       "source": "Ben roster",
       "closedCandidate": false,
       "instability": 6,
-      "executive": null,
-      "officers": [],
+      "executive": {
+        "name": "Casey O'donnell",
+        "title": "President & Ceo",
+        "comp": 248675,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Casey O'donnell",
+          "title": "President & Ceo",
+          "comp": 248675,
+          "isExecutive": true
+        },
+        {
+          "name": "Ifeoma Ugorji",
+          "title": "Employee",
+          "comp": 185774,
+          "isExecutive": false
+        },
+        {
+          "name": "Richonda Pelzer",
+          "title": "Cfo",
+          "comp": 168145,
+          "isExecutive": false
+        },
+        {
+          "name": "Joseph Douglas",
+          "title": "Employee",
+          "comp": 127626,
+          "isExecutive": false
+        },
+        {
+          "name": "Charles Jameson",
+          "title": "Employee",
+          "comp": 123958,
+          "isExecutive": false
+        },
+        {
+          "name": "Daniel Betancourt",
+          "title": "Chairman",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Mark Butler",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Daniel Gardner",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Isaac Jones",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Mark Squilia",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
       "leadershipAsOf": 2023,
       "news": [
         {
@@ -5143,17 +6494,17 @@
       "closedCandidate": false,
       "instability": 1,
       "executive": {
-        "name": "Dyann Roth",
-        "title": "President & Ceo",
-        "comp": 0,
+        "name": "Heidi Bohn",
+        "title": "Executive Director",
+        "comp": 164657,
         "isExecutive": true
       },
       "officers": [
         {
-          "name": "Annie Grant",
-          "title": "Operations Manager Ihc",
-          "comp": 100973,
-          "isExecutive": false
+          "name": "Heidi Bohn",
+          "title": "Executive Director",
+          "comp": 164657,
+          "isExecutive": true
         },
         {
           "name": "Ellen Pulver Flatt",
@@ -5174,12 +6525,6 @@
           "isExecutive": false
         },
         {
-          "name": "Ted Rosen",
-          "title": "Director",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
           "name": "Tony Payton",
           "title": "Director",
           "comp": 0,
@@ -5192,10 +6537,16 @@
           "isExecutive": false
         },
         {
+          "name": "Ted Rosen",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
           "name": "Dyann Roth",
           "title": "President & Ceo",
           "comp": 0,
-          "isExecutive": true
+          "isExecutive": false
         },
         {
           "name": "Christopher Bathe",
@@ -5533,6 +6884,12 @@
           "date": "2015-05-27"
         },
         {
+          "title": "Changing Philadelphia - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1TUo4TDcwOVVrNTRXV280ZzFybFFSaWlIRmFGaER4NUNKa3VFbUVkMmw0d2JBRFdhcVBwdHlyZE1xSjB0ODJKbDJrdkhRM2RUdmZGWGdqaUFldWRLbzFQM1J0NEZDTUJTVHRNOTNnbThKajgycW00TA?oc=5",
+          "date": "2014-10-23"
+        },
+        {
           "title": "RISING PHILADELPHIA KOREAN COMMUNITY IS LEAVING GREENGROCERIES BEHIND (Published 1986) - The New York Times",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWxZLUc1WmVzMFJDWXpIOGVCeENvRlhKNVJvbEpKRDFDTHNWMllSSl9JOXU3dkZZdFNXVTZacThMQW15aEVFZ0d4RlVEb1JTcmkwNzRZUnBJZ1FuSGY1RHdhWVBWTVExbHJfcmFCYXdTV0tEc0ZvUjVJZU1IRkE4YXBqM2o3U3J6WGR2TUdYNUFMR2xDQ05yWmVZNlFmQ0lDMHRMb3lHX21lazlsanFGOVJ3?oc=5",
@@ -5760,68 +7117,68 @@
       "instability": 6,
       "executive": {
         "name": "Kwaku Boateng",
-        "title": "Executive Dir.",
-        "comp": 148143,
+        "title": "Exec. Director",
+        "comp": 173500,
         "isExecutive": true
       },
       "officers": [
         {
           "name": "Kwaku Boateng",
-          "title": "Executive Dir.",
-          "comp": 148143,
+          "title": "Exec. Director",
+          "comp": 173500,
           "isExecutive": true
         },
         {
-          "name": "Jacqueline L Williams",
-          "title": "Director",
-          "comp": 105960,
-          "isExecutive": false
-        },
-        {
-          "name": "Karen Hess",
-          "title": "Trustee",
-          "comp": 14500,
+          "name": "Jackie Williams",
+          "title": "Treasurer",
+          "comp": 86400,
           "isExecutive": false
         },
         {
           "name": "Stephanie Collins",
-          "title": "Trustee",
-          "comp": 5000,
+          "title": "Secretary",
+          "comp": 21300,
           "isExecutive": false
         },
         {
-          "name": "Peral Bailey Anderson",
-          "title": "Trustee",
+          "name": "Pearl Bailey Anderson",
+          "title": "Vice President",
           "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Belinda Patrick",
-          "title": "Trustee",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Terri Shockley",
-          "title": "Trustee",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Claude Barnes",
-          "title": "Trustee",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Joel Spivak",
-          "title": "Trustee",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Lisa Ashton Mattioli",
-          "title": "Trustee",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Benn Roe",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         }
@@ -5922,23 +7279,41 @@
       "closedCandidate": true,
       "instability": 3,
       "executive": {
-        "name": "Stephanie Ridgeway",
-        "title": "President",
-        "comp": 0,
+        "name": "Darnetta Arce",
+        "title": "Executive Director",
+        "comp": 75000,
         "isExecutive": true
       },
       "officers": [
         {
+          "name": "Darnetta Arce",
+          "title": "Executive Director",
+          "comp": 75000,
+          "isExecutive": true
+        },
+        {
+          "name": "Joanne Sutton",
+          "title": "Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Benjamin Johnson",
+          "title": "Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
           "name": "Tylania Moore",
-          "title": "Administrative Assistant",
-          "comp": 400,
+          "title": "Member",
+          "comp": 0,
           "isExecutive": false
         },
         {
           "name": "Stephanie Ridgeway",
           "title": "President",
           "comp": 0,
-          "isExecutive": true
+          "isExecutive": false
         },
         {
           "name": "Herman Arce",
@@ -5948,7 +7323,7 @@
         },
         {
           "name": "Wayman Blackstock",
-          "title": "Secretary",
+          "title": "Secretary Treasurer",
           "comp": 0,
           "isExecutive": false
         }
@@ -6016,6 +7391,342 @@
       ]
     },
     {
+      "name": "Manayunk Development Corporation",
+      "type": "CDC",
+      "ein": "",
+      "irsName": "",
+      "irsCity": "",
+      "confidence": "none",
+      "firstYear": null,
+      "lastYear": null,
+      "yearsFiled": 0,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": null,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [],
+      "leadershipAsOf": null,
+      "news": [],
+      "filings": [],
+      "taxCredit": {
+        "matchedName": "Manayunk Development Corporation",
+        "startYear": 2010,
+        "annualAmount": 100000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "active": false
+      },
+      "history": []
+    },
+    {
+      "name": "Mayfair CDC",
+      "type": "CDC",
+      "ein": "233062736",
+      "irsName": "Mayfair Community Development Corp",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2010,
+      "lastYear": 2023,
+      "yearsFiled": 14,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 75742,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [
+        {
+          "name": "Christina Loughrin",
+          "title": "Board Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Dana Russikoff",
+          "title": "Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Pete Mcdermott",
+          "title": "Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Lisa Greco",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Donny Smith",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Melinda Mulvenna",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Jerry Rickus",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "City Distributes Personal Protective Equipment (PPE) Supplies to Help Neighborhood Businesses Reopen with Care - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmVyeWZHbVJ0QjdpZnNocWxBZTNNRklCTUh2ZkxfbmdKdlVTcWJsMEY5RU02RGFlZUl6VC1Gb3lXTTZVdDhJQkszRzlvQ29KdW02RDJfd2xzV05Kb0dscElELUIxeWJLc2ZIYnpOZXFyak9FVnotRWFmSGVVMlhpcEVRTUx3Tl9RNDFrbmFZR1FxWFJIUTFSQlAxa3diRFFCaHNoQnZObzZ4bTFoZHpmUjgxanRCYmstQmtIMWFfcGZ4NjZidmRqb0xWQlFKZktDa1FYWGZiTGdiQQ?oc=5",
+          "date": "2020-08-01"
+        },
+        {
+          "title": "Tartaglione gives Mayfair CDC $50,000 to develop vacant lot - Northeast Times",
+          "source": "Northeast Times",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc2pRN3MtVnpDTHJaa0JjMXhBQjh3aE5DQzRmbWdaOXhWdTJRc3ZLZkhzdWhxTTVrMFgwX24zU3VoWDJUaHdUQ0VrcWZMVktKQnRPa3lDZWJVMlZSUGhaM05UT3g0VzRQX2RBNXlINnpScXVZTHJ0VnpOQnJ1ckZucFRtM3kxYkUtd054MlJKR0NUbk5oVzJQbTRpRDM?oc=5",
+          "date": "2020-03-12"
+        },
+        {
+          "title": "How To Spot A Theater - Hidden City Philadelphia",
+          "source": "Hidden City Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xR2FfYUMtVnhWVkF6ZV9wY2JURnIzZFNpdW12Y2JjTWNQQnN6MW9FLXZWWVFaZXNXSzFoZTFYVXdoNDZ5NFJOU3ZJNi04d25sMmZfdFJoWWUxNm8tdFk3QU1aMEZad0dFSGc?oc=5",
+          "date": "2013-05-14"
+        },
+        {
+          "title": "Mayfair CDC, Allegheny Iron & Metal announce funding partnership - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQWszbFdyanA3MWlQSlhsSW9qUlRVeWRxUFI4RDRpaDhpMlV3QnJPRVIyNWx6dldkeUlKWFhRUVlseElTQUx3aXdHYU13OG5tZmdFWHJYMzgxbzk2QXhjeEs5VjhsMzI4S1FqaHpxOGNNN3lWcy1BbWRyVlFTUzlUaUJSOGN0NThGZEpscDFTSWhCaWloYUFj?oc=5",
+          "date": "2013-04-15"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F233062736_202312_990EZ_2025012323039675.pdf"
+        },
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_09_2023_prefixes_22-25%2F233062736_202212_990EZ_2023091121663986.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_09_2022_prefixes_01-47%2F233062736_202112_990EZ_2022090120322469.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_23-23%2F233062736_201912_990EZ_2021051918144318.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2020_prefixes_22-23%2F233062736_201812_990EZ_2020021317142588.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2019_prefixes_23-23%2F233062736_201712_990EZ_2019020916079669.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=12_2017_prefixes_23-23%2F233062736_201612_990EZ_2017122615048190.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_09_EO%2F23-3062736_990EZ_201512.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_01_EO%2F13-138277_19149_233062736.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_09_EO%2F23-3062736_990EZ_201312.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_12_EO%2F23-3062736_990EZ_201212.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_12_EO%2F23-3062736_990EZ_201112.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_12_EO%2F23-3062736_990_201012.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_12_EO%2F23-3062736_990_200912.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_10_EO%2F23-3062736_990_200812.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_12_EO%2F23-3062736_990_200712.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2007_12_EO%2F23-3062736_990_200612.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_12_EO%2F23-3062736_990_200512.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_01_EO%2F23-3062736_990_200412.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "Mayfair Community Development Corporation",
+        "startYear": 2013,
+        "annualAmount": 85000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "active": false
+      },
+      "history": [
+        {
+          "year": 2010,
+          "revenue": 1151066,
+          "expenses": 580240,
+          "assets": 5141835,
+          "employees": null,
+          "officerComp": 78687
+        },
+        {
+          "year": 2011,
+          "revenue": 186219,
+          "expenses": 236943,
+          "assets": 187956,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2012,
+          "revenue": 10775,
+          "expenses": 64689,
+          "assets": 109955,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2013,
+          "revenue": 99909,
+          "expenses": 38059,
+          "assets": 164973,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2014,
+          "revenue": 150761,
+          "expenses": 133284,
+          "assets": 183328,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2015,
+          "revenue": 108142,
+          "expenses": 130824,
+          "assets": 160646,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2016,
+          "revenue": 99152,
+          "expenses": 84058,
+          "assets": 175740,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2017,
+          "revenue": 93861,
+          "expenses": 100262,
+          "assets": 173339,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2018,
+          "revenue": 91182,
+          "expenses": 56505,
+          "assets": 210566,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2019,
+          "revenue": 144984,
+          "expenses": 72610,
+          "assets": 282990,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2020,
+          "revenue": 19528,
+          "expenses": 76060,
+          "assets": 62149,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2021,
+          "revenue": 113435,
+          "expenses": 86036,
+          "assets": 77847,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2022,
+          "revenue": 47475,
+          "expenses": 68913,
+          "assets": 56409,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2023,
+          "revenue": 75742,
+          "expenses": 55387,
+          "assets": 78914,
+          "employees": null,
+          "officerComp": null
+        }
+      ]
+    },
+    {
       "name": "Mission First Housing Group",
       "type": "CDC",
       "ein": "455470563",
@@ -6034,27 +7745,22 @@
       "source": "Ben roster",
       "closedCandidate": false,
       "instability": 0,
-      "executive": {
-        "name": "Thomas Ak Queenan",
-        "title": "President & Ceo",
-        "comp": 0,
-        "isExecutive": true
-      },
+      "executive": null,
       "officers": [
         {
-          "name": "Michael Davidson Esq",
-          "title": "Chair",
+          "name": "Mike Davidson",
+          "title": "Chairperson",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Russel Johnson",
-          "title": "Vice Chair",
+          "name": "Lianna Petroski",
+          "title": "Vice Chairperson",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Mark Duffy",
+          "name": "Terry Booker",
           "title": "Treasurer",
           "comp": 0,
           "isExecutive": false
@@ -6066,7 +7772,19 @@
           "isExecutive": false
         },
         {
-          "name": "Harry G Dittmann",
+          "name": "Beverly Woods",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Caitlin Gossen",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Edward Barnett",
           "title": "Board Member",
           "comp": 0,
           "isExecutive": false
@@ -6078,26 +7796,14 @@
           "isExecutive": false
         },
         {
-          "name": "Marva Williams",
+          "name": "John Maneval",
           "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Thomas Ak Queenan",
-          "title": "President & Ceo",
-          "comp": 0,
-          "isExecutive": true
-        },
-        {
-          "name": "Robert H Kwait",
-          "title": "Assistant Secretary, Vp",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Mark Deitcher",
-          "title": "Assistant Treasurer, Vp",
+          "name": "Leigh Whitaker Esp",
+          "title": "Board Member",
           "comp": 0,
           "isExecutive": false
         }
@@ -6907,20 +8613,20 @@
       "executive": {
         "name": "William Mckinney",
         "title": "Executive Director",
-        "comp": 146940,
+        "comp": 163057,
         "isExecutive": true
       },
       "officers": [
         {
           "name": "William Mckinney",
           "title": "Executive Director",
-          "comp": 146940,
+          "comp": 163057,
           "isExecutive": true
         },
         {
           "name": "Nicole Westerman",
           "title": "Deputy Executive Director",
-          "comp": 110541,
+          "comp": 132133,
           "isExecutive": false
         },
         {
@@ -6936,25 +8642,19 @@
           "isExecutive": false
         },
         {
-          "name": "Deborah Mccolloch",
-          "title": "Treasurer",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
           "name": "Michael Alles",
           "title": "Secretary",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Keiko Tsuruta Cramer",
-          "title": "Board Member",
+          "name": "Deborah Mc Colloch",
+          "title": "Treasurer",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "Caitlin Shuler Esq",
+          "name": "Keiko Tsuruta Cramer",
           "title": "Board Member",
           "comp": 0,
           "isExecutive": false
@@ -6966,7 +8666,13 @@
           "isExecutive": false
         },
         {
-          "name": "Luis Gonzalez",
+          "name": "Kaylam Akpan",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Richard Freeh",
           "title": "Board Member",
           "comp": 0,
           "isExecutive": false
@@ -7005,10 +8711,10 @@
           "date": "2021-05-02"
         },
         {
-          "title": "\u2018What we need is leadership\u2019: Kensington councilmembers say mayor is failing community - WHYY",
+          "title": "Kensington residents share concerns about Somerset Station closure with SEPTA - WHYY",
           "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVJWM2Q4R3hBN0IxQk5JZEprMU1mdDNjZjNaWDZSX2NNNUtIdE8wbmpURG5Lc1FZNDB0cU02RlR4VnlIdXktRUFIdTlqSGFhNFJWcWdlOURuNDgzemdHcW9LQjdPanR1NFZ3TVM1ZklNXy1uZFIxWWU1TndkT3JhZkJpeDhLN1dmRno2VGl2ZnQ3VWFTNVpfUHhwZjFFYXVBbDJMNWU5VDRzcGNvY25V?oc=5",
-          "date": "2020-07-01"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWTJaUlBYVG8xdUdpWTlSMV9yc3BuWnhyY1R5NF85aXloRDdqM0dzTTh0ak5ydFcwN1NFWTVlSThUa1pxTUswX0ZfV2ZFTlZJanY1ZDNGYVdOX3N0VHFqYUNlV01kSFMxaFhvY1licV9LWU4wQkttby1MaXByR0hWb1Ezdmlpa0Q4eEg2dDdHUG5mcjdZOHNOSEhsZFZUcXR5Y3Z3dmNqZw?oc=5",
+          "date": "2021-03-19"
         }
       ],
       "filings": [
@@ -7456,12 +9162,6 @@
           "date": "2026-06-17"
         },
         {
-          "title": "Best Real Estate Deals of 2025: Environmental, social and governance winners - The Business Journals",
-          "source": "The Business Journals",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM3R3QzVLaVVuRl8wbWhENmFPRkJqUmhVZ0F3VjNxRG96a1dKZl9BUkZYamZGTG9oOE5taGhUbVJEdXpvdGxDZERjMy0xQ0kxVVU4YS10UVNhRFpSQUNhMGN0WGZ2NEV5ZVUxTWpvd2pEY1dQaE1rUzFoSlMtUnUxem5fVVVmSjQyd2pLLVZpMzRpNXNXSlE3Y051VmotWkJ3ekdZMUNoYTNkaGlTZktJ?oc=5",
-          "date": "2026-03-26"
-        },
-        {
           "title": "Pilot Program Seeks To Turn Working-Class Homebuyers Into Senior Housing Landlords - Bisnow",
           "source": "Bisnow",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbDE1RkZtNkpzWGtnMW5JWHNiRHBNSUU1QnJNVEZmMlFldHRRTDlmTmRKNG9JRHZvMGNpTmN1alFyaTh3YlduZ1czSVVZV0dIRFdoWm1qN1VZLWZqcVBJLVI0cWszX2ZsT1NQcDJHOHR5N2loY1FpZC1wSVlRckU0bkNTanBSUHhNOVctWWhBWkIzZ1dwdUJ1RTZwNUFaUWI3eU5KZ2ZYOXBNbENKeXc?oc=5",
@@ -7474,16 +9174,22 @@
           "date": "2026-02-12"
         },
         {
-          "title": "Gov. Shapiro announces $1 billion housing plan, new executive role - phillytrib.com",
-          "source": "phillytrib.com",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZGZpVjRaWGhyWVpTYzI4ZFNiOVNBa0drWEdWYTdFcVhWUkV5V0p4ZjI5a2FiQkp1LWhvRUwxWERRbi0wZUxHWVdhUlp2SEQxSnhtdko4ZDZReG9vRGhlVThvY3F5MXJyOEViVnB1SUJnYk9zUGdxWnh4cmVJQ0lhX2RHdG1LRkhXeDd6N1Nza2tvRmRROWF5ZEZsZDhnYkhDdVVUbnlqdVhCUjRWTk00OXVkXzRhYXhXTEc1V051T2ptZzlzNnkyQlFjWnlVUURTd09OMVRjZEFuRGdCWnF3X190TkpGS2RGRnpYRg?oc=5",
-          "date": "2026-02-12"
-        },
-        {
           "title": "Best Real Estate Deals of 2024: Affordable housing winners - The Business Journals",
           "source": "The Business Journals",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVNoLWI2UV9RMGNGamFyY0VHR0lUU1JpcVBiQ20xZlUybk1FQ1Y1VXJJRGh2aEdfUjJoQnhIT3FsNW9QRFRadjVqazd0V1VxRVk4Snd0RmJoS3l4a0VNSk54LUdJM191RXpqajM3V1Bya1lZdlhiZkZfTUllZlpWQ1VqOUExZDBadG91VlkyLTlCUDRfcm40T0Z2Mk5HVDE5ZUNYTEhQQ1FiMUNi?oc=5",
           "date": "2025-03-27"
+        },
+        {
+          "title": "NewCourtland is Showcasing its First Inclusive Housing Property on Henry Avenue in Philadelphia - Yield PRO",
+          "source": "Yield PRO",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nbURHczJqcGZUSklRc2RLUlducUtjcGFXS2o0OElrWGJHM2E0MHltM0xTRjg0a2VuN1Q4clc2X3hVc1dpcHVzUS1LUVlvT2gzUVU2Xw?oc=5",
+          "date": "2024-11-11"
+        },
+        {
+          "title": "Philadelphia Housing Project Aims To Get Young And Old Mixing It Up, Be A Model Of Inclusivity - Bisnow",
+          "source": "Bisnow",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa282eHQ4dGVrSGdSUkZnaGJxQW9IWGVodkZrUEhNeHV6UFZYeW5WdHF6ZFZKZWRKN1NCOTlRVENpenIwbmNkMmg5Z28wOWQtMzMxTzJMbEdoM0tTMHFLUjhUSk0xQlhjY1MwSWFKMzlxSVNVOFI5U2NxV2VqTjd4S3VRTmo5TC01d0NSSGVsR19VdXBQM0dUMXM0VkxKOW5MSHl6WVhNaS1hZHJtcXhxZWRR?oc=5",
+          "date": "2024-07-23"
         }
       ],
       "filings": [
@@ -7773,6 +9479,12 @@
           "date": "2024-11-25"
         },
         {
+          "title": "Nicetown Park to get much-needed sprucing with help from elected officials - phillytrib.com",
+          "source": "phillytrib.com",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbFRZeVRlSzgxUllNTnk2b29XQXZpeG16X0lGSUs4Q2Z3X19OdklHOU5ackduS0JHbWlLSkdvWVI1VjB2RWlJU1VCa2xvQ3cxZEw5SXQzcWhROUItZGswYVNFOVVDRzJSWFJvd3YyTzVSSDlzTHpFU3JwbW8tRW9KNHNZelFKdnpwcUFQeFcyR3FCYzJjVTgwcGtHdmdUN0RRMEdHYV9ONk5VY3Uwbl9VdWhnVGcwSFN0WlktX1ZLb2NyYW5IZ3BiT3owZmNNbEwtODNESy03a3E1OUJYQWVYTFhOd1VJTVY4ek5vT05ickZOdFZkUTdDM2Zubw?oc=5",
+          "date": "2024-08-08"
+        },
+        {
           "title": "Police officer injured in crash chasing alleged stolen vehicle in North Philadelphia - CBS News",
           "source": "CBS News",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQm4xZ0ZvRzJSc3ZjbE1SQVdCcWVVbVlhZmgzYU9rc0VYako5TTJBWUNvQXFBZXQtQ2ZCaE5IRDdTSGJ2b3AwQWx5X1ctNVRQUzdxM015THZseWZKUnNzYi1UWWZxOEs0cWZYaHhrYTMtQkUwOVotc3JzdWJ4dVVYRUF3Tk5VNTVpai1kRUtqdHo3Q3BSRmNPajBNc1VmYTBieUJzYlN4YWs?oc=5",
@@ -7783,12 +9495,6 @@
           "source": "phillytrib.com",
           "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONnRNOXU0d21Ua1NmSDBXd1lWNGdyTGVSZDR6RW5JdXg2MGNjVnQyQlZLY0NvUkwzVHM3UTBrRkNYSkUzMGpONFFCanRaQUhieDlfTkRxZXJTdTl2ZjRLQU1PQ016RFV5WkpVWURiZUE0WWpGc0g2QVJNOGJObGNZYW1Wb1RyaUlzVV9sem1MSWpxTnczcWUxTTlyVW1Qd0F5b0czV2kzckMxQ0h5UXROSUtSbGpUdXlqQ0FiNUlwZDIxRDFNLXRxLXBaYWNacTBrdU5YMDNxSkVLbnNOSU9YazNsaU0taFl6cWwzLS13TQ?oc=5",
           "date": "2023-08-11"
-        },
-        {
-          "title": "Nicetown advocates hope the new mayor will help stop community violence - WHYY",
-          "source": "WHYY",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wUGhQNk9VUkFENkRjd3RMSC0zUEdkMjJSMFJzV2VtcDY1UDgzdkc4THVEQzJ4dFdNT09odmx1RGdDM3l2U2g2QXRkX2UybWtjdFFYa1hWdTJrcnd2LVI4TUJtTllNT1lNNnJnTDEyMGE?oc=5",
-          "date": "2023-08-10"
         }
       ],
       "filings": [
@@ -8517,7 +10223,14 @@
         }
       ],
       "leadershipAsOf": 2023,
-      "news": [],
+      "news": [
+        {
+          "title": "City Distributes Personal Protective Equipment (PPE) Supplies to Help Neighborhood Businesses Reopen with Care - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmVyeWZHbVJ0QjdpZnNocWxBZTNNRklCTUh2ZkxfbmdKdlVTcWJsMEY5RU02RGFlZUl6VC1Gb3lXTTZVdDhJQkszRzlvQ29KdW02RDJfd2xzV05Kb0dscElELUIxeWJLc2ZIYnpOZXFyak9FVnotRWFmSGVVMlhpcEVRTUx3Tl9RNDFrbmFZR1FxWFJIUTFSQlAxa3diRFFCaHNoQnZObzZ4bTFoZHpmUjgxanRCYmstQmtIMWFfcGZ4NjZidmRqb0xWQlFKZktDa1FYWGZiTGdiQQ?oc=5",
+          "date": "2020-08-01"
+        }
+      ],
       "filings": [
         {
           "year": 2023,
@@ -8949,8 +10662,8 @@
           "date": "2026-02-02"
         },
         {
-          "title": "Kevin Ford Jr. '11 Will Run For Maryland State Senate Seat To Represent Prince George's County - Morehouse Newsroom",
-          "source": "Morehouse Newsroom",
+          "title": "Kevin Ford Jr. '11 Will Run For Maryland State Senate Seat To Represent Prince George's County - Morehouse College",
+          "source": "Morehouse College",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Zb2hQUUNDVFdXQlJSUk14RUJpb0FBd1B3ZFBYdnNxLUw0MUx2U0NKSG9ienJCaXRVQkwxLVpoM3NYYzRoYmk0UmxGTm51ZDdSWGc4TUoyY9IBZ0FVX3lxTE9hZk5GQ1lJSkFHTjhYLXlFc0haUGFfc0xWSVpWUUxjb1kxV2R3N3FDMmRXdDNLTGpWUmVmQTdiODlvd0pUdmJtOVBaLWFsZm5lMXNqSVJIMkt1MVlyVkprUVJnb1pIVm8?oc=5",
           "date": "2025-09-18"
         },
@@ -9259,6 +10972,14 @@
         }
       ],
       "filings": [
+        {
+          "year": 2024,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F237439723_202409_990_2026011323843352.pdf"
+        },
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F237439723_202309_990_2024120622941731.pdf"
+        },
         {
           "year": 2021,
           "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_08_2022_prefixes_23-26%2F237439723_202109_990_2022082920302828.pdf"
@@ -10090,25 +11811,25 @@
       "executive": {
         "name": "David J Mosey",
         "title": "Executive Director",
-        "comp": 215500,
+        "comp": 224542,
         "isExecutive": true
       },
       "officers": [
         {
           "name": "David J Mosey",
           "title": "Executive Director",
-          "comp": 215500,
+          "comp": 224542,
           "isExecutive": true
+        },
+        {
+          "name": "Fadi Alchoufete",
+          "title": "Director Of Technology",
+          "comp": 151843,
+          "isExecutive": false
         },
         {
           "name": "Dwayne Dagen",
           "title": "Director Treasurer",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Eric Heasley",
-          "title": "Director",
           "comp": 0,
           "isExecutive": false
         },
@@ -10120,12 +11841,6 @@
         },
         {
           "name": "Bernadette Boerckel",
-          "title": "Director",
-          "comp": 0,
-          "isExecutive": false
-        },
-        {
-          "name": "Jeffrey Emanuel",
           "title": "Director Secretary",
           "comp": 0,
           "isExecutive": false
@@ -10137,13 +11852,25 @@
           "isExecutive": false
         },
         {
-          "name": "Emilia Mattucci",
+          "name": "John Pulver",
           "title": "Director",
           "comp": 0,
           "isExecutive": false
         },
         {
-          "name": "John Pulver",
+          "name": "Mayada Christiansen",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Mark Koveleski",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Lauren Montevalco",
           "title": "Director",
           "comp": 0,
           "isExecutive": false
@@ -10632,6 +12359,330 @@
       ]
     },
     {
+      "name": "South of South Neighborhood Association",
+      "type": "CDC",
+      "ein": "232555347",
+      "irsName": "South Of South Neighborhood Association Inc",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 237373,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": null,
+      "officers": [
+        {
+          "name": "Addie Johnston",
+          "title": "Former Board Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "David Share",
+          "title": "Board Member Recording Secretary",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Jose Hernandez",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Morgan Rodriguez",
+          "title": "Board Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Stephen Rodriguez",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Melanie Gerchberg",
+          "title": "Board Vice Chair",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Richard Gliniak",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Jon Adler",
+          "title": "Board Treasurer",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Liz Scott",
+          "title": "Board Member Controller",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Michael Showell",
+          "title": "Board Member Corporate Secretary",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Philly zoning board approves proposal to replace Hoa Binh Plaza - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS1QwM2FrQ29jbGZpclZKZnRZXy1Cck5PaE05TXprQkQtRFNsdWtRa25fSzVvVkFPc2VIdzc3d0ZUZF9tRUdPcmhOakFMdy1CRjRLVmFnT0x2ZUI2VmhhSWVmb1FVNmhabGhWMnJfanY0WV92QnJjUl9hTkxpLXRFTWc4UmM4ZUxyVkowUkVsSVIxRC14?oc=5",
+          "date": "2025-08-28"
+        },
+        {
+          "title": "Some Graduate Hospital residents want new rules for construction. Among them: More trees, less vinyl siding - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNamJCUGZKVkc1TXBLVzYtNTRsdVdIVzRiWTBlREVZYkN6MHBQbms0ZVE1QmFqekFKVGRkZmNTWXFBTVVyZkU5U2N6U2RCQWNJZzNXampuMlJZSXp4bjNCV2FtTUQ0T2I4VWx0am81VEY1TUxRT1ZLS3V2MTRvTDZBSnBkdXltV3RkbFJDOXI3Q1FjLWF2UlBwZUJJY3lKTkhiTFRvOC1UZHlrOEtIemJvSFpGOUE?oc=5",
+          "date": "2024-10-18"
+        },
+        {
+          "title": "Once considered \u2018Main Street for Philadelphia\u2019s Black Elite\u2019, on Friday Christian Street was renamed Black Doctors Row - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQalh1STVjZE9la1VUOWZZTWpSRGY2RlVZN19GTE9oQUxiYmxLZVFWeWh1cU1Lb3d2c3JUSFNrYjdhNzBFX1pqME5valhzVlhCcFh6ZHUwSnlPbFhOXzFVQks0YzRFbUc0cG9uakNuUVpLdTFTN1hKaUR6SlZNWlcyU3hRcUxfUkFxeGFEMUxnT1ZVVHFkU0w2T3BIbTdSMWhr?oc=5",
+          "date": "2024-06-24"
+        },
+        {
+          "title": "Street renamed \u2018Black Doctors Row' honors several prominent Black Philadelphians - NBC10 Philadelphia",
+          "source": "NBC10 Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYlpfVVRabnJodEd5MTVpUFFfWWRmRjZSMnU4NWJUenh0a2tQZkpXQTlvdFZ1NVpUOUdHMVVCMzZvQjk3TzNDYnZ4cGxmRTR2REZicmwzUUFoMl9qbW1hNmFzR1NiODZOZG8xallTczhBazZ1OWdDQlJtUjlySlZQdE5ONHFYR3NsQWhmMFA2ek5aT2lMQTVuR3ZSaXNET3BGZUHSAaoBQVVfeXFMTnk2dFRrRGVTeUw2REI5MmZvQ0cwaFBoYVhVNnAxa1dKTnpCSjRYYkpTMVdwbEtBUU9idUdFdkhIcWd4T1JHd2RVR19iLUZDZFlRS19rX2Y2YXh2LXpsVFhrNUhHSWpVUXByNDlXbkN0U1BOWWdJVkVNakVFVEdHRmpCc01pOG9XcUo3M3hqSkNYR1FneE1wNExOTzJxN0twNnU2YlBwcDFCSVE?oc=5",
+          "date": "2024-06-21"
+        },
+        {
+          "title": "Black Doctors Row: Portion of street in historic area of South Philadelphia gets renamed - phillytrib.com",
+          "source": "phillytrib.com",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOQUFZcURwaHRtakxhUWpqbnNRVE1WQXFvUElMY3kteFlobkRIZ3doRUxYZkh5RnlzTUJlRW9Eck9xZ2NFMUF1ekdlTGVMZzBLOEh1VnViRGYwZkJDaFBHdHVMMFNGNGVxSWkwb0NabzlVOWxkTjMxTGdvT3BDdlNoQnptLW9CazhQREo5dUFfdkhrZF9IMEhHOXpZLWx1eHIxMFFRSjNubHd4N3U5NncxQnJfM2l4eHdfYllrV2FzT1h4aUNHQjc4T1JDZkRJUGwyYmQ5RFQyRUNCODNPZWJfVThuckNJTTNlME9TeHUwYXEzbm8yWnh3M2FQbjY3TDBYZmtpWWFzeXNWMklW?oc=5",
+          "date": "2024-06-21"
+        },
+        {
+          "title": "A Neighborhood Strategy - Hidden City Philadelphia",
+          "source": "Hidden City Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSeUR3Z2RMaVd4ZFJIdE50R2VUSVZtY1pwVFJuM2JMUVE4OWhwZkx2VXF6aUN5MlloRnBmbjB4b01kTjEwSTRxVUVzczdKTzU1eUx1TGtiQlhwVnVKVDdYY1FGeHdTeGNTMXBkNA?oc=5",
+          "date": "2024-01-30"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_12_2023_prefixes_22-23%2F232555347_202212_990_2023120522066553.pdf"
+        },
+        {
+          "year": 2020,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_22-23%2F232555347_202012_990_2021052618206145.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2021_prefixes_22-23%2F232555347_201912_990_2021021817719281.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=01_2020_prefixes_22-23%2F232555347_201812_990_2020012417067877.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=01_2018_prefixes_23-23%2F232555347_201612_990_2018011115117646.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2017_03_EO%2F23-2555347_990_201512.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_02_EO%2F23-2555347_990_201412.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_EO%2F23-2555347_990EZ_201312.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_01_EO%2F23-2555347_990EZ_201212.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_12_EO%2F23-2555347_990EZ_201112.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_09_EO%2F23-2555347_990EZ_201012.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_09_EO%2F23-2555347_990EZ_200912.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_12_EO%2F23-2555347_990EZ_200812.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_12_EO%2F23-2555347_990_200712.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_07_EO%2F23-2555347_990_200612.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_12_EO%2F23-2555347_990_200512.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2005_12_EO%2F23-2555347_990_200412.pdf"
+        },
+        {
+          "year": 2003,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2004_09_EO%2F23-2555347_990_200312.pdf"
+        },
+        {
+          "year": 2002,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_12_EO%2F23-2555347_990_200212.pdf"
+        },
+        {
+          "year": 2001,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2002_12_EO%2F23-2555347_990_200112.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "South of South Neighborhood Association",
+        "startYear": 2015,
+        "annualAmount": 100000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "active": true
+      },
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 194442,
+          "expenses": 202516,
+          "assets": 158383,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2012,
+          "revenue": 169925,
+          "expenses": 196976,
+          "assets": 135191,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2013,
+          "revenue": 144601,
+          "expenses": 166705,
+          "assets": 109227,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2014,
+          "revenue": 226590,
+          "expenses": 142910,
+          "assets": 192907,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2015,
+          "revenue": 135121,
+          "expenses": 155102,
+          "assets": 172926,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2016,
+          "revenue": 130965,
+          "expenses": 96614,
+          "assets": 207277,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2017,
+          "revenue": 230904,
+          "expenses": 98369,
+          "assets": 340733,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2018,
+          "revenue": 111615,
+          "expenses": 174747,
+          "assets": 277444,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2019,
+          "revenue": 145563,
+          "expenses": 229956,
+          "assets": 192287,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2020,
+          "revenue": 15269,
+          "expenses": 157676,
+          "assets": 49116,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2021,
+          "revenue": 175971,
+          "expenses": 139471,
+          "assets": 85616,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2022,
+          "revenue": 129582,
+          "expenses": 131592,
+          "assets": 83606,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2023,
+          "revenue": 237373,
+          "expenses": 108797,
+          "assets": 212182,
+          "employees": null,
+          "officerComp": 0
+        }
+      ]
+    },
+    {
       "name": "South Street Headhouse District",
       "type": "CDC",
       "ein": "232844044",
@@ -11037,6 +13088,314 @@
       ]
     },
     {
+      "name": "Spring Garden CDC",
+      "type": "CDC",
+      "ein": "232772462",
+      "irsName": "Spring Garden Community Development Corporation",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2010,
+      "lastYear": 2023,
+      "yearsFiled": 14,
+      "filingGaps": [],
+      "compJumpYears": [
+        2011,
+        2013,
+        2022,
+        2023
+      ],
+      "latestRevenue": 1337844,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 4,
+      "executive": {
+        "name": "Patricia Freeland",
+        "title": "President/Board Member",
+        "comp": 18750,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Justino Navarro",
+          "title": "Vice President/Board Member",
+          "comp": 80098,
+          "isExecutive": false
+        },
+        {
+          "name": "Patricia Freeland",
+          "title": "President/Board Member",
+          "comp": 18750,
+          "isExecutive": true
+        },
+        {
+          "name": "Robert Sv Platten",
+          "title": "Treasurer/Assist. Secretary/Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Barbara Wolf",
+          "title": "Secretary/Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Robert Powers",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Community Safety in Philadelphia\u2019s Point Breeze and Spring Garden Neighborhoods - The Pew Charitable Trusts",
+          "source": "The Pew Charitable Trusts",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNc013ZE1wbVllSkFlOG5aRTRNM1Z5VkR5dnBPWmlpdzdBUWZyZzJBRm5VZ0U3ZUlIM1ZaWWxHU0FZYk9jbGppeW50M2x4NlQ4dXU1WFI0SS1senFxeHFJSTRZbDFtTFRtZnRhMmd6dmFjM2JPX2h0ODd1LTBsUmt5TVFiRC1pZGJHNDg2M2JESUI5Z0NHV1B6VFBsR1RJX1BSWHRGcnZ5bE9OR0Y5VHZRR0pubHNEQWtZOU9jdXBDR1F0TUJzRFcyT0J1TC1YdHlZaHUyVXlFN3ZHa0k?oc=5",
+          "date": "2026-06-16"
+        },
+        {
+          "title": "City Distributes Personal Protective Equipment (PPE) Supplies to Help Neighborhood Businesses Reopen with Care - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmVyeWZHbVJ0QjdpZnNocWxBZTNNRklCTUh2ZkxfbmdKdlVTcWJsMEY5RU02RGFlZUl6VC1Gb3lXTTZVdDhJQkszRzlvQ29KdW02RDJfd2xzV05Kb0dscElELUIxeWJLc2ZIYnpOZXFyak9FVnotRWFmSGVVMlhpcEVRTUx3Tl9RNDFrbmFZR1FxWFJIUTFSQlAxa3diRFFCaHNoQnZObzZ4bTFoZHpmUjgxanRCYmstQmtIMWFfcGZ4NjZidmRqb0xWQlFKZktDa1FYWGZiTGdiQQ?oc=5",
+          "date": "2020-08-01"
+        },
+        {
+          "title": "Explore These Small Businesses in Greater Philadelphia - Visit Philadelphia",
+          "source": "Visit Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSGlUajI1eGZEZmc5NC1GZl9aeFRhVE4xM2tOTkJUWG1iRlVydThidGhFc1oteVZqNmZlVVJoS3dxNk9yUmphYmo5OFlzMFJqLTVlMVJxSExaSEZjYTB1b2xrQ2JidU1yd0FNbm13QTFfUml0YmE5S29VRjMzOHpvTl90WkwtVmsxdnhiSFVzTnh6MHVPTHVybEdDYUtTUzRBNmU4T3JVWQ?oc=5",
+          "date": "2020-07-10"
+        },
+        {
+          "title": "Historic Philly Underground Railroad stop that freed 9,000 slaves is saved from brink of collapse - Billy Penn at WHYY",
+          "source": "Billy Penn at WHYY",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU0RHWXd6R1FqMk5RN3RqN2hHcGtxd1RwNEJhODBNMFZWMmNtZ1htZWxuZFpCQk9MX19iZldsbnBNOWVzUV9CZ1dHSGEtNzh1MjRhZ24ybUVZWVJ6a1g1aWxHM3ljRlpyWlBTM0NOWDU5WEdGcVEweGwzd19lQnJkM192Q09nb0VHUThabnBkcjhBTG9lc3Jfb3RDbkVUWVdWSWpTZEZEOE95NkpFMzFJMzZoUGFLempqelRIR0RoUG13eFNzUm16YVln?oc=5",
+          "date": "2019-09-20"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_22-23%2F232772462_202212_990_2024010422169833.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F232772462_202112_990_2023051121212443.pdf"
+        },
+        {
+          "year": 2020,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2022_prefixes_23-26%2F232772462_202012_990_2022102520541900.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=04_2021_prefixes_23-23_1%2F232772462_201912_990_2021040117848424.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2020_prefixes_22-23%2F232772462_201812_990_2020021217140085.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2019_prefixes_23-23%2F232772462_201712_990_2019022516125750.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=01_2018_prefixes_23-23%2F232772462_201612_990_2018010615092405.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_12_EO%2F23-2772462_990_201512.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_12_EO%2F23-2772462_990_201412.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_EO%2F23-2772462_990_201312.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_12_EO%2F23-2772462_990_201212.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_12_EO%2F23-2772462_990_201112.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_12_EO%2F23-2772462_990_201012.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_01_EO%2F23-2772462_990_200912.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_12_EO%2F23-2772462_990_200812.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_11_EO%2F23-2772462_990_200712.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_11_EO%2F23-2772462_990_200612.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_12_EO%2F23-2772462_990_200512.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2005_12_EO%2F23-2772462_990_200412.pdf"
+        },
+        {
+          "year": 2003,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2004_12_EO%2F23-2772462_990_200312.pdf"
+        },
+        {
+          "year": 2002,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_12_EO%2F23-2772462_990_200212.pdf"
+        },
+        {
+          "year": 2001,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2002_09_EO%2F23-2772462_990_200112.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "Spring Garden Community Development Corporation",
+        "startYear": 2013,
+        "annualAmount": 85000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "active": true
+      },
+      "history": [
+        {
+          "year": 2010,
+          "revenue": 1068679,
+          "expenses": 1136049,
+          "assets": 7003702,
+          "employees": null,
+          "officerComp": 49100
+        },
+        {
+          "year": 2011,
+          "revenue": 884658,
+          "expenses": 921905,
+          "assets": 6906789,
+          "employees": null,
+          "officerComp": 97200
+        },
+        {
+          "year": 2012,
+          "revenue": 1271053,
+          "expenses": 1050544,
+          "assets": 5967080,
+          "employees": null,
+          "officerComp": 107200
+        },
+        {
+          "year": 2013,
+          "revenue": 1465852,
+          "expenses": 1127699,
+          "assets": 5741250,
+          "employees": null,
+          "officerComp": 150000
+        },
+        {
+          "year": 2014,
+          "revenue": 2037120,
+          "expenses": 1091712,
+          "assets": 6544590,
+          "employees": null,
+          "officerComp": 150000
+        },
+        {
+          "year": 2015,
+          "revenue": 914299,
+          "expenses": 1079678,
+          "assets": 6361199,
+          "employees": null,
+          "officerComp": 139904
+        },
+        {
+          "year": 2016,
+          "revenue": 827100,
+          "expenses": 774609,
+          "assets": 6566634,
+          "employees": null,
+          "officerComp": 112500
+        },
+        {
+          "year": 2017,
+          "revenue": 1143135,
+          "expenses": 769172,
+          "assets": 6936145,
+          "employees": null,
+          "officerComp": 112500
+        },
+        {
+          "year": 2018,
+          "revenue": 1860700,
+          "expenses": 912937,
+          "assets": 7756885,
+          "employees": null,
+          "officerComp": 112500
+        },
+        {
+          "year": 2019,
+          "revenue": 887319,
+          "expenses": 920310,
+          "assets": 7734596,
+          "employees": null,
+          "officerComp": 119761
+        },
+        {
+          "year": 2020,
+          "revenue": 633433,
+          "expenses": 969109,
+          "assets": 7481683,
+          "employees": null,
+          "officerComp": 127597
+        },
+        {
+          "year": 2021,
+          "revenue": 1093844,
+          "expenses": 866226,
+          "assets": 7571321,
+          "employees": null,
+          "officerComp": 117598
+        },
+        {
+          "year": 2022,
+          "revenue": 913133,
+          "expenses": 1007081,
+          "assets": 7419059,
+          "employees": null,
+          "officerComp": 191698
+        },
+        {
+          "year": 2023,
+          "revenue": 1337844,
+          "expenses": 1388326,
+          "assets": 7329228,
+          "employees": null,
+          "officerComp": 98848
+        }
+      ]
+    },
+    {
       "name": "Tacony CDC",
       "type": "CDC",
       "ein": "233052060",
@@ -11373,16 +13732,28 @@
       "instability": 2,
       "executive": {
         "name": "Della Clark",
-        "title": "President Tec",
+        "title": "President",
         "comp": 0,
         "isExecutive": true
       },
       "officers": [
         {
-          "name": "Timothy Roundtree",
-          "title": "Vice President",
-          "comp": 106535,
+          "name": "Iola Harper",
+          "title": "Evp",
+          "comp": 79025,
           "isExecutive": false
+        },
+        {
+          "name": "Kim Carter",
+          "title": "Evp",
+          "comp": 70006,
+          "isExecutive": false
+        },
+        {
+          "name": "Della Clark",
+          "title": "President",
+          "comp": 0,
+          "isExecutive": true
         },
         {
           "name": "Lowell Thomas",
@@ -11415,10 +13786,16 @@
           "isExecutive": false
         },
         {
-          "name": "Della Clark",
-          "title": "President Tec",
+          "name": "Carmela Dow",
+          "title": "Board Member",
           "comp": 0,
-          "isExecutive": true
+          "isExecutive": false
+        },
+        {
+          "name": "Jared Beck",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
         }
       ],
       "leadershipAsOf": 2023,
@@ -11995,16 +14372,16 @@
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "Owego hosts service of remembrance in front of Tioga County Courthouse - Yahoo",
-          "source": "Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdldoQ01uSEJTU05QcTFWUDNJUjRTX3dTSGFUWWNJVEE1TE40VzA1XzVkcUhwRzQyUzVMY3JRRkFMblR3OHAyMjVlNVBaS1psaDhhZUtaQ1ZaUlBuOEt2dHk3MkFOcGpkQ00xRjVpN21OMGV6NlZoV0pQci1jdE1aVGsyNWhZMm80VjVuNm5GZUFXOG8?oc=5",
-          "date": "2026-05-25"
-        },
-        {
           "title": "Tioga United Way begins installing Hometown Hero banners in Village of Owego - WBNG",
           "source": "WBNG",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZDJDTTlmOGd6cjZjT0lIUldMbldsWURmVGhtMVhnUHlKalRjZWdJcTI5aWlhMjBsLWZkQUhRSl9pdEVrQkhrTjZLcUlWR015Zkw0cm5xRDZxRlllTnhmVlA0Q0h0YTVFRXNIN3BBbzQ1ZUV3Wi1tYkpiNFNVSVJiN0tNd2QtVHprNEcxUUZhQzZ3NnN6TTdZSm5LdFRBQlZqTWhCbTFB0gG6AUFVX3lxTFB1cDBPSXBtX0tjV3ZxMExrSjNQLUNPNUpOVTZfaEJENjRFUjZ4YVBGd1BVVmY5YXdTb1gwX183NVhKamNkYUpIUEh1XzB4bC04YTM0blBFUkdfbFdtRnU1clRDRHhJVC1NRE53dTJWWjN6eHVsR3N0b0dQS0l0WXZKeElSWlc0RE1takNQSjZGam92Z2lBeGZSRXJqQ1d1YjY4MC15cndCSV9nTVdacm9NbXM4TGdweWFqZw?oc=5",
           "date": "2026-04-21"
+        },
+        {
+          "title": "MLB\u2019s RBI program has begun to revive baseball among children in cities. In Philadelphia, it lacks diversity. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVUZydUNhcE5HNVJpRTlMVFZ3aWVQTElRZTJTSkw4QTBSbndGU25MRHN5NDVJODhKQWZBYW02WFQ2emE3VDVVeXZKY0YxLWFPY3dVM2VKWWdyRE90MjNnSDJFSTllaDE4OUV5WnQ3RTFRdjBySldDQ0JwQlJia0VNcEp1OGdCcXFEOU15S1FKRFZyaEVUNW01YjdBdnhoVE4zWVNfMU5heW5XMVllb0tXMnVqOA?oc=5",
+          "date": "2026-02-13"
         },
         {
           "title": "A flurry of grant money is flowing to the Philly region for environmental projects - WHYY",
@@ -12032,6 +14409,14 @@
         }
       ],
       "filings": [
+        {
+          "year": 2024,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F233101958_202412_990_2026011323842677.pdf"
+        },
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F233101958_202312_990_2025030723159357.pdf"
+        },
         {
           "year": 2022,
           "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2024_prefixes_20-27%2F233101958_202212_990_2024030522309729.pdf"
@@ -12183,6 +14568,337 @@
           "assets": 0,
           "employees": null,
           "officerComp": 0
+        }
+      ]
+    },
+    {
+      "name": "Village of Arts and Humanities",
+      "type": "CDC",
+      "ein": "223045318",
+      "irsName": "The Village Arts And Humanities",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [],
+      "latestRevenue": 5130521,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "City CDC program",
+      "closedCandidate": false,
+      "instability": 0,
+      "executive": {
+        "name": "Ineda Elmore Stratton",
+        "title": "Executive Director Thru 7/11/24",
+        "comp": 119539,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Ineda Elmore Stratton",
+          "title": "Executive Director Thru 7/11/24",
+          "comp": 119539,
+          "isExecutive": true
+        },
+        {
+          "name": "Melody Keim",
+          "title": "Executive Director 1/6/25 Present",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Melissa Kim",
+          "title": "Board Member, Acting Ed 7/12/24 1/5/25",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Alan Jacobson",
+          "title": "Board President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Curtis Parchment",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Saul Behar",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Melinda Watts",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Sally Harrison",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Peter Cilio",
+          "title": "Board Member",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "Where the Arts Are an Engine for Community Power - Next City",
+          "source": "Next City",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObVgtcWw4TFcxMnJKVk9VUFNYdUNhV2FMN3hRLXZVdVY3N3RobGZNZUNNWU5JMGJFNW1wNjhtYV8yM19OcHJPQXhQSXlOWGthX0ozYW1aVTJ6NDIybHFjNHJlU0NtcnlEVEFmMktGekZFNWFHeVFPekNuek5JQzlhTGFzeWFsOFZTRWs4?oc=5",
+          "date": "2026-04-20"
+        },
+        {
+          "title": "Permits Issued for Construction of Single-Family Dwelling at 1027 West Arizona Street in Hartranft, North Philadelphia - Philadelphia YIMBY",
+          "source": "Philadelphia YIMBY",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZkpieFZLUThGOFVBdWUtRVNldW1QRG9JTEtrdzhNY0dTN2R1Rk50dzQzNmlhWlR4T0FlckNSU243eDVqaFpURFh3TVJZMVR2TFdBYVNQUHZvLWVIT19QQWFZelpSY3N3bUI4NUZGMWpkN3B5RXVXcEZqVWFaQlR5OTVGQVJZTDl2Ymd5R1d4dHI4N3Nac1gxdXVJTnFJTURwZmh5OEdIWQ?oc=5",
+          "date": "2026-02-04"
+        },
+        {
+          "title": "Free And Cheap After-school Programs for Philadelphia Kids - Mommy Poppins",
+          "source": "Mommy Poppins",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU20yNVc2RVpNeG9tVXNybzFtMFpEY3BnRU83N3VMV1lWOHUyVGYzczA3ZVRtTmw3Vm5wUE1vVE5vYV9FSzcwWEI2OVhTR21YZmp5VW1OU19wMmlMalRQRHJjbnUyRkstNU9BSVVmMTVwN2hJQzV4SWY5Z0VLZGFnVnZvNkZRTXg2WUVuVzE5THM5LWlnNnFfeW5TZ3hjS1hlRWc0Y2EyZ1plQnZHZFJZWQ?oc=5",
+          "date": "2025-09-05"
+        },
+        {
+          "title": "Philly community gardens provide vital green spaces amid a hot, trash-filled summer - Billy Penn at WHYY",
+          "source": "Billy Penn at WHYY",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTjRXbUpPSkV3TjF5R3liUkJ1QnpIdnZ1bjNSdXVXMGw3d3lnMTd2bW9VaV82R1c3Uk8xSVloaDlUWmRNSm9jMzBRLU15c0NsSHduMmF3OU9oLUFfX0pjN3hXbWJoa2dnakZpbWdDUjJHckpfYjNpN2VCZUxiQVZFZEt6TjJnQQ?oc=5",
+          "date": "2025-07-28"
+        },
+        {
+          "title": "Impact Investing for the Community - The University of Chicago Booth School of Business",
+          "source": "The University of Chicago Booth School of Business",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPUnBOM2gwVjhfdVNwT05vWm9leU1TU0wyTGg0b2RYNkZpZHNzODJUX2hXbUJYUlJRTms5bDZPY2FycXVZQjVnRXpRczl3bHo4RVdoQ3lsdDhrd2liUjdrYmFsWDFXbHdHbzh3?oc=5",
+          "date": "2025-03-02"
+        },
+        {
+          "title": "A mythology for North Philly appears on construction fencing - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNnBMTXBMb2hBOFdoM3V0aU5Ca2FDYmRkYTJlRXEzQ1ROdFU0NGJxNm9ISHlYSkdwclFtRXFacmU4QzY2eVFxdF9IRnRXTEY3OHNzdmp1bHBVb2RwRUYybWJqazczMjJZUGR2UVZEZC1DZldNdUpXZzk2eHdOb3ZyYUp2VF9GRHpQREw3eEhBdXZISjJ3clA5eXVVSlhYNWNXV3ZVYXZBRjVMQQ?oc=5",
+          "date": "2023-06-27"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2024,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F223045318_202406_990_2025042523390796.pdf"
+        },
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F223045318_202306_990_2025041123352965.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F223045318_202106_990_2023060121342661.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=12_2020_prefixes_14-23%2F223045318_201906_990_2020121617480069.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=08_2019_prefixes_20-22%2F223045318_201806_990_2019080916557405.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=10_2018_prefixes_22-23%2F223045318_201706_990_2018101715801934.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F223045318_201606_990_2017080914626585.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_08_EO%2F22-3045318_990_201506.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_03_EO%2F22-3045318_990_201406.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_07_EO%2F22-3045318_990_201306.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_02_EO%2F22-3045318_990_201206.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_02_EO%2F22-3045318_990_201106.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_03_EO%2F22-3045318_990_201006.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_03_EO%2F22-3045318_990_200906.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_03_EO%2F22-3045318_990_200806.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_01_EO%2F22-3045318_990_200706.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2007_01_EO%2F22-3045318_990_200608.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_01_EO%2F22-3045318_990_200508.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2005_03_EO%2F22-3045318_990_200408.pdf"
+        },
+        {
+          "year": 2003,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2004_01_EO%2F22-3045318_990_200308.pdf"
+        },
+        {
+          "year": 2002,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_05_EO%2F22-3045318_990_200208.pdf"
+        },
+        {
+          "year": 2001,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2002_07_EO%2F22-3045318_990_200108.pdf"
+        }
+      ],
+      "taxCredit": {
+        "matchedName": "The Village of Arts and Humanities",
+        "startYear": 2013,
+        "annualAmount": 85000,
+        "reportYears": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "active": true
+      },
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 611520,
+          "expenses": 627528,
+          "assets": 628468,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2012,
+          "revenue": 673503,
+          "expenses": 669166,
+          "assets": 601933,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2013,
+          "revenue": 454836,
+          "expenses": 655563,
+          "assets": 434890,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2014,
+          "revenue": 884921,
+          "expenses": 796640,
+          "assets": 578811,
+          "employees": null,
+          "officerComp": 60000
+        },
+        {
+          "year": 2015,
+          "revenue": 1437815,
+          "expenses": 1201158,
+          "assets": 856570,
+          "employees": null,
+          "officerComp": 65210
+        },
+        {
+          "year": 2016,
+          "revenue": 1240826,
+          "expenses": 1016295,
+          "assets": 962330,
+          "employees": null,
+          "officerComp": 70904
+        },
+        {
+          "year": 2017,
+          "revenue": 1416768,
+          "expenses": 1212135,
+          "assets": 1144648,
+          "employees": null,
+          "officerComp": 75192
+        },
+        {
+          "year": 2018,
+          "revenue": 2050067,
+          "expenses": 1390232,
+          "assets": 1850729,
+          "employees": null,
+          "officerComp": 75000
+        },
+        {
+          "year": 2019,
+          "revenue": 2444401,
+          "expenses": 1471332,
+          "assets": 2874750,
+          "employees": null,
+          "officerComp": 85846
+        },
+        {
+          "year": 2020,
+          "revenue": 3434315,
+          "expenses": 2090693,
+          "assets": 4309666,
+          "employees": null,
+          "officerComp": 93985
+        },
+        {
+          "year": 2021,
+          "revenue": 3107927,
+          "expenses": 2333896,
+          "assets": 5314083,
+          "employees": null,
+          "officerComp": 116485
+        },
+        {
+          "year": 2022,
+          "revenue": 6607935,
+          "expenses": 2460475,
+          "assets": 9195750,
+          "employees": null,
+          "officerComp": 142000
+        },
+        {
+          "year": 2023,
+          "revenue": 5130521,
+          "expenses": 2919213,
+          "assets": 11508628,
+          "employees": null,
+          "officerComp": 113240
         }
       ]
     },
@@ -12597,7 +15313,7 @@
           "isExecutive": false
         },
         {
-          "name": "Crystal Morris",
+          "name": "Joan Dawson Mcconnon",
           "title": "Board Member",
           "comp": 0,
           "isExecutive": false
@@ -12631,6 +15347,10 @@
         }
       ],
       "filings": [
+        {
+          "year": 2024,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F830444104_202412_990_2025082223666584.pdf"
+        },
         {
           "year": 2023,
           "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F830444104_202312_990_2024061122516921.pdf"
@@ -12941,6 +15661,14 @@
         }
       ],
       "filings": [
+        {
+          "year": 2024,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F239233412_202409_990_2026012023850876.pdf"
+        },
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F239233412_202309_990_2024120622940982.pdf"
+        },
         {
           "year": 2022,
           "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_11_2023_prefixes_23-25%2F239233412_202209_990_2023110621869097.pdf"
