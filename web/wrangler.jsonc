@@ -1,12 +1,16 @@
 {
   // Corridor is a Next.js static export (output: "export") served by
-  // Cloudflare Workers Static Assets. No Worker script — assets only.
+  // Cloudflare Workers Static Assets. A thin Worker (worker.js) runs first
+  // only to redirect HTTP -> HTTPS, then defers to the ASSETS binding.
   "name": "corridor",
   "compatibility_date": "2026-06-01",
+  "main": "worker.js",
   "routes": [{ "pattern": "corridor.ramsgatestudio.com", "custom_domain": true }],
   "assets": {
+    "binding": "ASSETS",
     "directory": "./out",
     "html_handling": "auto-trailing-slash",
-    "not_found_handling": "404-page"
+    "not_found_handling": "404-page",
+    "run_worker_first": true
   }
 }
