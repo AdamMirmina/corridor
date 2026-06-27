@@ -98,11 +98,11 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -0.015em; line-hei
 
 /* ---------- hero ---------- */
 .hero { padding: 56px 0 36px; border-bottom: 1px solid var(--hairline); }
-.hero-row { display: flex; align-items: center; gap: 56px; }
+.hero-row { display: flex; align-items: center; gap: 36px; }
 .hero-copy { flex: 1; min-width: 0; }
 .hero-mark {
-  flex-shrink: 0; width: clamp(190px, 26vw, 320px); height: auto;
-  border-radius: 26px; box-shadow: var(--shadow);
+  flex-shrink: 0; width: clamp(150px, 22vw, 280px); height: auto;
+  filter: drop-shadow(0 10px 26px rgba(22, 24, 29, 0.20));
 }
 .hero h1 {
   font-family: var(--font-display);
@@ -338,8 +338,8 @@ table.data tr.row-exec td { background: #eef1fe; }
 @media (max-width: 880px) {
   .stat-grid { grid-template-columns: repeat(2, 1fr); }
   .grid-2 { grid-template-columns: 1fr; }
-  .hero-row { flex-direction: column-reverse; align-items: flex-start; gap: 26px; }
-  .hero-mark { width: 160px; }
+  .hero-row { flex-direction: column; align-items: flex-start; gap: 22px; }
+  .hero-mark { width: 150px; }
 }
 @media (max-width: 560px) {
   .container, .nav-inner { padding: 0 16px; }

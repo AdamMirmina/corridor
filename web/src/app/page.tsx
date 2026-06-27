@@ -18,6 +18,8 @@ export default function Overview() {
     <>
       <section className="hero">
         <div className="container hero-row">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="hero-mark" src="/corridor-mark.png" alt="Corridor" width={300} height={300} />
           <div className="hero-copy">
             <div className="eyebrow">Philadelphia &middot; Civic data</div>
             <h1 className="serif" style={{ marginTop: 14 }}>
@@ -33,8 +35,6 @@ export default function Overview() {
               community economic development organizations in Philadelphia?
             </div>
           </div>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className="hero-mark" src="/corridor-mark.png" alt="Corridor" width={320} height={320} />
         </div>
       </section>
 
