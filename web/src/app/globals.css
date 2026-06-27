@@ -99,12 +99,11 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -0.015em; line-hei
 
 /* ---------- hero ---------- */
 .hero { padding: 56px 0 36px; border-bottom: 1px solid var(--hairline); }
-.hero-row { display: flex; align-items: stretch; gap: 36px; }
-.hero-copy { flex: 1; min-width: 0; }
+.hero-head { display: flex; align-items: center; gap: 28px; }
+.hero-headings { min-width: 0; }
 .hero-mark {
-  flex: 0 0 auto; align-self: stretch; width: auto; height: auto;
-  aspect-ratio: 1 / 1; object-fit: contain;
-  max-width: 600px; max-height: 600px;
+  flex: 0 0 auto; width: clamp(120px, 14vw, 184px); height: auto;
+  aspect-ratio: 1 / 1;
   filter: drop-shadow(0 10px 26px rgba(22, 24, 29, 0.20));
 }
 .hero h1 {
@@ -341,8 +340,8 @@ table.data tr.row-exec td { background: #eef1fe; }
 @media (max-width: 880px) {
   .stat-grid { grid-template-columns: repeat(2, 1fr); }
   .grid-2 { grid-template-columns: 1fr; }
-  .hero-row { flex-direction: column; align-items: flex-start; gap: 22px; }
-  .hero-mark { align-self: flex-start; width: 150px; height: auto; }
+  .hero-head { gap: 18px; }
+  .hero-mark { width: 110px; height: auto; }
 }
 @media (max-width: 560px) {
   .container, .nav-inner { padding: 0 16px; }
@@ -353,6 +352,9 @@ table.data tr.row-exec td { background: #eef1fe; }
   .brand-text b { font-size: 15px; }
   .nav-links { justify-content: space-between; gap: 2px; }
   .nav-link { padding: 6px 10px; font-size: 13px; }
+
+  .hero-head { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .hero-mark { width: 96px; }
 
   .section { padding: 30px 0; }
   .section + .section { padding-top: 4px; }
