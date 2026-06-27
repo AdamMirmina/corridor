@@ -17,20 +17,24 @@ export default function Overview() {
   return (
     <>
       <section className="hero">
-        <div className="container">
-          <div className="eyebrow">Philadelphia &middot; Civic data</div>
-          <h1 className="serif" style={{ marginTop: 14 }}>
-            Leadership and longevity in Philadelphia&apos;s neighborhoods
-          </h1>
-          <p className="lede">
-            A tracked history of the Community Development Corporations behind
-            Philadelphia&apos;s commercial corridors and affordable housing. Who runs them,
-            how big they are, how long they last, and the moments leadership changed hands.
-          </p>
-          <div className="q">
-            <b>Research question.</b> What factors determine leadership transitions in
-            community economic development organizations in Philadelphia?
+        <div className="container hero-row">
+          <div className="hero-copy">
+            <div className="eyebrow">Philadelphia &middot; Civic data</div>
+            <h1 className="serif" style={{ marginTop: 14 }}>
+              Leadership and longevity in Philadelphia&apos;s neighborhoods
+            </h1>
+            <p className="lede">
+              A tracked history of the Community Development Corporations behind
+              Philadelphia&apos;s commercial corridors and affordable housing. Who runs them,
+              how big they are, how long they last, and the moments leadership changed hands.
+            </p>
+            <div className="q">
+              <b>Research question.</b> What factors determine leadership transitions in
+              community economic development organizations in Philadelphia?
+            </div>
           </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="hero-mark" src="/corridor-mark.png" alt="Corridor" width={320} height={320} />
         </div>
       </section>
 

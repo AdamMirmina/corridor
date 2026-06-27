@@ -19,7 +19,6 @@ export function Nav() {
     <header className="nav">
       <div className="nav-inner">
         <Link href="/" className="brand">
-          <span className="brand-mark">C</span>
           <span className="brand-text">
             <b>Corridor</b>
             <span>Philadelphia community development</span>
