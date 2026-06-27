@@ -3,6 +3,7 @@
   // Cloudflare Workers Static Assets. No Worker script — assets only.
   "name": "corridor",
   "compatibility_date": "2026-06-01",
+  "routes": [{ "pattern": "corridor.ramsgatestudio.com", "custom_domain": true }],
   "assets": {
     "directory": "./out",
     "html_handling": "auto-trailing-slash",

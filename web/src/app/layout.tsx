@@ -19,7 +19,7 @@ const displaySerif = Newsreader({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://corridor.adammirmina.workers.dev"),
+  metadataBase: new URL("https://corridor.ramsgatestudio.com"),
   title: "Corridor: Philadelphia community development, tracked",
   description:
     "Corridor tracks the leadership tenure, structural size, and operational lifespan of Philadelphia's community economic development organizations.",
