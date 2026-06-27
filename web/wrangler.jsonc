@@ -1,0 +1,11 @@
+{
+  // Corridor is a Next.js static export (output: "export") served by
+  // Cloudflare Workers Static Assets. No Worker script — assets only.
+  "name": "corridor",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
