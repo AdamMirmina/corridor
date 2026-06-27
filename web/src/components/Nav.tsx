@@ -19,6 +19,8 @@ export function Nav() {
     <header className="nav">
       <div className="nav-inner">
         <Link href="/" className="brand">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="brand-img" src="/corridor-mark.png" alt="" width={30} height={30} />
           <span className="brand-text">
             <b>Corridor</b>
             <span>Philadelphia community development</span>
