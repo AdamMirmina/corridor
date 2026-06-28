@@ -42,6 +42,36 @@ export default function Overview() {
 
       <section className="section">
         <div className="container">
+          <div className="card card-pad">
+            <div className="eyebrow">In plain terms</div>
+            <div className="explainer">
+              <p>
+                <b>What a CDC is</b>
+                A Community Development Corporation is a neighborhood nonprofit that works to
+                keep one part of Philadelphia healthy, fixing up housing and bringing
+                storefronts back to life along the local commercial corridor. Most run on
+                grants and public money, with a single director often setting the direction.
+              </p>
+              <p>
+                <b>What we track</b>
+                Corridor keeps a running record of these groups across the city: who runs each
+                one, how much money it takes in, how many people it employs, and how many years
+                it has filed with the IRS. When a budget jumps or a leader changes, it turns up
+                in the data.
+              </p>
+              <p>
+                <b>What it&apos;s for</b>
+                The aim is to make it easy to see which neighborhood organizations are steady
+                and which may be at a turning point, so residents and the funders behind them
+                can act with a clearer picture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
           <div className="stat-grid">
             <div className="stat">
               <div className="v tnum">{summary.total}</div>

@@ -145,6 +145,9 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -0.015em; line-hei
   background: var(--surface); border: 1px solid var(--hairline);
   border-radius: var(--radius); box-shadow: var(--shadow);
 }
+.explainer { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 14px; }
+.explainer p { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; }
+.explainer b { display: block; margin-bottom: 5px; color: var(--ink); font-weight: 600; font-size: 15px; }
 .card-pad { padding: 22px; }
 .card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
 .card-head h3 { font-size: 16px; }
@@ -340,6 +343,7 @@ table.data tr.row-exec td { background: #eef1fe; }
 @media (max-width: 880px) {
   .stat-grid { grid-template-columns: repeat(2, 1fr); }
   .grid-2 { grid-template-columns: 1fr; }
+  .explainer { grid-template-columns: 1fr; gap: 18px; }
   .hero-head { gap: 18px; }
   .hero-mark { width: 110px; height: auto; }
 }
