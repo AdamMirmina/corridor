@@ -1,4 +1,16 @@
-import type { Org } from "@/lib/data";
+import type { Org, Tier } from "@/lib/data";
+
+/** Income / size category chip. Ordered light -> dark so bigger reads heavier. */
+export function TierBadge({ tier }: { tier: Tier }) {
+  if (!tier) return <span className="badge badge-muted">No filing</span>;
+  const cls = {
+    Small: "tier-1",
+    Medium: "tier-2",
+    Large: "tier-3",
+    Major: "tier-4",
+  }[tier];
+  return <span className={`badge tier ${cls}`}>{tier}</span>;
+}
 
 export function TypeBadge({ type }: { type: string }) {
   if (type === "BID") return <span className="badge badge-bid">BID</span>;

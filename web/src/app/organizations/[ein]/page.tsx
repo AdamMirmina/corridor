@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { detailOrgs, getOrg, formatMoneyFull } from "@/lib/data";
+import { detailOrgs, getOrg, formatMoneyFull, incomeTier, sizeTier, latestAssets } from "@/lib/data";
 import { MetricChart } from "@/components/Charts";
-import { TypeBadge, StatusBadge, LifespanTimeline } from "@/components/Bits";
+import { TypeBadge, StatusBadge, TierBadge, LifespanTimeline } from "@/components/Bits";
 import { Leadership } from "@/components/Leadership";
 import { NewsList } from "@/components/NewsList";
 import { TaxCreditCard } from "@/components/TaxCreditCard";
@@ -69,8 +69,16 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
           <div className="kv"><div className="k">First on record</div><div className="v tnum">{org.firstYear}</div></div>
           <div className="kv"><div className="k">Latest filing</div><div className="v tnum">{org.lastYear}</div></div>
           <div className="kv"><div className="k">Years filed</div><div className="v tnum">{org.yearsFiled}</div></div>
-          <div className="kv"><div className="k">Latest revenue</div><div className="v tnum">{formatMoneyFull(org.latestRevenue)}</div></div>
-          <div className="kv"><div className="k">Latest staff</div><div className="v tnum">{org.latestEmployees ?? "—"}</div></div>
+          <div className="kv">
+            <div className="k">Income</div>
+            <div className="v tnum">{formatMoneyFull(org.latestRevenue)}</div>
+            <div className="kv-tag"><TierBadge tier={incomeTier(org)} /></div>
+          </div>
+          <div className="kv">
+            <div className="k">Size (assets)</div>
+            <div className="v tnum">{formatMoneyFull(latestAssets(org))}</div>
+            <div className="kv-tag"><TierBadge tier={sizeTier(org)} /></div>
+          </div>
         </div>
 
         {/* Current leadership */}

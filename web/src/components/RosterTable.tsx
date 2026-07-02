@@ -3,10 +3,10 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Org } from "@/lib/data";
-import { formatMoney } from "@/lib/data";
-import { TypeBadge, StatusBadge } from "@/components/Bits";
+import { formatMoney, incomeTier, sizeTier, latestAssets } from "@/lib/data";
+import { TypeBadge, StatusBadge, TierBadge } from "@/components/Bits";
 
-type SortKey = "name" | "yearsFiled" | "latestRevenue" | "lastYear" | "instability";
+type SortKey = "name" | "yearsFiled" | "latestRevenue" | "assets" | "lastYear" | "instability";
 type Filter = "all" | "cdc" | "bid" | "signal" | "lookup";
 
 const filters: { key: Filter; label: string }[] = [
@@ -42,6 +42,7 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
         case "name": return o.name.toLowerCase();
         case "yearsFiled": return o.yearsFiled;
         case "latestRevenue": return o.latestRevenue ?? -1;
+        case "assets": return latestAssets(o) ?? -1;
         case "lastYear": return o.lastYear ?? -1;
         case "instability": return o.instability;
       }
@@ -96,8 +97,8 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
               <th>Status</th>
               <th className="sortable num" onClick={() => toggleSort("lastYear")}>Active {arrow("lastYear")}</th>
               <th className="sortable num" onClick={() => toggleSort("yearsFiled")}>Years {arrow("yearsFiled")}</th>
-              <th className="sortable num" onClick={() => toggleSort("latestRevenue")}>Latest revenue {arrow("latestRevenue")}</th>
-              <th className="num hide-sm">Staff</th>
+              <th className="sortable num" onClick={() => toggleSort("latestRevenue")}>Income {arrow("latestRevenue")}</th>
+              <th className="sortable num" onClick={() => toggleSort("assets")}>Size {arrow("assets")}</th>
             </tr>
           </thead>
           <tbody>
@@ -132,8 +133,18 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
                     {o.firstYear ? `${o.firstYear}–${o.lastYear}` : "—"}
                   </td>
                   <td className="num tnum">{o.yearsFiled || "—"}</td>
-                  <td className="num tnum">{formatMoney(o.latestRevenue)}</td>
-                  <td className="num tnum hide-sm">{o.latestEmployees ?? "—"}</td>
+                  <td className="num">
+                    <div className="cell-metric">
+                      <TierBadge tier={incomeTier(o)} />
+                      <span className="cell-sub tnum">{formatMoney(o.latestRevenue)}</span>
+                    </div>
+                  </td>
+                  <td className="num">
+                    <div className="cell-metric">
+                      <TierBadge tier={sizeTier(o)} />
+                      <span className="cell-sub tnum">{formatMoney(latestAssets(o))}</span>
+                    </div>
+                  </td>
                 </tr>
               );
             })}

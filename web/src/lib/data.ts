@@ -141,6 +141,38 @@ export function longevityBuckets(): { label: string; count: number }[] {
   }));
 }
 
+export type Tier = "Small" | "Medium" | "Large" | "Major" | null;
+
+/** Latest total assets on record (the size proxy — IRS employee counts aren't
+ *  digitized, so a CDC's balance-sheet holdings stand in for size). */
+export function latestAssets(o: Org): number | null {
+  for (let i = o.history.length - 1; i >= 0; i--) {
+    const v = o.history[i].assets;
+    if (v !== null && v !== undefined) return v;
+  }
+  return null;
+}
+
+/** Income tier from latest annual revenue. Thresholds match the research sheet. */
+export function incomeTier(o: Org): Tier {
+  const v = o.latestRevenue;
+  if (v === null || v === undefined) return null;
+  if (v < 500_000) return "Small";
+  if (v < 2_000_000) return "Medium";
+  if (v < 10_000_000) return "Large";
+  return "Major";
+}
+
+/** Size tier from latest total assets. Thresholds match the research sheet. */
+export function sizeTier(o: Org): Tier {
+  const v = latestAssets(o);
+  if (v === null || v === undefined) return null;
+  if (v < 1_000_000) return "Small";
+  if (v < 5_000_000) return "Medium";
+  if (v < 25_000_000) return "Large";
+  return "Major";
+}
+
 export function formatMoney(n: number | null | undefined): string {
   if (n === null || n === undefined) return "—";
   if (Math.abs(n) >= 1_000_000) return `$${(n / 1_000_000).toFixed(1)}M`;
