@@ -78,7 +78,8 @@ def load_roster() -> list[dict]:
     with open(os.path.join(DATA, "cdc_roster.csv"), newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             rows.append({"org_name": r["org_name"], "type": r["type"],
-                         "website": "", "contact_email": "", "source": r["source"]})
+                         "website": "", "contact_email": "", "source": r["source"],
+                         "notes": r.get("notes", "")})
     seen, deduped = set(), []
     for r in rows:
         key = norm(r["org_name"])

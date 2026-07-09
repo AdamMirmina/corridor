@@ -7,12 +7,13 @@ import { formatMoney, incomeTier, sizeTier, latestAssets } from "@/lib/data";
 import { TypeBadge, StatusBadge, TierBadge } from "@/components/Bits";
 
 type SortKey = "name" | "yearsFiled" | "latestRevenue" | "assets" | "lastYear" | "instability";
-type Filter = "all" | "cdc" | "bid" | "signal" | "lookup";
+type Filter = "all" | "cdc" | "bid" | "signal" | "lookup" | "archives";
 
 const filters: { key: Filter; label: string }[] = [
   { key: "all", label: "All" },
   { key: "signal", label: "Has signal" },
   { key: "lookup", label: "Needs lookup" },
+  { key: "archives", label: "New from Temple archives" },
 ];
 
 export function RosterTable({ orgs }: { orgs: Org[] }) {
@@ -36,6 +37,7 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
     if (filter === "bid") r = r.filter((o) => o.type === "BID");
     if (filter === "signal") r = r.filter((o) => o.filingGaps.length || o.compJumpYears.length);
     if (filter === "lookup") r = r.filter((o) => !o.ein);
+    if (filter === "archives") r = r.filter((o) => o.source === "Temple archives");
 
     const val = (o: Org): number | string => {
       switch (sort) {

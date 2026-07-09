@@ -1,71 +1,100 @@
-org_name,type,source
-African Cultural Alliance of North America,CDC,Ben roster
-Arab-American CDC,CDC,Ben roster
-Asociación Puertorriqueños en Marcha (APM),CDC,Ben roster
-Beech Interplex,CDC,Ben roster
-Called To Serve CDC,CDC,Ben roster
-Catholic Housing and Community Services,CDC,Ben roster
-Centennial Parkside CDC,CDC,Ben roster
-Chestnut Hill CDC,CDC,Ben roster
-Community of Compassion CDC,CDC,Ben roster
-Community Ventures,CDC,Ben roster
-East Falls Development Corporation,CDC,Ben roster
-Empowered CDC,CDC,Ben roster
-Esperanza,CDC,Ben roster
-Frankford CDC,CDC,Ben roster
-Germantown Restoration CDC,CDC,Ben roster
-Germantown United CDC,CDC,Ben roster
-Habitat for Humanity Philadelphia,CDC,Ben roster
-HACE,CDC,Ben roster
-HELP Development Corporation,CDC,Ben roster
-Heritage CDC,CDC,Ben roster
-HMC Squared Community Association,CDC,Ben roster
-HopePHL,CDC,Ben roster
-Housing Enrichment Renaissance Board CDC,CDC,Ben roster
-HumanGood East,CDC,Ben roster
-ICPIC New Africa Center CDC,CDC,Ben roster
-Impact Services Corporation,CDC,Ben roster
-Inglis Housing Corporation,CDC,Ben roster
-Korean Community Development Services Center,CDC,Ben roster
-Lancaster Avenue 21st Century Business Association CDC (LA21),CDC,Ben roster
-Lower North Philadelphia CDC,CDC,Ben roster
-Mission First Housing Group,CDC,Ben roster
-Mt. Airy CDC,CDC,Ben roster
-Mt. Vernon Manor CDC,CDC,Ben roster
-New Kensington CDC,CDC,Ben roster
-Newbold CDC,CDC,Ben roster
-NewCourtland,CDC,Ben roster
-Nicetown CDC,CDC,Ben roster
-Northwest CLT Corporation,CDC,Ben roster
-Ogontz Ave Revitalization Corporation,CDC,Ben roster
-Old City District,CDC,Ben roster
-Olney Community Collaborative,CDC,Ben roster
-Overbrook West Neighbors CDC,CDC,Ben roster
-Oxford Circle Christian Community Development Association (OCCCDA),CDC,Ben roster
-Park to Broad Arts & Business District,CDC,Ben roster
-Partnership CDC,CDC,Ben roster
-Passyunk Area Revitalization Corporation,CDC,Ben roster
-Philadelphia Chinatown Development Corporation,CDC,Ben roster
-ProjectHOME,CDC,Ben roster
-SEAMAAC,CDC,Ben roster
-Sister Clara Muhammad CDC,CDC,Ben roster
-Smart Futures CDC,CDC,Ben roster
-South Kensington Community Partners,CDC,Ben roster
-South Street Headhouse District,CDC,Ben roster
-Southwest CDC,CDC,Ben roster
-Tacony CDC,CDC,Ben roster
-The Enterprise Center CDC,CDC,Ben roster
-The Maple Corporation,CDC,Ben roster
-Tioga United,CDC,Ben roster
-Women's Community Revitalization Project (WCRP),CDC,Ben roster
-Wynnefield Overbrook Revitalization Corporation,CDC,Ben roster
-Xiente,CDC,Ben roster
-ACHIEVEability,CDC,City CDC program
-Fairmount CDC,CDC,City CDC program
-Francisville Neighborhood Development Corporation,CDC,City CDC program
-Manayunk Development Corporation,CDC,City CDC program
-Mayfair CDC,CDC,City CDC program
-South of South Neighborhood Association,CDC,City CDC program
-Spring Garden CDC,CDC,City CDC program
-Allegheny West Foundation,CDC,City CDC program
-Village of Arts and Humanities,CDC,City CDC program
+org_name,type,source,notes
+African Cultural Alliance of North America,CDC,Ben roster,
+Arab-American CDC,CDC,Ben roster,
+Asociación Puertorriqueños en Marcha (APM),CDC,Ben roster,
+Beech Interplex,CDC,Ben roster,
+Called To Serve CDC,CDC,Ben roster,
+Catholic Housing and Community Services,CDC,Ben roster,
+Centennial Parkside CDC,CDC,Ben roster,
+Chestnut Hill CDC,CDC,Ben roster,
+Community of Compassion CDC,CDC,Ben roster,
+Community Ventures,CDC,Ben roster,
+East Falls Development Corporation,CDC,Ben roster,
+Empowered CDC,CDC,Ben roster,
+Esperanza,CDC,Ben roster,
+Frankford CDC,CDC,Ben roster,
+Germantown Restoration CDC,CDC,Ben roster,
+Germantown United CDC,CDC,Ben roster,
+Habitat for Humanity Philadelphia,CDC,Ben roster,
+HACE,CDC,Ben roster,
+HELP Development Corporation,CDC,Ben roster,
+Heritage CDC,CDC,Ben roster,
+HMC Squared Community Association,CDC,Ben roster,
+HopePHL,CDC,Ben roster,
+Housing Enrichment Renaissance Board CDC,CDC,Ben roster,
+HumanGood East,CDC,Ben roster,
+ICPIC New Africa Center CDC,CDC,Ben roster,
+Impact Services Corporation,CDC,Ben roster,
+Inglis Housing Corporation,CDC,Ben roster,
+Korean Community Development Services Center,CDC,Ben roster,
+Lancaster Avenue 21st Century Business Association CDC (LA21),CDC,Ben roster,
+Lower North Philadelphia CDC,CDC,Ben roster,
+Mission First Housing Group,CDC,Ben roster,
+Mt. Airy CDC,CDC,Ben roster,
+Mt. Vernon Manor CDC,CDC,Ben roster,
+New Kensington CDC,CDC,Ben roster,
+Newbold CDC,CDC,Ben roster,
+NewCourtland,CDC,Ben roster,
+Nicetown CDC,CDC,Ben roster,
+Northwest CLT Corporation,CDC,Ben roster,
+Ogontz Ave Revitalization Corporation,CDC,Ben roster,
+Old City District,CDC,Ben roster,
+Olney Community Collaborative,CDC,Ben roster,
+Overbrook West Neighbors CDC,CDC,Ben roster,
+Oxford Circle Christian Community Development Association (OCCCDA),CDC,Ben roster,
+Park to Broad Arts & Business District,CDC,Ben roster,
+Partnership CDC,CDC,Ben roster,
+Passyunk Area Revitalization Corporation,CDC,Ben roster,
+Philadelphia Chinatown Development Corporation,CDC,Ben roster,
+ProjectHOME,CDC,Ben roster,
+SEAMAAC,CDC,Ben roster,
+Sister Clara Muhammad CDC,CDC,Ben roster,
+Smart Futures CDC,CDC,Ben roster,
+South Kensington Community Partners,CDC,Ben roster,
+South Street Headhouse District,CDC,Ben roster,
+Southwest CDC,CDC,Ben roster,
+Tacony CDC,CDC,Ben roster,
+The Enterprise Center CDC,CDC,Ben roster,
+The Maple Corporation,CDC,Ben roster,
+Tioga United,CDC,Ben roster,
+Women's Community Revitalization Project (WCRP),CDC,Ben roster,
+Wynnefield Overbrook Revitalization Corporation,CDC,Ben roster,
+Xiente,CDC,Ben roster,
+ACHIEVEability,CDC,City CDC program,
+Fairmount CDC,CDC,City CDC program,
+Francisville Neighborhood Development Corporation,CDC,City CDC program,
+Manayunk Development Corporation,CDC,City CDC program,
+Mayfair CDC,CDC,City CDC program,
+South of South Neighborhood Association,CDC,City CDC program,
+Spring Garden CDC,CDC,City CDC program,
+Allegheny West Foundation,CDC,City CDC program,
+Village of Arts and Humanities,CDC,City CDC program,
+Advocate Community Development Corporation,CDC,Temple archives,"PACDC member CDC, active 2000-2004 per PACDC's own records (Temple University Special Collections Research Center)."
+Calvary CDC,CDC,Temple archives,"PACDC yearbook member CDC, per Temple University Special Collections Research Center PACDC records."
+Faith CDC,CDC,Temple archives,"PACDC yearbook member CDC, per Temple University Special Collections Research Center PACDC records."
+Frankford United Neighbors CDC,CDC,Temple archives,"PACDC yearbook member CDC, per Temple University Special Collections Research Center PACDC records."
+Greater Germantown Housing Development Corporation,CDC,Temple archives,"Active by 1976, succeeding Central Germantown Community Development Corporation; ran housing rehab and homeowner technical-assistance programs into the early 1990s. 455-page records collection at Temple's Special Collections Research Center."
+Hunting Park Community Development Corporation,CDC,Temple archives,"PACDC yearbook member CDC, per Temple University Special Collections Research Center PACDC records."
+Jefferson Manor Community Development Corporation,CDC,Temple archives,"PACDC yearbook member CDC, per Temple University Special Collections Research Center PACDC records."
+Mt. Airy Village Development Corporation,CDC,Temple archives,"PACDC yearbook member CDC, per Temple University Special Collections Research Center PACDC records."
+People's Emergency Center CDC,CDC,Temple archives,"PACDC member CDC with retail-analysis and general records, 2002-2007, per Temple University Special Collections Research Center PACDC records."
+Sheridan Community Development Corporation,CDC,Temple archives,"PACDC yearbook member CDC, per Temple University Special Collections Research Center PACDC records."
+West Oak Lane CDC,CDC,Temple archives,"PACDC member CDC; wrote a neighborhood commercial-corridor plan in 1995, per Temple University Special Collections Research Center PACDC records."
+Brewerytown CDC,CDC,Temple archives,"PACDC member CDC, active as of 2006 per Temple University Special Collections Research Center PACDC records."
+Hawthorne Community Development Corporation,CDC,Temple archives,"Wrote a neighborhood plan in 1995, per Temple University Special Collections Research Center PACDC records."
+Roxborough Development Corporation,CDC,Temple archives,"PACDC member CDC, active as of 2005 per Temple University Special Collections Research Center PACDC records."
+Sunrise CDC,CDC,Temple archives,"PACDC member CDC, active as of 2006 per Temple University Special Collections Research Center PACDC records."
+Yorktown CDC,CDC,Temple archives,"PACDC member CDC, active as of 2006 per Temple University Special Collections Research Center PACDC records."
+Tenth Memorial Non-Profit Development Corporation,CDC,Temple archives,"Faith-based CDC tied to Tenth Memorial Baptist Church; PACDC correspondence lists it as a non-member org, 1993-1994."
+Logan Community Development Corporation,CDC,Temple archives,"Named in the Regional Council of Neighborhood Organizations (RCNO) records, 1986."
+Southwest Germantown CDC,CDC,Temple archives,"Named in the Regional Council of Neighborhood Organizations (RCNO) records, 1986."
+East of Broad Community Development Corporation,CDC,Temple archives,Named in the Kensington Action Now records at Temple's Special Collections Research Center.
+South Philadelphia Community Development Corporation,CDC,Temple archives,"Named in the West Philadelphia Corporation records, active 1967-1969; likely long dissolved."
+Central Germantown Community Development Corporation,CDC,Temple archives,Predecessor/counterpart to Greater Germantown Housing Development Corporation; own minutes and inter-org agreements survive through at least 1988.
+First Baptist Church of Paschall Development Corporation,CDC,Temple archives,"Faith-based CDC; filed a statement of need with Greater Germantown Housing Development Corporation, 1990."
+Germantown Settlement,CDC,Temple archives,"Founded 1934 from the merger of Morton Street Day Nursery (est. 1884) and Germantown Community Center (est. 1920). Grew into one of Philadelphia's largest CDCs before financial and governance troubles led to its collapse and dissolution in the 2000s. 455-page records collection at Temple, the largest in this find."
+Weccacoe Development Association,CDC,Temple archives,Founded 1985 to build and rehab low- and moderate-income housing and clear vacant properties in the Weccacoe (Queen Village/Bella Vista) area.
+Olde Kensington Redevelopment Corporation,CDC,Temple archives,"Chartered 1968 to develop low-cost housing in Kensington. Formed O.K. Improvement Inc. (1979) and Olde Kensington Senior Housing Associates (1982), which built Sylvia Barg Plaza (opened 1986) and dissolved after selling the building in 2014."
+Kensington Area Revitalization Project,CDC,Temple archives,"Spun out of the Kensington Action Now coalition on 1980-05-09 to acquire, renovate, and sell abandoned properties."
+Socca Community Development Corporation,CDC,Temple archives,"PACDC correspondent (contact: Patricia Evans), 1994; no further detail found in the archives."
+West Philadelphia Economic Development Corporation,CDC,Temple archives,"Named in PACDC's 1994 records; distinct from West Philadelphia Partnership/Partnership CDC, no further detail found."

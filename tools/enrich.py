@@ -132,38 +132,68 @@ def parse_news(query, limit=6):
 
 
 def main():
-    roster = []
     with open(os.path.join(OUT, "roster.csv"), newline="", encoding="utf-8") as f:
-        roster = [r for r in csv.DictReader(f) if r.get("ein")]
-    print(f"Enriching {len(roster)} matched organizations")
+        all_roster = list(csv.DictReader(f))
+    matched = [r for r in all_roster if r.get("ein")]
+    unmatched = [r for r in all_roster if not r.get("ein")]
+    print(f"Enriching {len(matched)} matched organizations "
+          f"(+ news-only search for {len(unmatched)} without an EIN)")
+
+    # Leadership needs a ProPublica page (an EIN); news search only needs a name,
+    # so orgs without an EIN match (e.g. historical CDCs from the Temple archives
+    # that pre-date digitized 990s) still get searched for coverage.
+    roster = all_roster
 
     lead_rows, news_rows = [], []
     for i, r in enumerate(roster, 1):
         name, ein = r["org_name"], r["ein"]
         print(f"[{i:>2}/{len(roster)}] {name[:42]:42} ", end="", flush=True)
 
-        lead = parse_leadership(ein)
-        ex = lead["executive"]
-        for o in lead["officers"]:
-            lead_rows.append({"org_name": name, "ein": ein, "name": o["name"],
-                              "title": o["title"], "comp": o["comp"],
-                              "is_executive": "yes" if ex and o["name"] == ex["name"] else ""})
+        if ein:
+            lead = parse_leadership(ein)
+            ex = lead["executive"]
+            for o in lead["officers"]:
+                lead_rows.append({"org_name": name, "ein": ein, "name": o["name"],
+                                  "title": o["title"], "comp": o["comp"],
+                                  "is_executive": "yes" if ex and o["name"] == ex["name"] else ""})
+        else:
+            lead, ex = {"officers": []}, None
 
-        # general + leadership-focused news, merged + de-duped by article title
+        # general + leadership-focused + Inquirer-specific news, merged + de-duped
+        # by article title. The Inquirer is Philadelphia's paper of record and the
+        # one Ben specifically asked for per-CDC coverage from; a site-scoped query
+        # finds it even when it's under-ranked in the generic Google News results.
         articles = parse_news(f'"{name}" Philadelphia', limit=5)
         articles += parse_news(f'"{name}" executive director OR president OR CEO', limit=4)
+        inquirer_articles = parse_news(f'"{name}" site:inquirer.com', limit=4)
+        for a in inquirer_articles:
+            a["source"] = a["source"] or "The Philadelphia Inquirer"
+            a["is_inquirer"] = True
+        articles += inquirer_articles
+
         seen, merged = set(), []
         for a in articles:
             k = a["title"].lower()[:60]
             if k in seen or not a["title"]:
                 continue
             seen.add(k)
+            a.setdefault("is_inquirer", "inquirer" in a["source"].lower())
             merged.append(a)
-        merged.sort(key=lambda a: a["date"], reverse=True)
-        for a in merged[:6]:
-            news_rows.append({"org_name": name, "ein": ein, **a})
+        # Recency first, but keep every de-duped Inquirer hit ahead of same-day
+        # non-Inquirer coverage so a real Inquirer piece doesn't get crowded out
+        # of the top-N cap by more numerous generic-source results. (Google News
+        # RSS wraps every link in a news.google.com redirect, even for a
+        # site:inquirer.com query, so provenance has to be tracked via a flag
+        # set when the article was fetched, not sniffed from the URL.)
+        merged.sort(key=lambda a: (a["date"], a["is_inquirer"]), reverse=True)
+        cap = 8
+        for a in merged[:cap]:
+            news_rows.append({"org_name": name, "ein": ein,
+                               **{k: v for k, v in a.items() if k != "is_inquirer"}})
 
-        print(f"exec={ex['name'] if ex else '—':22} officers={len(lead['officers'])} news={len(merged[:6])}")
+        inquirer_kept = sum(1 for a in merged[:cap] if a["is_inquirer"])
+        print(f"exec={ex['name'] if ex else '—':22} officers={len(lead['officers'])} "
+              f"news={len(merged[:cap])} (inquirer={inquirer_kept})")
         time.sleep(0.4)
 
     with open(os.path.join(OUT, "leadership.csv"), "w", newline="", encoding="utf-8") as f:

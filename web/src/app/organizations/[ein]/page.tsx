@@ -81,6 +81,12 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
           </div>
         </div>
 
+        {org.notes && (
+          <div className="callout" style={{ marginTop: 16 }}>
+            <b>From the archives.</b> {org.notes}
+          </div>
+        )}
+
         {/* Current leadership */}
         <Leadership org={org} />
 

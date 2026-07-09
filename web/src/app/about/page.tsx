@@ -25,9 +25,14 @@ export default function AboutPage() {
             enriched with every digitized Form 990 on file through the{" "}
             <a href="https://projects.propublica.org/nonprofits/" target="_blank" rel="noreferrer">ProPublica Nonprofit Explorer</a>,
             which also supplies the current officer and board roster from Part VII. Recent
-            news comes from{" "}
+            news, including a dedicated search of{" "}
+            <a href="https://www.inquirer.com/" target="_blank" rel="noreferrer">The Philadelphia Inquirer</a>,{" "}
+            comes from{" "}
             <a href="https://news.google.com/" target="_blank" rel="noreferrer">Google News</a>.
-            Every source is public and free.
+            Some organizations were also identified from finding aids at{" "}
+            <a href="https://library.temple.edu/scrc" target="_blank" rel="noreferrer">Temple University&apos;s Special Collections Research Center</a>,
+            which holds the records of several Philadelphia CDCs, including some long since
+            dissolved. Every source is public and free.
           </p>
 
           <h3>What it does well</h3>

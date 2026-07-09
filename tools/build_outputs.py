@@ -91,12 +91,16 @@ def build():
     filings = load_csv("filings.csv")
 
     by_ein_hist, by_ein_lead, by_ein_news, by_ein_filings = {}, {}, {}, {}
+    by_name_news = {}  # for orgs with no EIN (blank ein would collide across orgs)
     for h in history:
         by_ein_hist.setdefault(h["ein"], []).append(h)
     for l in leadership:
         by_ein_lead.setdefault(l["ein"], []).append(l)
     for n in news:
-        by_ein_news.setdefault(n["ein"], []).append(n)
+        if n["ein"]:
+            by_ein_news.setdefault(n["ein"], []).append(n)
+        else:
+            by_name_news.setdefault(norm_name(n["org_name"]), []).append(n)
     for f in filings:
         by_ein_filings.setdefault(f["ein"], []).append(f)
 
@@ -134,7 +138,8 @@ def build():
                     for o in by_ein_lead.get(ein, [])]
         executive = next((o for o in officers if o["isExecutive"]), None)
 
-        arts = sorted(by_ein_news.get(ein, []), key=lambda a: a.get("date", ""), reverse=True)
+        org_news = by_ein_news.get(ein, []) if ein else by_name_news.get(norm_name(r.get("org_name", "")), [])
+        arts = sorted(org_news, key=lambda a: a.get("date", ""), reverse=True)
         articles = [{"title": a["title"], "source": a["source"], "url": a["url"], "date": a["date"]}
                     for a in arts]
 
@@ -168,7 +173,8 @@ def build():
             "filingGaps": gaps, "compJumpYears": comp_jumps,
             "latestRevenue": num(r.get("latest_revenue")), "latestEmployees": num(r.get("latest_employees")),
             "website": r.get("website", ""), "contactEmail": r.get("contact_email", ""),
-            "source": r.get("source", ""), "closedCandidate": closed, "instability": instability,
+            "source": r.get("source", ""), "notes": r.get("notes", ""),
+            "closedCandidate": closed, "instability": instability,
             "executive": executive, "officers": officers, "leadershipAsOf": last_year,
             "news": articles, "filings": org_filings, "taxCredit": tax_credit,
             "history": hist,
@@ -244,7 +250,7 @@ def write_xlsx(orgs, leadership, history, news, taxcredit, filings):
                       "yes" if tc and tc["active"] else "",
                       "; ".join(f'{g["from"]}-{g["to"]}' for g in o["filingGaps"]),
                       "; ".join(str(y) for y in o["compJumpYears"]),
-                      o["website"], o["contactEmail"]])
+                      o["website"], o["contactEmail"], o["source"], o["notes"]])
     def shade_roster(ws, r, row):
         if row[11] == "yes":
             ws.cell(row=r, column=12).fill = tc_fill
@@ -254,7 +260,8 @@ def write_xlsx(orgs, leadership, history, news, taxcredit, filings):
     sheet(ws, ["Organization", "EIN", "Executive director", "Exec title",
                "First year", "Last year", "Years filed", "Latest revenue", "Latest staff",
                "Tax credit since", "Annual amount", "Tax credit active",
-               "Filing gaps", "Pay-shift years", "Website", "Contact"], rrows, shade_roster)
+               "Filing gaps", "Pay-shift years", "Website", "Contact",
+               "Roster source", "Notes"], rrows, shade_roster)
 
     # Leadership (full current rosters)
     ws2 = wb.create_sheet("Leadership")
