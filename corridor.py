@@ -179,7 +179,10 @@ def search_ein(org_name: str) -> dict:
                 "score": round(base, 2), "query": used_query,
                 "note": f"rejected weak match: {best.get('name','')[:40]}"}
     conf = "high" if base >= 0.72 else "medium" if base >= 0.5 else "low"
-    return {"ein": str(best["ein"]), "matched_name": best.get("name", ""),
+    # ProPublica's API returns some EINs as bare JSON integers rather than
+    # zero-padded strings, which silently drops a leading zero (a real EIN is
+    # always 9 digits). Zero-pad to restore it.
+    return {"ein": str(best["ein"]).zfill(9), "matched_name": best.get("name", ""),
             "city": best.get("city", ""), "confidence": conf,
             "score": round(base, 2), "note": "", "query": used_query}
 

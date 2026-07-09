@@ -1,21 +1,21 @@
 {
   "generatedAt": "2026-07-09",
   "summary": {
-    "total": 99,
-    "matched": 81,
-    "withFinancialData": 66,
-    "highConfidence": 72,
+    "total": 101,
+    "matched": 83,
+    "withFinancialData": 68,
+    "highConfidence": 74,
     "needsLookup": 18,
-    "withSignal": 42,
-    "withNamedExecutive": 55,
-    "newsArticles": 435,
+    "withSignal": 44,
+    "withNamedExecutive": 57,
+    "newsArticles": 451,
     "inTaxCreditProgram": 37,
     "everTaxCredit": 49,
-    "form990Pdfs": 1062,
-    "cdcs": 99,
+    "form990Pdfs": 1095,
+    "cdcs": 101,
     "bids": 0,
     "closureCandidates": 6,
-    "earliestYear": 2009,
+    "earliestYear": 2008,
     "latestYear": 2024
   },
   "orgs": [
@@ -1445,12 +1445,6 @@
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "Resource guide for the Latino community in Philadelphia - Impacto Media",
-          "source": "Impacto Media",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa0J2U1o5WDdXVF9OWk5vcTd4cW9WM2ZwSl91Y3pKWlNocW1RRU1oRU9RWWJhazQ4MTJycmozSXIzWWlKU1ktaldJNTYzb2VEWUFmVTNlNG1tTGVKX3pYbk1DelhQSkw3bUw5US1jM0stT0JveTIxNmFsSHVkcEFLVUlUc3RaT1NYZGhGTjVsQklDb2d0UlRRT05hd0dKTUlSYXhkbFVDVWdwOUJYMVZRd25CZV_SAbQBQVVfeXFMTmtCdlNaOVg3V1RfTlpOb3E3eHFvVjNmcEpfdWN6SlpTaHFtUUVNaEVPUVliYWs0ODEycnJqM0lyM1lpSlNZLWpXSTU2M29lRFlBZlUzZTRtbUxlSl96WG5NQ3pYUEpMN21MOVEtYzNLLU9Cb3kyMTZhbEh1ZHBBS1VJVHN0Wk9TWGRoRk41bEJJQ29ndFJUUU9OYXdHSk1JUmF4ZGxVQ1VncDlCWDFWUXduQmVf?oc=5",
-          "date": "2026-07-03"
-        },
-        {
           "title": "Sugar Cane Festival honors Puerto Rican roots in Philadelphia - Impacto Media",
           "source": "Impacto Media",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNejVoanROaVJsRW9fdUNiaDdpc2VMblBsekIxRkZjakNhQWdJR09rWVNuVTFZUmJUWUxZOUdFejFfZzh5Y29vVlVwaEJyb2xEVnNCLVR3R1UxUDY1YzBiZFNGY2ZUSTJSN2RqVzV3cjZGSC15VF9hd0RKSU5Yc1FxVUY3ZngwY1hTcnYtN3VxMjBWR2tGNE5wdDRDckplMEnSAZ8BQVVfeXFMTXo1aGp0TmlSbEVvX3VDYmg3aXNlTG5QbHpCMUZGY2pDYUFnSUdPa1lTblUxWVJiVFlMWTlHRXoxX2c4eWNvb1ZVcGhCcm9sRFZzQi1Ud0dVMVA2NWMwYmRTRmNmVEkyUjdkalc1d3I2RkgteVRfYXdESklOWHNRcVVGN2Z4MGNYU3J2LTd1cTIwVkdrRjROcHQ0Q3JKZTBJ?oc=5",
@@ -1491,6 +1485,12 @@
           "source": "CatholicPhilly",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNjR2bGRrdlRqbkthVm81QTZuLUxkODBNaXloSlo0TExZTEFWZk5fWnpmOVlxMjRtLXV4RGVjRzFDVXlGTWxkYVlXc1lFQkxiOFRSSm9qYmQ2X2ZFUUxhQ1RVeTQ2UndPOUE1OWk2ejN0ckh2ZE9Ec0lCNkxhRXk5U0JZRTkwOUVpNXZxZ19XMldEdFlyWmR0UTFGNG5kaEZmZW80cWVoRHJOcG5ya21mVzBqVGpad2dlaVJudjhIWE1MOVJrb1hOOG1PQWFoVGl2YUtN?oc=5",
           "date": "2024-10-30"
+        },
+        {
+          "title": "Mayoral hopefuls have started talking about how to \u2018fix\u2019 Kensington. Community leaders have heard it all before. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlF2dFNlVlZZVS1jSFVIZjY1TnVuajRzVW5IOUFhbVNtaTZfaW00R1lRdmp3VXBQc3B3Uk96UXVnNHF3M0wzcDJYZElHdTh0eC1LSDFIYmVqWmN3QXlzTmt6OC1RQzU5TFdFVHItVTNqV3E3ZkREekFZYWZJbnppck56NVIwR05fQTNqR0ZVUGRvODVrWGlN?oc=5",
+          "date": "2023-02-12"
         }
       ],
       "filings": [
@@ -4004,10 +4004,10 @@
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "Nueva Esperanza vs Frankford | Volleyball | 9/16 - MaxPreps",
-          "source": "MaxPreps",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONlhiYVVLU2l4TjlWRUJLckRCcm1FY3RRNGptYWEtWU1VVFFWODB2REdIVWp4TV9pVm5mMVlhQ0tGYjNZY3lxN0lJbXdNSkc2ZzdBMGZDSV9pcjh6WElyeEFiVFAwNGxnS09feUtxcmVtU3RURDkya0N5T2UwMmUzRVRJLXdLYmF2Um5NQVdma2ZQRmEtVHdBVF90OU5mLUplclRuZ24zajBoZG5YOGdiM0VB?oc=5",
-          "date": "2026-06-29"
+          "title": "Thaddeus Stevens College expands workforce training to North Philadelphia - Central Penn Business Journal",
+          "source": "Central Penn Business Journal",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQmZlRDhxekk1YTlWN2tkRC0xSEQyNTlOMDE0SVZSX0RIZ0JHNXl0QVpkaHkxdEhXMkJUc2NOZEhlQmNnbjFUZk85WjVSYkEzZ1pPV1k4S19hbGpqUFZ5Y2R4NTZlc2liMkE2OW04cnd5REk2eVBFQ0dyeUZxZVdFMlBRZWMzMEpQSEdIVjloODN5U1FvZ3JnVlVlUQ?oc=5",
+          "date": "2026-07-09"
         },
         {
           "title": "23 new U.S. citizens honored in celebration hosted by La Esperanza in Georgetown. - Delaware LIVE News",
@@ -4615,7 +4615,7 @@
     {
       "name": "Faith CDC",
       "type": "CDC",
-      "ein": "43673651",
+      "ein": "043673651",
       "irsName": "Faith Unity Inc",
       "irsCity": "Bensalem",
       "confidence": "medium",
@@ -4680,10 +4680,10 @@
       "leadershipAsOf": 2023,
       "news": [
         {
-          "title": "Faith CDC, My Brother\u2019s Keeper partner for youth agriculture program - Chicago Tribune",
+          "title": "\u2018Warms my heart\u2019: Gary Thanksgiving meal giveaway helps 1,000 residents - Chicago Tribune",
           "source": "Chicago Tribune",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNXzdkMzNaUjhOZUF5cUd2Z0tNelZfQ1lDVHN0b3dOTUFKWi16V3FQdkFCYWNTZnJDclpoRDltdWFPVG4yb21fN20zdTJ3RmEyQ2Npc1hicjVreXdQdkdKWHVxdmpCeDBzV3FqMDJNak5GYmxnY215cnFNMTVFVkNoZGlnWVp1dUhTQ1lfb1R1R0I0b09zTnVyLUd1akJkbS1HcERfYTJGZm1ISkdOT2c?oc=5",
-          "date": "2026-04-03"
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX001RUd5RHZRNDBWanN6WkJ3b1p3Q2l0SkJDSV9JeHlBWnFaSUZuSHRRTlJIQXhlbEZoTzBXbHYwWFVYV2xHbDY4TXliNEJkaGtUeTNNX2stYi1aM0I1SDI1R0hqSnVQb0lmTWk1ZmVCb0hrZlg0akswMXg0aDROUExDNWNldS1vblAxNnVVeUlVV3NvZHRPTzRIUGtvRlJNbFpOZm1FeEpVb3BtM3JN?oc=5",
+          "date": "2025-11-25"
         },
         {
           "title": "Capital B Gary story: Environmental Advocates Gain \u2018A Seat at the Table\u2019 at Gary City Hall - the indiana citizen",
@@ -5609,6 +5609,355 @@
       "history": []
     },
     {
+      "name": "Friends Rehabilitation Program",
+      "type": "CDC",
+      "ein": "236398764",
+      "irsName": "Friends Rehabilitation Program Inc",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2011,
+      "lastYear": 2023,
+      "yearsFiled": 13,
+      "filingGaps": [],
+      "compJumpYears": [
+        2020,
+        2021
+      ],
+      "latestRevenue": 6289212,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "PACDC member list",
+      "notes": "Quaker-based affordable housing CDC operating 40+ years, with properties in Belmont, East/West Poplar, University City, and Cobbs Creek. Confirmed as a current PACDC CDC member; not previously on this roster.",
+      "archiveCollection": "",
+      "closedCandidate": false,
+      "instability": 2,
+      "executive": {
+        "name": "Andrew Anderson",
+        "title": "Executive Director",
+        "comp": 220433,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Andrew Anderson",
+          "title": "Executive Director",
+          "comp": 220433,
+          "isExecutive": true
+        },
+        {
+          "name": "Jena Nottingham",
+          "title": "Director Of Social Service",
+          "comp": 199582,
+          "isExecutive": false
+        },
+        {
+          "name": "Julia Hilengas",
+          "title": "Pcp Director",
+          "comp": 141939,
+          "isExecutive": false
+        },
+        {
+          "name": "Susanne Davis",
+          "title": "Asst Treasurer/Hr Director",
+          "comp": 139810,
+          "isExecutive": false
+        },
+        {
+          "name": "Terrine Anthony",
+          "title": "Asst Director Of Social Se",
+          "comp": 136429,
+          "isExecutive": false
+        },
+        {
+          "name": "Kristina Johnson",
+          "title": "Re Entry Director",
+          "comp": 103771,
+          "isExecutive": false
+        },
+        {
+          "name": "Hollister Knowlton",
+          "title": "President",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Linell Mccurry",
+          "title": "Vp/Sec/Treas",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Lou Decesare",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        },
+        {
+          "name": "Bryan Shumway",
+          "title": "Director",
+          "comp": 0,
+          "isExecutive": false
+        }
+      ],
+      "leadershipAsOf": 2023,
+      "news": [
+        {
+          "title": "A large, new development in West Philly\u2019s Belmont neighborhood would have more than 300 affordable units - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelZvbFBwUm44WW5KZ3ZxMWdpNkFZNk85NmxEbHA4V1JPWWFjMnVtWlBQWjZaNktVMmd4eDczcXNfUHVDMlFtM1AtSVB0YVliVDVzR2ctQTlkWkpDOG5GbC1PWGhlSFhCMWFYZlpJekNUQXBSeFhqMHBPZFpoX0w3UW84bFNROU44NW81dmVUVTRJbHc3R2IwNndxQ1NlMUpVZXFSeEhZYS1aNHd2M19oSDV3?oc=5",
+          "date": "2024-03-28"
+        },
+        {
+          "title": "Sierra Thomas Street Announces Bid For PA Commonwealth Court - PoliticsPA",
+          "source": "PoliticsPA",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWGNOZHhsV3VpemxzaXZ2Qnd1Z2t6OFlXVm0wTVhSN2wzcjFYNFpwb2dVSU5Hczd5TWhISncyTm1uZXM5WGlaTDZGdEF1Z19zTlhqTkhIUDFsRDJNcWI3MTY1VTJ5SkxqN2Y4bENVWTJKN1VNMW9OMVdKVk1HajAzMmRIdXI0aklqU3JnejdtRFNsdEEt?oc=5",
+          "date": "2020-12-15"
+        },
+        {
+          "title": "Children of Phillies managing partner John Middleton contribute to PHL COVID-19 Fund - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSWxwYXhfVUloeXBCajhDNy10NkFxUDdaaWJKb1dvRl9ENG1sUmoxMFNDa1hhNlRCY2dWZ21sQlFvTEFOd21WUk50U25VM2paRVRITjh5cGhfUnJ1MW5vOHlFTXdvVFJCOFVzRWJyd1RBUkxQaUtvajdzOWxpVGJoalFqSjF2Y1Z0b1lWVG5BOXlfc0FjaXZ4bkxTSU4yX25NOVpacEpMbi1IUnRoR1R4SXpHdXl4RDQ?oc=5",
+          "date": "2020-05-07"
+        },
+        {
+          "title": "\"Squirrel Hill Park\" - West Philly Local",
+          "source": "West Philly Local",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKa1FqY0t4cmdFREY4UlZBSHVlUy1LWWlkeGQyN2xDdlJNUnF5bjRtaWpGcUdCZnpFTjZwbTNoNEhRV3N2TEYzOE12eGNwd3BqWjhEOEM5cWRVbjEzTVNlbGZ5QlNwUQ?oc=5",
+          "date": "2020-03-20"
+        },
+        {
+          "title": "Defending Philly History From 3,000 Miles Away - Hidden City Philadelphia",
+          "source": "Hidden City Philadelphia",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQUppUXhDTWxfcEtTbmMwemVFZXFINC1lUjZZN0VPNEdueXplMWpXdkxrUDE4akRBQXN3aFlHOTJKcURuQTlRVTlaaDF1ZzA5V1YzbkdhTnVIMUl4OS1RNUhnTWdFRUFCcF9wYWp6a0VYaHlqQXgtV184SnNjWDBZcjZQZUExMnZITlE?oc=5",
+          "date": "2018-10-17"
+        },
+        {
+          "title": "HENRY WEIS Obituary (1916 - 2017) - Philadelphia, PA - The Philadelphia Inquirer - Legacy obituary",
+          "source": "Legacy obituary",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOThnYnp6QXlmQU1yVjN1MEdDTk5hckJCMWoyb2ZhbFhBNVdFc3pNTTlGdTYtQlZyR1ctaVVEUEViVU9XQjFZSm44NVk5d0xTRUtvXzV4VFZMbXVYeGxMeFFIeGpqa2RybkFhZHlCWVBORFNkOG5JWk0yYWQ2TjNXeTM3LXA4cHIx?oc=5",
+          "date": "2017-11-09"
+        },
+        {
+          "title": "A new campaign to get the locks off Squirrel Hill Falls Park - West Philly Local",
+          "source": "West Philly Local",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2l1TjgyeHhFTWwxb1k5S2Nrb0xzTVlIeWdndVlGd1pkRklCeG9seHB5ZTQ4RXVkOVk4Yk9oYnEwS2ViNTVINmRncDRVZUNPaU84V192andUeUVpNEd6X251UUNlVkhzb040ZUc4cEJIMFlyUUtxWHhVVV9ucEFwck9YbEg0Q2ZZMkNERGVJVG1rRUNPR2tkVzVFZUNuQ3BpNk9nZU9hZw?oc=5",
+          "date": "2015-04-07"
+        },
+        {
+          "title": "Republican making long-shot run at judgeship - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTmFmUlFvNTVYaXR3VlhLbTk5OWh2SkpyVHBsNHNick9qeG9zYnR2Wms3OFFSTTA4TWR1YXl6b3puc2J2TjQ2QUFWU1VhVEtDeWJ0b3lsbW1udzJZcFQ1bllVS2JjSC1tWmFrMkxHYkt3SUdpVmUzbG1UVTRORlAxc2NhLW1COFJCN2FqaWNVdF80bEJ5Ym5NUm1HSzZXOXVBUDlwTG9ldw?oc=5",
+          "date": "2013-11-03"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2024,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F236398764_202405_990_2025050523419943.pdf"
+        },
+        {
+          "year": 2023,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F236398764_202305_990_2024042322371135.pdf"
+        },
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_06_2023_prefixes_22-25%2F236398764_202205_990_2023060621385102.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F236398764_202105_990_2022052420123980.pdf"
+        },
+        {
+          "year": 2020,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=04_2021_prefixes_23-23_1%2F236398764_202005_990_2021041917962136.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=09_2020_prefixes_22-23%2F236398764_201905_990_2020091717305914.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=04_2019_prefixes_23-26%2F236398764_201805_990_2019041916230001.pdf"
+        },
+        {
+          "year": 2017,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=05_2018_prefixes_20-23%2F236398764_201705_990_2018050415288919.pdf"
+        },
+        {
+          "year": 2016,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2017_02_EO%2F23-6398764_990_201605.pdf"
+        },
+        {
+          "year": 2015,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_03_EO%2F23-6398764_990_201505.pdf"
+        },
+        {
+          "year": 2014,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_03_EO%2F23-6398764_990_201405.pdf"
+        },
+        {
+          "year": 2013,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_04_EO%2F23-6398764_990_201305.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_05_EO%2F23-6398764_990_201205.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_06_EO%2F23-6398764_990_201105.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2011_04_EO%2F23-6398764_990_201005.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2010_05_EO%2F23-6398764_990_200905.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2009_06_EO%2F23-6398764_990_200805.pdf"
+        },
+        {
+          "year": 2007,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2008_06_EO%2F23-6398764_990_200705.pdf"
+        },
+        {
+          "year": 2006,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2007_09_EO%2F23-6398764_990_200605.pdf"
+        },
+        {
+          "year": 2005,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2006_11_EO%2F23-6398764_990_200505.pdf"
+        },
+        {
+          "year": 2004,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2005_08_EO%2F23-6398764_990_200405.pdf"
+        },
+        {
+          "year": 2003,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2004_05_EO%2F23-6398764_990_200305.pdf"
+        },
+        {
+          "year": 2002,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2003_01_EO%2F23-6398764_990_200205.pdf"
+        },
+        {
+          "year": 2001,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2002_01_EO%2F23-6398764_990_200105.pdf"
+        }
+      ],
+      "taxCredit": null,
+      "history": [
+        {
+          "year": 2011,
+          "revenue": 4958589,
+          "expenses": 4955545,
+          "assets": 28644401,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2012,
+          "revenue": 6601740,
+          "expenses": 6923691,
+          "assets": 19792085,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2013,
+          "revenue": 7033492,
+          "expenses": 7103069,
+          "assets": 14719566,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2014,
+          "revenue": 4664795,
+          "expenses": 4464670,
+          "assets": 14132268,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2015,
+          "revenue": 3991782,
+          "expenses": 4652441,
+          "assets": 13625569,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2016,
+          "revenue": 3911810,
+          "expenses": 5309109,
+          "assets": 11939077,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2017,
+          "revenue": 4414732,
+          "expenses": 5117162,
+          "assets": 11562985,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2018,
+          "revenue": 12870205,
+          "expenses": 5867602,
+          "assets": 12506952,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2019,
+          "revenue": 407186,
+          "expenses": 5825426,
+          "assets": 6729809,
+          "employees": null,
+          "officerComp": 324194
+        },
+        {
+          "year": 2020,
+          "revenue": 5330432,
+          "expenses": 6308603,
+          "assets": 7034774,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2021,
+          "revenue": 6788906,
+          "expenses": 6817942,
+          "assets": 7011613,
+          "employees": null,
+          "officerComp": 0
+        },
+        {
+          "year": 2022,
+          "revenue": 7433729,
+          "expenses": 6963000,
+          "assets": 5750811,
+          "employees": null,
+          "officerComp": 356590
+        },
+        {
+          "year": 2023,
+          "revenue": 6289212,
+          "expenses": 7007993,
+          "assets": 6554371,
+          "employees": null,
+          "officerComp": 346634
+        }
+      ]
+    },
+    {
       "name": "Germantown Restoration CDC",
       "type": "CDC",
       "ein": "",
@@ -5853,6 +6202,12 @@
           "date": "2025-12-30"
         },
         {
+          "title": "For The Love of Germantown: Matthew George - Resolve Philly",
+          "source": "Resolve Philly",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Nc0xLLVdPc0JfYUswdnhNMmQ0Z3JXeDB0RWhSS2dkd2Z3UTU0NmUyOUE1QU5ZeWJ3VkZvOU5MLTJXTXBYVl93bEtkN3ZGZTJWTTRVRDFwQ2tHLTN4Mk4tVQ?oc=5",
+          "date": "2025-04-03"
+        },
+        {
           "title": "New trash bins on Germantown Avenue - The Chestnut Hill Local",
           "source": "The Chestnut Hill Local",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY3JoVGRaMEZ0WUR2YUMyaGFtVGJvOFdVbjdXNkpldjlUWWVmcUhnd0FVVVJUd0ZyRmRFS2pkYWlLZjZrZjExUlR5WEhqRnFCWHBhQzEtTnlUUjFJVEc2elNNMkhDMVdLbWJqRjhrOVlWWW50OFFGcGNDckxXZzlFTFZRWWQ0cDg2NURz?oc=5",
@@ -5875,12 +6230,6 @@
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLURzY3ZKcVJiVURYRHgtcUU3RmNhY0Ric2pCSEp0TFFUTFNvY290d3hnek1VRHBXN0NKMjJGdEFWZm1DNHgyc2FnNEhfdG5QWDRyQVVOXzM0UmFjLWJINUxhWEVwbmpiQ2lQTEZmb3Y0LVJBR25QY0tGZnd2eng2cmdoclplMURpeTFCSVZRWjBtYUJqdUtadHlhMy1WMDRjUmJtR2d1Q1hXbDRWRWN2NWdTNWM1dThtcVpTUDFiX1kydGtMU19hOVNDYnQ?oc=5",
           "date": "2024-04-30"
-        },
-        {
-          "title": "This $818K initiative aims to prevent gun violence in Germantown and Mount Airy with street cleaning - Inquirer.com",
-          "source": "Inquirer.com",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVXBEcEZYbGhObnU4UlFsMFA5UV9LSVZiZFA4cGdBMXl6SFFrdzAtREc0UmJONEJwWEQtWkc0TkI3SVRya0xoVEFlaHFTVVczcFl0dG1taWNhc0JsaEJ1LWtVS01ZUzFOZWp5UnZGQmlMeVJ0b1dacjFCaUtEM0JmUXlsWDFxYWJObWNlM3VMYUxaclJQOTNEY1pSWlVQRHFhLXZJM1FsVW1QcDRTc2xCdFdFNDMzYmZaUHJlUkt4bVppYnNaRUZfdjVjT3Q?oc=5",
-          "date": "2024-03-28"
         }
       ],
       "filings": [
@@ -9574,8 +9923,8 @@
           "date": "2025-11-18"
         },
         {
-          "title": "Columbia adds 76 apartment units for disabled adults, older residents, families - Baltimore Fishbowl",
-          "source": "Baltimore Fishbowl",
+          "title": "Columbia adds 76 apartment units for disabled adults, older residents, families - baltimorefishbowl.com",
+          "source": "baltimorefishbowl.com",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR2RQYUlaZ0dibmM5LVlSMWgyZ1d1ZGxqam9ZbmFJU1I0M2NIRGc4YzdySHc5WWtuVUdGZFJLczNYZTJwQUprel9wYWZtX3lKYWwzOUotQTcwVmpRVEFxYVVLdHg3UkE1RTJ6LTVrb1pzYkhISzFQUXdLamVPVnV6UGxMVjVfZWZWU3plQWFLSXNLX0JwU0NGbzd2cXZ6ZnlWdEVlOFhSZDdyWkF3ZzBDWWVIRXBpTGc?oc=5",
           "date": "2025-11-06"
         },
@@ -9825,12 +10174,6 @@
           "date": "2026-06-09"
         },
         {
-          "title": "Replica Liberty Bell installed in Mt. Airy - The Chestnut Hill Local",
-          "source": "The Chestnut Hill Local",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMGE1dDdYYzl6c0tWb3phRkp4Z25reTdwZTN3Ui1EUGZkakpqRTlrOG1HaGtZZ09JLVJlbms4NHNaOWVnZlo0dVdhN2laeklPdlVJbGVnTGEzam1LLUlyV1kyR2FEMGNGY2k0WEdPX3FMUFU5OEdaZnRMdkNvdGZ5R2FMWVBuRTRfM19jaktjWlV3WjQ?oc=5",
-          "date": "2026-04-30"
-        },
-        {
           "title": "How this new-to-West Philly resident purchased her home with only $1,300 at close - Inquirer.com",
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZWhnLU5zRFhuVkJWeEtQa0FZajduczFSUmp0UlF2dzlzck8zUGVGekRHME9BZktPcjBocTl0QnlQXzJaYVFvUW5UaHJYRnpMTnFWVHZ1XzNrbUp6cmpMazJRdVd3UWdOTUNJZTdsNkFDbHc1MVoyYXc5NmtKQjNLZlZjUXg0WURvR0FJZGp2QmlRZHA3UExWNlVKVDdrR3ZwTlprNGJwT3dvQjVmSkE?oc=5",
@@ -9865,6 +10208,12 @@
           "source": "The Chestnut Hill Local",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU3AtcXVKQmE0S2xfOENjOHFUdktwT01VaFRhQnk5T3Vlc08xY0o5dDdxZ3NZdURaNnRLTWtLbmljZThMblAtc3JGOUstZGI5UUE0WG94TURSd3pXZ0pWdGlhZ25KcHVheUlwaDMwVnlLSkhYMGZCUlljUkhEdkgtbnZfUXVmN2tQYzFMSFE0MVZGN3JWUzNtWUtuWlhxS00?oc=5",
           "date": "2024-12-11"
+        },
+        {
+          "title": "Downtime Bakery, a sourdough specialist, opens shop in Mount Airy - PhillyVoice",
+          "source": "PhillyVoice",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJRWFsblc0RFJxR0thMGduQVVwbFVXcWZ5RldtWUFLdUtyX0dvdVdnS3F4alN2MkdUczFlUVBuaTlwNU9fM1ZWZVMyNXkzUVlubnhVODlqaEFLR3RtTWh6U2RzU1dCRWZFNHh0bEhDSUFQS3NzSlp5T0pn?oc=5",
+          "date": "2024-12-05"
         }
       ],
       "filings": [
@@ -11209,12 +11558,6 @@
           "date": "2024-11-11"
         },
         {
-          "title": "Berkadia Secures $13.6M in Refinancing for Affordable Housing Community Clearfield Apartments in Philadelphia - Yield PRO",
-          "source": "Yield PRO",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fbFBELXR5bUc4LVlLd0tKRlpMeHNscHpLeERSU3NwNDhMcFB0eFp4b2N2amc2akQ5NHZ3ajZ6RTR2eEJjelc4UkQzTzhvT05TLVNXb1VUX1YzWk1CV3NLbQ?oc=5",
-          "date": "2024-11-07"
-        },
-        {
           "title": "Berkadia Secures $13.6M Financing for Affordable Seniors Housing Development in Philadelphia - Seniors Housing Business",
           "source": "Seniors Housing Business",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcHphUXpIOTVFSTA5cjQ2bW5LdVN3T0FDZDhuQWhzOGZybGQ0aENlNS1tdmk0Tkd3V09qNk1Yc0c1TFBmTjBEVkpWcWxTbUdvQ29CWDdyYWlZMWpRbmZ5Q29vOWlpbDZoM0xsU19CYUk1T1VMdTBFeU5vU2pCckRwVFFSMnljY254akJkckNTNUZjTG9vaFpVcmN3VUlGU3BSclV0TmE3TXVnYXRJYmxlemdOT08tUU9GcjlETDU2U0RSeXNFcGc?oc=5",
@@ -11231,6 +11574,12 @@
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVVVFSENJdzB5bWZNQlg1QVNpWDk2eVBOWFZlcFc0QkkySWxVLVZUS1p0YWhoQWJRN053ZFZ0S3B0THdvbmFSd2I4UjRrZUlIRG1aendJSWZSMVA4a2VrSVY1ZjM0b2xqMkVwZF9FUjVrdFVpb2JJS1dDc0h0Z242WXV5amJOSnFSVWY3cF9NMDZvS2FEWDJOMDVCOTRYQ0gzNU05WjNrZjlLN2hXWFlj?oc=5",
           "date": "2023-07-26"
+        },
+        {
+          "title": "Generation Jones folks can't relate to their Baby Boomer brethren - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUlloZWZteXJUZ3h0QWZGMEYxSGZlcVFZaVE0Zll0eHk0ZWs4QWlqbWNfQTlTQjd2d0JnbzFGSThVRHR5TkFad19UX0hlMG5STnp5dzRJaUJXZ04xckg0S0xuck9DWEJSYnhRODdaYWNzMEhFQVZ1Nm52bmE1SEUzSkdiaERnM2hIMWJOa3c4cGxDZ1BjTXFKRy1IY2FpOGdkbnBYWEtqTGxaaFFlQVZTcUM4Ynp3ZFk?oc=5",
+          "date": "2023-02-23"
         }
       ],
       "filings": [
@@ -16299,6 +16648,221 @@
           "assets": 7329228,
           "employees": null,
           "officerComp": 98848
+        }
+      ]
+    },
+    {
+      "name": "Strawberry Mansion CDC",
+      "type": "CDC",
+      "ein": "061734513",
+      "irsName": "Strawberry Mansion Community Development Corporation Inc",
+      "irsCity": "Philadelphia",
+      "confidence": "high",
+      "firstYear": 2008,
+      "lastYear": 2022,
+      "yearsFiled": 10,
+      "filingGaps": [
+        {
+          "from": 2012,
+          "to": 2018
+        }
+      ],
+      "compJumpYears": [
+        2022
+      ],
+      "latestRevenue": 344040,
+      "latestEmployees": null,
+      "website": "",
+      "contactEmail": "",
+      "source": "Regional Foundation partners page",
+      "notes": "Founded 2004 in North Philadelphia's Strawberry Mansion neighborhood. Won a LISC Philadelphia award for preserving historic homes and fighting resident displacement; represents the community in over $500M of development.",
+      "archiveCollection": "",
+      "closedCandidate": false,
+      "instability": 3,
+      "executive": {
+        "name": "Tonnetta Graham",
+        "title": "Executive Director",
+        "comp": 75000,
+        "isExecutive": true
+      },
+      "officers": [
+        {
+          "name": "Tonnetta Graham",
+          "title": "Executive Director",
+          "comp": 75000,
+          "isExecutive": true
+        }
+      ],
+      "leadershipAsOf": 2022,
+      "news": [
+        {
+          "title": "481 CEI-Boulos Impact Fund, a Partnership Between TD and CEI-Boulos Capital Management, Invests in 46 New Units of Affordable Housing in Philadelphia\u2019s Strawberry Mansion Neighborhood - TD Stories",
+          "source": "TD Stories",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNR3VfZzJnem1JWDVxdlJzcldwS3VtcmdNc05OR2NleHVmOExjZzdENGMtbzRvaGFZci1aaFRCb0xQNkExRXFzRXJEQ3VSMkJKRUFPTXRleENTZWl5SGhoZnl0TmZwSXFwemJBanpEbVM1M01la3kzS0lsVHFtOHZHX3Nyd1hpcGcwcHM2eld2S194QkFWdk9qdEttVmJzX2pJWEhGMDVBVzdrUFl6a2RPRzV0U1g0bFVRNHhXeUd4UENzaHA2VGhiNU5qZDMxcVVNQi1rbFpDejgzeGdqbFNfUF9iR2xIZkhFbDQ4XzVRb0VvRUpwa0JkV3dYZDJDQmtwQTZvS1dzc2d1Z0hLSWJmMUdPM3l1YVhXekxkNmFKZ2VGMl9lV09VMGkySEhBdDNHcVhyT1FjMTRiTzZyYWc?oc=5",
+          "date": "2026-04-16"
+        },
+        {
+          "title": "Work and funding underway to repair and program John Coltrane\u2019s Strawberry Mansion house - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpZVlRQnlBQlh4TFgzakZYaEdtYVF5RGRwU09TR21jdi1aTmFsLUJOVUdBM1JUNmJZaFB6eFMzWDZwUFpYVF84NmlEU1QzU3ZRX3NuS2l3bWxtTC1OZk84QWNmWHpqTFI1Z2g4?oc=5",
+          "date": "2025-10-20"
+        },
+        {
+          "title": "Strawberry Mansion joins the City\u2019s push for heat resilience - City of Philadelphia (.gov)",
+          "source": "City of Philadelphia (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQzBKdENRUmdkdWZ1dXYwdmh4cS1GNEVPT21uTzhPNHhSTmt0YjItMTBUYU1sNVpXbDhXcnE5aVN0WTdoM181c21YZHlSUG92RC12aGxSVTkwYlF6N0ktaGJJMTBUNkxENVRYak1kdE9DQS1iYXJjai1jbFVBV1pTNVlZbktoeVdoUEgtc1BEUTMwYlFXSTBTVA?oc=5",
+          "date": "2025-07-29"
+        },
+        {
+          "title": "Where to watch free outdoor movies in Philly this summer - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQODMzblJ0TG1vc1hfbXZwTkR6cGU2bl9URGJpTGJ3TFhkdjhETnNram9DVGw2am9kS2p0TVMtNEVncjBnYmItQjVFRXA5ZjhtaXYxVFp4eUFSN2h4cVhtWlgySElKTnI4WTZBNjNnT2ZZdVZKb1FDcjBxUm45S3BxeFRIS3NvZDdveWFaazJKWlZWYXVxcnBvamt5MXJmRnpnZTJUNTdyVFVuYVN1dnc?oc=5",
+          "date": "2025-06-05"
+        },
+        {
+          "title": "Live jazz welcomed neighbors \u2014 and folks from around the city \u2014 to \u2018The Yard\u2019 on John Coltrane Street in Strawberry Mansion - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2NUMXhsQk9zXy1ENGx3dnBEZzF3Y2QxT1FqaTBXeE0ySTd4TDBPdE5wWEdmUmNZVlBCZElzM2FZYUZEV1NMRXMyVC1jTlFoaW5QSzQzNGM1RUpqWHBrUm9DcTQ3MGRMQmJVWHRsWGlEWkItejBSNTdCYjRDc1JVLW1ia2M2MUZSSXM0YkxtZ0g3RERQUlFR?oc=5",
+          "date": "2024-11-10"
+        },
+        {
+          "title": "The Yard on John Coltrane Street, a new community hub and \u2018gateway\u2019 to Strawberry Mansion, will open in October - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcFZYVjFWTmVTbnZldmxKTGljZXR6RWxXNzFmZFVMaEEweUJ3T0Z3N1EtQjFmTXYyVmdxZF9YTFp4THhwVzFId0NBM1RKZlkzQjVOel82ZktBTk1Scm9xMUlyODJ4d0FXZ1J4TFlWd1FYT3puMmVQdEo4ZW5CTk9TNmNydHZvTTEwSTVMb3RpOGFoYnlXal9iekFLUlJvVTg?oc=5",
+          "date": "2024-09-25"
+        },
+        {
+          "title": "Friends of the Tanner House reports on ways to serve the community - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUpTamdDMU02MEZJZTZKamtEaDVHV2ZqOHFFU3BqOHFlWWdEb0R4TEdiZEM4emJPWDJidW51b0ZiaDNhS3FfNHRYSFVhMzVqQWY5WVFQcVVtWWNNRTNEM3YtZ1IzaTJWQ2dUMm9KUWY1b2Q3dVNFb0ltcVBXQkdGSEduZ3I3S25wekE?oc=5",
+          "date": "2024-09-10"
+        },
+        {
+          "title": "\u2018Everything we can possibly do\u2019: Philly nonprofit to finish renovating 40 homes in Strawberry Mansion - WHYY",
+          "source": "WHYY",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWEVuTWdHUFozd1BoWDAwNjJkSnVJZGxpeFhpUDhHd3E2VXVzZnhKM1daTElCMnFSNGJQUFZjcVBuZjU1M3ZtN3FNOWgyUkxIUWNXX3dSekdvSE0tYTBVWFNVMkcxZ19OTTRNUW02N0hzLUEtWVU0ZHN3YlBRYmdEVlpNV3pUTkFMdGxrRWdxZExMUzZrR2xpa0ZB?oc=5",
+          "date": "2024-06-07"
+        }
+      ],
+      "filings": [
+        {
+          "year": 2022,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2024_prefixes_01-13%2F061734513_202212_990_2024020822283056.pdf"
+        },
+        {
+          "year": 2021,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F061734513_202112_990_2023012720841307.pdf"
+        },
+        {
+          "year": 2019,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=10_2020_prefixes_04-13%2F061734513_201912_990EZ_2020100817360581.pdf"
+        },
+        {
+          "year": 2018,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2020_prefixes_01-13%2F061734513_201812_990EZ_2020061817194602.pdf"
+        },
+        {
+          "year": 2012,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F06-1734513_990EO_201212.pdf"
+        },
+        {
+          "year": 2011,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F06-1734513_990EO_201112.pdf"
+        },
+        {
+          "year": 2010,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F06-1734513_990EO_201012.pdf"
+        },
+        {
+          "year": 2009,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F06-1734513_990EO_200912.pdf"
+        },
+        {
+          "year": 2008,
+          "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F06-1734513_990EO_200812.pdf"
+        }
+      ],
+      "taxCredit": null,
+      "history": [
+        {
+          "year": 2008,
+          "revenue": 8003,
+          "expenses": 1006,
+          "assets": 6998,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2009,
+          "revenue": 725,
+          "expenses": 5301,
+          "assets": 3035,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2010,
+          "revenue": 18505,
+          "expenses": 7379,
+          "assets": 14345,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2011,
+          "revenue": 7731,
+          "expenses": 8994,
+          "assets": 14680,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2012,
+          "revenue": 8769,
+          "expenses": 6123,
+          "assets": 16735,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2018,
+          "revenue": 52298,
+          "expenses": 54297,
+          "assets": 29097,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2019,
+          "revenue": 72694,
+          "expenses": 61524,
+          "assets": 40476,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2020,
+          "revenue": 198318,
+          "expenses": 124908,
+          "assets": 113886,
+          "employees": null,
+          "officerComp": null
+        },
+        {
+          "year": 2021,
+          "revenue": 1066274,
+          "expenses": 248222,
+          "assets": 931938,
+          "employees": null,
+          "officerComp": 76731
+        },
+        {
+          "year": 2022,
+          "revenue": 344040,
+          "expenses": 383970,
+          "assets": 891536,
+          "employees": null,
+          "officerComp": 0
         }
       ]
     },
