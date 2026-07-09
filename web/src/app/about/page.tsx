@@ -89,8 +89,10 @@ export default function AboutPage() {
           <h3>The spreadsheet</h3>
           <p>
             Everything here is also a formatted spreadsheet, downloadable from the home page,
-            with sheets for the roster, leadership, financial history, news, and signals. It
-            is built from the same data as this site in one step, so the two never drift.
+            with sheets for the roster, leadership, financial history, news, signals, and a
+            dedicated Temple Archives tab tracking exactly what was and wasn&apos;t confirmed
+            for each organization found in the Temple archives. It is built from the same
+            data as this site in one step, so the two never drift.
           </p>
 
           <h3>The review pile</h3>

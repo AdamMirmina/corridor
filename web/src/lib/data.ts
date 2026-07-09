@@ -58,6 +58,7 @@ export type Org = {
   contactEmail: string;
   source: string;
   notes: string;
+  archiveCollection: string;
   closedCandidate: boolean;
   instability: number;
   executive: Officer | null;

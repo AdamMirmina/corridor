@@ -79,7 +79,8 @@ def load_roster() -> list[dict]:
         for r in csv.DictReader(f):
             rows.append({"org_name": r["org_name"], "type": r["type"],
                          "website": "", "contact_email": "", "source": r["source"],
-                         "notes": r.get("notes", "")})
+                         "notes": r.get("notes", ""),
+                         "archive_collection": r.get("archive_collection", "")})
     seen, deduped = set(), []
     for r in rows:
         key = norm(r["org_name"])

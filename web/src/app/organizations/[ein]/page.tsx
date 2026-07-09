@@ -83,7 +83,7 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
 
         {org.notes && (
           <div className="callout" style={{ marginTop: 16 }}>
-            <b>From the archives.</b> {org.notes}
+            <b>From the archives{org.archiveCollection ? ` (${org.archiveCollection})` : ""}.</b> {org.notes}
           </div>
         )}
 

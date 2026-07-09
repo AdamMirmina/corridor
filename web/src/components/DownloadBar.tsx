@@ -4,8 +4,9 @@ export function DownloadBar() {
       <div className="dl-text">
         <b>Download the full dataset</b>
         <span>
-          Eight-sheet spreadsheet: roster, leadership, financials, tax credit, Form 990
-          links, news, and signals. Built from the same data as this site, so it never drifts.
+          Nine-sheet spreadsheet: roster, Temple archives finds, leadership, financials, tax
+          credit, Form 990 links, news, and signals. Built from the same data as this site,
+          so it never drifts.
         </span>
       </div>
       <a className="dl-btn" href="/corridor_dataset.xlsx" download>

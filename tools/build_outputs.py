@@ -174,6 +174,7 @@ def build():
             "latestRevenue": num(r.get("latest_revenue")), "latestEmployees": num(r.get("latest_employees")),
             "website": r.get("website", ""), "contactEmail": r.get("contact_email", ""),
             "source": r.get("source", ""), "notes": r.get("notes", ""),
+            "archiveCollection": r.get("archive_collection", ""),
             "closedCandidate": closed, "instability": instability,
             "executive": executive, "officers": officers, "leadershipAsOf": last_year,
             "news": articles, "filings": org_filings, "taxCredit": tax_credit,
@@ -220,6 +221,7 @@ def write_xlsx(orgs, leadership, history, news, taxcredit, filings):
     sig = PatternFill("solid", fgColor="FCEFC7")
     exec_fill = PatternFill("solid", fgColor="EAF1FE")
     tc_fill = PatternFill("solid", fgColor="E7F3EA")
+    low_fill = PatternFill("solid", fgColor="F6D6D6")
 
     def sheet(ws, headers, rows, shade=None):
         ws.append(headers)
@@ -262,6 +264,31 @@ def write_xlsx(orgs, leadership, history, news, taxcredit, filings):
                "Tax credit since", "Annual amount", "Tax credit active",
                "Filing gaps", "Pay-shift years", "Website", "Contact",
                "Roster source", "Notes"], rrows, shade_roster)
+
+    # Temple Archives finds (Ben's 2026-07 batch): the CDCs identified from
+    # Temple University Special Collections Research Center finding aids that
+    # weren't already in the roster, with what we could and couldn't confirm.
+    wsta = wb.create_sheet("Temple Archives")
+    archive_orgs = [o for o in orgs if o["source"] == "Temple archives"]
+    tarows = []
+    for o in archive_orgs:
+        ex = o["executive"]
+        inquirer_count = sum(1 for n in o["news"] if "inquirer" in (n["source"] or "").lower())
+        tarows.append([
+            o["name"], o["archiveCollection"], o["ein"] or "",
+            "needs manual lookup" if not o["ein"] else o["confidence"],
+            o["yearsFiled"], ex["name"] if ex else "",
+            len(o["news"]), inquirer_count, o["notes"],
+        ])
+    def shade_temple(ws, r, row):
+        if row[3] == "needs manual lookup":
+            ws.cell(row=r, column=4).fill = low_fill
+        if row[7]:
+            ws.cell(row=r, column=8).fill = tc_fill
+    sheet(wsta, ["Organization", "Archive collection", "EIN", "Match status",
+                 "Years filed", "Executive director", "News articles found",
+                 "Inquirer articles", "Notes"], tarows, shade_temple)
+    wsta.column_dimensions["I"].width = 70
 
     # Leadership (full current rosters)
     ws2 = wb.create_sheet("Leadership")
