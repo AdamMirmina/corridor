@@ -5,7 +5,7 @@
   "name": "corridor",
   "compatibility_date": "2026-06-01",
   "main": "worker.js",
-  "routes": [{ "pattern": "corridor.ramsgatestudio.com", "custom_domain": true }],
+  "routes": [{ "pattern": "corridor.adammirmina.com", "custom_domain": true }],
   "assets": {
     "binding": "ASSETS",
     "directory": "./out",
