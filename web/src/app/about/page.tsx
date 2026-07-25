@@ -32,7 +32,16 @@ export default function AboutPage() {
             Some organizations were also identified from finding aids at{" "}
             <a href="https://library.temple.edu/scrc" target="_blank" rel="noreferrer">Temple University&apos;s Special Collections Research Center</a>,
             which holds the records of several Philadelphia CDCs, including some long since
-            dissolved. Every source is public and free.
+            dissolved, and by cross-referencing{" "}
+            <a href="https://pacdc.org/about/pacdc-publications/" target="_blank" rel="noreferrer">PACDC&apos;s own current member list</a>
+            {" "}and the{" "}
+            <a href="https://www.regionalfoundation.org/partners-page/" target="_blank" rel="noreferrer">Regional Foundation&apos;s partners page</a>
+            {" "}against the roster. Every source is public and free.
+          </p>
+          <p>
+            Addresses, a fuller historical leadership record, and mission statements for many
+            organizations come from Ben&apos;s own direct research, independently verified
+            before being added rather than taken on faith.
           </p>
 
           <h3>What it does well</h3>
@@ -89,10 +98,11 @@ export default function AboutPage() {
           <h3>The spreadsheet</h3>
           <p>
             Everything here is also a formatted spreadsheet, downloadable from the home page,
-            with sheets for the roster, leadership, financial history, news, signals, and a
+            with sheets for the roster, leadership, financial history, news, signals, a
             dedicated Temple Archives tab tracking exactly what was and wasn&apos;t confirmed
-            for each organization found in the Temple archives. It is built from the same
-            data as this site in one step, so the two never drift.
+            for each organization found in the Temple archives, and a year-by-year executive-
+            director timeline for a randomly sampled set of 20 organizations. It is built from
+            the same data as this site in one step, so the two never drift.
           </p>
 
           <h3>The review pile</h3>

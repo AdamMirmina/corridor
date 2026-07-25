@@ -80,7 +80,8 @@ def load_roster() -> list[dict]:
             rows.append({"org_name": r["org_name"], "type": r["type"],
                          "website": "", "contact_email": "", "source": r["source"],
                          "notes": r.get("notes", ""),
-                         "archive_collection": r.get("archive_collection", "")})
+                         "archive_collection": r.get("archive_collection", ""),
+                         "address": r.get("address", "")})
     seen, deduped = set(), []
     for r in rows:
         key = norm(r["org_name"])

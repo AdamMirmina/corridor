@@ -4,9 +4,9 @@ export function DownloadBar() {
       <div className="dl-text">
         <b>Download the full dataset</b>
         <span>
-          Nine-sheet spreadsheet: roster, Temple archives finds, leadership, financials, tax
-          credit, Form 990 links, news, and signals. Built from the same data as this site,
-          so it never drifts.
+          Ten-sheet spreadsheet: roster, Temple archives finds, an executive-director timeline
+          sample, leadership, financials, tax credit, Form 990 links, news, and signals. Built
+          from the same data as this site, so it never drifts.
         </span>
       </div>
       <a className="dl-btn" href="/corridor_dataset.xlsx" download>
@@ -14,6 +14,7 @@ export function DownloadBar() {
       </a>
       <a className="dl-link" href="/data/roster.csv" download>roster.csv</a>
       <a className="dl-link" href="/data/leadership.csv" download>leadership.csv</a>
+      <a className="dl-link" href="/data/leadership_history.csv" download>leadership_history.csv</a>
       <a className="dl-link" href="/data/taxcredit.csv" download>taxcredit.csv</a>
       <a className="dl-link" href="/data/filings.csv" download>990-links.csv</a>
       <a className="dl-link" href="/data/news.csv" download>news.csv</a>

@@ -49,6 +49,9 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
               <span className="badge badge-muted">EIN {einFmt}</span>
               {org.irsCity && <span className="badge badge-muted">{org.irsCity}, PA</span>}
             </div>
+            {org.address && (
+              <div style={{ color: "var(--muted)", fontSize: 14, marginTop: 6 }}>{org.address}</div>
+            )}
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
             <a className="outlink" href={`https://projects.propublica.org/nonprofits/organizations/${ein}`} target="_blank" rel="noreferrer">

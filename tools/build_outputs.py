@@ -174,7 +174,7 @@ def build():
             "latestRevenue": num(r.get("latest_revenue")), "latestEmployees": num(r.get("latest_employees")),
             "website": r.get("website", ""), "contactEmail": r.get("contact_email", ""),
             "source": r.get("source", ""), "notes": r.get("notes", ""),
-            "archiveCollection": r.get("archive_collection", ""),
+            "archiveCollection": r.get("archive_collection", ""), "address": r.get("address", ""),
             "closedCandidate": closed, "instability": instability,
             "executive": executive, "officers": officers, "leadershipAsOf": last_year,
             "news": articles, "filings": org_filings, "taxCredit": tax_credit,
@@ -252,7 +252,7 @@ def write_xlsx(orgs, leadership, history, news, taxcredit, filings):
                       "yes" if tc and tc["active"] else "",
                       "; ".join(f'{g["from"]}-{g["to"]}' for g in o["filingGaps"]),
                       "; ".join(str(y) for y in o["compJumpYears"]),
-                      o["website"], o["contactEmail"], o["source"], o["notes"]])
+                      o["website"], o["contactEmail"], o["address"], o["source"], o["notes"]])
     def shade_roster(ws, r, row):
         if row[11] == "yes":
             ws.cell(row=r, column=12).fill = tc_fill
@@ -262,7 +262,7 @@ def write_xlsx(orgs, leadership, history, news, taxcredit, filings):
     sheet(ws, ["Organization", "EIN", "Executive director", "Exec title",
                "First year", "Last year", "Years filed", "Latest revenue", "Latest staff",
                "Tax credit since", "Annual amount", "Tax credit active",
-               "Filing gaps", "Pay-shift years", "Website", "Contact",
+               "Filing gaps", "Pay-shift years", "Website", "Contact", "Address",
                "Roster source", "Notes"], rrows, shade_roster)
 
     # Temple Archives finds (Ben's 2026-07 batch): the CDCs identified from
@@ -350,7 +350,7 @@ def copy_downloads():
     shutil.copy(os.path.join(OUT, "corridor_dataset.xlsx"),
                 os.path.join(WEB_PUBLIC, "corridor_dataset.xlsx"))
     for f in ("roster.csv", "leadership.csv", "financial_history.csv", "news.csv",
-              "taxcredit.csv", "filings.csv"):
+              "taxcredit.csv", "filings.csv", "leadership_history.csv"):
         src = os.path.join(OUT, f)
         if os.path.exists(src):
             shutil.copy(src, os.path.join(WEB_PUBLIC, "data", f))
@@ -367,19 +367,63 @@ ABOUT_LINES = [
     "Corridor — Philadelphia CDC dataset",
     "github.com/AdamMirmina/corridor   ·   corridor-phl.vercel.app",
     "",
-    "Roster: one row per CDC, with its current executive director, key metrics, and tax-credit status.",
+    "WHAT EACH SHEET IS",
+    "Roster: one row per CDC, with its current executive director, key metrics, address, tax-credit",
+    "  status, roster source, and any research notes.",
+    "Temple Archives: the 29 CDCs identified from Temple University Special Collections Research",
+    "  Center finding aids (2026-07), with which specific collection each came from and what could",
+    "  and couldn't be confirmed about it.",
+    "ED Timeline (sample): a year-by-year executive-director grid for 20 randomly sampled",
+    "  organizations, founding to present, in the format of Ben's BID Exec Director Timelines.",
     "Leadership: the full current officer and board roster per organization, from IRS Form 990 Part VII.",
     "  Titles carrying a '(To MM/YYYY)' note mark an officer who was on the way out — a recorded transition.",
     "Financial History: revenue, expenses, assets, staff, and officer pay per organization-year.",
     "Tax Credit: participation in the City of Philadelphia CDC Tax Credit program by report year,",
     "  with the year each organization entered and its annual contribution. Source PDFs: phila.gov.",
     "990 PDFs: a direct link to every Form 990 document on file, by organization and year.",
-    "News & Sources: recent articles per organization from Google News, including leadership coverage.",
+    "News & Sources: recent articles per organization, including a dedicated Philadelphia Inquirer",
+    "  search alongside general Google News coverage and leadership-change coverage.",
     "Signals: organizations ranked by how much their record suggests leadership instability.",
     "",
-    "Executive directors and boards are current as of each organization's latest Form 990.",
-    "Year-by-year name history is not included: no free source for historical 990 Part VII names exists.",
-    "The pay-shift years flag when leadership most likely changed; the news links report the named changes.",
+    "WHERE EVERY PIECE OF DATA CAME FROM",
+    "The roster itself: three separate rounds, each tagged in the Roster sheet's 'Roster source' column.",
+    "  - 'Ben roster' (70 orgs): Ben's original hand-compiled list, plus his own follow-up research —",
+    "    years active, full historical leadership with tenure ranges, mission statements, addresses,",
+    "    and notes — folded into this roster's Notes/Address columns and into the Leadership and",
+    "    ED Timeline sheets.",
+    "  - 'City CDC program' (9 orgs): the City of Philadelphia's own list of CDC Tax Credit program",
+    "    participants (phila.gov).",
+    "  - 'Temple archives' (29 orgs): read directly from 13 PDF finding aids Ben obtained from Temple",
+    "    University's Special Collections Research Center (library.temple.edu/scrc) — the Philadelphia",
+    "    Association of Community Development Corporations' own member records (SCRC 241), plus",
+    "    standalone collections for Germantown Settlement, Weccacoe Development Association, Olde",
+    "    Kensington Redevelopment Corporation/Senior Housing Associates, West Philadelphia Corporation,",
+    "    Kensington Action Now, and the Regional Council of Neighborhood Organizations.",
+    "  - 'PACDC member list' (1 org) and 'Regional Foundation partners page' (1 org): cross-referenced",
+    "    PACDC's own FY25 Annual Report (pacdc.org) and the Regional Foundation's partners page",
+    "    (regionalfoundation.org) against the existing roster to find CDCs not yet tracked.",
+    "  - Two more ('Ben roster'): Urban Resources Development Corporation and Eastwick United CDC,",
+    "    surfaced from Ben's own research CSV and independently verified before adding.",
+    "  - Checked but yielded no new organizations: shelterforce.org (national context, no Philadelphia-",
+    "    specific CDC names).",
+    "Financials, EIN matching, current officers, and Form 990 links: the ProPublica Nonprofit Explorer",
+    "  API (projects.propublica.org/nonprofits), matched to each roster name by fuzzy string match,",
+    "  scored and flagged by confidence rather than guessed. Historical (year-by-year) director names",
+    "  are NOT available this way — see the limitation note below.",
+    "News coverage: Google News search per organization, plus a Philadelphia-Inquirer-specific",
+    "  site-scoped search so real Inquirer coverage isn't crowded out by more numerous generic sources.",
+    "Tax-credit participation: the City of Philadelphia's own annual CDC Tax Credit program reports",
+    "  (phila.gov), parsed from the source PDFs (2015, 2019, 2020 and other available years).",
+    "",
+    "THE HONEST LIMITATION",
+    "Executive directors and boards from ProPublica are current as of each organization's latest Form",
+    "  990, not a full year-by-year history — as of 2026 there is no free, lightweight way to pull",
+    "  historical Form 990 Part VII names at scale (the AWS 990 mirror was retired, the IRS per-file",
+    "  XML URLs 404, and ProPublica blocks scripted PDF downloads). Where a fuller history exists, it's",
+    "  because Ben's own research found it by hand — that's what powers the Leadership tenure ranges",
+    "  in the Roster notes and the ED Timeline sheet, not an automated source. The pay-shift years flag",
+    "  when a change most likely happened from officer-compensation swings; the news links are where",
+    "  the actual named change is reported.",
 ]
 
 
