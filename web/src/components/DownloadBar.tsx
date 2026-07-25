@@ -18,6 +18,7 @@ export function DownloadBar() {
       <a className="dl-link" href="/data/taxcredit.csv" download>taxcredit.csv</a>
       <a className="dl-link" href="/data/filings.csv" download>990-links.csv</a>
       <a className="dl-link" href="/data/news.csv" download>news.csv</a>
+      <a className="dl-link" href="/storyline.docx" download>storyline draft (.docx)</a>
     </div>
   );
 }

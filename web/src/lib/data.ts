@@ -60,6 +60,8 @@ export type Org = {
   notes: string;
   archiveCollection: string;
   address: string;
+  lat: number | null;
+  lon: number | null;
   closedCandidate: boolean;
   instability: number;
   executive: Officer | null;

@@ -89,6 +89,8 @@ def build():
     news = load_csv("news.csv")
     taxcredit = load_csv("taxcredit.csv")
     filings = load_csv("filings.csv")
+    geocoded = load_csv("geocoded.csv")
+    geo_by_name = {g["org_name"]: g for g in geocoded}
 
     by_ein_hist, by_ein_lead, by_ein_news, by_ein_filings = {}, {}, {}, {}
     by_name_news = {}  # for orgs with no EIN (blank ein would collide across orgs)
@@ -164,6 +166,10 @@ def build():
         closed = bool(last_year and last_year <= 2021 and ein)
         instability = len(gaps) * 2 + len(comp_jumps) + (3 if closed else 0)
 
+        geo = geo_by_name.get(r.get("org_name", ""))
+        lat = float(geo["lat"]) if geo and geo.get("lat") else None
+        lon = float(geo["lon"]) if geo and geo.get("lon") else None
+
         orgs.append({
             "name": r.get("org_name", ""), "type": r.get("type", ""), "ein": ein,
             "irsName": r.get("irs_name", ""), "irsCity": r.get("irs_city", ""),
@@ -175,6 +181,7 @@ def build():
             "website": r.get("website", ""), "contactEmail": r.get("contact_email", ""),
             "source": r.get("source", ""), "notes": r.get("notes", ""),
             "archiveCollection": r.get("archive_collection", ""), "address": r.get("address", ""),
+            "lat": lat, "lon": lon,
             "closedCandidate": closed, "instability": instability,
             "executive": executive, "officers": officers, "leadershipAsOf": last_year,
             "news": articles, "filings": org_filings, "taxCredit": tax_credit,
@@ -197,6 +204,7 @@ def build():
         "cdcs": len([o for o in orgs if o["type"] == "CDC"]),
         "bids": len([o for o in orgs if o["type"] == "BID"]),
         "closureCandidates": len([o for o in orgs if o["closedCandidate"]]),
+        "mapped": len([o for o in orgs if o["lat"] and o["lon"]]),
         "earliestYear": min((o["firstYear"] for o in matched if o["firstYear"]), default=None),
         "latestYear": max((o["lastYear"] for o in matched if o["lastYear"]), default=None),
     }
