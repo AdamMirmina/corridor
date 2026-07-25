@@ -40,8 +40,8 @@ export default function AboutPage() {
           </p>
           <p>
             Addresses, a fuller historical leadership record, and mission statements for many
-            organizations come from Ben&apos;s own direct research, independently verified
-            before being added rather than taken on faith.
+            organizations come from direct research by the project team, independently
+            verified before being added rather than taken on faith.
           </p>
 
           <h3>What it does well</h3>

@@ -179,7 +179,7 @@ def build():
         ws.column_dimensions[get_column_letter(c)].width = 10
 
     note_row = ["NOTE: sample of 20 organizations drawn at random from the full roster (data/ed_timeline_sample.txt). "
-                 "Years come primarily from Ben's own research; where that data stops before the present and the "
+                 "Years come primarily from direct research; where that data stops before the present and the "
                  "automated pipeline found a different named current executive, that name is added with its start "
                  "year marked unconfirmed. A blank cell means the organization existed but no leader is confirmed "
                  "for that year, not that the seat was vacant."]

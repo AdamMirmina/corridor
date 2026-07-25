@@ -35,7 +35,7 @@ export default function MapPage() {
         <CdcMap map={map} />
 
         <p className="footnote">
-          Addresses come from Ben&apos;s own research and independent verification (see the{" "}
+          Addresses come from direct research and independent verification (see the{" "}
           <a href="/about">About page</a> and the spreadsheet&apos;s About sheet for full
           sourcing), geocoded via OpenStreetMap Nominatim. Historical or dissolved
           organizations are placed at the best-confirmed address found for them, which is
