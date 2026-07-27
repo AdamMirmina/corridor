@@ -1,20 +1,24 @@
 """
-Executive-director timeline sheet, matching the format of Ben's BID Exec
-Director Timelines reference: one row per organization, one column per year
+Executive-director timeline sheet, matching the format of a BID executive-
+director timeline reference: one row per organization, one column per year
 from the earliest founding year among the sampled orgs through the present.
 "N/A" before an org existed, "Full Name (Initials)" on the year a director
 started, bare initials for each year they continued, blank where the org
 existed but no leader is confirmed for that year.
 
-The 20-organization sample is frozen in data/ed_timeline_sample.txt so it
-doesn't reshuffle every time this is re-run; regenerate that file deliberately
-(see the random.seed in the git history) if a new sample is ever wanted.
+The 20-organization sample is drawn only from orgs with reliable data (a
+matched EIN, 5+ years of digitized Form 990 filings, and at least one named
+leader) so the timeline isn't mostly blank rows, and it's frozen in
+data/ed_timeline_sample.txt so it doesn't reshuffle every time this is
+re-run; regenerate that file deliberately (see the random.seed in the git
+history) if a new sample is ever wanted.
 
 Sources, in priority order, per year:
-  1. Ben's own research (output/leadership_history.csv, parsed tenure ranges)
+  1. Direct research (output/leadership_history.csv, parsed tenure ranges)
   2. Corridor's own current-executive match (web/src/data/dataset.json),
-     used only to extend a name through to the present when Ben's data ends
-     before now and the pipeline's own EIN-matched executive is available.
+     used only to extend a name through to the present when that research
+     ends before now and the pipeline's own EIN-matched executive is
+     available.
 
 Run after tools/build_outputs.py (needs its output/corridor_dataset.xlsx and
 web/src/data/dataset.json). Appends an "ED Timeline (sample)" sheet to the
@@ -111,8 +115,15 @@ def build():
             known_founding.append(founding)
 
         cells = {}
+        undated_current = None  # a known current leader with no parseable start year
         for e in entries:
             if not e["start_year"]:
+                # Some research entries name the current leader without a
+                # parseable start ("current", "present (interim)") -- don't
+                # silently drop them, just can't place them on the timeline
+                # by year until filled in below.
+                if e["ongoing"] == "yes":
+                    undated_current = e["person"]
                 continue
             start = int(e["start_year"])
             end = int(e["end_year"]) if e["end_year"] else (CURRENT_YEAR if e["ongoing"] == "yes" else start)
@@ -120,19 +131,20 @@ def build():
             for y in range(start, min(end, CURRENT_YEAR) + 1):
                 cells[y] = f"{full} ({ini})" if y == start else ini
 
-        # extend to the present with corridor's own matched executive if Ben's
-        # data stops short and the pipeline found a named current exec
-        if ds and ds.get("executive") and ds["executive"].get("name"):
-            last_covered = max(cells.keys()) if cells else None
-            if last_covered is None or last_covered < CURRENT_YEAR:
-                ex_name = ds["executive"]["name"]
-                already_last_person = None
-                if last_covered:
-                    already_last_person = cells[last_covered]
+        last_covered = max(cells.keys()) if cells else None
+        if last_covered is None or last_covered < CURRENT_YEAR:
+            # Prefer a named-but-undated current leader from direct research
+            # over the pipeline's own EIN-matched executive when both exist,
+            # since the former usually carries a title/context the latter
+            # doesn't; fall back to the pipeline match otherwise.
+            ex_name = undated_current or (
+                ds["executive"]["name"] if ds and ds.get("executive") and ds["executive"].get("name") else None
+            )
+            if ex_name:
                 fill_start = (last_covered + 1) if last_covered else (founding or CURRENT_YEAR)
                 _, ini = initials(ex_name)
                 for i, y in enumerate(range(fill_start, CURRENT_YEAR + 1)):
-                    cells[y] = f"{ex_name} ({ini}) [current match, exact start year unconfirmed]" if i == 0 else ini
+                    cells[y] = f"{ex_name} ({ini}) [current, exact start year unconfirmed]" if i == 0 else ini
 
         rows.append((name, founding, cells))
 

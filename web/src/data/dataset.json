@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25",
+  "generatedAt": "2026-07-27",
   "summary": {
     "total": 103,
     "matched": 85,
@@ -8,7 +8,7 @@
     "needsLookup": 18,
     "withSignal": 44,
     "withNamedExecutive": 57,
-    "newsArticles": 461,
+    "newsArticles": 509,
     "inTaxCreditProgram": 38,
     "everTaxCredit": 50,
     "form990Pdfs": 1131,
@@ -166,6 +166,60 @@
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLXE4emwzX25ERGJIcTZRaGlDMGxtVnVpd2IxU3RKeEpGX1JacW9hakh1UXUzV05Jd1VtNF9mSUE4Nm1jVVd3akluQTk1a2ZlVTRHZ0o4SGlZM0RLckswblExM3pXc3doRjlxbkFjZWRIYXFkYkFJRElGQXhaR2laMDRVclVtTVQ1RUo5RzVZZjJrTFBrNjNqMzlGV0NvUnNKMEFucTU0bVE?oc=5",
           "date": "2025-12-27"
+        },
+        {
+          "title": "Philly seniors can soon get free Uber rides amid SEPTA cuts - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUVVZVnRoOUx5aUhwWGJweU0ybFUzcW8tb3EtU1FoUTRnZ1I1RERHODJjR0VPQzdEMnpwLTZnTm9nbTdHSkhvNjdHVEY2UWZMX09FcHl4dTQ4X0hIVEtvSXc5aEtlWjFNTlFBdm9SazNCUTVkYnRWcjZ3S2RBRm1xbU9MTzhUYTdBMVQ0dkRqVE1Ca0Ru?oc=5",
+          "date": "2025-08-27"
+        },
+        {
+          "title": "PECO\u2019s Year-Round Commitment to Customers - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWFc0Y29DaUQ3SmQwMS1KOU9rbzBDNGl6R1hVVHNybXFVbGptM1ltQk52R2NNRkQ5bk9iZzBYMDUzRk9CM3pQOW42bmtYZ29hMklTRVB3WUYzdkw0TmdZdzdoRmExcGc5U09GVkk0QUxwQS1BWUlyRTdkajBsbGh0REFIVW9DWWM?oc=5",
+          "date": "2025-06-27"
+        },
+        {
+          "title": "Sixers rookies Jared McCain and Adem Bona team up with community outreach programs - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFh1ZDVtRVZCU3lzNzNzNmw0VGs0amRHUkx3OHpZVHh5NFpFTmhUcGNHeXI2Z3N2X2F1Wl9kNUNwWDdIWDBlZW4waTMtZUFkdHZqVWVPeWxHV1BBQ2xRTS1heXVHYlhqcDlmU09URlJZR3JkRXE5VHRnNjl1T1BXbmpWb1NodlhGT2dQTE9FWUdHeVhQei1PQzBDVXBFQVFGNzRXdDktcw?oc=5",
+          "date": "2024-10-23"
+        },
+        {
+          "title": "Back to school: Free supplies, drives, and backpack giveaways in Philly - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb3JUeE5YbGlreHI0UUtjbl9mODRTbVNYSlM1aDl1ckhZYW9nWFBoVTZpTk5pZ1czbmw0UmgwMmw5a3FCNTlYWjBNa0RjTmYyTWJncFBaa25UTG1jMVQydjdVa09xanRaMlhIa2xjRkIzcnlqVGdhQnJWbk03TDhSaUh6eFc5LTd2aFIzTm1PYUYxZVh3Vnc?oc=5",
+          "date": "2024-08-13"
+        },
+        {
+          "title": "Affordable developer's West Philly project is city's biggest recipient of state development grant - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY1lDeHNoeDZheEMyRFptUUVsZWVvejlRSVI1OXRfQ3U4aVZwcW53TFhkMU8wNXRTdVRlVTVwVzZtc0Q0ajhwblpGNWVETzNmTXpYRjk3QXppQWtjMW5EckdWdEpUWTVwS05UTnE0WEVxaDd5RUVjZnA3NXJ4WHI5eHF2U3lST3lFZVpkYXUyR1RVeldHOVlFeHNHd0NsVHV6Y1hqOHdXek1BUHZHM25IdUlLRjVDSUJYcjJwek1oRzZ5UE5fejJiY2hna3F5NkFRNl8zdGdR?oc=5",
+          "date": "2017-12-22"
+        },
+        {
+          "title": "Town By Town: Haddington, a growing area in W. Phila. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPczR1a0MyY3AxX0pIMEluWHlWSndOMHVLLVQ5d3BtWVlJS0NsY3ltcEdmcnNPRVM1b05LQUp1MUp4T3JSeWt0MUhlTnBQSHlCY056Q2lwVVFNYmd2OHpDRWhiSkxYY0NncFR2WVlQNHJ3TDZETi1VSnJTRlRFc0NjYUtHbmVTQ2lCWm9lSENDa1NCeWRLdEkxZGpXS2xTQlkwdXFwMWFKVUtrOC1fX2d0S0Roa3FyYUdpOUp5aHNEdnJWWFRQVXpKbE1Ba05Bdw?oc=5",
+          "date": "2013-05-04"
+        },
+        {
+          "title": "ACHIEVEability presents Food For Thought 2013 - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KRkZCTEZsM0VCOUlYQ0tVZ251ZGxvbl9qREowbkNUODZmQVROR3FoV2VSbk0zR0lKZXRQUUJIQi12TEhmY0NNX0lBQnBhcVAzX0FLOUhieVZ2SUE2eVZjeE1ScEVvandvekduWlJtT1NjMlVIclVXRlVWY0JWMXM?oc=5",
+          "date": "2013-03-25"
+        },
+        {
+          "title": "Social Circuit - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KT1ljemhwM2ZNSGs4SnRHOGloOHlxalJXcU5kWnFZRkxQeGU4TWF2NzVaSTE4UmlST0Z4UTA5QVFqM2E5eFpuSjVtOE5CdGVkc3BHN2VJSHBSS0dSbGRCRzFMRTZ6dmt5UWVGRDZTa1Z2c0drQUE?oc=5",
+          "date": "2010-04-07"
+        },
+        {
+          "title": "On the Boards - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EVVhFVlZjbjlXSFFqbnEyQlI1SzRueXJ6cEMzd2dBTWRyLU9DNDFyb25peVFCakdLbTBscVZaSS1qc2VYdHhDYlFoZ0F5VDd1VXBxajRMRVByUS1qN29hOXlqSUg?oc=5",
+          "date": "2009-04-06"
         }
       ],
       "filings": [
@@ -4593,6 +4647,12 @@
           "date": "2023-12-13"
         },
         {
+          "title": "Check out 36 new restaurants | Let\u2019s Eat - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUElWWGhqRXBta1lobFNGaDJzM1kzRVhfZGsyX1dOc0EzeUR6Y2pWUXRrMS1ON3U4QzZ5YWZEZUNTdXNjeEtmNkFSWU8xRlNEM2piS3BSSGpwdjdsclVXQXJITzY5cHo1V3hRU1BvSHFmcjY1eXhsTjc4dEF1Q21lcE5kRXpyNWMzcHBseQ?oc=5",
+          "date": "2023-11-08"
+        },
+        {
           "title": "How many new Philly restaurants are on the way? | Let\u2019s Eat - Inquirer.com",
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLUhhWEdIMmlxemNNbkdhdVhydU4yYzdaMVhtb01lR3dqS1NtNVlSY05EOHAtQmNMQ0xDVzVIakFtTlk3a1R0dDJoX2padXUtMXJueXVUallJTjZ1TUdPSEhsbkxZTmZGd0hnVmFvR1J3cy1sa18yQUxLU05PRlRuSUlwaE5GazhtY0p3?oc=5",
@@ -6920,10 +6980,70 @@
           "date": "2026-02-11"
         },
         {
+          "title": "$20M grant to build \u2018community resilience\u2019 hub in Grays Ferry targeted for termination by DOGE - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZEhEWnpUaGUxdjNTdS01Mm5leEFPZmVTX0V0RHk0bTNYb3ZFazMtUGpYeHpsNlRGRmlvb1FySnllRGVNVzNheEkxMzBURFVJaWhfYlpmV252R3FOWnJJWFFNaTA2UU5VcDRMa0dwNGg2RURZMnpKR25Nbnl5al9fOW9BV0c1eXA0enQ0bkpCZjZlRmRZVjRPY2ln?oc=5",
+          "date": "2025-04-11"
+        },
+        {
           "title": "Jimmy Carter helped restore Habitat for Humanity homes in Philly more than 30 years ago. Now, the organization is honoring his legacy. - Inquirer.com",
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUhRS3RsZlc2N2Y4bktUVzhCeGktOUJUcnNTU282Qy1PTG9GemhrdzdJbUxsdjhpS0xranp2Umt6WlB6dmlkcWMwT2JnVElEQjlhT3JWWkdUYVgyYmljUV9XTFlteGRqcDFTWjBGN19zQ3lvNlJPWi1zZGVSeldiUXhERGFOMnlzdHl2WmZfWHpKWUlJX29WU0NuekJLTU5KQXkwLWQ4SVFYRjVsV3RteTBpbzlwQVFXU0xycFhuX09SZlgwVmxHRmJXaw?oc=5",
           "date": "2025-01-09"
+        },
+        {
+          "title": "Habitat for Humanity Philadelphia has gotten into the condo business. Here\u2019s why. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNGJ4NW9ic01kZV9CSkN4RnJ2Wk1yaThuQlpIdzVUMUM4SjNZV1lnek8tM0FWQzRtLTJFVkVRcmd0c3ltR1U0ZDYtVnpWVVZ0M0V2TFRRTWduNUQ0cEdIMDF5R1VxbktNM3pRTWdodWM2eDdmVmY3V1htdW5kNjlzRk5oSm4tcExKdmpDNU14NFBKc2hpcFNvSnB1ZXlud0djd0lGdW9FblZCWUFHb3NZ?oc=5",
+          "date": "2024-12-09"
+        },
+        {
+          "title": "Repairing all the homes in the Philly area would cost at least $3.7 billion - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmhQa1lrOEpmdmdQeHNjZlgwODkxTXV5dTRxUGNTLUoteFRqQjV2VmItTWJyZGdZS1ZkMUtXZnhyeUowM3ZNenM5TndUeno5LUJHSEpnUnlCT2FuRHo2SjF3bzhINXpGVk13TEFLY0d3RGVVOU5kV24xb0ItX19PMXV0eHpXaDJCWV92eV8yRVlFeWZPMWwtRzNCR09aaE9INUJXOW1saFNLOTlGTTRUWENWRXpqMzFOTVVHaQ?oc=5",
+          "date": "2023-03-14"
+        },
+        {
+          "title": "Low-income housing vs. parking: Habitat for Humanity wins the latest round in North Philly - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQWNVWWRmR1M5WUFsTi1RYlhTckxXN3dRNk5iZ3A1dWswNXQyN0N0NEptWEpiM0VrQzRDRUU4ZGo5aFpiUEctUXlFNFJHYlNfSXNDTkRjNXVkTUx3ZmttZU1iYVVXY1lCSFJPT1ZKQlVYRXNoLXByRDZXelFBSEYxbmJJM29CQWlvTXdLeUgzOXhFSTlUdnFrTmRjQUN6Ml8zYjVTYXlrTmFPbkh1Wi12OXpaNTJpdDA?oc=5",
+          "date": "2022-04-21"
+        },
+        {
+          "title": "Where to donate stuff in Philly - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ1VyWndDMjBDMFlxWmp2Q1pwTXNyTEYzQ1ZWOFdHT0oyVVdTSzlrdU0zSk1ZbFNFcng3NGRSaERMRmxwYW5TSUlXWWs4UU9hT2xURmR6UnpRRlp0ZzZHNGpKZmRhX2dycFJDU05iV2tkS1ZKWGFBcXBVVHNTNEVRZHN0UGhmTEZPTlZaS0d0U3B2eWFUUmRHQUx1eFU?oc=5",
+          "date": "2021-10-18"
+        },
+        {
+          "title": "Philly homes in Black neighborhoods are consistently undervalued. Here are the numbers. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObXlaM1VRTk9nSmw3cVF2MFQ3SlNtRkZsNWdZN1o5YU1YLVpkbE9WUFVHZ05EZk1YNEFQYUNsaklEQTdncWVLNldaMUR2aWJDMlBLejdGSUtXUFlkUjBEamNUbXk3VjdJUWllOVRIdHk4am5CdGZUUGZSZWRubF9SelNOM1FhVDA4WDk4T3hqQVd1RWx4VmdxQm5ReDg2LVpKTWNvc3liazFZR1k0Q1JyNEw4dw?oc=5",
+          "date": "2021-04-28"
+        },
+        {
+          "title": "Low incomes make Philadelphia homes less affordable, Pew study finds - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYlJGMkpsLTVkV1ZBWDJReTI5d2h3OVk0aGdFdDdyNnVTRHZiMzNCY1h0VkEtaTRxV1lIY1lVT1R1UVkyb25GdjBLdDYxZWc4THpZYWwtNWJGNUxkWjNpdWE5eXhKTzFrQ1RONndjd3BEcWlTMzVNQ011RHg3TVZ0MEhuVTNwdkdUajdPblF2QzUzNGZsWWlEWVQwN0EyVFN0NS11ZUtNNWlaV2ttbWZlaDR2WEw1Zw?oc=5",
+          "date": "2020-09-10"
+        },
+        {
+          "title": "Harcum College students help decorate family\u2019s first home in North Philadelphia - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbE1YamxaRFZfV2JsTXhWTG5Qak1CbTBLTG5SWDB2dlJEbURHRlVBajRtZ3BzSkg4SnNUQVY1aE1YNUZPSEZyRGRGU202UFgyVklHOU9lSE5SSFQ0ZDZXdktKZVB5N2ZWZE5qZDlKS0xSLVlOejhlZE9IN3hmU0JET3BrRGNTY3Jmd3dsWlRORkRFOWFjc0RuTnFPVHczbFdrcVQwRVpDTThZbHdtWGZNM3dfQVo4R0Z3cVBPSXo2RGFXb1FiLTU4d3RxRQ?oc=5",
+          "date": "2018-08-25"
+        },
+        {
+          "title": "Family gets \u2018stability, security, a place to call home,\u2019 thanks to Conshohocken developer\u2019s new charity - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMzg3RDV2Znh5Mm1tTFdaZ1V6SDNZQVJvOWhFY2tzdTVVMmtiX1pLQU4tWm1ienNPZm5aVEhzZDdZOEsyMllDUmdwZ0diQm5JNUlKQTNlSy1tRUhSb0dSaGJuSzlsd2hpdVpaT2tBZEFILThrUWc4X251ZmVpTXk2WFRTRFRVSVUzTHpReXBRQmNHS1FDVVJ5MlNuMmMyS2N6NXJhX0FfNUs1NFlEYmYxOEpBX0ExTkROSHFtMA?oc=5",
+          "date": "2018-08-15"
+        },
+        {
+          "title": "Plan for a Philadelphia city land bank is taking steps forward - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSzN6eUNVckZNTGhOSndJdEtLSlQ5dXVUcDh5SWJlbFJVdGtobEl6dGc2WC1GUXFLX3JCX1B3Q0RLYllBWVp6ci12a2tWRnh4cFI3SlZSWEw0enlFMHV0STBhYU9Eem4xY2dRc0VSblpXVVV6U1dCSnc4VFRBMHB6WU45M1hlaU5WMkpZbjFRQkRVcVVHVDUzQm4wWkpGUmZmc09IcWVHRy1YQUNhNmNhMGdpQUlTOWdaajhGbmhtYXBPSXcyMkE?oc=5",
+          "date": "2012-12-03"
         }
       ],
       "filings": [
@@ -7529,6 +7649,36 @@
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUFhJeWxPbXgwejM1RDJMR3BhdV8wam9HM29rV0pySXZodGRxZEV2a0Y0R3gyS3JvWkYyY1BIam5aZWdpSnV2R256ZC00T1czOGtBTWpxNlJTajZsMXRqNkpaVlBzOG1jOWF3YjhnZngtU1B4VVFuREZRbXNRam5UZTA3MWttS0NraWc?oc=5",
           "date": "2025-08-14"
+        },
+        {
+          "title": "19 can\u2019t-miss summer festivals and markets in Philadelphia - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOHJiN2x5QWgzT3QzdDUtaE92U0pjYVUyMjQ4dVBKOTFBNXlJMk9ydXpQZDdST0tTTktzTE1PbGtscnJkVGdrdUtIODB3cy0zbVlMWmpvS2NodVozZ2pjNEhuWDcxMkhnTk1vWjNmZ3EycGtQM01DZTJjZ0NiLTczUEpCa19faF9PallnWTBzNTd6WkprUFJKM2V5YzFOOVRCbVNyalYyQ1Y2bEJNM01GN3FaN21LZjJNX2c?oc=5",
+          "date": "2025-06-28"
+        },
+        {
+          "title": "Jay-Z partners with Philly-based program to bring financial literacy to HBCUs - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTjNObzA1RTFHc2NXNTdQWW52VV9ULTFBUTlVTzgyZmNVMS1sdmtzRmppajE2R01rNjFfeExsU2hFamZ1ZDhmVTFONmhWS2FyVXZfVm1zYmppZk41bEFRTVFEZ3ZrM0NRdGZNVXg0Y2ItTDVKMU5FUlVpS18yOVk0X0h4T01OcWEtZXVuVWU0RWpTbURhNlAzcV9fa0dJNUQ5dDNTMERZaDhueV9BWjJycEVjVQ?oc=5",
+          "date": "2024-12-02"
+        },
+        {
+          "title": "Here's where you can donate winter clothes in Philly to help people experiencing homelessness - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcFFfckJNTnJQeUdmSGlpTHFRSEoteUpvcUUxWXF4dlREU05pR2NTZ2MwblVVMURZbnQ1ZWRiWFg1QU4zcWJpS1VtYUFxdjJsM2xtemVoYWZneEh1ZzVKX3BKVFVodWhrWU9zdmh0MVp4WU9fMzB3N2lpOUhTanFqU1JB?oc=5",
+          "date": "2023-12-07"
+        },
+        {
+          "title": "Why so many Philly students skip school, from the perspective of those experiencing it - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMDRLcEtRR2p6a0JUbFd5NkNrZFRCbUtvbjQzQzBLSjRUV09pRVdnbW55bmF6aFZxd1BSS2hxbU8yanVETnNFbnVRM2Y4ZkJCeC0ydV9pWnFmUjA4cDZ4a2F1VlVhcXBweWMzSndUdnozVkhfRmpNeExmRXJlUHc4QTloYzBXdkxQNDdXUFBwTjk4UmZQaDFiQ1RqeDVWdw?oc=5",
+          "date": "2023-10-28"
+        },
+        {
+          "title": "\u2018Get their stories in ink\u2019: A new archaeological project is helping to preserve the history of West Philly\u2019s Black Bottom - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFNVUnVTdW5JUm9mWElvanNoZmN0OWZSYkRrb0piX1R3QWNQVUIxc2pTazdmVnJZc1NIZGpNSjFOWl9yWUJaN2NlYnFvT0xJY0JIWHFCSjdFajhpMUttTmRPSDNJWkczM3FpZll4dUlLZlZWcUdZemFzX3VUVDlVZnVheFRwZ0d5YWx3LWhhUTM3OEJNX0dILXJPcWdFYnlsaWc?oc=5",
+          "date": "2023-08-05"
         }
       ],
       "filings": [
@@ -11445,6 +11595,36 @@
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQVdIMVl0b3BIOW50QTE1bDlRQUxBX2JnTGp6b3RWRWo3RV9kQlRGQl9qSXViTzV5VHFZeHRlSUFuZkc5eF81WXBVTjVlb1F4QW5nSS1Ncl9CWnFUd0NQTTJrcG13cXZmU2pOMzlZTkRJak1vWFVPaElHQ2lWN3cySU1wQ1RESlF0VXZOb1d3VndCR1JvNUJ4b2pzREUzazZsRS1na0o0b3A1a2VBczRhUVc2aHl0ZFBRekhwTQ?oc=5",
           "date": "2020-02-15"
+        },
+        {
+          "title": "CDCs revitalized America's poor neighborhoods. What is their role as a community gentrifies? - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSTJLaFZ1TFFMQW9rWGhGckYxYTUxSk02Q1ZnYjhvNlFZcXhlNkl0c3hEdWNacmV4ODJGSE5OalhnUXZ6bC12V21PeUF3WWo1ZURtcXNsNFFsbjBJel8zOC1LeFVvcDNLU2pOeWdQaWZBcng1M0xrSWZ4TDYtWXdJMTU4OHBDMU9fQ0IyUnFMbXVkWUVJaFVzUDk0VFkwZ2V3bHBWaXZoN1BUaGZKOWdIaWFxRU9SSWE5bVE5ZVlKQVpidlgyWE5NWjRTNzNOYVR6czg0MFIwUGQzNU5Eb0UyU3ZzQXVKMkRPX2NuUVRQbVc2LVFZc09WMzhEU3AyaG4xMmc?oc=5",
+          "date": "2018-03-02"
+        },
+        {
+          "title": "Drop that poster! Philly to crack down on illegal fliers on poles - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRTNpQ013VmNEY1FwbERKU3V1c2hJU3lhQWZWbmE4UUp5bE94Q094LUtNQnhaY2JJdy1Jal91Vk1ld0RYWmkxOGVPWVRyQ01HbExya2xuVkd3Ty1LOE5DcVNsMFFVYjIxTTZhaVZUZkNiNlJvb29yZGhfRG9kSFNLVW5EbEZZQWowT1I4U2RtQkg2T3dVUlgydklkZUFtOUhaRkx6d3ZUUHJiNWtHSVFGNDNHbGE2YVVqUkpXRFdqWk8?oc=5",
+          "date": "2018-01-22"
+        },
+        {
+          "title": "A half million dollar makeover for a Philly block - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXpjb2c1NDU1NV9JQzhfdEZ3bmw1RmhiZDczc1hLQmIwU1FJZkIybGFMZjVoY2MxVDdCeWNzWGR1RHBZNlhxaVJueWZtLTVQU2ZUWURzVGJPeVhyWFdjZHRYaVVmc3ZwTWhxRC1UczhqREhhUk5SdVhIMTYza3dWbmxDYndYWG5oUG9VbWI3dUtaUmdNMFlYMWFrUWtndjNuS29KazV3?oc=5",
+          "date": "2017-10-04"
+        },
+        {
+          "title": "Abandoned factories pose a problem in reviving Philly areas - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMjBHbHlRQ24xT0pFaXJYQUVxRGg4YTVxTC1nNWljQldHM1JwSmpUR3BDVFZKaDUxeE1qcVY1QmFYUVdpT2tDeFA1eC01MVNSMnhndXExMGJmOS1QQ0Q1dUZvbjY4OGkzYWUtRE9vcHpiSUxTd0xLQURJeDhQaFZOSHRJUnJuT3lDVHJZenpBU2Fac2ZLQktyb1gwenc0cktTSE03SUVKYldUY19BUUdyR0tRdE5oUF9LRlhr?oc=5",
+          "date": "2012-05-16"
+        },
+        {
+          "title": "Kensington's bright side has its adherents - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV0E1bzNQTGRGSy1zUDdHZlhNdVVCSWtQX09yY3hzRUppdTZ4Z2JQSnFLNGEzWXMyOHZMYmpFUXdLVGMxWjZvYlhQdHplWHFDdlcxXzFsMDNGUldDTUpoSnJHRkp2VkhGSTlFX0U1eTZ1QU91QzlwZXdaTmJhUENwTEgwd2N3RjlsYkw1RDV5VkJWaDk0azZfTTQ1UTd3azFUdVFTLQ?oc=5",
+          "date": "2010-12-22"
         }
       ],
       "filings": [
@@ -14388,6 +14568,48 @@
           "source": "Goldsteins Funeral",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oakhtNW4xblVRUVFGRWJfOHlwNkFaZ2JaNy1vbFExNXNBUnJBLUhzVmdIcmlMeV83dTlLeHAxT3JqRkhTQUdZWW0tZldiVFRQenFoNXFvSEJwRkNXUzJUTVJmeFE?oc=5",
           "date": "2022-03-04"
+        },
+        {
+          "title": "How to give back in Philly: Ways to volunteer, donate, and support local groups - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdmZ2U2Z6emUxR29iQnZ0WDMzNzk5S1Z3SWNBY1ZsSFFBZ3AtZ20yZmp4UURTODhNWWZRb01YZWZnUXZlU2plNFhqNVVQZEhCNWdLOUt5N2Rva2xIZVFvdnRoXzR2TTFjLVNTV01NenR4VFlZd1lxSEUzX3FpMWN6WXRMcDZ3OElP?oc=5",
+          "date": "2022-01-14"
+        },
+        {
+          "title": "Margaret \u2018Peg\u2019 Healy, former president of Rosemont College, dies at 87 - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzktWWxiRkpKeGhoeHBQbzdJdWtuVTVEaUJOZG9ZYXJnY0R3TGFnb25nNFdLanB1bXpWZGxCNWFqWmRPTW1hV2pTZHFza1YtTWtTYlAxMHF3QndzNTd1QTNDV09ZUUhuc2FDTWpwZU14X0VieWg0V082TGlDc3pQSjdHSDZ3MWdjTHk5ZXdFamU0S0xabWJPYjNIRkZwUGc?oc=5",
+          "date": "2021-11-14"
+        },
+        {
+          "title": "Where to donate stuff in Philly - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ1VyWndDMjBDMFlxWmp2Q1pwTXNyTEYzQ1ZWOFdHT0oyVVdTSzlrdU0zSk1ZbFNFcng3NGRSaERMRmxwYW5TSUlXWWs4UU9hT2xURmR6UnpRRlp0ZzZHNGpKZmRhX2dycFJDU05iV2tkS1ZKWGFBcXBVVHNTNEVRZHN0UGhmTEZPTlZaS0d0U3B2eWFUUmRHQUx1eFU?oc=5",
+          "date": "2021-10-18"
+        },
+        {
+          "title": "Knit this easy scarf and donate it to these Philly homelessness groups. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaktZWlVpS2xDYnhvUHNaUzZWbXpQQnUxU2VXZHl6Qkd5NmY0TTdOdnI1VW1aSnMwV2dEX2YwQWFneVRsZm9BcE9qajQyOW5OMC1JWVU1d3FZRkQ0Nk5VaUF3Uzh2VHp6dHp6SFltakhlWF82aUl0YWRrTUxvWU1Hb05NcmxPUnYzbnAyWXBEN1J2eHFKR29Qeko3NWVtNVU2ekVDb2xsYmFJeWpZdHhJ?oc=5",
+          "date": "2020-12-04"
+        },
+        {
+          "title": "Eugene Garfield, 91, created an indexing system for scientific knowledge - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLWZ4dE5BNjZDeExubzFSQ2FiczBzdkpZRTktUHQxUzhSSHYyQm5JSkJhMWxKSHd5SmxTSThQQkRPVGRqSkFLM00yc3lTZ2VSa05HTjlJUGY2U19UZWQtVDZiTVVWUng0T3k1ektKLVl6RjJpVW8zanY4dzBZbXQzbm9GTVBhMDE2SGRnWTMyeVp5S2hxdndpZzlRSHNuMy1Nczc5SjVvNll5NGMxSWNZR2JFX2pJN2V3ZlE?oc=5",
+          "date": "2017-03-10"
+        },
+        {
+          "title": "Anne Ewing, 78, social activist - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSGEzT0tJRUFkMWlzdG1mQUNYbXd3b1VJOVZUdGRlQkpyNnRVbzBzajJLd1pqN3luVFVBNzBBa2c0dnBfRU9DZjIzQ3gwVUo3QzJTakgzMUtMdy0wRk41SFpfaTBWZVEwbTVDbktGTDNaeWZWUlFyLTZHbEEzM2ZsUEd3eWt3OHlTMWZpQVY4OGlnZw?oc=5",
+          "date": "2016-03-21"
+        },
+        {
+          "title": "S. Garrett Bolger, Rosemont professor - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSDBlUURoVk1qVzZEdEVlR3RTY0FNaXN6NDNHeEZmbldrTmw5QTRSR252UW9QamFrQk55YlhzSDIzZVpYQVdOMEV2N2ZDYV84cl9seVNJTk5SbFlSWU5rSGZYQVZrbDliZTJ3ZGROQ3cwbmMxQktoelVwRFRXN3Q5eVBOMERBZ2NEU01ucnBKZEYyMXo3OU9oRDBn?oc=5",
+          "date": "2013-05-26"
         }
       ],
       "filings": [
@@ -15692,6 +15914,12 @@
           "date": "2025-11-20"
         },
         {
+          "title": "Other cities want less self-storage. Philly can\u2019t get enough of it. - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVGVremZudE1keE5scW1OS3FvVW9zVlFNcGZ6VnN5QW4wNWNfZ3Z5ZGRRTFkySWhPTk9JWU00VjFjaTBjaFZCY0RURVNrd1p1YVFWVFNzZnZFMkhialRSVmw4bzFtYUdzcXJLaDNyYWFQQ3Jyc0FIVGhmNjRJVmdMeGZZYm1WTzhPMURTcVBTU3B5MUR0YVNUeW53b1dnQ0ZxNVRuMHNJSQ?oc=5",
+          "date": "2024-11-05"
+        },
+        {
           "title": "Residents of South Kensington celebrate renovation of 10th and Lemon St. play area - phillytrib.com",
           "source": "phillytrib.com",
           "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPNG15X2pWV3lLUENrLVlQQmZ2cDVzUmRtWmtLeVN2ajVtSm11SURtU2wwM3BaVzZUOGN3a2dqWGMyZkJJYUZuX21kbXZMTEdXREUwbDg1eC1zMXVqeURQamdvMVNwTmVsTkNoZHlmQ1FoQzNHVnpvQ3pNYlo0Yzl3V1RDWmQ0OWMxWGhXNTJOc0JmLU9aTUFGS0RydHVoLWZFTFZpRW1vOTI5X0NvdEotOUZ3S3E4Q1Q3MlNWbU5kUUZ2TFJ4SkhnT2dMTE9LUkVoZUlucW9YaF9ManVvRTBIZ0o4VUhQb01KelBUWFNQNi1VbFhncUR3dWV5SExDc2UyMTBFMw?oc=5",
@@ -15732,6 +15960,12 @@
           "source": "NBC10 Philadelphia",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMkxZWVVZMGdMa0FzOF9MMmNCV3FnSWNWYU1oSG9hbGdlY25BRWg1djNKdlhRbV8zNFpNZjhpQ3N1d1RVQ1k3YVFKWFJCVVVXUHJQZGxnRTlXN1hsclIwUVhPZE8wMnhWSDM1dnFrVnVUaFk4bl9Qci1WVWhESFVHTTcxckE0OHFMRXlrQXMwbVAwOU4xbkM0VDR5RFVwNkdpZnVqQnZXZlBFdjVwTTEyYmYtSFo3UmvSAb8BQVVfeXFMTkJkNTl1aDlreVNhVlpxLVhtZkkzTVAtNENHRUp2b05IUC1RMEtvekFzVWZacGprcy1KWGtFeFFXWE03NGxDek5DWFBmNGtXWlFDc01DV1U5SWlTVFlOQmh4eDNtR0czclVwSGN0YjczWjEtWlFIdmxaT0ZHakxjeWRlZEh3UmZUNDlmX1QxZHBkWGNMcVhBbnltX2lVdU1aeUEycU02NmN3emNYdkxzOGtiU25ZU2p3WklFcjVEYjg?oc=5",
           "date": "2017-10-11"
+        },
+        {
+          "title": "Illegal ATVs helped by city's lax laws - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRTlxNDdFdFBvdjdMVF9vMzRrQURaamlJNlVSLWJQN2ZsWWZtYUMxelplazZad3dnNHZ3SFFtY3VLZ1o3VndfaEl5elA0NnVPUmRyOFpaZVlyeGJkVkxkenprekZUVkNRN1FmWTZuRGNpcmJpRmM2WGFGUFJjWWpGX05NNWREVGhkcFBwTEdkSjEzTms?oc=5",
+          "date": "2012-06-14"
         }
       ],
       "filings": [
@@ -16058,6 +16292,18 @@
           "date": "2024-04-16"
         },
         {
+          "title": "Developer Ori Feibush is planning another big apartment building on Washington Avenue - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORmhpU0FoQnBqNXJadzFzQy1OVTRSVUpJa1RiQnJxLWFIZGpPSlpuNTh5bm9WMU5WM2V6Q2ZhUnNWN1ZBUzI2d1BIWDZpUEZkR3lMZ2pZdGJla1hBbW5jUDcwVDVZQktpRk5jakQ4UW9IZXlWR21TR3V4a19lVkxrdnh1S1BCbU1Kd1oxYnhPVmZBVTBIU29DSDBWVTJ2OVZYUGlSaTJ3?oc=5",
+          "date": "2024-03-12"
+        },
+        {
+          "title": "Major developer joins neighborhood board | Real Estate Newsletter - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2hkOE9SZUNFQlJpMUdDTjM0SDVQSDByaGRnSzRleUVuR0x4TG50UTJ4M1JjN1lZNzlhRmpYa0pfRTVDSy1BdGVabDJSOFRDdWdRLVVrLTExNGNkUnVLTGh3dWVydjBUZjhmVzliWEk0VTRVQTZYVjlXVVdjeWFBSC1qQzhBclhtbmRsZC1hTWhfUkFHbDVINDc0NDFJTjh0VW9rU2tyb2ZmQQ?oc=5",
+          "date": "2024-01-18"
+        },
+        {
           "title": "Developer Ori Feibush and his employees now make up one-third of a Graduate Hospital neighborhood board - Inquirer.com",
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUmx2NWt3bnQ4QXd5TkI1SE94c2w5Y1VmOFB3bzY4dEh6VmwzZDF2QWtsV2x1dFhVX0tZZTlPbDd2TE9yX2xIMEYwUVdVLS1FWWs1enFyYjZ6ODlXQTV2V0I4MWEtWlpCbDFCTUg1dGxOWDFuSFJZYWRYTnpIMTkzVXZsM0E3SHExN1EzSUxvV2hQdDhCOTNScHJCS25LMGJac1JpN0RuUVg4aUtFX24yZExtQ0tHdw?oc=5",
@@ -16068,6 +16314,36 @@
           "source": "Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVVN4WWxWMWh6ckg0MWg0SVpQdFpzRFVKdmpGc09PTjhCRkRoWC1TUDA0Y1gzY3RqRGEtZzlwV0tfaFFUdENERXpiVFFkcldNRE5GeWlES1FxRjUzMG9YcUlheU1kSjRIaFhueV93dXdrUDVranh1aDBqSVdwRWFqMUw1RHE4RW80N3JkVWhvMHFPSTh6U1NYem5OOFE3TU9lcW1WeHpSZHNacWtMTDk2LWg3aTBZZlRXdk1z?oc=5",
           "date": "2023-05-11"
+        },
+        {
+          "title": "Philadelphia has created its first historic district designated to recognize Black history - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObjU5Uk12eDJ4MmpDWjNIa0piODZYTjkzMEtkdDdZeHNNd18tQ2pCMlBmMUJlMUR2bndpOHd3UjM1blc1MDBUMDBhRmRyTDFOV2dYcm8xR2JvOVdLbXdudnBnR05oRnBsOFB3RVE4YXVHaEVreS1iTS1OR0JuTHktdkM1TFdBbVZqRkkxMlhXY2pYdENRa1g0LTF2ZnpndHB3NENybDlSMTlkQjU1UVk1cmo4TWNzalBXYlRfN1hyTkc3dw?oc=5",
+          "date": "2022-07-08"
+        },
+        {
+          "title": "Residents want community benefits from Germantown High School\u2019s developer. Now, they must decide what to request - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeXZYaWxybU9BQTFTZHVNMmVtOEI4dnV0a0UwenVadUhEc0V2TDA2R1U4elU1dEs5Mms1M2NXVEsybVNyYy1hYi1wamEtaTJrUmZpc19vWlF6TVNWb2NNSWs5OXl2eW5GV3NScXZZc0V6cEZ4dFBMNGk4U3BhcHVyY1JaelN3YTY3NDBZdDJQN1RWRnhfQzZZVWtvaDhfa3BubHpDY29LX1J1X3pQWlpKOXJ1Mzd6Sm5Dbi0tNGlOMmNfMXFTOFBPNQ?oc=5",
+          "date": "2019-09-17"
+        },
+        {
+          "title": "What\u2019s my neighborhood called? In Philadelphia, the answer is not so clear - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRHZXREZKeUpKMFJ3Q2NWWkJoVUMyQnR6UDl1QmExUDJXT2p2YXc5MUtJTE1qSnBsTklYcW9jdUVrLWNIRjZjMktCNmZMbjEzUHVNTm5XcVNlVktLb1pEb2M3b01ZVTR5NFRDMkJNS056dFpOODJOSlo1a2xZVEswRkhLVmV1TzZoVTcwdlJsaXp6Wno0dThKMmJMVHNJd09GeG5XWElIVU1ldXdLN0x4RzVYWG1MSVhK?oc=5",
+          "date": "2017-07-21"
+        },
+        {
+          "title": "Philly neighbors' 'soup pyramid scheme': Make soup once, get it free for six weeks - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNEkzRk94LTBKVVNEelZvV0hZZXpZSThqZk1mRFo0OFNfTzdTZjU1ZU84c2Zaak5FbHRzQmMxY3JvVnBiRjRISTd6Z3Eya2hTeG93VTg1ckNIZjRiOHRYSmhEWnM5TEZscjJ3N3Q5dWZmSVdrTE9IUUktcm5RQlFMejBqOUFTVmQ1cnlLaVlWWng0WmRVR3p3Y3A3SXBNZ1Y0azI3cUszT29hUi1mS0hOVHdRQ2NBSmZhY28w?oc=5",
+          "date": "2017-01-12"
+        },
+        {
+          "title": "South Street west of Broad is taking off as hot neighborhood - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3Qtc0JDRWo1SGd3NjBrYnZWS2FYb0JSN2MxanFjSm54WVkxT0llR2x3bmVXU2ktZDlIbks3ZnZNMVQzcmRGclBMVmJ6VlJFanpnNVc2eTkyQTc5a0RDTGxrLXBpM0d6TlRQcGFyMk9aTkVIY05hcWZNLXdQSjZiejJxSWVnRFlodVpfem9keG0wX3ZLVk5ydk1YNk4tVFV6dVp6WXJsSmFjaFhta19xenU3QQ?oc=5",
+          "date": "2012-07-09"
         }
       ],
       "filings": [
@@ -17211,6 +17487,18 @@
           "source": "WHYY",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWEVuTWdHUFozd1BoWDAwNjJkSnVJZGxpeFhpUDhHd3E2VXVzZnhKM1daTElCMnFSNGJQUFZjcVBuZjU1M3ZtN3FNOWgyUkxIUWNXX3dSekdvSE0tYTBVWFNVMkcxZ19OTTRNUW02N0hzLUEtWVU0ZHN3YlBRYmdEVlpNV3pUTkFMdGxrRWdxZExMUzZrR2xpa0ZB?oc=5",
           "date": "2024-06-07"
+        },
+        {
+          "title": "Could a lawsuit over Coltrane House hinder museum plans? - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSFVQS0c3OVBQWnJ3aHBBV2pNODJWdGh6T0QzRHBNQV9iVUY4UUUwWGkxRW8xck1vV2ExRkM1bEo4RE5ob042RW11VlFOTVFPQThibGltcmtKaGE1Q1lwVmFpS3pJbmVoREZINTcwc2x1VDhZOUxwVVVKc1VHRTdMOXlXTllJTTF3U2xnUjVtNXBMUlg3cUduLXczNkJQVlJxTUduYWlQRjFQbFYyZXlhZnR3?oc=5",
+          "date": "2022-08-16"
+        },
+        {
+          "title": "The threat to a John Coltrane mural shows how development can erase Black history in Philly - Inquirer.com",
+          "source": "Inquirer.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSGNWWkU4bmYxbVJVSmZjR0JDTnZ3Q040ZDNLUmFlMGdFVGktcjdnaUxaMnZUS25DUnIxQ2wxeXROd2JpMnJJbDJhOEVGNFBPSG90S1NYMzR6anpPaWhhSHZSOE5XeXdlRVhSMDN3RVpjWTNTaF9KekhuYl91Q0lUeGg4MHJWOWNlZHk5bHJrSEkwZTRmempjdlJDckQ1ZkxqSmNNdUtxNUxsRzBOTDBheDlMNEJGUzhaRzBjNjJVSUtsWFVxdldBeA?oc=5",
+          "date": "2020-07-29"
         }
       ],
       "filings": [
