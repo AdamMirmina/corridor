@@ -373,7 +373,7 @@ def copy_downloads():
 
 ABOUT_LINES = [
     "Corridor — Philadelphia CDC dataset",
-    "github.com/AdamMirmina/corridor   ·   corridor-phl.vercel.app",
+    "github.com/AdamMirmina/corridor   ·   corridor.adammirmina.com",
     "",
     "WHAT EACH SHEET IS",
     "Roster: one row per CDC, with its current executive director, key metrics, address, tax-credit",
