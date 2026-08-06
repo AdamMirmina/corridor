@@ -118,3 +118,15 @@ export function MiniTimeline({ org }: { org: Org }) {
     </div>
   );
 }
+
+/** Explains the mini-timeline's colors once, so the strip isn't a mystery on first look. */
+export function TimelineLegend() {
+  return (
+    <span className="timeline-legend">
+      Each block is one year on file:
+      <span className="key"><i className="sw sw-filed" />filed</span>
+      <span className="key"><i className="sw sw-gap" />gap</span>
+      <span className="key"><i className="sw sw-jump" />pay shift</span>
+    </span>
+  );
+}

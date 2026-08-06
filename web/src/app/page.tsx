@@ -4,7 +4,7 @@ import {
   longevityBuckets,
   rankedByInstability,
 } from "@/lib/data";
-import { StatusBadge, MiniTimeline } from "@/components/Bits";
+import { StatusBadge, MiniTimeline, TimelineLegend } from "@/components/Bits";
 import { DownloadBar } from "@/components/DownloadBar";
 
 export default function Overview() {
@@ -148,6 +148,9 @@ export default function Overview() {
               <Link href="/signals" className="meta" style={{ color: "var(--accent)" }}>
                 See all signals &rarr;
               </Link>
+            </div>
+            <div style={{ marginTop: -6, marginBottom: 14 }}>
+              <TimelineLegend />
             </div>
             <div className="lb">
               {volatile.map((o, i) => (

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { rankedByInstability } from "@/lib/data";
-import { MiniTimeline } from "@/components/Bits";
+import { MiniTimeline, TimelineLegend } from "@/components/Bits";
 
 export const metadata = { title: "Signals · Corridor" };
 
@@ -26,7 +26,11 @@ export default function SignalsPage() {
           salary, which surfaces in the next Form 990.
         </div>
 
-        <div className="table-wrap" style={{ marginTop: 22 }}>
+        <div style={{ marginTop: 18 }}>
+          <TimelineLegend />
+        </div>
+
+        <div className="table-wrap" style={{ marginTop: 12 }}>
           <table className="data">
             <thead>
               <tr>
