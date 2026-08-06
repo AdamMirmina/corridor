@@ -91,11 +91,16 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -0.015em; line-hei
 .brand-text span { font-size: 11px; color: var(--muted); }
 .nav-links { display: flex; align-items: center; gap: 4px; }
 .nav-link {
-  padding: 7px 13px; border-radius: 999px; font-size: 13.5px; font-weight: 500;
+  position: relative;
+  padding: 7px 13px; border-radius: var(--radius-sm); font-size: 13.5px; font-weight: 500;
   color: var(--ink-soft); transition: background 0.15s, color 0.15s;
 }
 .nav-link:hover { background: var(--surface-2); color: var(--ink); }
-.nav-link.active { background: var(--ink); color: #fff; }
+.nav-link.active { color: var(--ink); font-weight: 600; }
+.nav-link.active::after {
+  content: ""; position: absolute; left: 13px; right: 13px; bottom: 0;
+  height: 2px; border-radius: 2px; background: var(--accent-deep);
+}
 
 /* ---------- hero ---------- */
 .hero { padding: 56px 0 36px; border-bottom: 1px solid var(--hairline); }
@@ -158,25 +163,50 @@ h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -0.015em; line-hei
 /* ---------- badges & chips ---------- */
 .badge {
   display: inline-flex; align-items: center; gap: 5px;
-  padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 600;
-  border: 1px solid transparent; white-space: nowrap;
+  padding: 3px 8px; border-radius: 6px; font-size: 12px; font-weight: 600;
+  border: none; white-space: nowrap;
 }
 .badge .dot { width: 6px; height: 6px; border-radius: 50%; }
-.badge-cdc { background: var(--accent-soft); color: var(--accent-deep); border-color: #dde3fb; }
-.badge-bid { background: #fff4e6; color: #9a5b00; border-color: #f6e0bd; }
-.badge-signal { background: var(--signal-soft); color: var(--signal); border-color: #f3d2bf; }
-.badge-stable { background: var(--stable-soft); color: var(--stable); border-color: #cfe7d4; }
-.badge-closed { background: #fae6df; color: var(--closed); border-color: #f0c9b9; }
-.badge-muted { background: var(--surface-2); color: var(--muted); border-color: var(--hairline); }
-/* income / size category chips, light -> dark by magnitude */
-.badge.tier { min-width: 58px; justify-content: center; }
-.tier-1 { background: var(--surface-2); color: var(--ink-soft); border-color: var(--hairline-strong); }
-.tier-2 { background: var(--accent-soft); color: var(--accent-deep); border-color: #dde3fb; }
-.tier-3 { background: #dbe6ff; color: #1d349b; border-color: #c3d4fb; }
-.tier-4 { background: var(--accent-deep); color: #fff; border-color: var(--accent-deep); }
-.cell-metric { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+.badge-signal { background: var(--signal-soft); color: var(--signal); }
+.badge-stable { background: var(--stable-soft); color: var(--stable); }
+.badge-closed { background: #fae6df; color: var(--closed); }
+.badge-muted { background: var(--surface-2); color: var(--muted); }
+
+/* status indicator: colored dot + plain text, no pill background */
+.status-ind { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 500; white-space: nowrap; }
+.status-dot { width: 7px; height: 7px; border-radius: 50%; flex: 0 0 auto; }
+.status-lookup { color: var(--muted); }
+.status-lookup .status-dot { background: var(--faint); }
+.status-closed { color: var(--closed); }
+.status-closed .status-dot { background: var(--closed); }
+.status-stable { color: var(--stable); }
+.status-stable .status-dot { background: var(--stable); }
+.status-signal { color: var(--signal); }
+.status-signal .status-dot { background: var(--signal); }
+
+/* income / size category, as a magnitude meter instead of a colored pill */
+.tier-meter { display: inline-flex; align-items: center; gap: 7px; }
+.tier-meter-bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 13px; }
+.tm-bar { width: 3px; border-radius: 1px; background: var(--hairline-strong); }
+.tm-bar:nth-child(1) { height: 5px; }
+.tm-bar:nth-child(2) { height: 8px; }
+.tm-bar:nth-child(3) { height: 11px; }
+.tm-bar:nth-child(4) { height: 13px; }
+.tm-bar.filled { background: var(--accent-deep); }
+.tier-meter-label { font-size: 12px; color: var(--ink-soft); font-weight: 500; }
+.tier-meter-empty { font-size: 12px; color: var(--faint); }
+
+.cell-metric { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
 .cell-metric .cell-sub { font-size: 12px; color: var(--muted); }
 .kv-tag { margin-top: 7px; }
+
+/* compact, label-free timeline strip for list rows (same language as .timeline) */
+.mini-timeline { display: flex; gap: 1.5px; align-items: center; width: 96px; height: 16px; }
+.mt-cell { flex: 1; min-width: 2px; height: 100%; border-radius: 1.5px; }
+.mt-cell.tl-filed { background: var(--accent-soft); }
+.mt-cell.tl-gap { background: var(--surface-2); }
+.mt-cell.tl-jump { background: var(--signal); }
+.mini-timeline-empty { font-size: 12px; color: var(--faint); }
 
 .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
@@ -351,14 +381,16 @@ table.data tr.row-exec td { background: #eef1fe; }
 /* ---------- CDC map ---------- */
 .map-stat-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
 .map-stat {
-  background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius-sm);
+  background: var(--surface); border: 1px solid var(--hairline); border-left: 3px solid var(--hairline-strong);
+  border-radius: var(--radius-sm);
   padding: 9px 15px; display: flex; align-items: baseline; gap: 8px; box-shadow: var(--shadow);
 }
 .map-stat b { font-size: 19px; font-variant-numeric: tabular-nums; }
 .map-stat span { font-size: 12.5px; color: var(--muted); }
-.map-stat .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
-.map-stat .dot.active { background: var(--stable); }
-.map-stat .dot.inactive { background: var(--closed); }
+.map-stat.active { border-left-color: var(--stable); }
+.map-stat.active b { color: var(--stable); }
+.map-stat.inactive { border-left-color: var(--closed); }
+.map-stat.inactive b { color: var(--closed); }
 
 .board {
   position: relative; background: var(--surface); border: 1px solid var(--hairline);

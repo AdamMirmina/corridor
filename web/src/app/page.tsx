@@ -4,8 +4,7 @@ import {
   longevityBuckets,
   rankedByInstability,
 } from "@/lib/data";
-import { Sparkline } from "@/components/Charts";
-import { TypeBadge, StatusBadge } from "@/components/Bits";
+import { StatusBadge, MiniTimeline } from "@/components/Bits";
 import { DownloadBar } from "@/components/DownloadBar";
 
 export default function Overview() {
@@ -159,12 +158,11 @@ export default function Overview() {
                       {o.name}
                     </Link>
                     <div className="lb-tags">
-                      <TypeBadge type={o.type} />
                       <StatusBadge org={o} />
                     </div>
                   </div>
                   <div className="lb-spark">
-                    <Sparkline values={o.history.map((h) => h.officerComp)} color="var(--signal)" />
+                    <MiniTimeline org={o} />
                   </div>
                 </div>
               ))}

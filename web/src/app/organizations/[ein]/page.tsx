@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { detailOrgs, getOrg, formatMoneyFull, incomeTier, sizeTier, latestAssets } from "@/lib/data";
 import { MetricChart } from "@/components/Charts";
-import { TypeBadge, StatusBadge, TierBadge, LifespanTimeline } from "@/components/Bits";
+import { StatusBadge, TierBadge, LifespanTimeline } from "@/components/Bits";
 import { Leadership } from "@/components/Leadership";
 import { NewsList } from "@/components/NewsList";
 import { TaxCreditCard } from "@/components/TaxCreditCard";
@@ -35,8 +35,7 @@ export default async function OrgDetail({ params }: { params: Promise<{ ein: str
 
         <div className="detail-head">
           <div>
-            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
-              <TypeBadge type={org.type} />
+            <div style={{ marginBottom: 10 }}>
               <StatusBadge org={org} />
             </div>
             <h1 className="serif">{org.name}</h1>

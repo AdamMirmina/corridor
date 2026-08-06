@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { rankedByInstability } from "@/lib/data";
-import { Sparkline } from "@/components/Charts";
-import { TypeBadge } from "@/components/Bits";
+import { MiniTimeline } from "@/components/Bits";
 
 export const metadata = { title: "Signals · Corridor" };
 
@@ -33,7 +32,7 @@ export default function SignalsPage() {
               <tr>
                 <th>Organization</th>
                 <th>Signals</th>
-                <th className="num hide-sm">Officer pay</th>
+                <th className="hide-sm">Timeline</th>
                 <th className="num">Score</th>
               </tr>
             </thead>
@@ -41,8 +40,7 @@ export default function SignalsPage() {
               {ranked.map((o) => (
                 <tr key={o.ein} className="clickable">
                   <td>
-                    <Link href={`/organizations/${o.ein}`} style={{ display: "flex", alignItems: "center", gap: 9 }}>
-                      <TypeBadge type={o.type} />
+                    <Link href={`/organizations/${o.ein}`}>
                       <span className="cell-name">{o.name}</span>
                     </Link>
                   </td>
@@ -61,10 +59,8 @@ export default function SignalsPage() {
                       {o.closedCandidate && <span className="badge badge-closed">Closure candidate</span>}
                     </div>
                   </td>
-                  <td className="num hide-sm">
-                    <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                      <Sparkline values={o.history.map((h) => h.officerComp)} color="var(--signal)" />
-                    </div>
+                  <td className="hide-sm">
+                    <MiniTimeline org={o} />
                   </td>
                   <td className="num tnum" style={{ fontWeight: 650 }}>{o.instability}</td>
                 </tr>

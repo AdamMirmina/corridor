@@ -27,8 +27,8 @@ export default function MapPage() {
         </p>
 
         <div className="map-stat-row">
-          <div className="map-stat"><span className="dot active" /><b>{active}</b><span>active</span></div>
-          <div className="map-stat"><span className="dot inactive" /><b>{inactive}</b><span>inactive / unconfirmed</span></div>
+          <div className="map-stat active"><b>{active}</b><span>active</span></div>
+          <div className="map-stat inactive"><b>{inactive}</b><span>inactive / unconfirmed</span></div>
           <div className="map-stat"><b>{unmapped}</b><span>no confirmed address</span></div>
         </div>
 

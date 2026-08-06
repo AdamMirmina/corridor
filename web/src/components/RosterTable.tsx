@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Org } from "@/lib/data";
 import { formatMoney, incomeTier, sizeTier, latestAssets } from "@/lib/data";
-import { TypeBadge, StatusBadge, TierBadge } from "@/components/Bits";
+import { StatusBadge, TierBadge } from "@/components/Bits";
 
 type SortKey = "name" | "yearsFiled" | "latestRevenue" | "assets" | "lastYear" | "instability";
 type Filter = "all" | "cdc" | "bid" | "signal" | "lookup" | "archives";
@@ -113,15 +113,10 @@ export function RosterTable({ orgs }: { orgs: Org[] }) {
                   onClick={() => clickable && router.push(`/organizations/${o.ein}`)}
                 >
                   <td>
-                    <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
-                      <TypeBadge type={o.type} />
-                      <div>
-                        <div className="cell-name">{o.name}</div>
-                        {o.irsName && o.irsName.toLowerCase() !== o.name.toLowerCase() && (
-                          <div className="cell-sub">{o.irsName}</div>
-                        )}
-                      </div>
-                    </div>
+                    <div className="cell-name">{o.name}</div>
+                    {o.irsName && o.irsName.toLowerCase() !== o.name.toLowerCase() && (
+                      <div className="cell-sub">{o.irsName}</div>
+                    )}
                   </td>
                   <td className="hide-sm">
                     {o.executive ? (

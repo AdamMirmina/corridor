@@ -1,36 +1,5 @@
 import { formatMoney } from "@/lib/data";
 
-/* ---------------- Sparkline (compact, for the leaderboard) ---------------- */
-
-export function Sparkline({
-  values,
-  width = 84,
-  height = 28,
-  color = "var(--accent)",
-}: {
-  values: (number | null)[];
-  width?: number;
-  height?: number;
-  color?: string;
-}) {
-  const pts = values.filter((v): v is number => v !== null);
-  if (pts.length < 2) {
-    return <svg width={width} height={height} aria-hidden />;
-  }
-  const min = Math.min(...pts);
-  const max = Math.max(...pts);
-  const span = max - min || 1;
-  const step = width / (pts.length - 1);
-  const y = (v: number) => height - 3 - ((v - min) / span) * (height - 6);
-  const d = pts.map((v, i) => `${i === 0 ? "M" : "L"}${(i * step).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
-  return (
-    <svg width={width} height={height} aria-hidden style={{ display: "block" }}>
-      <path d={d} fill="none" stroke={color} strokeWidth={1.6} strokeLinejoin="round" strokeLinecap="round" />
-      <circle cx={(pts.length - 1) * step} cy={y(pts[pts.length - 1])} r={2.4} fill={color} />
-    </svg>
-  );
-}
-
 /* ---------------- Multi-series line / area chart ---------------- */
 
 type Series = {
