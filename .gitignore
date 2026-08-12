@@ -7,3 +7,6 @@ venv/
 
 # Local-only agent shim; DEVELOPMENT.md is the committed version.
 CLAUDE.md
+
+# Generated pipeline output; rebuilt by tools/, never committed.
+output/
