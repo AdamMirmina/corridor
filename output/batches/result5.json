@@ -1,0 +1,95 @@
+[
+{
+"name": "Called To Serve CDC",
+"foundedYear": 2014,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Website is live with current programming (7th Annual Charity Golf Outing, Rev. Leon H. Sullivan Community Impact Center) and lastYear 2023.",
+"eds": [
+{"name": "Michael Major", "title": "Founder & President", "years": "2014-present"}
+],
+"notes": "Team page states the org's '2014 inception'; Rev. Michael A. Major Sr. is the founder and central figure. No explicit incorporation date stated."
+},
+{
+"name": "Esperanza",
+"foundedYear": 1986,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Website live with posts dated April-May 2026; long-running Hunting Park / North Philadelphia faith-based development organization.",
+"eds": [
+{"name": "Reverend Luis Cortes Jr.", "title": "President & CEO", "years": "1986-present"}
+],
+"notes": "Site states 'Since our founding in 1986.' Rev. Luis Cortes Jr. is founder and longtime President/CEO. IRS recognized 1989."
+},
+{
+"name": "HopePHL",
+"foundedYear": 1972,
+"incorporated": "2023 (as HopePHL via merger)",
+"status": "Active",
+"statusReason": "Website live; HopePHL began operating January 1, 2023 as a merger of People's Emergency Center and Youth Service, Inc., and continues active human-services and housing work.",
+"eds": [
+{"name": "Kathleen (Kathy) Desmond", "title": "President", "years": "2023-present (led predecessor PEC ~2016-2022)"}
+],
+"notes": "HopePHL is the Jan 1, 2023 merger of People's Emergency Center (PEC, the entity behind EIN 23-2017882, founded 1972) and Youth Service, Inc. The '120 years of service' branding combines both lineages. Kathy Desmond led PEC for ~7 years before becoming HopePHL President. foundedYear reflects PEC's founding tied to this EIN; HopePHL as a named entity formed 2023."
+},
+{
+"name": "Mission First Housing Group",
+"foundedYear": 1989,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Website live (copyright 2026, recent social activity); full-service nonprofit affordable-housing developer still operating.",
+"eds": [
+{"name": "Thomas A. K. Queenan", "title": "Chief Executive Officer", "years": "2022-present"}
+],
+"notes": "Site: 'What began more than 35 years ago...'; acquired first property June 1989, first resident moved in Oct 1, 1989. Began as a joint venture of the City of Philadelphia, HUD and the Robert Wood Johnson Foundation. Thomas Queenan joined as CEO June 2022. The 2013 IRS recognition (EIN 45-5470563) reflects a later legal reorganization of the group."
+},
+{
+"name": "Ogontz Ave Revitalization Corporation",
+"foundedYear": 1983,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Website live with a President's message dated July 2024; active CDC serving Northwest Philadelphia.",
+"eds": [
+{"name": "Kimberly A. Lloyd", "title": "President & CEO", "years": "2014-present"},
+{"name": "Zenobia Waridi", "title": "Founding President", "years": "1983 (founding officer)"}
+],
+"notes": "Site: 'community development corporation founded in 1983.' Kimberly A. Lloyd is the 5th President/CEO, starting June 30, 2014. Founding officers included Zenobia Waridi (President), Aurelia Stephens (VP), Jerrildine Reed (Secretary). The four leaders between founding and Lloyd's 2014 start were not individually identified in available sources."
+},
+{
+"name": "ProjectHOME",
+"foundedYear": 1989,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Website live; major Philadelphia homelessness/housing nonprofit with a 2024 leadership transition to a new CEO, clearly still operating.",
+"eds": [
+{"name": "Donna Bullock", "title": "President & CEO", "years": "2024-present"},
+{"name": "Sister Mary Scullion, RSM", "title": "Co-Founder / Executive Director", "years": "1989-2024 (transition support through Dec 31, 2024)"},
+{"name": "Joan Dawson McConnon", "title": "Co-Founder / Associate Executive Director", "years": "1989-2024 (through July 31, 2024)"}
+],
+"notes": "Founded 1989 by Sister Mary Scullion and Joan Dawson McConnon. Donna Bullock (former PA State Representative) named President/CEO summer 2024, succeeding the co-founders. Scullion led onboarding/transition through Dec 31, 2024; McConnon stayed through July 31, 2024."
+},
+{
+"name": "The Enterprise Center CDC",
+"foundedYear": 1989,
+"incorporated": "CDC affiliate added in the 2000s; IRS recognized 2002",
+"status": "Active",
+"statusReason": "Website live with content dated 2025; The Enterprise Center and its CDC affiliate continue active business-development and community-revitalization work.",
+"eds": [
+{"name": "Della Clark", "title": "President", "years": "1992-present"},
+{"name": "Larry Bell", "title": "First Executive Director", "years": "1989-1992"}
+],
+"notes": "Parent org The Enterprise Center founded 1989 (as the West Philadelphia Enterprise Center; founding board chaired by David Thornburgh, first ED Larry Bell). Della Clark became the second ED in 1992 and is now President. The Enterprise Center CDC affiliate was added in the 2000s (IRS recognized 2002, EIN 30-0002632) to drive community development; foundedYear reflects the parent org's 1989 origin."
+},
+{
+"name": "Mayfair CDC",
+"foundedYear": 1998,
+"incorporated": "2004",
+"status": "Active",
+"statusReason": "Website live; appears on Philadelphia's accepted Registered Community Organizations list (updated Aug 2024) and continues neighborhood economic-development programming.",
+"eds": [
+{"name": "Luka Lakuriqi", "title": "Executive Director", "years": "~2017-present"},
+{"name": "Marc Collazzo", "title": "CDC Director / Executive Director (Mayfair)", "years": "~2018-2020"}
+],
+"notes": "Site: 'established in 1998 and organized as a 501(c)(3) non-profit corporation in 2004' (matches IRS recognized Oct 2004, EIN 23-3062736). Luka Lakuriqi has led the CDC since around 2017 and remains listed as leading it in recent years. Marc Collazzo served in a Mayfair CDC/BID leadership role before moving to the Fishtown Kensington Area BID in 2020. Site shows no dated recent news, but the org remains an accepted RCO as of 2024, supporting Active status."
+}
+]

@@ -1,0 +1,74 @@
+[
+{
+"name": "Catholic Housing and Community Services",
+"url": "http://chcsphiladelphia.org/",
+"ein": "822320973",
+"recognized": "2025-06-01",
+"firstYear": null,
+"lastYear": null,
+"currentExec": null
+},
+{
+"name": "Frankford CDC",
+"url": "http://frankfordcdc.org/",
+"ein": "232738932",
+"recognized": "1994-05-01",
+"firstYear": 2011,
+"lastYear": 2023,
+"currentExec": "Kimberly Washington (Executive Director)"
+},
+{
+"name": "HumanGood East",
+"url": "http://www.humangood.org/index.html",
+"ein": "232828862",
+"recognized": "1996-10-01",
+"firstYear": 2016,
+"lastYear": 2023,
+"currentExec": null
+},
+{
+"name": "Mt. Airy CDC",
+"url": "https://mtairycdc.org/",
+"ein": "222526396",
+"recognized": "1984-05-01",
+"firstYear": 2010,
+"lastYear": 2023,
+"currentExec": "Philip Dawson (Executive Director)"
+},
+{
+"name": "Old City District",
+"url": "http://www.oldcitydistrict.org/",
+"ein": "232176305",
+"recognized": "1984-05-01",
+"firstYear": 2011,
+"lastYear": 2023,
+"currentExec": "Stephen Tornone (President)"
+},
+{
+"name": "SEAMAAC",
+"url": "https://www.seamaac.org/",
+"ein": "",
+"recognized": null,
+"firstYear": null,
+"lastYear": null,
+"currentExec": null
+},
+{
+"name": "The Maple Corporation",
+"url": "https://www.maplehousing.org/",
+"ein": "236432397",
+"recognized": "1967-10-01",
+"firstYear": 2011,
+"lastYear": 2023,
+"currentExec": "Jacquelyn Sims (President/Executive Director(sch.O))"
+},
+{
+"name": "South of South Neighborhood Association",
+"url": "https://www.sosnaphilly.org/",
+"ein": "232555347",
+"recognized": "1991-09-01",
+"firstYear": 2011,
+"lastYear": 2023,
+"currentExec": null
+}
+]

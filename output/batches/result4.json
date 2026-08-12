@@ -1,0 +1,96 @@
+[
+{
+"name": "Beech Interplex",
+"foundedYear": 1990,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Site is live with current events and a 2023 990 on file; Beech Companies marked its 30th anniversary in 2020, consistent with a 1990 founding.",
+"eds": [
+{"name": "Kenneth Scott", "title": "President & CEO", "years": "present"},
+{"name": "Floyd Alston", "title": "Former President", "years": "before Scott"}
+],
+"notes": "Beech Interplex is one entity within Beech Companies (also Beech Community Services, Beech Capital, Alston Beech Foundation). Site says it began its Cecil B. Moore revitalization mission in 1990. Kenneth (Ken) Scott became president/CEO after the retirement of former president Floyd Alston; exact transition year not found."
+},
+{
+"name": "Empowered CDC",
+"foundedYear": null,
+"incorporated": null,
+"status": "Active",
+"statusReason": "IRS recognized 2020 with a 2023 990 filed, and the site/Facebook are live; no explicit founding year stated.",
+"eds": [
+{"name": "Xeyah T Martin", "title": "President & CEO / Principal Officer", "years": "present"}
+],
+"notes": "Founded by Steve Young and PA State Rep. Regina Young; described as a Black-led, women-led member collective at 5437 Baltimore Ave. WebFetch on the site returned 404 (host blocks the fetcher) but search confirms a live site, blog, and Facebook. Recognized 2020-04; no explicit founding-year statement located. Some sources list the principal officer as Xeyah T Martin (President & CEO); one source referenced an 'Isaiah T. Martin III' as ED, unverified."
+},
+{
+"name": "HMC Squared Community Association",
+"foundedYear": null,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Listed as a registered community organization (RCO) on Philadelphia's 2024 and 2025 RCO rosters and runs virtual community meetings into 2025; last full 990 was 2014 because it is a small org that likely files 990-N.",
+"eds": [
+{"name": "Eloise Young", "title": "Contact/Officer", "years": "~2019"},
+{"name": "Martha Griffin", "title": "Contact/Officer", "years": "~2025"}
+],
+"notes": "Volunteer community alliance of Haddington, Morris Park, Cathedral Park, and Carroll Park residents; based at Carroll Park Center, 1536 N 59th St. No executive-director model; leadership tracked via RCO contact listings. No founding year found. lastYear=2014 (990) reflects a small filer, not inactivity; the org is demonstrably active."
+},
+{
+"name": "Lower North Philadelphia CDC",
+"foundedYear": 2017,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Website (lowernorthphiladelphiacdc.org) carries content through October/November 2025; site states it was founded in 2017.",
+"eds": [
+{"name": "Darnetta Arce", "title": "Executive Director", "years": "present"}
+],
+"notes": "Founded 2017; IRS recognized 2019. Primary domain lnpcdc.org has a TLS certificate mismatch, but the alternate domain resolves and is active. Darnetta Arce is ED; she also became ED of the Brewerytown Sharswood Community Civic Association in Oct 2015. lastYear=2020 (990) understates activity; site shows 2025 programming."
+},
+{
+"name": "Northwest CLT Corporation",
+"foundedYear": null,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Site is live with recent news (MOU with Philly Thrive, president named to Mayor Parker's 2024 transition team, BBC feature); IRS recognized 2022 with no 990s yet (new org).",
+"eds": [
+{"name": "John Elliott Churchville", "title": "President", "years": "present"}
+],
+"notes": "Northwest Community Land Trust (NWCLT), a 501(c)(3) land trust for affordable rental/homeownership in NW Philadelphia. President John Elliott Churchville, Ph.D., J.D. No explicit founding year stated on site; IRS recognized 2022-04. No 990 history (firstYear/lastYear null) consistent with a recently formed org."
+},
+{
+"name": "Philadelphia Chinatown Development Corporation",
+"foundedYear": 1966,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Site is highly active with June 2026 and Feb 2026 content and a 2023 990 on file; one of the nation's oldest ethnic CDCs.",
+"eds": [
+{"name": "John Chin", "title": "Executive Director", "years": "2000-present"},
+{"name": "Cecilia Moy Yep", "title": "Founder", "years": "founder, 1966"}
+],
+"notes": "Founded 1966 by Cecilia Moy Yep amid the Vine Street Expressway fight; marked its 50th in 2016 and is now near its 60th. John Chin has been executive director since 2000."
+},
+{
+"name": "Tacony CDC",
+"foundedYear": 2001,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Site has blog content through April 2025 and a 2024 990 on file; celebrated 10 years in 2021.",
+"eds": [
+{"name": "Xhulio Binjaku", "title": "Executive Director", "years": "current"},
+{"name": "Ashley de Vries", "title": "Interim Director", "years": "2023"},
+{"name": "James McCrone", "title": "Executive Director", "years": "2022-~2023"},
+{"name": "Alex Balloon", "title": "Director / Corridor Manager", "years": "earlier (~2011-2010s)"}
+],
+"notes": "Founded 2001 as an all-volunteer group; professionally staffed (ED + Corridor Manager + board) since 2011. Georgeanne Huff Labovitz led the board as President for about a decade and became Vice President in 2024 (the batch's 'currentExec' is her board role, not the ED). ED line: Alex Balloon (early), James McCrone (from May 2022), Ashley de Vries (Interim 2023), Xhulio Binjaku (current). Amarynth Ruch is the full-time Corridor Manager (since April 2024). Exact ED start/end years approximate."
+},
+{
+"name": "Francisville Neighborhood Development Corporation",
+"foundedYear": 2002,
+"incorporated": null,
+"status": "Active",
+"statusReason": "Site is live (2026 copyright) with a 2023 990 on file; org states it was formed in 2002.",
+"eds": [
+{"name": "Penelope Giles", "title": "Founder, Executive Director / President", "years": "2002-present"}
+],
+"notes": "Founded 2002; Penelope Giles is the founder and serves as both executive director and president (the site uses 'President'). IRS recognized 2022-12 despite the 2002 founding (likely a re-recognition or late determination)."
+}
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Catholic Housing and Community Services",
+    "foundedYear": null,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Website is live (chcsphiladelphia.org); operates as the senior-housing arm of Catholic Charities of the Archdiocese of Philadelphia, with current programs and recent groundbreakings; IRS recognized 2025-06-01.",
+    "eds": [
+      {
+        "name": "Suzanne O'Grady Laurito",
+        "title": "Director",
+        "years": "present"
+      }
+    ],
+    "notes": "Senior-housing/community-services program of Catholic Charities, Archdiocese of Philadelphia (five-county region; nine senior-housing buildings). No explicit founding year published; the separate EIN 822320973 was IRS-recognized only 2025-06-01, though the program itself predates that. No 990 history in batch (firstYear/lastYear null). Site intermittently refused direct connection; leadership confirmed via search of chcsphiladelphia.org/leadership and Archdiocese pages."
+  },
+  {
+    "name": "Frankford CDC",
+    "foundedYear": 1993,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Website live (frankfordcdc.org), active programs, last 990 in 2023; PIDC and other sources describe it as serving Frankford since 1993.",
+    "eds": [
+      {
+        "name": "Kimberly Washington",
+        "title": "Executive Director",
+        "years": "present"
+      }
+    ],
+    "notes": "Founding year 1993 per PIDC/secondary sources ('serving the Frankford community since 1993'); IRS recognized 1994-05-01. Current ED Kimberly Washington, Esq. confirmed on the About page. No past EDs surfaced within fetch budget."
+  },
+  {
+    "name": "HumanGood East",
+    "foundedYear": null,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Operating entity is the former Presby's Inspired Life, which affiliated with HumanGood in 2019 and now operates under the HumanGood brand; live national site, last 990 in 2023.",
+    "eds": [],
+    "notes": "EIN 232828862 (IRS recognized 1996-10-01) corresponds to the Philadelphia-region affiliate formerly known as Presby's Inspired Life (earlier Presbyterian Homes), which described itself as serving Philadelphia for 60+ years and affiliated with California-based HumanGood in June 2019. HumanGood itself formed in 2016 (2015 merger of ABHOW and be.group, rebranded 2017). No founding year is cleanly attributable to this specific EIN, so null. National brand CEO is not an 'East' ED; no local executive director named for this entity, so eds left empty rather than fabricated. The homepage URL in the batch (humangood.org/index.html) 404s; live site is humangood.org."
+  },
+  {
+    "name": "Mt. Airy CDC",
+    "foundedYear": 1980,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Website live (mtairycdc.org), active staff and programs, last 990 in 2023.",
+    "eds": [
+      {
+        "name": "Philip Dawson",
+        "title": "Executive Director",
+        "years": "present"
+      }
+    ],
+    "notes": "History page states 'Founded in 1980, Mt. Airy CDC...'; originally the Mt. Airy Village Development Corporation. IRS recognized 1984-05-01. Current ED Philip Dawson confirmed on staff directory. No past EDs surfaced within fetch budget."
+  },
+  {
+    "name": "Old City District",
+    "foundedYear": 1998,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Website live (oldcitydistrict.org), active team/programs, last 990 in 2023; the BID was established by Philadelphia City Council ordinance in 1998 (reauthorized through 2038 in 2018).",
+    "eds": [
+      {
+        "name": "Job Itzkowitz",
+        "title": "Executive Director",
+        "years": "present"
+      }
+    ],
+    "notes": "Business Improvement District established by City Council ordinance in 1998. Current ED is Job Itzkowitz (confirmed on the Our Team and Board page and secondary sources). The batch's 'Stephen Tornone (President)' could not be confirmed as a leader of Old City District in any source within budget; likely a stale 990 board officer entry, so not recorded as an ED. Board chair currently Valerie Lyons."
+  },
+  {
+    "name": "SEAMAAC",
+    "foundedYear": 1984,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Website live (seamaac.org), active staff and programs; homepage states 'Since 1984, SEAMAAC has...'.",
+    "eds": [
+      {
+        "name": "Thoai Nguyen",
+        "title": "Chief Executive Officer",
+        "years": "present"
+      }
+    ],
+    "notes": "Founded 1984 per homepage ('Since 1984'). EIN blank and no 990 years in the batch, but the org is clearly active. Top executive is CEO Thoai Nguyen (confirmed on Administrative Staff page); deputy director Thi Lam. No past EDs surfaced within fetch budget."
+  },
+  {
+    "name": "The Maple Corporation",
+    "foundedYear": 1967,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Website live (maplehousing.org), 'Preserving and Developing Affordable Housing since 1967', last 990 in 2023.",
+    "eds": [
+      {
+        "name": "Jacquelyn Sims",
+        "title": "President / Executive Director",
+        "years": "present"
+      }
+    ],
+    "notes": "Homepage states active since 1967 (matches IRS recognized 1967-10-01). About page notes Maple separated from PCCA in 2017 to become independent. Current President/ED Jacquelyn Sims confirmed (jacquelyn@maplehousing.org and batch currentExec). No past EDs surfaced within fetch budget."
+  },
+  {
+    "name": "South of South Neighborhood Association",
+    "foundedYear": 1989,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Website live (sosnaphilly.org), 'EST. 1989' on the About page, active board and programs, last 990 in 2023.",
+    "eds": [
+      {
+        "name": "Morgan Rodriguez",
+        "title": "Board Chairperson",
+        "years": "present"
+      }
+    ],
+    "notes": "Established 1989 ('EST. 1989' on About page); IRS recognized 1991-09-01. SOSNA is volunteer-board-led with no hired Executive Director role surfaced; highest leadership is the Board Chair (currently Morgan Rodriguez; Vice Chair Nicholas Fealey, Secretary Jacob Pritchett). Recorded the board chair in lieu of an ED since none exists. No staff/ED page found within budget."
+  }
+]

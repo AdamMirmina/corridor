@@ -1,0 +1,74 @@
+[
+{
+"name": "Centennial Parkside CDC",
+"url": "http://centennialparkside.org/",
+"ein": "474815728",
+"recognized": "2016-01-01",
+"firstYear": 2016,
+"lastYear": 2023,
+"currentExec": "Jessi Ray Koch (Executive Director)"
+},
+{
+"name": "Germantown United CDC",
+"url": "http://germantownunitedcdc.org/",
+"ein": "453739378",
+"recognized": "2012-04-01",
+"firstYear": 2015,
+"lastYear": 2023,
+"currentExec": "Emaleigh Doley (Executive Director)"
+},
+{
+"name": "ICPIC New Africa Center CDC",
+"url": "http://www.newafricacenter.com/",
+"ein": "",
+"recognized": null,
+"firstYear": null,
+"lastYear": null,
+"currentExec": null
+},
+{
+"name": "Mt. Vernon Manor CDC",
+"url": "http://www.mvmcdc.org/",
+"ein": "256084074",
+"recognized": "1966-11-01",
+"firstYear": 2011,
+"lastYear": 2023,
+"currentExec": "Robert Madden (President)"
+},
+{
+"name": "Olney Community Collaborative",
+"url": "https://olneycollab.com/",
+"ein": "852575923",
+"recognized": "2024-07-01",
+"firstYear": null,
+"lastYear": null,
+"currentExec": null
+},
+{
+"name": "Sister Clara Muhammad CDC",
+"url": "https://www.sisterclaramuhammadcdc.org/",
+"ein": "900405460",
+"recognized": "2009-09-01",
+"firstYear": 2011,
+"lastYear": 2023,
+"currentExec": "Roger Powe (Executive Director)"
+},
+{
+"name": "Tioga United",
+"url": "https://www.tu-nac.org/",
+"ein": "233101958",
+"recognized": "2002-05-01",
+"firstYear": 2010,
+"lastYear": 2023,
+"currentExec": "David Smith (President)"
+},
+{
+"name": "Allegheny West Foundation",
+"url": "https://awestfoundation.com/",
+"ein": "231924667",
+"recognized": "1974-07-01",
+"firstYear": 2011,
+"lastYear": 2022,
+"currentExec": "Ronald Hinton (President/Exec Dir)"
+}
+]

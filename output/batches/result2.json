@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Arab-American CDC",
+    "foundedYear": 1997,
+    "incorporated": "1997",
+    "status": "Active",
+    "statusReason": "Org (Philadelphia Arab-American Development Corp) has a live Squarespace site and filed Form 990 through 2023.",
+    "eds": [
+      { "name": "Asif Hussein", "title": "President", "years": "current" }
+    ],
+    "notes": "Listed url is a third-party arabamerica.com directory entry; the org's own site is arabamericandevelopmentcorporation.org (also at arabamericancdc.squarespace.com). Incorporated as a nonprofit in 1997 per Interfaith Philadelphia profile. IRS recognized 1999. Zeina Halabi noted as associate director in secondary sources. Past EDs not surfaced within fetch budget."
+  },
+  {
+    "name": "Community Ventures",
+    "foundedYear": 1987,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Live site (2026 copyright, active projects), filed 990 through 2023, and merged with Octavia Hill Association in March 2026.",
+    "eds": [
+      { "name": "Troy Hannigan", "title": "Executive Director", "years": "~2020-present" },
+      { "name": "David La Fontaine", "title": "Executive Director", "years": "~2010-2010s" }
+    ],
+    "notes": "Founded 1987; affordable-housing developer in Philadelphia. Current ED is Troy Hannigan (was Assoc. AIA / development staff in the 2016 Wayback snapshot). David La Fontaine was ED in the 2016 Wayback snapshot (web.archive.org/web/20160417174920) and was the currentExec in the batch (likely from an earlier 990); the transition to Hannigan happened sometime after. Exact transition year not pinned down."
+  },
+  {
+    "name": "HELP Development Corporation",
+    "foundedYear": 1986,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "helpusa.org is live (June 2026 content); but this is the NYC-based national org HELP USA, not a confirmed Philadelphia CDC.",
+    "eds": [],
+    "notes": "DATA MISMATCH / low confidence. The url resolves to HELP USA, a New York City homelessness/housing nonprofit (HQ 115 E 13th St, NYC); 'HELP Development Corporation' (HELPDevCo) is its NYC real-estate development affiliate, not a Philadelphia CDC. Batch entry has no EIN, no 990 years, and no exec. HELP USA itself was founded in 1986 (by Andrew Cuomo); recorded as foundedYear with that caveat. Could not confirm any Philadelphia entity by this name. EDs left empty rather than fabricate."
+  },
+  {
+    "name": "Korean Community Development Services Center",
+    "foundedYear": 1984,
+    "incorporated": "1985",
+    "status": "Active",
+    "statusReason": "koreancenter.org is live (returns 403 to automated fetchers but is up); filed 990 through 2023.",
+    "eds": [
+      { "name": "Don Yu", "title": "Executive Director / CEO", "years": "current" }
+    ],
+    "notes": "Began in 1983 as the Korean Crime Prevention Committee, became Korean Community Development Services Center in 1985 (IRS recognized 1985-08). 'Founded 1984' also cited. Current ED/CEO Donald (Don) Yu, 6055 N 5th St, Philadelphia. One secondary search result referenced a 'Jin H. Yu' as ED, possibly an earlier leader or a data error; not confirmed, so not recorded as a separate ED. Site blocks bots (403) but is clearly active."
+  },
+  {
+    "name": "NewCourtland",
+    "foundedYear": 1993,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Live site (2025 copyright), filed 990 through 2023; senior-services nonprofit operating ~600 housing units.",
+    "eds": [
+      { "name": "Joseph (Joe) Duffey", "title": "President and CEO", "years": "current" }
+    ],
+    "notes": "NewCourtland was born in 1993 out of the Presbyterian Foundation (recorded as foundedYear). The org markets a '150-year legacy' tracing to Presbyterian Hospital, founded 1871 in memory of Capt. Courtland Saunders (killed at Antietam, 1862). The modern entity's EIN 264194368 was IRS-recognized in 2015. Batch currentExec was null; current President/CEO is Joseph Duffey per the leadership page."
+  },
+  {
+    "name": "Park to Broad Arts & Business District",
+    "foundedYear": 1999,
+    "incorporated": "2001",
+    "status": "Active",
+    "statusReason": "Live site with current programming; formerly Fairmount CDC, recently rebranded to Park to Broad.",
+    "eds": [
+      { "name": "Patrick Sherlock", "title": "Executive Director", "years": "current" }
+    ],
+    "notes": "Formerly Fairmount Community Development Corporation (real EIN 23-3094818; batch left EIN blank). Formed 1999, awarded nonprofit status 2001. Rebranded to 'Park to Broad Arts & Business District' (~25-year history per site). Current ED Patrick Sherlock; 2914 W Girard Ave, Philadelphia. Serves Fairmount, Brewerytown, Francisville, Spring Garden."
+  },
+  {
+    "name": "South Street Headhouse District",
+    "foundedYear": 1992,
+    "incorporated": "1992",
+    "status": "Active",
+    "statusReason": "Live site with events scheduled through July 2026; active business improvement district.",
+    "eds": [
+      { "name": "Eleanor Ingersoll", "title": "Executive Director", "years": "current" }
+    ],
+    "notes": "Established by Philadelphia City Council ordinance in 1992 (Bill No. 209) as a private-sector-directed municipal authority; commenced operations 1993. The 501(c)(3) arm is the 'South Street Headhouse District Foundation' (EIN 23-2844044, IRS recognized 2014). Current ED Eleanor Ingersoll. Batch had no 990 years or currentExec. Past EDs not surfaced within fetch budget."
+  },
+  {
+    "name": "Xiente",
+    "foundedYear": 1982,
+    "incorporated": null,
+    "status": "Active",
+    "statusReason": "Live site with events through July 2026, filed 990 through 2023; rebranded from Norris Square Community Alliance to Xiente in 2023.",
+    "eds": [
+      { "name": "Michelle Carrera", "title": "CEO", "years": "current" }
+    ],
+    "notes": "Founded 1982 as Norris Square Community Alliance (NSCA) by a group of Puerto Rican women in North Philadelphia; rebranded to Xiente in 2023. IRS recognized 1983-11 (EIN 239233412). Current CEO Michelle Carrera (per batch); the key-staff page surfaced senior leaders Beth Gonzales (COO) and George Kelly (CFO) but did not list the CEO by title in the fetched snapshot. Past EDs not surfaced within fetch budget."
+  }
+]
