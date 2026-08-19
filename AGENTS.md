@@ -40,6 +40,19 @@ verbatim in a commit body is the same problem, since it publishes a private
 conversation. The body is still the right place for the reasoning -- write it
 about the code rather than about the people.
 
+**Never write the working method into a public repo in the first place.** No
+quoted instructions, no "X asked for this", no narration of a person directing
+the work, and no names. Write comments about the code: what the rule is, what it
+was measured against, what the numbers were. "Measured on 20 marked shots" is
+the useful half of "the reviewer asked for this after seeing it fail"; the rest
+is a transcript of a private conversation and it does not belong in a repository
+strangers can read.
+
+This is cheaper to get right than to fix. One project accumulated 274 such
+references across 88 files plus the whole agent rule set, and removing them
+afterwards took a history rewrite, several passes, and still missed
+lowercase names on the first attempt because the check was case-sensitive.
+
 **Re-check what landed before you ship.** A session's picture of a repo goes
 stale the moment someone else pushes, and nothing tells you. Fetch and compare
 against the real default branch by name before any deploy, release, or publish.
