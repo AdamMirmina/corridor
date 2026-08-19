@@ -197,3 +197,18 @@ user's. `toISOString().slice(0, 10)` is a UTC date, not "today", and it rolls ov
 hours before local midnight.
 
 <!-- END:handbook-public-rules -->
+
+---
+
+## This repository
+
+Corridor is a research dashboard on leadership turnover in Philadelphia's
+community economic development organizations. A Python pipeline builds the
+dataset, and a Next.js static export served by Cloudflare Workers presents it.
+
+**The development notes are auto-loaded below and are the operational source of
+truth for this repo.** Two things in them are easy to get wrong and expensive:
+the pipeline steps run in a fixed order because the workbook is rebuilt from
+scratch each time, and pushing to GitHub does not deploy the site.
+
+@DEVELOPMENT.md

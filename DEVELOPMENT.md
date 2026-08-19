@@ -1,4 +1,4 @@
-# CLAUDE.md
+# Corridor development notes
 
 Project-specific notes for working on Corridor. See `README.md` for what this
 project is and does.
