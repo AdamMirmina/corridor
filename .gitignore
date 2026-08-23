@@ -9,3 +9,7 @@ venv/
 
 # Generated pipeline output; rebuilt by tools/, never committed.
 output/
+
+# Agent rules: delivered locally by sync, never published.
+AGENTS.md
+CLAUDE.md
